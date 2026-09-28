@@ -1,0 +1,270 @@
+{
+  "id": "F16",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "8abc73d26f7be8e0feacc5f57f02ca6df4f68d94bc36b7f2ed971d9ed88f33e2",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F16_rna_landscapes.py",
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "artist_count": 66,
+  "texts": [
+    {
+      "id": "F16.shared.heading",
+      "text": "相同 DNA 背景",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        114.4644097222222,
+        32.28900000000001,
+        119.53559027777776
+      ]
+    },
+    {
+      "id": "F16.condition.a",
+      "text": "条件 A",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        62.26383333333336,
+        99.4644097222222,
+        73.73616666666669,
+        104.53559027777776
+      ]
+    },
+    {
+      "id": "F16.condition.b",
+      "text": "条件 B",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        126.15800000000002,
+        99.4644097222222,
+        137.842,
+        104.53559027777776
+      ]
+    },
+    {
+      "id": "F16.row.0.label",
+      "text": "检出情况",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        15.650000000000011,
+        82.01562499999999,
+        28.35000000000001,
+        85.98437499999999
+      ]
+    },
+    {
+      "id": "F16.row.1.label",
+      "text": "RNA 数量",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        15.332500000000012,
+        62.015624999999986,
+        28.667500000000008,
+        65.98437499999999
+      ]
+    },
+    {
+      "id": "F16.row.2.label",
+      "text": "剪接版本",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        15.650000000000011,
+        41.015624999999986,
+        28.35000000000001,
+        44.984374999999986
+      ]
+    },
+    {
+      "id": "F16.row.3.label",
+      "text": "不变参照",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        15.650000000000011,
+        22.015624999999996,
+        28.35000000000001,
+        25.984374999999996
+      ]
+    },
+    {
+      "id": "F16.detection.a",
+      "text": "很少／未检出",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        58.47500000000002,
+        82.01562499999999,
+        77.52500000000002,
+        85.98437499999999
+      ]
+    },
+    {
+      "id": "F16.splice.a.label.0",
+      "text": "1",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        52.67450000000002,
+        41.12586805555554,
+        54.32550000000002,
+        44.87413194444443
+      ]
+    },
+    {
+      "id": "F16.splice.a.label.1",
+      "text": "2",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        65.4745,
+        41.12586805555554,
+        67.12550000000002,
+        44.87413194444443
+      ]
+    },
+    {
+      "id": "F16.splice.a.label.2",
+      "text": "4",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        78.2745,
+        41.12586805555554,
+        79.9255,
+        44.87413194444443
+      ]
+    },
+    {
+      "id": "F16.splice.b.label.0",
+      "text": "1",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        115.67450000000002,
+        41.12586805555554,
+        117.3255,
+        44.87413194444443
+      ]
+    },
+    {
+      "id": "F16.splice.b.label.1",
+      "text": "3",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        128.4745,
+        41.12586805555554,
+        130.12550000000002,
+        44.87413194444443
+      ]
+    },
+    {
+      "id": "F16.splice.b.label.2",
+      "text": "4",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        141.2745,
+        41.12586805555554,
+        142.9255,
+        44.87413194444443
+      ]
+    },
+    {
+      "id": "F16.scope.note",
+      "text": "示意：图符仅表示定性差别；RNA 存量与版本不等于即时转录速率。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.125868055555554,
+        96.72033333333333,
+        9.874131944444443
+      ]
+    }
+  ],
+  "relations": [],
+  "spec": {
+    "id": "F16",
+    "title": "同一 DNA 可以产生不同 RNA 图景",
+    "source_paragraphs": "P0479 RNA存量/版本不是即时转录速率；P0481–P0491 A/B条件下有无、数量、1—2—4与1—3—4版本三类差异，也有不变基因。",
+    "cognitive_task": "相近DNA之下，RNA可在存在、数量或剪接版本上不同，且某些基因保持不变。",
+    "layout_rationale": "170×126 mm。顶部一份共同 DNA 背景，下方 A/B 两条件形成四行矩阵；依次对照检出情况、RNA 定性数量、剪接版本 1—2—4／1—3—4 和不变参照。各行共用列位置与行分隔线，分子图符仅传达定性差别。",
+    "essential_objects": "A/B两条件、共同DNA背景、三类示例基因/RNA、一类不变参照；剪接版本1—2—4与1—3—4。",
+    "relationships": "条件对照；RNA的定性数量差别；外显子版本对应；测量指向存量与版本而非转录速度。",
+    "misconceptions": "不捏造倍数、热图数据或统计显著性；图符数量仅为概念；不把“未检出”必称绝对不存在；不从RNA直接连到确定功能。",
+    "components": "共同 DNA 片段、两个条件列边界、四个行标签、RNA 线段图符、六个外显子段及短连接、不变参照、RNA 存量不等于即时速率范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2976
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        125.99999643961587
+      ],
+      "images": 0,
+      "vector_paths": 58,
+      "fonts": [
+        {
+          "name": "GRAJFC+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 15,
+      "images": 0,
+      "semantic_ids": 66,
+      "font_subset_glyphs": 57
+    }
+  },
+  "output_hashes": {
+    "png": "25c2e31138ae8bc6d6abacc73c1f4eb4d5a3a558f058da8f035dd8fec893e29b",
+    "pdf": "ec781bdbf15998382c35eca70119a60c0537dd30d10d08c3569f989bebf68156",
+    "svg": "1298df0aa818086c7eafe921283649ac702d91e0fd19d36ee28a027c187055a2"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

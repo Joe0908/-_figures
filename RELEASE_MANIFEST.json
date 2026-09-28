@@ -1,0 +1,975 @@
+{
+  "version": "Running-Life-F01-F30-v1.0",
+  "state": "frozen-candidate",
+  "scope": "30 Python figures; PNG/PDF/SVG; catalog; palette; maintenance",
+  "input_sha256": {
+    "运行生命.docx": "2feab6034a2d85dbc78c8045dbb5e29c1a909889eb6a70e17b937fcd9140704d",
+    "prompt.docx": "a798aa4ea30eb2a3439006a0449af31a903805b281aa594639b55826b679043f",
+    "prompt 2.docx": "2431b5675065e9837f8b46beed465edc167406e519de702db9443c06c3d60c57",
+    "prompt 3.docx": "bf5d5d420707c5e5f5a34675dc5a498555e0fadbbf21c8546c55b56fbd789c47",
+    "prompt 4.docx": "abc7790df715391ee7ed760fd52f7c870d60c2d7f2a0bf0afab8ddc2071e41dc"
+  },
+  "excluded": "audit/ (independent evidence appended later); RELEASE_MANIFEST.json itself; hidden filesystem metadata and Python caches",
+  "files": {
+    "FIGURE_INDEX.html": {
+      "sha256": "a436a869486da3fc3b57564ebc00f4c818794772419057ac0a58070c024adac9",
+      "bytes": 141915
+    },
+    "FIGURE_INDEX.md": {
+      "sha256": "3a3322ad8dd73857ceba79214bb31cbe3fe8e897bdfc061c58c5e332e9f15ddc",
+      "bytes": 26293
+    },
+    "MAINTENANCE.md": {
+      "sha256": "f7ad58f1113341df5e61744278d4a9f151866c862a94d6c93e24567b52f53efc",
+      "bytes": 4999
+    },
+    "OVERVIEW.jpg": {
+      "sha256": "af286a16351c05d86bde5bd3f459d73c06c0cd7d0f627356593c1aebfa2ac5d5",
+      "bytes": 840520
+    },
+    "PALETTE_SPECIFICATION.md": {
+      "sha256": "eda77d8b95bcf37cf04f961dc7390c4e0f07e11d68f5602eea3e84b2ebb74e16",
+      "bytes": 2356
+    },
+    "README.md": {
+      "sha256": "39032f11ffbfb6b05f9b7657bd5dd909db31892d9b28801cbdd7402cb38af2cf",
+      "bytes": 1418
+    },
+    "Running_Life_F01-F30.pdf": {
+      "sha256": "9d5dffb47119bc7148346c180a2092471fa9b5ef3777528f7ece75dca7edb0c2",
+      "bytes": 689710
+    },
+    "SOURCE_TRACEABILITY.md": {
+      "sha256": "446d8943c0f37435e1ab837ec0c78c1aadf6e256fd3bf74ebf12583ecbac8ff8",
+      "bytes": 17043
+    },
+    "book_style.py": {
+      "sha256": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+      "bytes": 3413
+    },
+    "build_all.py": {
+      "sha256": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+      "bytes": 1281
+    },
+    "checks/build_catalog.py": {
+      "sha256": "a9ea10d99066371a67ff72d0e5c137706bc42f2116040555d3faf45abe422730",
+      "bytes": 6190
+    },
+    "checks/validate_f01.py": {
+      "sha256": "3362d0040ec6c79c2d763678be4ee532930bb75f3ecf8e75ab2d95ab3a663c03",
+      "bytes": 2933
+    },
+    "docs/f01_history/COLOR_CHANGELOG.md": {
+      "sha256": "26fedde3be8b94542bf4b5d0bbefbfa76a4d3f5adc698227f7c3d809e8968c17",
+      "bytes": 1526
+    },
+    "docs/f01_history/COLOR_STYLE_SPEC.md": {
+      "sha256": "ad2fa2f0f7fa82b6f977bee0d594a52859980e6fd6f4a408fabc992d4e4ccc34",
+      "bytes": 6974
+    },
+    "docs/f01_history/F01_README.md": {
+      "sha256": "368afc40485408a80e38962e60db5d2c90e86daf1bc470a3f8ad3fa02ea9d17c",
+      "bytes": 7006
+    },
+    "docs/f01_history/PHASE2A_CHANGELOG.md": {
+      "sha256": "c5133a1385ac6c02c8e421f34992e9896cb975b5bc515f208c51f66333613de3",
+      "bytes": 3823
+    },
+    "docs/f01_history/README.md": {
+      "sha256": "b8812349463c63dbbd56bd41a02dc4c2e3ede6b46a62188cd10421b55ff29e71",
+      "bytes": 332
+    },
+    "export_utils.py": {
+      "sha256": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+      "bytes": 6624
+    },
+    "figure_specs/F01.json": {
+      "sha256": "f238d2ef30b95420a269cf6452c6b74a3591fdbda94c5534cc41861068efeade",
+      "bytes": 1384
+    },
+    "figure_specs/F02.json": {
+      "sha256": "bb341ab452738e927c7d22358607e4d1a0821947211103d4f6782f60d8b42432",
+      "bytes": 1035
+    },
+    "figure_specs/F03.json": {
+      "sha256": "92fe0c8def3d5ddd8f86802322f414ece1b04476fb81092b33458a0ad770c4cc",
+      "bytes": 1085
+    },
+    "figure_specs/F04.json": {
+      "sha256": "20b35f7d2975e9dca576acfa3a180599982e2b90a3f6121ad3a2742241cb0a95",
+      "bytes": 1257
+    },
+    "figure_specs/F05.json": {
+      "sha256": "07d7408a1e61dd8dfe5963e61f224137603fa3b0bf16bb5700460fc7bb8e0a31",
+      "bytes": 1024
+    },
+    "figure_specs/F06.json": {
+      "sha256": "e874669504b0e025b6c1a3cfacbf93fef7c2afa26e0e3100775ccb9abfbad7e7",
+      "bytes": 1169
+    },
+    "figure_specs/F07.json": {
+      "sha256": "57f46e53ef3e9ce357297d861924a0eeb9cc38ebad2be6b8f10929794bfdbfce",
+      "bytes": 1190
+    },
+    "figure_specs/F08.json": {
+      "sha256": "969f842660b5b8bdbca9f95ec9226816354c7babade18a39f76816a24bcf6ed8",
+      "bytes": 1302
+    },
+    "figure_specs/F09.json": {
+      "sha256": "1c96a8a33b30b19aa9b75fa21f7cd5c9b1c809d9ffa2f32555ff5a0c45ce6867",
+      "bytes": 1163
+    },
+    "figure_specs/F10.json": {
+      "sha256": "6971509496574841d7dff2fb010b449c3e37ee8e9e94ef36fcea572b9ed5f696",
+      "bytes": 1137
+    },
+    "figure_specs/F11.json": {
+      "sha256": "b5cdcb4b9b57720f90f571f42fba5013b6aa1ac50d5ff92899f6270cfde75676",
+      "bytes": 1398
+    },
+    "figure_specs/F12.json": {
+      "sha256": "1c717f3d44ce1fc0a27b0dbdef838a315369d333c9e2c551f4f3c3b25796f693",
+      "bytes": 1542
+    },
+    "figure_specs/F13.json": {
+      "sha256": "dcbe522197849f72824a6c3f1f1ef658e4e85e2d3307e1bef839005359ca9fd3",
+      "bytes": 1581
+    },
+    "figure_specs/F14.json": {
+      "sha256": "2b7a56a6414562aae25b7e2a1180a38bbb14fa7cf834a6b6dae01ef523fef1f2",
+      "bytes": 1463
+    },
+    "figure_specs/F15.json": {
+      "sha256": "b02da6e6a105b032af6278d8d86c297bb79cfd036dbf831a6582ee039469c644",
+      "bytes": 1650
+    },
+    "figure_specs/F16.json": {
+      "sha256": "4075c5486e21cc0111fd13f2c07ef4ca4665de2367d33902b2a734dd326936fc",
+      "bytes": 1385
+    },
+    "figure_specs/F17.json": {
+      "sha256": "58bc54a2d4b5a4724ee552b6a04d44b07915d9f0994b9c90e9af8cf354493e93",
+      "bytes": 1389
+    },
+    "figure_specs/F18.json": {
+      "sha256": "f37042217fb2972e678ce6df305ce6b00fb8346a643e34fa452ee3476915f1d6",
+      "bytes": 1513
+    },
+    "figure_specs/F19.json": {
+      "sha256": "958207f6f9113a0d7e439c19e5a44af3c77622439c40846fcffbd44d46701a9b",
+      "bytes": 1601
+    },
+    "figure_specs/F20.json": {
+      "sha256": "c1ed16c656fcc3da980d4c5da3aa134c12ecab67554f4361e85058731da94790",
+      "bytes": 1433
+    },
+    "figure_specs/F21.json": {
+      "sha256": "53e9d7cd204ac9dde941fb3e04bee28e3d993c981812dc9451d15a81130fbb77",
+      "bytes": 1308
+    },
+    "figure_specs/F22.json": {
+      "sha256": "158703b02d31d1bd76a398ac54161aa7fb11396c44a694d3ef9cbd41b6c8c573",
+      "bytes": 1189
+    },
+    "figure_specs/F23.json": {
+      "sha256": "4d24f62eceb0d31265cbb7e1f58ac890fe399b9607695b8e61588079c2dc5dd5",
+      "bytes": 1202
+    },
+    "figure_specs/F24.json": {
+      "sha256": "49ce238838cea2b4e998402f6c9283a78c16f13fd63362496efb219ac35cb596",
+      "bytes": 1229
+    },
+    "figure_specs/F25.json": {
+      "sha256": "ddde76a76670ae3f1df07588455190871bea9c9712e80b69ba1de8ca2f9b2505",
+      "bytes": 1537
+    },
+    "figure_specs/F26.json": {
+      "sha256": "5095db14790e176122f3aba35f449ca5ba04010c6578a6243771edec92631b71",
+      "bytes": 1296
+    },
+    "figure_specs/F27.json": {
+      "sha256": "7b7bed702d7a968fcb2955c2a341ddc2e541432e989d03490134c43941119594",
+      "bytes": 1426
+    },
+    "figure_specs/F28.json": {
+      "sha256": "7320cbe79ef3e4b4578cb36ee310ccdeb6746761c7b3d125dad94e8d3032a0d0",
+      "bytes": 1320
+    },
+    "figure_specs/F29.json": {
+      "sha256": "b7b87ed1aeb98b0397de9059087b68879e6195639d3bce49628e04b9186c6def",
+      "bytes": 1372
+    },
+    "figure_specs/F30.json": {
+      "sha256": "0e7230001e4abce207dc61f320c8d989f20566cd3dbe29fa31dfdd3805a4594f",
+      "bytes": 1533
+    },
+    "figures/F01_genome_chromosome_dna_gene.pdf": {
+      "sha256": "2edc68da71aa9b4a849c67ca4b132b77ed3c6b1f8820721af85805382d73e05a",
+      "bytes": 21847
+    },
+    "figures/F01_genome_chromosome_dna_gene.py": {
+      "sha256": "dc45cbec3d00e84cc6e20df8e4c277592df36211afe1f87e278cee4f63a37742",
+      "bytes": 9615
+    },
+    "figures/F02_complementary_strands.pdf": {
+      "sha256": "7ad74883ffab3a55ba054561c56775377359a9e1979b52bbc0d50caef516c8b4",
+      "bytes": 13650
+    },
+    "figures/F02_complementary_strands.py": {
+      "sha256": "66058968056b79cc2df29de27ff0bf3f9d5954bea9efec7dad3e989d72b35a92",
+      "bytes": 1633
+    },
+    "figures/F03_old_and_new_strands.pdf": {
+      "sha256": "0a476f3cbea2f9e2daeee3650e50f8b271b2c95537924ac5af4593b7222653e7",
+      "bytes": 17316
+    },
+    "figures/F03_old_and_new_strands.py": {
+      "sha256": "245ba918eaf153f1c24cdeac5e90aba21ff36d070cd0aeaac202ea8283c5ab93",
+      "bytes": 2092
+    },
+    "figures/F04_recombination_and_gametes.pdf": {
+      "sha256": "d6ecdb55cf818697359ed957fa9425e872179e08e9ace90661a856d7876977d1",
+      "bytes": 16603
+    },
+    "figures/F04_recombination_and_gametes.py": {
+      "sha256": "3de19c4ab30d99b46e328fc868cf98fa38baeb92644f89f5e2a72de01112cfed",
+      "bytes": 2429
+    },
+    "figures/F05_transcription_and_splicing.pdf": {
+      "sha256": "733c206d873ef1bcf5433d8bea15f1c6c68379131966815c457be8419279b6ba",
+      "bytes": 17510
+    },
+    "figures/F05_transcription_and_splicing.py": {
+      "sha256": "ddb6b0c7fd2a3cae567ec22123ef9535c84df721b0d34841017c89910baa5c43",
+      "bytes": 1771
+    },
+    "figures/F06_translation.pdf": {
+      "sha256": "bb1ac13ed5f0cbd7018e58f8a49bb68ab9576839df22fdb78a11202c64e4af32",
+      "bytes": 18598
+    },
+    "figures/F06_translation.py": {
+      "sha256": "7d6cce895de4fce5881c122c0d79a908b784121d25e0b96b9eb15a2962f3cc81",
+      "bytes": 2415
+    },
+    "figures/F07_sequence_structure_action.pdf": {
+      "sha256": "83fec2129584c0e4d895f3e2e21160e8cde0be098c2ec0f3461f6aeb0bc8a5c3",
+      "bytes": 18721
+    },
+    "figures/F07_sequence_structure_action.py": {
+      "sha256": "bd989a579a78e8238e59af1be84ef97bb758308fca825f713574a5a2443e9979",
+      "bytes": 2007
+    },
+    "figures/F08_propagation_and_buffering.pdf": {
+      "sha256": "97cfd8e898ced72db431f8246dfa3901a86b922b3200126a6c34c8f07a8e6841",
+      "bytes": 26163
+    },
+    "figures/F08_propagation_and_buffering.py": {
+      "sha256": "8e8e2fbad0f3e06e38904550d3356f37a3d4e163a59e08f0e3d17d83b7629ea4",
+      "bytes": 1990
+    },
+    "figures/F09_genome_annotation_tracks.pdf": {
+      "sha256": "fa00ad4af4c57d6eeebe249b70c16dcf27cf6c0b81f2648fa0797a17cd017e0c",
+      "bytes": 21024
+    },
+    "figures/F09_genome_annotation_tracks.py": {
+      "sha256": "d4ab3aa0e24e9f83e76939ae443b44dd2f78b7ef350721fb67a59b91acd83df7",
+      "bytes": 1744
+    },
+    "figures/F10_access_to_transcription.pdf": {
+      "sha256": "2cf88d4f01792747ad8b14eb26978ce29364f96fb38f255abce4b36b1bd491a9",
+      "bytes": 20698
+    },
+    "figures/F10_access_to_transcription.py": {
+      "sha256": "295435e0dc88d4edd173d2d8d7606744eebcc1c75fba4204f055be257d89a528",
+      "bytes": 2550
+    },
+    "figures/F11_cell_programs.pdf": {
+      "sha256": "82ae839bdef326a31adac8be0738bddb7624d88ee30302229fd830b10af62a10",
+      "bytes": 20891
+    },
+    "figures/F11_cell_programs.py": {
+      "sha256": "31b3adc0b4929c621867b32e435996f731e56b266248d161e3ad1e03d7256a00",
+      "bytes": 2121
+    },
+    "figures/F12_signal_response.pdf": {
+      "sha256": "75205d0edc836e74f6b2773f00d033403cd0a6a921b3c6fb298d3fd7ec5d5f5c",
+      "bytes": 20880
+    },
+    "figures/F12_signal_response.py": {
+      "sha256": "eacb83412a652724fee667153fa73d535f2b8b45f919059c9a92014c06ff491d",
+      "bytes": 2155
+    },
+    "figures/F13_spatial_feedback.pdf": {
+      "sha256": "7ad90ac0326aa228fc8b7a81fa30c0affafb7e962bf8c287af381b9da05f27c3",
+      "bytes": 23078
+    },
+    "figures/F13_spatial_feedback.py": {
+      "sha256": "3165eaf74d7a9e38f9b4eef3c8678d7d52132cd8356613145985a7070b50755d",
+      "bytes": 2319
+    },
+    "figures/F14_epigenetic_states.pdf": {
+      "sha256": "cc24a1dbd6476496ce661aa91d657ad38116243912a76cdd72495e575147f5a0",
+      "bytes": 18172
+    },
+    "figures/F14_epigenetic_states.py": {
+      "sha256": "e23117e3458fb225f32fd08bcb4e360c4cd9aa2ccd2a9e5a607f9b45e0af3f40",
+      "bytes": 2039
+    },
+    "figures/F15_regulatory_feedback.pdf": {
+      "sha256": "8e3cf4ead679f8cf44533eb57d70f2468d1aaffdf91471a4276ae228a6d203b5",
+      "bytes": 22824
+    },
+    "figures/F15_regulatory_feedback.py": {
+      "sha256": "14ca4a5cfb1aa577b2dfc8b521870d43098282713d224e0396c4795e5ab58bc9",
+      "bytes": 1882
+    },
+    "figures/F16_rna_landscapes.pdf": {
+      "sha256": "ec781bdbf15998382c35eca70119a60c0537dd30d10d08c3569f989bebf68156",
+      "bytes": 16419
+    },
+    "figures/F16_rna_landscapes.py": {
+      "sha256": "8abc73d26f7be8e0feacc5f57f02ca6df4f68d94bc36b7f2ed971d9ed88f33e2",
+      "bytes": 1961
+    },
+    "figures/F17_protein_states.pdf": {
+      "sha256": "bac6f3dd4f435d537f7cd74d6feff3b50ce38f42a377942e0d1f73bf699c43b8",
+      "bytes": 19893
+    },
+    "figures/F17_protein_states.py": {
+      "sha256": "7a14f054421cc78d3b07d3d885423155da9cfb4be9f3f0c7352f2a085f4b197b",
+      "bytes": 2613
+    },
+    "figures/F18_metabolic_flux.pdf": {
+      "sha256": "c484f3a978f65d8f44dd00f05703f18c2963b80380a84307994f009bf0662055",
+      "bytes": 16846
+    },
+    "figures/F18_metabolic_flux.py": {
+      "sha256": "81568f935300d575e7507443680adaaaee20aa6a7e95ccfaa47c25f0250cdb6c",
+      "bytes": 1740
+    },
+    "figures/F19_five_windows.pdf": {
+      "sha256": "9b4bad1c561baa279696dc9273b69669e10bc188bbff65d92ab610c1c512681a",
+      "bytes": 21102
+    },
+    "figures/F19_five_windows.py": {
+      "sha256": "29c226033b20963648d4ef631bd92980bc37b0bc7dfc6ab49f4319da68124528",
+      "bytes": 2438
+    },
+    "figures/F20_colorectal_observations.pdf": {
+      "sha256": "d598a91730a613f39613a879d6d5fd739c98a2289d952cbaaf7087e6b829c9e5",
+      "bytes": 30297
+    },
+    "figures/F20_colorectal_observations.py": {
+      "sha256": "4cf2b4840ff54a24a327abde173ef9b6bd05096dae690e19fe5d8f6286cc9baf",
+      "bytes": 1940
+    },
+    "figures/F21_tissue_cell_space.pdf": {
+      "sha256": "06916a6cef9f37e6bcea36c5c6a1b703c586a4382de0256bd85242cd8de0285a",
+      "bytes": 26064
+    },
+    "figures/F21_tissue_cell_space.py": {
+      "sha256": "5e01e0abca9bc920d704dc5bd932fcd0dc5ae34c653605979ab70638202e8a79",
+      "bytes": 3350
+    },
+    "figures/F22_relative_absolute_risk.pdf": {
+      "sha256": "48e94ae4765b9e107f1ac939161a441dd2832fa703147db6ce8584adb99f4eb4",
+      "bytes": 52576
+    },
+    "figures/F22_relative_absolute_risk.py": {
+      "sha256": "20e3fa4fa4f1ee44e8d5376fad00a1644f1b3e4af54e0ff922aaad6e7d3bb1b8",
+      "bytes": 2209
+    },
+    "figures/F23_risk_future_possibilities.pdf": {
+      "sha256": "91534ba8b417f77ad79dc603a0664126fe2e29155042e7926887883624cf3a26",
+      "bytes": 24179
+    },
+    "figures/F23_risk_future_possibilities.py": {
+      "sha256": "27d0af24f2ebe8fc549e34afeaa6cf36aed1cd86a5e50d4b9e944bbf51001e78",
+      "bytes": 2576
+    },
+    "figures/F24_converging_disease_paths.pdf": {
+      "sha256": "aa5442fd274ee7b1d6141e290df9f8c7506b77db1f9b62c9db22cbad7154b156",
+      "bytes": 26127
+    },
+    "figures/F24_converging_disease_paths.py": {
+      "sha256": "7a4ddcd87ecb6d2fef9785d2210ee01670cd6a580573a04c9ea3ab984c7a65e0",
+      "bytes": 2451
+    },
+    "figures/F25_treatment_entry_points.pdf": {
+      "sha256": "88d9df8932f1fd8b608a409f8f9f25f40187f6bd12504defe314766cccdecfa1",
+      "bytes": 32685
+    },
+    "figures/F25_treatment_entry_points.py": {
+      "sha256": "5e810caa39e5db2b7ca391d9324fcd740bc780bf205e6e5419e88608883b37a1",
+      "bytes": 4387
+    },
+    "figures/F26_guide_and_execution_tools.pdf": {
+      "sha256": "2ab139bd0a74e692b8579f56ebd251217ef375ef5b4ca493899250e074c85177",
+      "bytes": 25004
+    },
+    "figures/F26_guide_and_execution_tools.py": {
+      "sha256": "47b998819caf2df0cf776f6dc4b5f762a3bdb103fb285e7efdc07e84fa2b55b1",
+      "bytes": 3298
+    },
+    "figures/F27_kj_mechanism_and_observation.pdf": {
+      "sha256": "3700a6b6c897eb833f1160a9d63e8202a03fd9dbebdf095c4940c6eddc08a2e5",
+      "bytes": 37815
+    },
+    "figures/F27_kj_mechanism_and_observation.py": {
+      "sha256": "c6a8d67d3cf4827aaae391b25ee326b33c607599c56eb5aed664da7d07adbf35",
+      "bytes": 3135
+    },
+    "figures/F28_edit_or_add_functional_copy.pdf": {
+      "sha256": "e38ef73f09982c356899b83bbb8300fe995e87b36138c50581c6b00bd06422fe",
+      "bytes": 23727
+    },
+    "figures/F28_edit_or_add_functional_copy.py": {
+      "sha256": "b33dacd2b1142cab8d176e51f74eecdadb3dac4034b566e38b81eeb2a6da698f",
+      "bytes": 2460
+    },
+    "figures/F29_cart_continues_in_body.pdf": {
+      "sha256": "366ea0073c8af3643f598d852da654b8a4f30c557657213b8579898de799f7a9",
+      "bytes": 28645
+    },
+    "figures/F29_cart_continues_in_body.py": {
+      "sha256": "cf613cdbbc3181b748e01e3f457f640d7f750ef5f6ad9ad7e16c80f2ef785756",
+      "bytes": 3733
+    },
+    "figures/F30_six_gates_patient_benefit.pdf": {
+      "sha256": "704bbd7d65e559f1f67954a39e3343540403917b32937d169ff67b1888b461f6",
+      "bytes": 34048
+    },
+    "figures/F30_six_gates_patient_benefit.py": {
+      "sha256": "d7dbaabb64d41dc7d9d4f28f0abd0ceb8d23a38241478c69148f1fc01d8c1929",
+      "bytes": 2947
+    },
+    "fonts/FONT_SOURCE.md": {
+      "sha256": "02a4505ce1365b02aa55fdf739ab50487863bdb04e0dda6776ad7a1789ac647b",
+      "bytes": 1587
+    },
+    "fonts/NotoSansSC-Regular.ttf": {
+      "sha256": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10",
+      "bytes": 10596252
+    },
+    "fonts/OFL.txt": {
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301
+    },
+    "fonts/font_manifest.json": {
+      "sha256": "d3f590f7c93fecb0d383993a1dba5b2252f0ea3aa06b313701d4dbf0e635f48c",
+      "bytes": 501
+    },
+    "layout_utils.py": {
+      "sha256": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+      "bytes": 5324
+    },
+    "outputs/manifests/F01_validation.json": {
+      "sha256": "7c4111b2fad2668c81bd1dc8e388593aa1fb2d294f3f6124845108dd4f0192dc",
+      "bytes": 19662
+    },
+    "outputs/manifests/F02_validation.json": {
+      "sha256": "151d30a93b4a2c98a019d5a5d2a9155b6c19183dffe00e690603a6cabad4d2ae",
+      "bytes": 9094
+    },
+    "outputs/manifests/F03_validation.json": {
+      "sha256": "354d51e124f54d779489be3aa431f81df7902f66e1006373bad715e83f6136c6",
+      "bytes": 8860
+    },
+    "outputs/manifests/F04_validation.json": {
+      "sha256": "8c1bc3ff371330cf45f7ff4c3bbeccee65acc861a5ed1e02429af31cb72e978b",
+      "bytes": 26018
+    },
+    "outputs/manifests/F05_validation.json": {
+      "sha256": "4f190049378694d6f449fcae7f978a1a7ba1235936f02fafe0486b4d3bc30bcf",
+      "bytes": 15497
+    },
+    "outputs/manifests/F06_validation.json": {
+      "sha256": "0882e341e197c41e3746197e628c25b4fa520ad871dd82bfed2b068b744abb5a",
+      "bytes": 10192
+    },
+    "outputs/manifests/F07_validation.json": {
+      "sha256": "0c34571e604bdb38e27b48bd7cac3a91edbb9eb2ff35f7c4a8ab5000dac8da39",
+      "bytes": 8924
+    },
+    "outputs/manifests/F08_validation.json": {
+      "sha256": "4897c00b07905f5cfd04f45f20408c88bc8723a66a283f6187d2d4d4b2ac24c2",
+      "bytes": 14175
+    },
+    "outputs/manifests/F09_validation.json": {
+      "sha256": "d1cc464e775a61633bab3128890964a87e7c51cee121772b7ad0d14d90301aae",
+      "bytes": 15436
+    },
+    "outputs/manifests/F10_validation.json": {
+      "sha256": "22569d11589be83dece99f41ebab33e4daa015cf2c11abe1991e6993d2c8691f",
+      "bytes": 9165
+    },
+    "outputs/manifests/F11_validation.json": {
+      "sha256": "ba4b2ab444b355f5c1e2737935a134dd3047e53ec5488b19d9ae0b4fdc4456e4",
+      "bytes": 15149
+    },
+    "outputs/manifests/F12_validation.json": {
+      "sha256": "1ec43999a8776cbab575da9e1cff63e7f7af600171bebfe9fa77b90751d07920",
+      "bytes": 9858
+    },
+    "outputs/manifests/F13_validation.json": {
+      "sha256": "476ce8daa348d659adf3aa62d5da60c6759875e6057bc60d9aec6b2321891390",
+      "bytes": 10402
+    },
+    "outputs/manifests/F14_validation.json": {
+      "sha256": "00b2289e1807ac7bccdb823ab2da90428529dd1e5d8cbfed00afb3d2c1e121fa",
+      "bytes": 19915
+    },
+    "outputs/manifests/F15_validation.json": {
+      "sha256": "df6c990ee18a618437c7fa2da876a8ebbc2b31d0836b8416c226fa3489df1741",
+      "bytes": 8821
+    },
+    "outputs/manifests/F16_validation.json": {
+      "sha256": "ff21b768cb662cc3db055c328cf11859197889377219e7b00abfee4b1992eb3b",
+      "bytes": 16205
+    },
+    "outputs/manifests/F17_validation.json": {
+      "sha256": "8cf5fd4226bdd5d03faec086bdfbd13a74c1d0fff4f8bbfbed2fa212fafcef85",
+      "bytes": 10612
+    },
+    "outputs/manifests/F18_validation.json": {
+      "sha256": "5f42419f24c47134a2b79a846509363181d68058f30b718055a76a1104077d32",
+      "bytes": 11800
+    },
+    "outputs/manifests/F19_validation.json": {
+      "sha256": "116d8374448f2d0f65457ce58718d95bbed92c41dd3c0212ffd7f84eef62449d",
+      "bytes": 14704
+    },
+    "outputs/manifests/F20_validation.json": {
+      "sha256": "9d57ab1c6c2fb670f10142b2dda866e6ecb883eb3441a3fa62aca9618f33f6f8",
+      "bytes": 10727
+    },
+    "outputs/manifests/F21_validation.json": {
+      "sha256": "b231224e0d4ba1c33fce3d5228bd575f8b4471847bb28364290adf4b92aa7239",
+      "bytes": 17865
+    },
+    "outputs/manifests/F22_validation.json": {
+      "sha256": "1e0544996bcda14d1881a37beb633e1ed1227846d4cc65088d034cbf0b24b0c5",
+      "bytes": 90913
+    },
+    "outputs/manifests/F23_validation.json": {
+      "sha256": "b976eb482dac9fef3eabd0fbc737369d60df174e3cc9c01a663596af4a01f56b",
+      "bytes": 8973
+    },
+    "outputs/manifests/F24_validation.json": {
+      "sha256": "8c484f70888c3462f6b574333539a15721ef92f063475a1849b47b9234b1f0af",
+      "bytes": 8660
+    },
+    "outputs/manifests/F25_validation.json": {
+      "sha256": "3d2223f30e527c91b889b916e1645b2a7683befb2e65ed9907cd1b4bf2ae5a71",
+      "bytes": 18043
+    },
+    "outputs/manifests/F26_validation.json": {
+      "sha256": "38bb3b33cb15ca478253fe168dd5607598892fc8d28de5338e24374d9606d441",
+      "bytes": 17959
+    },
+    "outputs/manifests/F27_validation.json": {
+      "sha256": "308766afc45a4c29468c41e0dbddf02fe7acbd6935ef9c8c249f10a662d40c24",
+      "bytes": 13865
+    },
+    "outputs/manifests/F28_validation.json": {
+      "sha256": "41d9285738c11213c2a38f7109f5200bc15e3969cac15b677d69577bb1db4cd4",
+      "bytes": 25147
+    },
+    "outputs/manifests/F29_validation.json": {
+      "sha256": "86219a6c29d6cf0afd4eaad84bc378d9b66c9e5bab8d8ede002c5bb19ac5c12d",
+      "bytes": 13160
+    },
+    "outputs/manifests/F30_validation.json": {
+      "sha256": "1ed8ae7203fc1fe4501efa6c00d66d673bdd1f9c542ae83b81d6d20df2046ca5",
+      "bytes": 12496
+    },
+    "outputs/manifests/build_order_01_30.json": {
+      "sha256": "a3d6ececaa39ca8f45a617183df2b87625df52e6f4ac8d3263b61d3b8fad14e4",
+      "bytes": 7113
+    },
+    "outputs/manifests/build_order_11_30.json": {
+      "sha256": "803733c94bd8c13cd7452e44ed8afebeb1dde3a537db6cfbfe23c45e15e5a82b",
+      "bytes": 4724
+    },
+    "outputs/pdf/F01_genome_chromosome_dna_gene.pdf": {
+      "sha256": "2edc68da71aa9b4a849c67ca4b132b77ed3c6b1f8820721af85805382d73e05a",
+      "bytes": 21847
+    },
+    "outputs/pdf/F02_complementary_strands.pdf": {
+      "sha256": "7ad74883ffab3a55ba054561c56775377359a9e1979b52bbc0d50caef516c8b4",
+      "bytes": 13650
+    },
+    "outputs/pdf/F03_old_and_new_strands.pdf": {
+      "sha256": "0a476f3cbea2f9e2daeee3650e50f8b271b2c95537924ac5af4593b7222653e7",
+      "bytes": 17316
+    },
+    "outputs/pdf/F04_recombination_and_gametes.pdf": {
+      "sha256": "d6ecdb55cf818697359ed957fa9425e872179e08e9ace90661a856d7876977d1",
+      "bytes": 16603
+    },
+    "outputs/pdf/F05_transcription_and_splicing.pdf": {
+      "sha256": "733c206d873ef1bcf5433d8bea15f1c6c68379131966815c457be8419279b6ba",
+      "bytes": 17510
+    },
+    "outputs/pdf/F06_translation.pdf": {
+      "sha256": "bb1ac13ed5f0cbd7018e58f8a49bb68ab9576839df22fdb78a11202c64e4af32",
+      "bytes": 18598
+    },
+    "outputs/pdf/F07_sequence_structure_action.pdf": {
+      "sha256": "83fec2129584c0e4d895f3e2e21160e8cde0be098c2ec0f3461f6aeb0bc8a5c3",
+      "bytes": 18721
+    },
+    "outputs/pdf/F08_propagation_and_buffering.pdf": {
+      "sha256": "97cfd8e898ced72db431f8246dfa3901a86b922b3200126a6c34c8f07a8e6841",
+      "bytes": 26163
+    },
+    "outputs/pdf/F09_genome_annotation_tracks.pdf": {
+      "sha256": "fa00ad4af4c57d6eeebe249b70c16dcf27cf6c0b81f2648fa0797a17cd017e0c",
+      "bytes": 21024
+    },
+    "outputs/pdf/F10_access_to_transcription.pdf": {
+      "sha256": "2cf88d4f01792747ad8b14eb26978ce29364f96fb38f255abce4b36b1bd491a9",
+      "bytes": 20698
+    },
+    "outputs/pdf/F11_cell_programs.pdf": {
+      "sha256": "82ae839bdef326a31adac8be0738bddb7624d88ee30302229fd830b10af62a10",
+      "bytes": 20891
+    },
+    "outputs/pdf/F12_signal_response.pdf": {
+      "sha256": "75205d0edc836e74f6b2773f00d033403cd0a6a921b3c6fb298d3fd7ec5d5f5c",
+      "bytes": 20880
+    },
+    "outputs/pdf/F13_spatial_feedback.pdf": {
+      "sha256": "7ad90ac0326aa228fc8b7a81fa30c0affafb7e962bf8c287af381b9da05f27c3",
+      "bytes": 23078
+    },
+    "outputs/pdf/F14_epigenetic_states.pdf": {
+      "sha256": "cc24a1dbd6476496ce661aa91d657ad38116243912a76cdd72495e575147f5a0",
+      "bytes": 18172
+    },
+    "outputs/pdf/F15_regulatory_feedback.pdf": {
+      "sha256": "8e3cf4ead679f8cf44533eb57d70f2468d1aaffdf91471a4276ae228a6d203b5",
+      "bytes": 22824
+    },
+    "outputs/pdf/F16_rna_landscapes.pdf": {
+      "sha256": "ec781bdbf15998382c35eca70119a60c0537dd30d10d08c3569f989bebf68156",
+      "bytes": 16419
+    },
+    "outputs/pdf/F17_protein_states.pdf": {
+      "sha256": "bac6f3dd4f435d537f7cd74d6feff3b50ce38f42a377942e0d1f73bf699c43b8",
+      "bytes": 19893
+    },
+    "outputs/pdf/F18_metabolic_flux.pdf": {
+      "sha256": "c484f3a978f65d8f44dd00f05703f18c2963b80380a84307994f009bf0662055",
+      "bytes": 16846
+    },
+    "outputs/pdf/F19_five_windows.pdf": {
+      "sha256": "9b4bad1c561baa279696dc9273b69669e10bc188bbff65d92ab610c1c512681a",
+      "bytes": 21102
+    },
+    "outputs/pdf/F20_colorectal_observations.pdf": {
+      "sha256": "d598a91730a613f39613a879d6d5fd739c98a2289d952cbaaf7087e6b829c9e5",
+      "bytes": 30297
+    },
+    "outputs/pdf/F21_tissue_cell_space.pdf": {
+      "sha256": "06916a6cef9f37e6bcea36c5c6a1b703c586a4382de0256bd85242cd8de0285a",
+      "bytes": 26064
+    },
+    "outputs/pdf/F22_relative_absolute_risk.pdf": {
+      "sha256": "48e94ae4765b9e107f1ac939161a441dd2832fa703147db6ce8584adb99f4eb4",
+      "bytes": 52576
+    },
+    "outputs/pdf/F23_risk_future_possibilities.pdf": {
+      "sha256": "91534ba8b417f77ad79dc603a0664126fe2e29155042e7926887883624cf3a26",
+      "bytes": 24179
+    },
+    "outputs/pdf/F24_converging_disease_paths.pdf": {
+      "sha256": "aa5442fd274ee7b1d6141e290df9f8c7506b77db1f9b62c9db22cbad7154b156",
+      "bytes": 26127
+    },
+    "outputs/pdf/F25_treatment_entry_points.pdf": {
+      "sha256": "88d9df8932f1fd8b608a409f8f9f25f40187f6bd12504defe314766cccdecfa1",
+      "bytes": 32685
+    },
+    "outputs/pdf/F26_guide_and_execution_tools.pdf": {
+      "sha256": "2ab139bd0a74e692b8579f56ebd251217ef375ef5b4ca493899250e074c85177",
+      "bytes": 25004
+    },
+    "outputs/pdf/F27_kj_mechanism_and_observation.pdf": {
+      "sha256": "3700a6b6c897eb833f1160a9d63e8202a03fd9dbebdf095c4940c6eddc08a2e5",
+      "bytes": 37815
+    },
+    "outputs/pdf/F28_edit_or_add_functional_copy.pdf": {
+      "sha256": "e38ef73f09982c356899b83bbb8300fe995e87b36138c50581c6b00bd06422fe",
+      "bytes": 23727
+    },
+    "outputs/pdf/F29_cart_continues_in_body.pdf": {
+      "sha256": "366ea0073c8af3643f598d852da654b8a4f30c557657213b8579898de799f7a9",
+      "bytes": 28645
+    },
+    "outputs/pdf/F30_six_gates_patient_benefit.pdf": {
+      "sha256": "704bbd7d65e559f1f67954a39e3343540403917b32937d169ff67b1888b461f6",
+      "bytes": 34048
+    },
+    "outputs/png/F01_genome_chromosome_dna_gene.png": {
+      "sha256": "9d34a7d5d9b798ba9b60b44af4621fb070a7f1487149aa5a00980ac1cb9c164c",
+      "bytes": 471214
+    },
+    "outputs/png/F02_complementary_strands.png": {
+      "sha256": "c7643d0d3f02d48637693d129cd471928c9bb17446737947cc4f72f6dd144d79",
+      "bytes": 180909
+    },
+    "outputs/png/F03_old_and_new_strands.png": {
+      "sha256": "a1c82dd1218272b3a8110e7d5584c02edc4d945e617a43cb804c435266832a66",
+      "bytes": 258286
+    },
+    "outputs/png/F04_recombination_and_gametes.png": {
+      "sha256": "200c6efda9f2cb981719f08c7dcf67722934249042446d3f300ac0c387d71880",
+      "bytes": 289281
+    },
+    "outputs/png/F05_transcription_and_splicing.png": {
+      "sha256": "bf2bea7444101d5800bcb301828d76d957eeecd41203588f101eda1925e23ecb",
+      "bytes": 256688
+    },
+    "outputs/png/F06_translation.png": {
+      "sha256": "aec2e54ecd62b0547a5ce80e75e1cd8865c7a50d8a1a1ca23a130aa71696f241",
+      "bytes": 384828
+    },
+    "outputs/png/F07_sequence_structure_action.png": {
+      "sha256": "d236f13a73874d16ed0591516a0d1f4c9a00c2c79a0663aa74e682a74953f573",
+      "bytes": 338333
+    },
+    "outputs/png/F08_propagation_and_buffering.png": {
+      "sha256": "fa4e2aed5ceba675cecf4e3cbc99e880d140389d5029fb2bceca72a46535dc93",
+      "bytes": 432127
+    },
+    "outputs/png/F09_genome_annotation_tracks.png": {
+      "sha256": "436ea245cc7116d57f0bcdd69fdde24b3e0ab00edec87e5cbfa460f1090ff88f",
+      "bytes": 243648
+    },
+    "outputs/png/F10_access_to_transcription.png": {
+      "sha256": "164861c4d7a4ebb4b4ac7010e33f191bd090c914843d8ba0f138410dbf666212",
+      "bytes": 389518
+    },
+    "outputs/png/F11_cell_programs.png": {
+      "sha256": "27c082e3ea32223403dcf67a779e01960611b0ff8104f0eadada4b1dee1f7e5a",
+      "bytes": 289617
+    },
+    "outputs/png/F12_signal_response.png": {
+      "sha256": "01069ec53523bf1ecc47ff69d248a0c9c682f2ce7921ac5591578e6369fd0e38",
+      "bytes": 304680
+    },
+    "outputs/png/F13_spatial_feedback.png": {
+      "sha256": "df5f2abeb6297fbe00d29a49ac71e3283c07472f61f091748326464f51de5396",
+      "bytes": 338129
+    },
+    "outputs/png/F14_epigenetic_states.png": {
+      "sha256": "440ab71314981c2984ca57451a290b82e221d55a3742d1035b95e6cb2a51508e",
+      "bytes": 260643
+    },
+    "outputs/png/F15_regulatory_feedback.png": {
+      "sha256": "298454a1a54984cd2032379b95914ae75ef28b85230acdf94d5f82d584c0f55b",
+      "bytes": 318614
+    },
+    "outputs/png/F16_rna_landscapes.png": {
+      "sha256": "25c2e31138ae8bc6d6abacc73c1f4eb4d5a3a558f058da8f035dd8fec893e29b",
+      "bytes": 198389
+    },
+    "outputs/png/F17_protein_states.png": {
+      "sha256": "f30a2fa79983444fc79b37b000d9db9528cac2b3f9cc5f783527d633f07fef26",
+      "bytes": 397106
+    },
+    "outputs/png/F18_metabolic_flux.png": {
+      "sha256": "810dd79411137b2176112114ddc24ab5958e1f9b18185aaca3c31bd76fd307aa",
+      "bytes": 227222
+    },
+    "outputs/png/F19_five_windows.png": {
+      "sha256": "951ef3fcd271f914749488b0caae54973d98a9dc38d8613788681176a8ff7c94",
+      "bytes": 390030
+    },
+    "outputs/png/F20_colorectal_observations.png": {
+      "sha256": "027cbc241270ca55820e557dfe3554509555fffb796cd7e105ff9ed878708d4f",
+      "bytes": 420453
+    },
+    "outputs/png/F21_tissue_cell_space.png": {
+      "sha256": "a56dc0ba748f9b22f9bb636be71a7dfb23a271999725b7e314d50be8ddb0e096",
+      "bytes": 541860
+    },
+    "outputs/png/F22_relative_absolute_risk.png": {
+      "sha256": "b9cc81861ac224796efad4c57743e50baf1e5cc12685a6fceae1c79201d2b3ee",
+      "bytes": 563760
+    },
+    "outputs/png/F23_risk_future_possibilities.png": {
+      "sha256": "389546406cc4123c747fa493639b25b057181f58ecb70c6573541fa398a355e0",
+      "bytes": 376266
+    },
+    "outputs/png/F24_converging_disease_paths.png": {
+      "sha256": "0b1a1ec710bc7e1b5da13542d487f4aceba6fd563806921688464f988163a3f4",
+      "bytes": 348564
+    },
+    "outputs/png/F25_treatment_entry_points.png": {
+      "sha256": "02e8acd62418a5b4498566b164765ab8d758c4b9d613dddf3176826dd56de388",
+      "bytes": 504117
+    },
+    "outputs/png/F26_guide_and_execution_tools.png": {
+      "sha256": "6599b9d90985560cbaeb9ae05fb04cbcde8016af7cc1c104f5b2d17377428a83",
+      "bytes": 376964
+    },
+    "outputs/png/F27_kj_mechanism_and_observation.png": {
+      "sha256": "3b0bcd5f94d52d8ca28e0871700514d245da518dae7709010756c4e983ff0809",
+      "bytes": 498240
+    },
+    "outputs/png/F28_edit_or_add_functional_copy.png": {
+      "sha256": "53cc36d737213a7e1480026a2fc87d4e993a78c23af6da0f607e698f7a444ff4",
+      "bytes": 445504
+    },
+    "outputs/png/F29_cart_continues_in_body.png": {
+      "sha256": "646e6e43878074ba5e4d1db241551f6425cc05af2236875fb689c2d3c4e3f448",
+      "bytes": 482546
+    },
+    "outputs/png/F30_six_gates_patient_benefit.png": {
+      "sha256": "890f4ee565d26a5d52b883e5eeb5221a932965ce9a75d4671a531e3986f54b80",
+      "bytes": 540464
+    },
+    "outputs/svg/F01_genome_chromosome_dna_gene.svg": {
+      "sha256": "46d5b4a6c29fc3594f29bd8957f2bc1ea3528e8270df5a53f511e0408da3971b",
+      "bytes": 42427
+    },
+    "outputs/svg/F02_complementary_strands.svg": {
+      "sha256": "7088c0c6463956888df6dd00b3a56cd2b40fe9dd904e2417b630554cede9b637",
+      "bytes": 22485
+    },
+    "outputs/svg/F03_old_and_new_strands.svg": {
+      "sha256": "ad0f2a7b915583839524542a7d9f2d165dcb6d45525e9991d9c899cd479979c8",
+      "bytes": 25499
+    },
+    "outputs/svg/F04_recombination_and_gametes.svg": {
+      "sha256": "3e2f7597e65e194b97f68a6b7b3ce5c51bea2f8b13f09a6fb4919e4151a710f8",
+      "bytes": 59627
+    },
+    "outputs/svg/F05_transcription_and_splicing.svg": {
+      "sha256": "074b3c3ac1dfe5a572fdffb1b84e8dabe8d41a1aaf42359134fc0ef8d57f4411",
+      "bytes": 35231
+    },
+    "outputs/svg/F06_translation.svg": {
+      "sha256": "ded888f88db38f05120bf8a650b7fc373996e7ddde1084d2a98d192a4fd995cd",
+      "bytes": 30211
+    },
+    "outputs/svg/F07_sequence_structure_action.svg": {
+      "sha256": "5b73aa2ce31bdedf6a2bf293c1751d3e2a7c49dded7d5d6bf109dd85dbacef3b",
+      "bytes": 29430
+    },
+    "outputs/svg/F08_propagation_and_buffering.svg": {
+      "sha256": "67a7ab64559b6a34ccd232c9bfde6f48380ce1b4ec2dd8fc72490d44cce3c4be",
+      "bytes": 47320
+    },
+    "outputs/svg/F09_genome_annotation_tracks.svg": {
+      "sha256": "714799811450563645131feb2dba922282280495b350878ef04928c96c751cc2",
+      "bytes": 37600
+    },
+    "outputs/svg/F10_access_to_transcription.svg": {
+      "sha256": "f624dcd65edcd7c4eb3d0c5d13752eb563f801c4a5580c25acd44166c61ed0ae",
+      "bytes": 31851
+    },
+    "outputs/svg/F11_cell_programs.svg": {
+      "sha256": "05807866d3b51864e6345da7b742d1cb9a3b16905282f4d3fad74b6b2c6dc291",
+      "bytes": 38921
+    },
+    "outputs/svg/F12_signal_response.svg": {
+      "sha256": "eb636a72ab4899523cff7b5e0264033106d4cb53f3dac6d4bd461eec0ca70e97",
+      "bytes": 32195
+    },
+    "outputs/svg/F13_spatial_feedback.svg": {
+      "sha256": "36457755bed49b699e88e47fbe8f0ac9adfee54c9d0fd8a8edfbfeca8eb22fbd",
+      "bytes": 35950
+    },
+    "outputs/svg/F14_epigenetic_states.svg": {
+      "sha256": "4d2b0f92564ee72ee39e73a17f3dd32f6ee3a432abdd002a7b1f77a09649b03d",
+      "bytes": 41274
+    },
+    "outputs/svg/F15_regulatory_feedback.svg": {
+      "sha256": "90a87583a33e1a3601e44637f3c7694abd2c8f23c2d93ffaa7e055a35b64f4f1",
+      "bytes": 32232
+    },
+    "outputs/svg/F16_rna_landscapes.svg": {
+      "sha256": "1298df0aa818086c7eafe921283649ac702d91e0fd19d36ee28a027c187055a2",
+      "bytes": 32997
+    },
+    "outputs/svg/F17_protein_states.svg": {
+      "sha256": "e2328e97ff95843e5002de055774e2b4408045f77ae712440878f033508c634f",
+      "bytes": 35800
+    },
+    "outputs/svg/F18_metabolic_flux.svg": {
+      "sha256": "57b1b7438bae2e293c2f8a05187756066137d51c635792d02dab7eafbbc15b52",
+      "bytes": 32383
+    },
+    "outputs/svg/F19_five_windows.svg": {
+      "sha256": "f6cb15689c287f8790d9454b1646f31825f3eb30553f183852d29b63b8a9c8d1",
+      "bytes": 39778
+    },
+    "outputs/svg/F20_colorectal_observations.svg": {
+      "sha256": "1144547eb5705d3bd896fc5e3da7ca9af7a565df40f0e79f38084edb97522454",
+      "bytes": 45226
+    },
+    "outputs/svg/F21_tissue_cell_space.svg": {
+      "sha256": "c58055d04c5a92b3650fa996b38df9a8474816957311b0bb6bb060075b417ef3",
+      "bytes": 57018
+    },
+    "outputs/svg/F22_relative_absolute_risk.svg": {
+      "sha256": "4a54831703a07ea28e98951b0acb6f31e983f61c4ffa9702779e72ddc9ac6ff3",
+      "bytes": 303908
+    },
+    "outputs/svg/F23_risk_future_possibilities.svg": {
+      "sha256": "4c3fdb60c5f76fcf2b5ac7c4ae999cce60a231994169f435b7561056a8c0d29f",
+      "bytes": 34085
+    },
+    "outputs/svg/F24_converging_disease_paths.svg": {
+      "sha256": "fbb24d76da784197943b34f5714e1625ef79c4b7aac8866a6b74d53c47748b48",
+      "bytes": 36290
+    },
+    "outputs/svg/F25_treatment_entry_points.svg": {
+      "sha256": "4e8c0701e580f548f27b7c6c782c2f9fe3e4fa57f45bd854f05d386cb4ad2b37",
+      "bytes": 59066
+    },
+    "outputs/svg/F26_guide_and_execution_tools.svg": {
+      "sha256": "acfada655715723044acfd1d64f4f7d9d1d06c2db7e5c68bd7281b0bde3d0834",
+      "bytes": 43498
+    },
+    "outputs/svg/F27_kj_mechanism_and_observation.svg": {
+      "sha256": "c203f1fdada93c7a800ac2d8f83721fb0c2016bf3b1ec5ac5dbdad3a7c6f0285",
+      "bytes": 56980
+    },
+    "outputs/svg/F28_edit_or_add_functional_copy.svg": {
+      "sha256": "e04f756f4c92f91cc0f19154d9aea57afc8d8fadc536afa9641feb1128934ca1",
+      "bytes": 48980
+    },
+    "outputs/svg/F29_cart_continues_in_body.svg": {
+      "sha256": "1c67f16023df8de263613d39fbcbab769a2295969a615c3707e97edaa9dce159",
+      "bytes": 47304
+    },
+    "outputs/svg/F30_six_gates_patient_benefit.svg": {
+      "sha256": "ae6be0ac694344263c85d61d9c3abaa575a6ba200696cbdb9cd424c1d9d20659",
+      "bytes": 53355
+    },
+    "palette.py": {
+      "sha256": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+      "bytes": 652
+    },
+    "production_utils.py": {
+      "sha256": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+      "bytes": 3738
+    },
+    "requirements.txt": {
+      "sha256": "65e7337b1c64a6d55f851feb1e67544ffbfc3c7bd5eb1a6be2b59712d249991c",
+      "bytes": 81
+    },
+    "shared_shapes.py": {
+      "sha256": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+      "bytes": 6444
+    },
+    "visual_grammar.py": {
+      "sha256": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+      "bytes": 4696
+    }
+  }
+}

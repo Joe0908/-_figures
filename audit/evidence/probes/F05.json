@@ -1,0 +1,380 @@
+{
+  "id": "F05",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "ddb6b0c7fd2a3cae567ec22123ef9535c84df721b0d34841017c89910baa5c43",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F05_transcription_and_splicing.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 62,
+  "texts": [
+    {
+      "id": "F05.transcription.heading",
+      "text": "先按模板合成 RNA",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        103.46440972222221,
+        39.31633333333335,
+        108.53559027777777
+      ]
+    },
+    {
+      "id": "F05.splicing.heading",
+      "text": "再加工出不同版本",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        95.00000000000001,
+        103.46440972222221,
+        127.51200000000001,
+        108.53559027777777
+      ]
+    },
+    {
+      "id": "F05.dna.label",
+      "text": "DNA 保留在原处",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        26.85033333333335,
+        91.90538194444444,
+        51.149666666666675,
+        96.09461805555554
+      ]
+    },
+    {
+      "id": "F05.initial.label.0",
+      "text": "1",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        14.17450000000001,
+        55.125868055555564,
+        15.82550000000001,
+        58.87413194444444
+      ]
+    },
+    {
+      "id": "F05.initial.label.1",
+      "text": "2",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        28.174500000000016,
+        55.125868055555564,
+        29.825500000000012,
+        58.87413194444444
+      ]
+    },
+    {
+      "id": "F05.initial.label.2",
+      "text": "3",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        42.17450000000001,
+        55.125868055555564,
+        43.82550000000002,
+        58.87413194444444
+      ]
+    },
+    {
+      "id": "F05.initial.label.3",
+      "text": "4",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        56.17450000000002,
+        55.125868055555564,
+        57.82550000000003,
+        58.87413194444444
+      ]
+    },
+    {
+      "id": "F05.initial.label",
+      "text": "初始 RNA",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        8.972666666666678,
+        41.90538194444445,
+        23.027333333333342,
+        46.094618055555564
+      ]
+    },
+    {
+      "id": "F05.raw.label",
+      "text": "游离 RNA 原料",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        26.36916666666668,
+        24.12586805555555,
+        45.63083333333334,
+        27.874131944444443
+      ]
+    },
+    {
+      "id": "F05.splicing",
+      "text": "剪接",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        82.99433333333334,
+        55.125868055555564,
+        89.00566666666668,
+        58.87413194444444
+      ]
+    },
+    {
+      "id": "F05.mature.a.label.0",
+      "text": "1",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        111.17450000000002,
+        81.12586805555556,
+        112.82550000000002,
+        84.87413194444444
+      ]
+    },
+    {
+      "id": "F05.mature.a.label.1",
+      "text": "2",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        127.17450000000002,
+        81.12586805555556,
+        128.8255,
+        84.87413194444444
+      ]
+    },
+    {
+      "id": "F05.mature.a.label.2",
+      "text": "4",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        143.17450000000002,
+        81.12586805555556,
+        144.82550000000003,
+        84.87413194444444
+      ]
+    },
+    {
+      "id": "F05.mature.b.label.0",
+      "text": "1",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        111.17450000000002,
+        37.12586805555556,
+        112.82550000000002,
+        40.87413194444445
+      ]
+    },
+    {
+      "id": "F05.mature.b.label.1",
+      "text": "3",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        127.17450000000002,
+        37.12586805555556,
+        128.8255,
+        40.87413194444445
+      ]
+    },
+    {
+      "id": "F05.mature.b.label.2",
+      "text": "4",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        143.17450000000002,
+        37.12586805555556,
+        144.82550000000003,
+        40.87413194444445
+      ]
+    },
+    {
+      "id": "F05.a.label",
+      "text": "成熟 RNA 版本 A",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        115.82916666666668,
+        92.90538194444444,
+        140.17083333333335,
+        97.09461805555554
+      ]
+    },
+    {
+      "id": "F05.b.label",
+      "text": "成熟 RNA 版本 B",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        115.76566666666669,
+        48.90538194444444,
+        140.23433333333335,
+        53.094618055555564
+      ]
+    },
+    {
+      "id": "F05.scope.note",
+      "text": "编号只是片段示意；不同加工可保留不同组合，并非所有基因都有这两种版本。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        7.125868055555555,
+        111.19833333333334,
+        10.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "template",
+      "kind": "template",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "assembly",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "branch.a",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "branch.b",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F05",
+    "title": "DNA 被转录后产生不同 RNA 版本",
+    "source_paragraphs": "P0109–P0113 DNA 留在原处，以序列为参照合成新 RNA；P0114–P0116 初始 RNA 剪接，同一初始 RNA 可有不同成熟版本。",
+    "cognitive_task": "DNA 提供模板而保持存在，初始 RNA 经不同剪接可得到不同成熟 RNA 版本。",
+    "layout_rationale": "左侧保留DNA并以模板关系连接初始RNA、原料另行合成；右侧上下两个分支显示不同片段组合。",
+    "essential_objects": "持续存在的 DNA 区域、新合成 RNA、可保留/去除片段、两个示意成熟版本。",
+    "relationships": "DNA 对 RNA 的模板约束；RNA 的合成与片段加工；同一初始 RNA 的可选剪接路径。",
+    "misconceptions": "不画 DNA 材料变成 RNA；不让所有基因必定剪出两个版本；不增加原稿未指定的疾病外显子编号。",
+    "components": "双链、模板箭头、原料容器、片段条、分支过程箭头",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "template",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "assembly",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "branch.a",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "branch.b",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 58,
+      "fonts": [
+        {
+          "name": "FPZWTX+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 19,
+      "images": 0,
+      "semantic_ids": 62,
+      "font_subset_glyphs": 60
+    }
+  },
+  "output_hashes": {
+    "png": "bf2bea7444101d5800bcb301828d76d957eeecd41203588f101eda1925e23ecb",
+    "pdf": "733c206d873ef1bcf5433d8bea15f1c6c68379131966815c457be8419279b6ba",
+    "svg": "074b3c3ac1dfe5a572fdffb1b84e8dabe8d41a1aaf42359134fc0ef8d57f4411"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

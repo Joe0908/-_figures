@@ -1,0 +1,250 @@
+{
+  "id": "F28",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "b33dacd2b1142cab8d176e51f74eecdadb3dac4034b566e38b81eeb2a6da698f",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F28_edit_or_add_functional_copy.py",
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "artist_count": 99,
+  "texts": [
+    {
+      "id": "F28.edit.heading",
+      "text": "修改原有序列",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        8.00000000000001,
+        113.96440972222219,
+        32.38400000000001,
+        119.03559027777776
+      ]
+    },
+    {
+      "id": "F28.addition.heading",
+      "text": "补充功能性副本",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        90.00000000000001,
+        113.96440972222219,
+        118.44800000000002,
+        119.03559027777776
+      ]
+    },
+    {
+      "id": "F28.start.label.0",
+      "text": "原异常版本",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        36.062500000000014,
+        87.015625,
+        51.93750000000001,
+        90.984375
+      ]
+    },
+    {
+      "id": "F28.start.label.1",
+      "text": "原异常版本",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        118.06250000000001,
+        87.015625,
+        133.93750000000003,
+        90.984375
+      ]
+    },
+    {
+      "id": "F28.edit.action",
+      "text": "在原位置\n改写目标序列",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        33.96700000000001,
+        44.810763888888886,
+        54.03300000000001,
+        53.18923611111109
+      ]
+    },
+    {
+      "id": "F28.addition.original_label",
+      "text": "原异常版本仍在",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        115.48016666666669,
+        56.12586805555555,
+        136.51983333333334,
+        59.87413194444443
+      ]
+    },
+    {
+      "id": "F28.addition.extra_label",
+      "text": "额外功能性信息",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#A6633F",
+      "extent_mm": [
+        115.48016666666669,
+        36.62586805555555,
+        136.51983333333334,
+        40.374131944444436
+      ]
+    },
+    {
+      "id": "F28.shared.expression.label",
+      "text": "RNA、蛋白质的表达与实际功能\n仍取决于递送、存活目标细胞及持续性",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        58.01250000000002,
+        18.031249999999996,
+        111.98750000000003,
+        25.96875
+      ]
+    },
+    {
+      "id": "F28.scope.note",
+      "text": "新增信息不默认整合进染色体；两种路径无固定优劣，额外副本也未必能抵消有害产物。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.125868055555554,
+        123.22099999999999,
+        9.874131944444443
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "operation.0",
+      "kind": "intervention",
+      "source": "start.cell.0",
+      "target": "result.cell.0",
+      "label": null
+    },
+    {
+      "id": "operation.1",
+      "kind": "intervention",
+      "source": "start.cell.1",
+      "target": "result.cell.1",
+      "label": null
+    },
+    {
+      "id": "edit.expression_condition",
+      "kind": "conditional",
+      "source": "edit.modified_original",
+      "target": "shared.expression",
+      "label": null
+    },
+    {
+      "id": "addition.expression_condition",
+      "kind": "conditional",
+      "source": "addition.extra_information",
+      "target": "shared.expression",
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F28",
+    "title": "修改原有序列与补充功能性副本",
+    "source_paragraphs": "P1179–P1181原位改字与额外可用基因，Luxturna/RPE65存活目标细胞；P1184–P1186递送、载量、表达、免疫、持续性及无固定优劣。",
+    "cognitive_task": "修改原有序列与添加功能性版本是两种不同动作，二者都须在目标细胞中形成足够且持续的功能。",
+    "layout_rationale": "相同细胞起点的左右对照；左在原位置改写，右保留原异常版本且另置额外功能信息，不画染色体整合；底部共享表达和功能条件。",
+    "essential_objects": "两个相同起点细胞、原异常版本；左原位序列改写；右原版本仍在加额外功能性信息；RNA/蛋白/功能条件。",
+    "relationships": "原位改变与额外添加的操作差异；新增信息到表达的模板关系；部分存活目标细胞与功能结果的条件关系。",
+    "misconceptions": "不默认添加副本必整合某染色体位置；不让旧异常版本消失；不画两技术固定优劣；不称Luxturna恢复所有视力或所有细胞；额外副本未必足以抵消有害产物。",
+    "components": "细胞边界、持续原DNA、目标位点、额外信息双轨、干预箭头、条件表达带",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "operation.0",
+        "kind": "intervention",
+        "source": "start.cell.0",
+        "target": "result.cell.0",
+        "label": null
+      },
+      {
+        "id": "operation.1",
+        "kind": "intervention",
+        "source": "start.cell.1",
+        "target": "result.cell.1",
+        "label": null
+      },
+      {
+        "id": "edit.expression_condition",
+        "kind": "conditional",
+        "source": "edit.modified_original",
+        "target": "shared.expression",
+        "label": null
+      },
+      {
+        "id": "addition.expression_condition",
+        "kind": "conditional",
+        "source": "addition.extra_information",
+        "target": "shared.expression",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2976
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        125.99999643961587
+      ],
+      "images": 0,
+      "vector_paths": 99,
+      "fonts": [
+        {
+          "name": "CJIHHY+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 11,
+      "images": 0,
+      "semantic_ids": 99,
+      "font_subset_glyphs": 83
+    }
+  },
+  "output_hashes": {
+    "png": "53cc36d737213a7e1480026a2fc87d4e993a78c23af6da0f607e698f7a444ff4",
+    "pdf": "e38ef73f09982c356899b83bbb8300fe995e87b36138c50581c6b00bd06422fe",
+    "svg": "e04f756f4c92f91cc0f19154d9aea57afc8d8fadc536afa9641feb1128934ca1"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

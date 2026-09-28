@@ -1,0 +1,636 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F19",
+    "title": "五扇窗口观察同一个细胞",
+    "source_paragraphs": "P0462–P0469 同DNA不同条件与测量范围；P0471–P0479前3窗口；P0496–P0511蛋白状态；P0527–P0540代谢存量；P0546五窗口总结。",
+    "cognitive_task": "五个窗口分别观察同一系统的序列、调控状态、RNA、蛋白与代谢存量，各有范围与盲点。",
+    "layout_rationale": "170×126 mm。中央唯一细胞系统容器内放置 DNA 与调控状态、RNA、蛋白质和代谢物；上方三窗、下方两窗分别与对应测量端口相连。紫色点线无箭头，窗口之间不连因果链；系统标签位于中央留白，避免观察线穿字。",
+    "essential_objects": "单一细胞系统容器；DNA、调控状态、RNA、蛋白数量/状态、代谢物五层；五个明确命名测量窗口。",
+    "relationships": "窗口与被测对象对应；观察用紫色无箭头点线与测量端标记；调控状态贴在DNA使用条件。五窗之间不连机制箭头，图中不另建单向生命链。",
+    "misconceptions": "不画五个独立细胞或五阶段测量流水线；“同一个细胞”是统一认知对象，不承诺同一枚细胞实际同时测得五组学。RNA量不等于即时速率，浓度不等于流量；不表示检测全覆盖。",
+    "components": "单一细胞椭圆边界、DNA 骨架与状态标记、RNA 线段、蛋白与代谢物图符、五个观察卡、五条无箭头点线、五枚测量端口、检测范围和同一细胞系统含义说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "observe.genome",
+        "kind": "observe",
+        "source": "window.genome.boundary",
+        "target": "measure.genome",
+        "label": null
+      },
+      {
+        "id": "observe.epigenome",
+        "kind": "observe",
+        "source": "window.epigenome.boundary",
+        "target": "measure.epigenome",
+        "label": null
+      },
+      {
+        "id": "observe.transcriptome",
+        "kind": "observe",
+        "source": "window.transcriptome.boundary",
+        "target": "measure.transcriptome",
+        "label": null
+      },
+      {
+        "id": "observe.proteome",
+        "kind": "observe",
+        "source": "window.proteome.boundary",
+        "target": "measure.proteome",
+        "label": null
+      },
+      {
+        "id": "observe.metabolome",
+        "kind": "observe",
+        "source": "window.metabolome.boundary",
+        "target": "measure.metabolome",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 51,
+    "text_count": 11,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F19.cell.system": [
+        47.0,
+        37.5,
+        123.0,
+        96.5
+      ],
+      "F19.cell.label": [
+        74.967,
+        57.9054,
+        95.033,
+        62.0946
+      ],
+      "F19.cell.dna.upper": [
+        60.0,
+        76.0,
+        93.0,
+        76.0
+      ],
+      "F19.cell.dna.lower": [
+        60.0,
+        73.0,
+        93.0,
+        73.0
+      ],
+      "F19.cell.dna.pair.0": [
+        62.0,
+        73.0,
+        62.0,
+        76.0
+      ],
+      "F19.cell.dna.pair.1": [
+        65.0,
+        73.0,
+        65.0,
+        76.0
+      ],
+      "F19.cell.dna.pair.2": [
+        68.0,
+        73.0,
+        68.0,
+        76.0
+      ],
+      "F19.cell.dna.pair.3": [
+        71.0,
+        73.0,
+        71.0,
+        76.0
+      ],
+      "F19.cell.dna.pair.4": [
+        74.0,
+        73.0,
+        74.0,
+        76.0
+      ],
+      "F19.cell.dna.pair.5": [
+        77.0,
+        73.0,
+        77.0,
+        76.0
+      ],
+      "F19.cell.dna.pair.6": [
+        80.0,
+        73.0,
+        80.0,
+        76.0
+      ],
+      "F19.cell.dna.pair.7": [
+        83.0,
+        73.0,
+        83.0,
+        76.0
+      ],
+      "F19.cell.dna.pair.8": [
+        86.0,
+        73.0,
+        86.0,
+        76.0
+      ],
+      "F19.cell.dna.pair.9": [
+        89.0,
+        73.0,
+        89.0,
+        76.0
+      ],
+      "F19.cell.dna.pair.10": [
+        92.0,
+        73.0,
+        92.0,
+        76.0
+      ],
+      "F19.cell.state.0": [
+        76.9,
+        77.9,
+        79.1,
+        80.1
+      ],
+      "F19.cell.state.bond.0": [
+        78.0,
+        76.0,
+        78.0,
+        78.0
+      ],
+      "F19.cell.state.1": [
+        83.9,
+        77.9,
+        86.1,
+        80.1
+      ],
+      "F19.cell.state.bond.1": [
+        85.0,
+        76.0,
+        85.0,
+        78.0
+      ],
+      "F19.cell.dna.label": [
+        66.1203,
+        64.1259,
+        87.8797,
+        67.8741
+      ],
+      "F19.cell.rna.0": [
+        99.0,
+        73.0,
+        112.0,
+        73.0
+      ],
+      "F19.cell.rna.1": [
+        99.0,
+        77.0,
+        112.0,
+        77.0
+      ],
+      "F19.cell.rna.label": [
+        103.0578,
+        64.1259,
+        108.9422,
+        67.8741
+      ],
+      "F19.cell.protein.0": [
+        63.9,
+        50.9,
+        68.1,
+        55.1
+      ],
+      "F19.cell.protein.1": [
+        72.9,
+        50.9,
+        77.1,
+        55.1
+      ],
+      "F19.cell.protein.label": [
+        66.4915,
+        42.1259,
+        75.5085,
+        45.8741
+      ],
+      "F19.cell.metabolite.0": [
+        96.8,
+        51.8,
+        99.2,
+        54.2
+      ],
+      "F19.cell.metabolite.1": [
+        103.8,
+        52.8,
+        106.2,
+        55.2
+      ],
+      "F19.cell.metabolite.2": [
+        109.8,
+        50.8,
+        112.2,
+        53.2
+      ],
+      "F19.cell.metabolite.label": [
+        97.4915,
+        45.1259,
+        106.5085,
+        48.8741
+      ],
+      "F19.window.genome.boundary": [
+        8.0,
+        102.5,
+        56.0,
+        119.5
+      ],
+      "F19.window.genome.label": [
+        27.2375,
+        107.0312,
+        36.7625,
+        114.9687
+      ],
+      "F19.observe.genome": [
+        32.0,
+        77.0,
+        61.0,
+        102.0
+      ],
+      "F19.measure.genome": [
+        60.35,
+        76.35,
+        61.65,
+        77.65
+      ],
+      "F19.window.epigenome.boundary": [
+        61.0,
+        102.5,
+        109.0,
+        119.5
+      ],
+      "F19.window.epigenome.label": [
+        77.0625,
+        107.0312,
+        92.9375,
+        114.9687
+      ],
+      "F19.observe.epigenome": [
+        85.0,
+        81.0,
+        85.0,
+        102.0
+      ],
+      "F19.measure.epigenome": [
+        84.35,
+        80.35,
+        85.65,
+        81.65
+      ],
+      "F19.window.transcriptome.boundary": [
+        114.0,
+        102.5,
+        162.0,
+        119.5
+      ],
+      "F19.window.transcriptome.label": [
+        126.57,
+        107.0312,
+        149.43,
+        114.9687
+      ],
+      "F19.observe.transcriptome": [
+        112.0,
+        78.0,
+        138.0,
+        102.0
+      ],
+      "F19.measure.transcriptome": [
+        111.35,
+        77.35,
+        112.65,
+        78.65
+      ],
+      "F19.window.proteome.boundary": [
+        10.0,
+        13.5,
+        72.0,
+        30.5
+      ],
+      "F19.window.proteome.label": [
+        33.0625,
+        18.0312,
+        48.9375,
+        25.9687
+      ],
+      "F19.observe.proteome": [
+        41.0,
+        31.0,
+        66.0,
+        51.0
+      ],
+      "F19.measure.proteome": [
+        65.35,
+        50.35,
+        66.65,
+        51.65
+      ],
+      "F19.window.metabolome.boundary": [
+        98.0,
+        13.5,
+        160.0,
+        30.5
+      ],
+      "F19.window.metabolome.label": [
+        121.0625,
+        18.0312,
+        136.9375,
+        25.9687
+      ],
+      "F19.observe.metabolome": [
+        111.0,
+        31.0,
+        129.0,
+        50.0
+      ],
+      "F19.measure.metabolome": [
+        110.35,
+        49.35,
+        111.65,
+        50.65
+      ],
+      "F19.scope.note": [
+        6.0,
+        6.1259,
+        123.221,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2976
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 41,
+    "svg_text_count": 16,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F19.cell.system": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F19.cell.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F19.cell.dna.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.state.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.cell.state.bond.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.state.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.cell.state.bond.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.dna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F19.cell.rna.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.rna.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F19.cell.rna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F19.cell.protein.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.cell.protein.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.cell.protein.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F19.cell.metabolite.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.cell.metabolite.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.cell.metabolite.2": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.cell.metabolite.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F19.window.genome.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F19.window.genome.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F19.observe.genome": {
+      "type": "FancyArrowPatch",
+      "role": "observe"
+    },
+    "F19.measure.genome": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.window.epigenome.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F19.window.epigenome.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F19.observe.epigenome": {
+      "type": "FancyArrowPatch",
+      "role": "observe"
+    },
+    "F19.measure.epigenome": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.window.transcriptome.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F19.window.transcriptome.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F19.observe.transcriptome": {
+      "type": "FancyArrowPatch",
+      "role": "observe"
+    },
+    "F19.measure.transcriptome": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.window.proteome.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F19.window.proteome.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F19.observe.proteome": {
+      "type": "FancyArrowPatch",
+      "role": "observe"
+    },
+    "F19.measure.proteome": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.window.metabolome.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F19.window.metabolome.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F19.observe.metabolome": {
+      "type": "FancyArrowPatch",
+      "role": "observe"
+    },
+    "F19.measure.metabolome": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F19.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F19_five_windows.py": "29c226033b20963648d4ef631bd92980bc37b0bc7dfc6ab49f4319da68124528",
+    "figure_specs/F19.json": "958207f6f9113a0d7e439c19e5a44af3c77622439c40846fcffbd44d46701a9b",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F19_five_windows.png",
+      "sha256": "951ef3fcd271f914749488b0caae54973d98a9dc38d8613788681176a8ff7c94"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F19_five_windows.pdf",
+      "sha256": "9b4bad1c561baa279696dc9273b69669e10bc188bbff65d92ab610c1c512681a"
+    },
+    "svg": {
+      "path": "outputs/svg/F19_five_windows.svg",
+      "sha256": "f6cb15689c287f8790d9454b1646f31825f3eb30553f183852d29b63b8a9c8d1"
+    }
+  },
+  "adjacent_pdf_sha256": "9b4bad1c561baa279696dc9273b69669e10bc188bbff65d92ab610c1c512681a",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

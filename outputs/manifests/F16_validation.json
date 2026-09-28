@@ -1,0 +1,750 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F16",
+    "title": "同一 DNA 可以产生不同 RNA 图景",
+    "source_paragraphs": "P0479 RNA存量/版本不是即时转录速率；P0481–P0491 A/B条件下有无、数量、1—2—4与1—3—4版本三类差异，也有不变基因。",
+    "cognitive_task": "相近DNA之下，RNA可在存在、数量或剪接版本上不同，且某些基因保持不变。",
+    "layout_rationale": "170×126 mm。顶部一份共同 DNA 背景，下方 A/B 两条件形成四行矩阵；依次对照检出情况、RNA 定性数量、剪接版本 1—2—4／1—3—4 和不变参照。各行共用列位置与行分隔线，分子图符仅传达定性差别。",
+    "essential_objects": "A/B两条件、共同DNA背景、三类示例基因/RNA、一类不变参照；剪接版本1—2—4与1—3—4。",
+    "relationships": "条件对照；RNA的定性数量差别；外显子版本对应；测量指向存量与版本而非转录速度。",
+    "misconceptions": "不捏造倍数、热图数据或统计显著性；图符数量仅为概念；不把“未检出”必称绝对不存在；不从RNA直接连到确定功能。",
+    "components": "共同 DNA 片段、两个条件列边界、四个行标签、RNA 线段图符、六个外显子段及短连接、不变参照、RNA 存量不等于即时速率范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 66,
+    "text_count": 15,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F16.shared.heading": [
+        6.0,
+        114.4644,
+        32.289,
+        119.5356
+      ],
+      "F16.shared.dna.upper": [
+        83.0,
+        118.0,
+        154.0,
+        118.0
+      ],
+      "F16.shared.dna.lower": [
+        83.0,
+        114.0,
+        154.0,
+        114.0
+      ],
+      "F16.shared.dna.pair.0": [
+        85.0,
+        114.0,
+        85.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.1": [
+        88.0,
+        114.0,
+        88.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.2": [
+        91.0,
+        114.0,
+        91.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.3": [
+        94.0,
+        114.0,
+        94.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.4": [
+        97.0,
+        114.0,
+        97.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.5": [
+        100.0,
+        114.0,
+        100.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.6": [
+        103.0,
+        114.0,
+        103.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.7": [
+        106.0,
+        114.0,
+        106.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.8": [
+        109.0,
+        114.0,
+        109.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.9": [
+        112.0,
+        114.0,
+        112.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.10": [
+        115.0,
+        114.0,
+        115.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.11": [
+        118.0,
+        114.0,
+        118.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.12": [
+        121.0,
+        114.0,
+        121.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.13": [
+        124.0,
+        114.0,
+        124.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.14": [
+        127.0,
+        114.0,
+        127.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.15": [
+        130.0,
+        114.0,
+        130.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.16": [
+        133.0,
+        114.0,
+        133.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.17": [
+        136.0,
+        114.0,
+        136.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.18": [
+        139.0,
+        114.0,
+        139.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.19": [
+        142.0,
+        114.0,
+        142.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.20": [
+        145.0,
+        114.0,
+        145.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.21": [
+        148.0,
+        114.0,
+        148.0,
+        118.0
+      ],
+      "F16.shared.dna.pair.22": [
+        151.0,
+        114.0,
+        151.0,
+        118.0
+      ],
+      "F16.condition.a": [
+        62.2638,
+        99.4644,
+        73.7362,
+        104.5356
+      ],
+      "F16.condition.b": [
+        126.158,
+        99.4644,
+        137.842,
+        104.5356
+      ],
+      "F16.condition.a.boundary": [
+        40.0,
+        15.0,
+        97.0,
+        95.0
+      ],
+      "F16.condition.b.boundary": [
+        103.0,
+        15.0,
+        162.0,
+        95.0
+      ],
+      "F16.row.0.label": [
+        15.65,
+        82.0156,
+        28.35,
+        85.9844
+      ],
+      "F16.row.1.label": [
+        15.3325,
+        62.0156,
+        28.6675,
+        65.9844
+      ],
+      "F16.row.2.label": [
+        15.65,
+        41.0156,
+        28.35,
+        44.9844
+      ],
+      "F16.row.3.label": [
+        15.65,
+        22.0156,
+        28.35,
+        25.9844
+      ],
+      "F16.row.divider.0": [
+        8.0,
+        74.0,
+        162.0,
+        74.0
+      ],
+      "F16.row.divider.1": [
+        8.0,
+        54.0,
+        162.0,
+        54.0
+      ],
+      "F16.row.divider.2": [
+        8.0,
+        34.0,
+        162.0,
+        34.0
+      ],
+      "F16.detection.a": [
+        58.475,
+        82.0156,
+        77.525,
+        85.9844
+      ],
+      "F16.detection.b.0": [
+        117.0,
+        80.8,
+        146.0,
+        80.8
+      ],
+      "F16.detection.b.1": [
+        117.0,
+        84.0,
+        146.0,
+        84.0
+      ],
+      "F16.detection.b.2": [
+        117.0,
+        87.2,
+        146.0,
+        87.2
+      ],
+      "F16.abundance.a.0": [
+        54.0,
+        64.0,
+        83.0,
+        64.0
+      ],
+      "F16.abundance.b.0": [
+        117.0,
+        60.8,
+        146.0,
+        60.8
+      ],
+      "F16.abundance.b.1": [
+        117.0,
+        64.0,
+        146.0,
+        64.0
+      ],
+      "F16.abundance.b.2": [
+        117.0,
+        67.2,
+        146.0,
+        67.2
+      ],
+      "F16.splice.a.segment.0": [
+        48.0,
+        40.0,
+        59.0,
+        46.0
+      ],
+      "F16.splice.a.label.0": [
+        52.6745,
+        41.1259,
+        54.3255,
+        44.8741
+      ],
+      "F16.splice.a.segment.1": [
+        60.8,
+        40.0,
+        71.8,
+        46.0
+      ],
+      "F16.splice.a.label.1": [
+        65.4745,
+        41.1259,
+        67.1255,
+        44.8741
+      ],
+      "F16.splice.a.join.1": [
+        59.0,
+        43.0,
+        60.8,
+        43.0
+      ],
+      "F16.splice.a.segment.2": [
+        73.6,
+        40.0,
+        84.6,
+        46.0
+      ],
+      "F16.splice.a.label.2": [
+        78.2745,
+        41.1259,
+        79.9255,
+        44.8741
+      ],
+      "F16.splice.a.join.2": [
+        71.8,
+        43.0,
+        73.6,
+        43.0
+      ],
+      "F16.splice.b.segment.0": [
+        111.0,
+        40.0,
+        122.0,
+        46.0
+      ],
+      "F16.splice.b.label.0": [
+        115.6745,
+        41.1259,
+        117.3255,
+        44.8741
+      ],
+      "F16.splice.b.segment.1": [
+        123.8,
+        40.0,
+        134.8,
+        46.0
+      ],
+      "F16.splice.b.label.1": [
+        128.4745,
+        41.1259,
+        130.1255,
+        44.8741
+      ],
+      "F16.splice.b.join.1": [
+        122.0,
+        43.0,
+        123.8,
+        43.0
+      ],
+      "F16.splice.b.segment.2": [
+        136.6,
+        40.0,
+        147.6,
+        46.0
+      ],
+      "F16.splice.b.label.2": [
+        141.2745,
+        41.1259,
+        142.9255,
+        44.8741
+      ],
+      "F16.splice.b.join.2": [
+        134.8,
+        43.0,
+        136.6,
+        43.0
+      ],
+      "F16.stable.a.0": [
+        54.0,
+        22.4,
+        83.0,
+        22.4
+      ],
+      "F16.stable.a.1": [
+        54.0,
+        25.6,
+        83.0,
+        25.6
+      ],
+      "F16.stable.b.0": [
+        117.0,
+        22.4,
+        146.0,
+        22.4
+      ],
+      "F16.stable.b.1": [
+        117.0,
+        25.6,
+        146.0,
+        25.6
+      ],
+      "F16.scope.note": [
+        6.0,
+        6.1259,
+        96.7203,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2976
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 58,
+    "svg_text_count": 15,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F16.shared.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.shared.dna.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.11": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.12": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.13": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.14": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.15": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.16": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.17": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.18": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.19": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.20": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.21": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.shared.dna.pair.22": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.condition.a": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.condition.b": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.condition.a.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F16.condition.b.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F16.row.0.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.row.1.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.row.2.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.row.3.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.row.divider.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.row.divider.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.row.divider.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.detection.a": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.detection.b.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.detection.b.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.detection.b.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.abundance.a.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.abundance.b.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.abundance.b.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.abundance.b.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.splice.a.segment.0": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F16.splice.a.label.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.splice.a.segment.1": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F16.splice.a.label.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.splice.a.join.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.splice.a.segment.2": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F16.splice.a.label.2": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.splice.a.join.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.splice.b.segment.0": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F16.splice.b.label.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.splice.b.segment.1": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F16.splice.b.label.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.splice.b.join.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.splice.b.segment.2": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F16.splice.b.label.2": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F16.splice.b.join.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.stable.a.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.stable.a.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.stable.b.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.stable.b.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F16.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F16_rna_landscapes.py": "8abc73d26f7be8e0feacc5f57f02ca6df4f68d94bc36b7f2ed971d9ed88f33e2",
+    "figure_specs/F16.json": "4075c5486e21cc0111fd13f2c07ef4ca4665de2367d33902b2a734dd326936fc",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F16_rna_landscapes.png",
+      "sha256": "25c2e31138ae8bc6d6abacc73c1f4eb4d5a3a558f058da8f035dd8fec893e29b"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F16_rna_landscapes.pdf",
+      "sha256": "ec781bdbf15998382c35eca70119a60c0537dd30d10d08c3569f989bebf68156"
+    },
+    "svg": {
+      "path": "outputs/svg/F16_rna_landscapes.svg",
+      "sha256": "1298df0aa818086c7eafe921283649ac702d91e0fd19d36ee28a027c187055a2"
+    }
+  },
+  "adjacent_pdf_sha256": "ec781bdbf15998382c35eca70119a60c0537dd30d10d08c3569f989bebf68156",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

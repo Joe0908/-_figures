@@ -1,0 +1,435 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F20",
+    "title": "从结肠组织到结直肠癌的跨层观察",
+    "source_paragraphs": "P0560–P0567同人非肿瘤黏膜/癌组织配对；P0574–P0626生长控制、RNA程序、蛋白、资源分配与组织行为；P0629为学习简化；P0630–P0673不一致与反馈边界。",
+    "cognitive_task": "配对样本中各层测量能检验同一疾病故事，任一层变化仍不保证下一层同向改变。",
+    "layout_rationale": "左右两列对照同一个人的非肿瘤结肠黏膜与结直肠癌组织；五行分别显示DNA、RNA、蛋白质、代谢物和组织行为。取样关系用观察点线，不用演变箭头。",
+    "essential_objects": "同一人两份组织、共同遗传背景、后来体细胞变化、RNA分裂/合成程序、蛋白执行状态、代谢资源、细胞增多/排列紊乱。",
+    "relationships": "配对比较；各层分别观察；层间解释是待检验联系；组织混合细胞及非一致可能作为边界。",
+    "misconceptions": "不把配对样本画成同一块组织的实测纵向演变；不捏造具体突变/数值/热图；不把所有癌症同化为唯一链；非肿瘤癌旁不称完美健康。",
+    "components": "同人取样标题、两份样本节点、两条观察取样线、五个层级标签、十个并列观察卡、配对而非纵向及跨层解释待检验范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      140
+    ],
+    "relations_drawn": [
+      {
+        "id": "sampling.mucosa",
+        "kind": "observe",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "sampling.tumor",
+        "kind": "observe",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    140.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 33,
+    "text_count": 19,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F20.person": [
+        62.648,
+        128.4644,
+        107.352,
+        133.5356
+      ],
+      "F20.sample.mucosa.boundary": [
+        38.0,
+        106.5,
+        96.0,
+        121.5
+      ],
+      "F20.sample.mucosa.label": [
+        55.2948,
+        111.9054,
+        78.7052,
+        116.0946
+      ],
+      "F20.sample.tumor.boundary": [
+        104.0,
+        106.5,
+        162.0,
+        121.5
+      ],
+      "F20.sample.tumor.label": [
+        122.967,
+        111.9054,
+        143.033,
+        116.0946
+      ],
+      "F20.sampling.mucosa": [
+        67.0,
+        123.0,
+        72.0,
+        126.0
+      ],
+      "F20.sampling.tumor": [
+        108.0,
+        123.0,
+        133.0,
+        126.0
+      ],
+      "F20.layer.dna": [
+        16.7827,
+        92.0156,
+        23.2173,
+        95.9844
+      ],
+      "F20.mucosa.dna.boundary": [
+        38.0,
+        87.0,
+        96.0,
+        101.0
+      ],
+      "F20.mucosa.dna.label": [
+        57.983,
+        92.1259,
+        76.017,
+        95.8741
+      ],
+      "F20.tumor.dna.boundary": [
+        104.0,
+        87.0,
+        162.0,
+        101.0
+      ],
+      "F20.tumor.dna.label": [
+        119.4745,
+        90.2517,
+        146.5255,
+        97.7483
+      ],
+      "F20.layer.rna": [
+        16.8673,
+        74.0156,
+        23.1327,
+        77.9844
+      ],
+      "F20.mucosa.rna.boundary": [
+        38.0,
+        69.0,
+        96.0,
+        83.0
+      ],
+      "F20.mucosa.rna.label": [
+        57.983,
+        74.1259,
+        76.017,
+        77.8741
+      ],
+      "F20.tumor.rna.boundary": [
+        104.0,
+        69.0,
+        162.0,
+        83.0
+      ],
+      "F20.tumor.rna.label": [
+        122.4802,
+        72.2517,
+        143.5198,
+        79.7483
+      ],
+      "F20.layer.protein": [
+        15.2375,
+        56.0156,
+        24.7625,
+        59.9844
+      ],
+      "F20.mucosa.protein.boundary": [
+        38.0,
+        51.0,
+        96.0,
+        65.0
+      ],
+      "F20.mucosa.protein.label": [
+        53.4745,
+        56.1259,
+        80.5255,
+        59.8741
+      ],
+      "F20.tumor.protein.boundary": [
+        104.0,
+        51.0,
+        162.0,
+        65.0
+      ],
+      "F20.tumor.protein.label": [
+        119.4745,
+        56.1259,
+        146.5255,
+        59.8741
+      ],
+      "F20.layer.metabolism": [
+        15.2375,
+        38.0156,
+        24.7625,
+        41.9844
+      ],
+      "F20.mucosa.metabolism.boundary": [
+        38.0,
+        33.0,
+        96.0,
+        47.0
+      ],
+      "F20.mucosa.metabolism.label": [
+        57.983,
+        38.1259,
+        76.017,
+        41.8741
+      ],
+      "F20.tumor.metabolism.boundary": [
+        104.0,
+        33.0,
+        162.0,
+        47.0
+      ],
+      "F20.tumor.metabolism.label": [
+        120.9773,
+        38.1259,
+        145.0227,
+        41.8741
+      ],
+      "F20.layer.tissue": [
+        13.65,
+        20.0156,
+        26.35,
+        23.9844
+      ],
+      "F20.mucosa.tissue.boundary": [
+        38.0,
+        15.0,
+        96.0,
+        29.0
+      ],
+      "F20.mucosa.tissue.label": [
+        56.4802,
+        20.1259,
+        77.5198,
+        23.8741
+      ],
+      "F20.tumor.tissue.boundary": [
+        104.0,
+        15.0,
+        162.0,
+        29.0
+      ],
+      "F20.tumor.tissue.label": [
+        119.4745,
+        20.1259,
+        146.5255,
+        23.8741
+      ],
+      "F20.scope.note": [
+        6.0,
+        6.1259,
+        117.2097,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      3307
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 15,
+    "svg_text_count": 21,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F20.person": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.sample.mucosa.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.sample.mucosa.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.sample.tumor.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.sample.tumor.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.sampling.mucosa": {
+      "type": "FancyArrowPatch",
+      "role": "observe"
+    },
+    "F20.sampling.tumor": {
+      "type": "FancyArrowPatch",
+      "role": "observe"
+    },
+    "F20.layer.dna": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.mucosa.dna.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.mucosa.dna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.tumor.dna.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.tumor.dna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.layer.rna": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.mucosa.rna.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.mucosa.rna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.tumor.rna.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.tumor.rna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.layer.protein": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.mucosa.protein.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.mucosa.protein.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.tumor.protein.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.tumor.protein.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.layer.metabolism": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.mucosa.metabolism.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.mucosa.metabolism.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.tumor.metabolism.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.tumor.metabolism.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.layer.tissue": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.mucosa.tissue.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.mucosa.tissue.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.tumor.tissue.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F20.tumor.tissue.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F20.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F20_colorectal_observations.py": "4cf2b4840ff54a24a327abde173ef9b6bd05096dae690e19fe5d8f6286cc9baf",
+    "figure_specs/F20.json": "c1ed16c656fcc3da980d4c5da3aa134c12ecab67554f4361e85058731da94790",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F20_colorectal_observations.png",
+      "sha256": "027cbc241270ca55820e557dfe3554509555fffb796cd7e105ff9ed878708d4f"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F20_colorectal_observations.pdf",
+      "sha256": "d598a91730a613f39613a879d6d5fd739c98a2289d952cbaaf7087e6b829c9e5"
+    },
+    "svg": {
+      "path": "outputs/svg/F20_colorectal_observations.svg",
+      "sha256": "1144547eb5705d3bd896fc5e3da7ca9af7a565df40f0e79f38084edb97522454"
+    }
+  },
+  "adjacent_pdf_sha256": "d598a91730a613f39613a879d6d5fd739c98a2289d952cbaaf7087e6b829c9e5",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

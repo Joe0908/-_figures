@@ -1,0 +1,683 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F11",
+    "title": "同一基因组运行不同细胞程序",
+    "source_paragraphs": "P0276–P0279 神经元/皮肤细胞DNA相近，分化非大规模删除；P0301–P0314 使用的数量、时序、版本及调控状态不同，形成不同结构行为。",
+    "cognitive_task": "相近基因组在不同调控环境中运行不同表达程序，产生不同分子组合与细胞行为。",
+    "layout_rationale": "170×116 mm。两行四列同位对照：相近 DNA、调控状态、RNA 与蛋白组合、细胞工作。神经元与皮肤细胞保留同形 DNA，A/B 标签及分子组合图区分使用程序；每行以三条条件影响线连接，行间细虚线仅用于分隔。",
+    "essential_objects": "神经元与皮肤细胞两条平行轨、相近DNA、不同可接近区域/调控组合、RNA与蛋白组合、信号传递与屏障功能。",
+    "relationships": "DNA相近的对应关系；调控条件差异；表达程序到结构行为的条件性影响。",
+    "misconceptions": "不称完全相同DNA适用于所有细胞；不删去未使用基因；不一基因对应一种身份；形态图只作定位不替代机制。",
+    "components": "两组平行 DNA 片段、A/B 调控节点、RNA 线段与蛋白质图符、细胞功能节点、六条条件影响边、行分隔线、非计数范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "neuron.influence.0",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "neuron.influence.1",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "neuron.influence.2",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.influence.0",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.influence.1",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.influence.2",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 55,
+    "text_count": 14,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F11.shared.heading": [
+        6.0,
+        104.4644,
+        66.96,
+        109.5356
+      ],
+      "F11.column.0": [
+        19.2478,
+        94.0156,
+        32.7522,
+        97.9844
+      ],
+      "F11.column.1": [
+        58.65,
+        94.0156,
+        71.35,
+        97.9844
+      ],
+      "F11.column.2": [
+        99.745,
+        94.0156,
+        116.255,
+        97.9844
+      ],
+      "F11.column.3": [
+        141.65,
+        94.0156,
+        154.35,
+        97.9844
+      ],
+      "F11.neuron.cell": [
+        21.2375,
+        87.0156,
+        30.7625,
+        90.9844
+      ],
+      "F11.neuron.dna.upper": [
+        15.0,
+        78.0,
+        38.0,
+        78.0
+      ],
+      "F11.neuron.dna.lower": [
+        15.0,
+        74.0,
+        38.0,
+        74.0
+      ],
+      "F11.neuron.dna.pair.0": [
+        17.0,
+        74.0,
+        17.0,
+        78.0
+      ],
+      "F11.neuron.dna.pair.1": [
+        20.0,
+        74.0,
+        20.0,
+        78.0
+      ],
+      "F11.neuron.dna.pair.2": [
+        23.0,
+        74.0,
+        23.0,
+        78.0
+      ],
+      "F11.neuron.dna.pair.3": [
+        26.0,
+        74.0,
+        26.0,
+        78.0
+      ],
+      "F11.neuron.dna.pair.4": [
+        29.0,
+        74.0,
+        29.0,
+        78.0
+      ],
+      "F11.neuron.dna.pair.5": [
+        32.0,
+        74.0,
+        32.0,
+        78.0
+      ],
+      "F11.neuron.dna.pair.6": [
+        35.0,
+        74.0,
+        35.0,
+        78.0
+      ],
+      "F11.neuron.regulation.boundary": [
+        47.0,
+        66.5,
+        83.0,
+        85.5
+      ],
+      "F11.neuron.regulation.label": [
+        55.7502,
+        72.0312,
+        74.2498,
+        79.9688
+      ],
+      "F11.neuron.products.label": [
+        103.5127,
+        81.0156,
+        112.4873,
+        84.9844
+      ],
+      "F11.neuron.rna.0": [
+        94.0,
+        75.0,
+        106.0,
+        75.0
+      ],
+      "F11.neuron.protein.0": [
+        111.7,
+        70.7,
+        114.3,
+        73.3
+      ],
+      "F11.neuron.rna.1": [
+        94.0,
+        72.0,
+        103.0,
+        72.0
+      ],
+      "F11.neuron.protein.1": [
+        115.7,
+        70.7,
+        118.3,
+        73.3
+      ],
+      "F11.neuron.rna.2": [
+        94.0,
+        69.0,
+        108.0,
+        69.0
+      ],
+      "F11.neuron.protein.2": [
+        119.7,
+        70.7,
+        122.3,
+        73.3
+      ],
+      "F11.neuron.function.boundary": [
+        133.5,
+        67.0,
+        162.5,
+        85.0
+      ],
+      "F11.neuron.function.label": [
+        141.65,
+        74.0156,
+        154.35,
+        77.9844
+      ],
+      "F11.neuron.influence.0": [
+        40.0,
+        75.4003,
+        44.5661,
+        76.5997
+      ],
+      "F11.neuron.influence.1": [
+        85.0,
+        75.4003,
+        90.5661,
+        76.5997
+      ],
+      "F11.neuron.influence.2": [
+        125.0,
+        75.4003,
+        130.5661,
+        76.5997
+      ],
+      "F11.skin.cell": [
+        19.65,
+        50.0156,
+        32.35,
+        53.9844
+      ],
+      "F11.skin.dna.upper": [
+        15.0,
+        41.0,
+        38.0,
+        41.0
+      ],
+      "F11.skin.dna.lower": [
+        15.0,
+        37.0,
+        38.0,
+        37.0
+      ],
+      "F11.skin.dna.pair.0": [
+        17.0,
+        37.0,
+        17.0,
+        41.0
+      ],
+      "F11.skin.dna.pair.1": [
+        20.0,
+        37.0,
+        20.0,
+        41.0
+      ],
+      "F11.skin.dna.pair.2": [
+        23.0,
+        37.0,
+        23.0,
+        41.0
+      ],
+      "F11.skin.dna.pair.3": [
+        26.0,
+        37.0,
+        26.0,
+        41.0
+      ],
+      "F11.skin.dna.pair.4": [
+        29.0,
+        37.0,
+        29.0,
+        41.0
+      ],
+      "F11.skin.dna.pair.5": [
+        32.0,
+        37.0,
+        32.0,
+        41.0
+      ],
+      "F11.skin.dna.pair.6": [
+        35.0,
+        37.0,
+        35.0,
+        41.0
+      ],
+      "F11.skin.regulation.boundary": [
+        47.0,
+        29.5,
+        83.0,
+        48.5
+      ],
+      "F11.skin.regulation.label": [
+        55.6655,
+        35.0312,
+        74.3345,
+        42.9688
+      ],
+      "F11.skin.products.label": [
+        103.428,
+        44.0156,
+        112.572,
+        47.9844
+      ],
+      "F11.skin.rna.0": [
+        94.0,
+        38.0,
+        102.0,
+        38.0
+      ],
+      "F11.skin.protein.0": [
+        111.7,
+        33.7,
+        114.3,
+        36.3
+      ],
+      "F11.skin.rna.1": [
+        94.0,
+        35.0,
+        108.0,
+        35.0
+      ],
+      "F11.skin.protein.1": [
+        115.7,
+        33.7,
+        118.3,
+        36.3
+      ],
+      "F11.skin.rna.2": [
+        94.0,
+        32.0,
+        104.0,
+        32.0
+      ],
+      "F11.skin.protein.2": [
+        119.7,
+        33.7,
+        122.3,
+        36.3
+      ],
+      "F11.skin.function.boundary": [
+        133.5,
+        30.0,
+        162.5,
+        48.0
+      ],
+      "F11.skin.function.label": [
+        140.0625,
+        37.0156,
+        155.9375,
+        40.9844
+      ],
+      "F11.skin.influence.0": [
+        40.0,
+        38.4003,
+        44.5661,
+        39.5997
+      ],
+      "F11.skin.influence.1": [
+        85.0,
+        38.4003,
+        90.5661,
+        39.5997
+      ],
+      "F11.skin.influence.2": [
+        125.0,
+        38.4003,
+        130.5661,
+        39.5997
+      ],
+      "F11.row.separator": [
+        8.0,
+        57.0,
+        162.0,
+        57.0
+      ],
+      "F11.scope.note": [
+        6.0,
+        6.1259,
+        108.235,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2740
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 48,
+    "svg_text_count": 16,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F11.shared.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.column.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.column.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.column.2": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.column.3": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.neuron.cell": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.neuron.dna.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.dna.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.dna.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.dna.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.dna.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.dna.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.dna.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.dna.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.dna.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.regulation.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F11.neuron.regulation.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.neuron.products.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.neuron.rna.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.protein.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F11.neuron.rna.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.protein.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F11.neuron.rna.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.neuron.protein.2": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F11.neuron.function.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F11.neuron.function.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.neuron.influence.0": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F11.neuron.influence.1": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F11.neuron.influence.2": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F11.skin.cell": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.skin.dna.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.dna.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.dna.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.dna.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.dna.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.dna.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.dna.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.dna.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.dna.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.regulation.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F11.skin.regulation.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.skin.products.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.skin.rna.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.protein.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F11.skin.rna.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.protein.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F11.skin.rna.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.skin.protein.2": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F11.skin.function.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F11.skin.function.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F11.skin.influence.0": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F11.skin.influence.1": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F11.skin.influence.2": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F11.row.separator": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F11.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F11_cell_programs.py": "31b3adc0b4929c621867b32e435996f731e56b266248d161e3ad1e03d7256a00",
+    "figure_specs/F11.json": "b5cdcb4b9b57720f90f571f42fba5013b6aa1ac50d5ff92899f6270cfde75676",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F11_cell_programs.png",
+      "sha256": "27c082e3ea32223403dcf67a779e01960611b0ff8104f0eadada4b1dee1f7e5a"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F11_cell_programs.pdf",
+      "sha256": "82ae839bdef326a31adac8be0738bddb7624d88ee30302229fd830b10af62a10"
+    },
+    "svg": {
+      "path": "outputs/svg/F11_cell_programs.svg",
+      "sha256": "05807866d3b51864e6345da7b742d1cb9a3b16905282f4d3fad74b6b2c6dc291"
+    }
+  },
+  "adjacent_pdf_sha256": "82ae839bdef326a31adac8be0738bddb7624d88ee30302229fd830b10af62a10",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

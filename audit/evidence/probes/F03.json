@@ -1,0 +1,262 @@
+{
+  "id": "F03",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "245ba918eaf153f1c24cdeac5e90aba21ff36d070cd0aeaac202ea8283c5ab93",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F03_old_and_new_strands.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 27,
+  "texts": [
+    {
+      "id": "F03.heading.6",
+      "text": "原来的一份",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        103.46440972222221,
+        26.32000000000001,
+        108.53559027777777
+      ]
+    },
+    {
+      "id": "F03.heading.65",
+      "text": "各自作为模板",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        65.00000000000001,
+        103.46440972222221,
+        89.38400000000003,
+        108.53559027777777
+      ]
+    },
+    {
+      "id": "F03.heading.123",
+      "text": "两份复制结果",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        123.00000000000003,
+        103.46440972222221,
+        147.38400000000001,
+        108.53559027777777
+      ]
+    },
+    {
+      "id": "F03.old.a.tag",
+      "text": "旧链 A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        21.745500000000014,
+        77.12586805555556,
+        30.254500000000014,
+        80.87413194444444
+      ]
+    },
+    {
+      "id": "F03.old.b.tag",
+      "text": "旧链 B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        21.68200000000001,
+        47.12586805555556,
+        30.318000000000012,
+        50.87413194444445
+      ]
+    },
+    {
+      "id": "F03.template.key",
+      "text": "虚线箭头：模板参照",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        73.4745,
+        92.12586805555554,
+        100.52550000000001,
+        95.87413194444444
+      ]
+    },
+    {
+      "id": "F03.output.a",
+      "text": "旧链 A ＋ 新链",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        130.5596666666667,
+        62.12586805555556,
+        149.44033333333334,
+        65.87413194444444
+      ]
+    },
+    {
+      "id": "F03.output.b",
+      "text": "新链 ＋ 旧链 B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        130.49616666666668,
+        31.125868055555554,
+        149.50383333333335,
+        34.87413194444444
+      ]
+    },
+    {
+      "id": "F03.raw.label",
+      "text": "游离的 DNA 原料",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        45.78166666666669,
+        21.125868055555554,
+        68.21833333333336,
+        24.874131944444446
+      ]
+    },
+    {
+      "id": "F03.synthesis.label",
+      "text": "合成新链",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        85.98866666666666,
+        34.12586805555556,
+        98.01133333333334,
+        37.87413194444444
+      ]
+    },
+    {
+      "id": "F03.scope.note",
+      "text": "旧链各保留一条；铜色虚线是新链。仅示意链的去向，不表示真实空间或时间比例。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        7.125868055555555,
+        117.20966666666666,
+        10.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "template.a",
+      "kind": "template",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "template.b",
+      "kind": "template",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "synthesis",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F03",
+    "title": "DNA 复制中的旧链与新链",
+    "source_paragraphs": "P0078–P0083：细胞分裂前先复制 DNA，每一旧链配成一条新互补链，两份结果各含一旧一新。P0087–P0091 复制稳定但非绝对无误。",
+    "cognitive_task": "原来的两条链各自带出一条新互补链，结果是两份各含一旧一新的 DNA。",
+    "layout_rationale": "三列从原双链经分离到两份结果；两条旧链保持连续路径，新链用铜色和虚线双重区分；原料入口独立。",
+    "essential_objects": "一份旧双链、分开的两旧链、新原料的概念入口、两条新链、两份最终双链。",
+    "relationships": "旧链身份保持；互补模板关系与新链合成过程分开编码；从一份到两份的时间顺序。",
+    "misconceptions": "不能让旧链消失、混成半截新旧；不能说 DNA 材料凭空增加；不画细胞分裂的详细阶段或暗示百分百无误。",
+    "components": "连续链、模板箭头、合成箭头、原料容器、旧新身份标签",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "template.a",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "template.b",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "synthesis",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 20,
+      "fonts": [
+        {
+          "name": "NJGOVB+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 11,
+      "images": 0,
+      "semantic_ids": 27,
+      "font_subset_glyphs": 61
+    }
+  },
+  "output_hashes": {
+    "png": "a1c82dd1218272b3a8110e7d5584c02edc4d945e617a43cb804c435266832a66",
+    "pdf": "0a476f3cbea2f9e2daeee3650e50f8b271b2c95537924ac5af4593b7222653e7",
+    "svg": "ad0f2a7b915583839524542a7d9f2d165dcb6d45525e9991d9c899cd479979c8"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

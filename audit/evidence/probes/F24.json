@@ -1,0 +1,289 @@
+{
+  "id": "F24",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "7a4ddcd87ecb6d2fef9785d2210ee01670cd6a580573a04c9ea3ab984c7a65e0",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F24_converging_disease_paths.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 21,
+  "texts": [
+    {
+      "id": "F24.title",
+      "text": "同一病名，需要继续辨认机制",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        103.96440972222221,
+        58.83200000000001,
+        109.03559027777777
+      ]
+    },
+    {
+      "id": "F24.patient.a",
+      "text": "甲",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        8.243166666666676,
+        78.79513888888889,
+        11.756833333333345,
+        83.2048611111111
+      ]
+    },
+    {
+      "id": "F24.path.a.egfr.label",
+      "text": "特定 EGFR\n激活改变",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        33.12600000000002,
+        76.81076388888889,
+        48.87400000000001,
+        85.1892361111111
+      ]
+    },
+    {
+      "id": "F24.path.a.signal.label",
+      "text": "异常生长\n信号持续",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        84.31133333333335,
+        76.81076388888889,
+        97.68866666666669,
+        85.1892361111111
+      ]
+    },
+    {
+      "id": "F24.patient.b",
+      "text": "乙",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        8.243166666666676,
+        46.79513888888889,
+        11.756833333333345,
+        51.20486111111111
+      ]
+    },
+    {
+      "id": "F24.path.b.unknown.label",
+      "text": "其他可能路径\n或机制尚未明确",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        35.294833333333344,
+        44.81076388888889,
+        58.705166666666685,
+        53.18923611111111
+      ]
+    },
+    {
+      "id": "F24.disease.shared.label",
+      "text": "肺腺癌\n相似组织表现",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        132.967,
+        60.8107638888889,
+        153.03300000000002,
+        69.18923611111111
+      ]
+    },
+    {
+      "id": "F24.classification.label",
+      "text": "组织层分类",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        135.0625,
+        89.015625,
+        150.9375,
+        92.984375
+      ]
+    },
+    {
+      "id": "F24.unknown.boundary",
+      "text": "尚未明确 ≠ 没有机制",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        71.7971666666667,
+        34.12586805555556,
+        100.20283333333336,
+        37.87413194444444
+      ]
+    },
+    {
+      "id": "F24.measurement.question",
+      "text": "分子检测：哪些变化真正参与了疾病的形成和维持？",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        48.48750000000002,
+        22.015625,
+        121.51250000000002,
+        25.984375
+      ]
+    },
+    {
+      "id": "F24.measurement.caution",
+      "text": "发现变化或有用标志物，并不自动证明因果。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        54.94333333333336,
+        16.125868055555557,
+        115.05666666666667,
+        19.874131944444443
+      ]
+    },
+    {
+      "id": "F24.scope.note",
+      "text": "不同路径可汇合到相似表现；此图不为乙补造具体驱动基因。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.1258680555555545,
+        87.153,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "path.a.signal_propagation",
+      "kind": "process",
+      "source": "path.a.egfr",
+      "target": "path.a.signal",
+      "label": null
+    },
+    {
+      "id": "convergence.a",
+      "kind": "conditional",
+      "source": "path.a.signal",
+      "target": "disease.shared",
+      "label": null
+    },
+    {
+      "id": "convergence.b",
+      "kind": "conditional",
+      "source": "path.b.unknown",
+      "target": "disease.shared",
+      "label": null
+    },
+    {
+      "id": "measurement.port",
+      "kind": "observe",
+      "source": "path.b.unknown",
+      "target": "measurement.boundary",
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F24",
+    "title": "相似疾病表现可以来自不同路径",
+    "source_paragraphs": "P0831–P0860 EGFR路径与其他/未知路径汇合肺腺癌；P0862–P0876驱动/搭载；P0893标志物未必机制；P0903–P0937从重要状态到治疗入口。",
+    "cognitive_task": "相似组织表现可以由不同路径形成和维持，分子检测要辨认关键机制，不能把每个变化都当原因。",
+    "layout_rationale": "两条不同机制路径汇合肺腺癌组织表现，甲保留特定EGFR路径，乙保留其他/未知；下部独立的分子检测观察窗追问机制。",
+    "essential_objects": "甲的特定EGFR激活→异常生长信号；乙的其他可能/未明确路径；共享肺腺癌表现；分子观察端口。",
+    "relationships": "不同机制路径可汇合到相似结果；病名是组织分类；检测提供线索，未知路径保留空缺。",
+    "misconceptions": "不给乙补造具体驱动基因；不把未知等于无机制；不从同病反推同原因；不把有用标志物直接画成治疗靶点或致病箭头。",
+    "components": "汇合条件线、未知路径节点、疾病分类节点、紫色观察端口、因果边界说明",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "path.a.signal_propagation",
+        "kind": "process",
+        "source": "path.a.egfr",
+        "target": "path.a.signal",
+        "label": null
+      },
+      {
+        "id": "convergence.a",
+        "kind": "conditional",
+        "source": "path.a.signal",
+        "target": "disease.shared",
+        "label": null
+      },
+      {
+        "id": "convergence.b",
+        "kind": "conditional",
+        "source": "path.b.unknown",
+        "target": "disease.shared",
+        "label": null
+      },
+      {
+        "id": "measurement.port",
+        "kind": "observe",
+        "source": "path.b.unknown",
+        "target": "measurement.boundary",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 13,
+      "fonts": [
+        {
+          "name": "FUUOZH+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 16,
+      "images": 0,
+      "semantic_ids": 21,
+      "font_subset_glyphs": 104
+    }
+  },
+  "output_hashes": {
+    "png": "0b1a1ec710bc7e1b5da13542d487f4aceba6fd563806921688464f988163a3f4",
+    "pdf": "aa5442fd274ee7b1d6141e290df9f8c7506b77db1f9b62c9db22cbad7154b156",
+    "svg": "fbb24d76da784197943b34f5714e1625ef79c4b7aac8866a6b74d53c47748b48"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

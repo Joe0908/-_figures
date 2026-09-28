@@ -1,0 +1,626 @@
+{
+  "id": "F21",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "5e01e0abca9bc920d704dc5bd932fcd0dc5ae34c653605979ab70638202e8a79",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F21_tissue_cell_space.py",
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "artist_count": 71,
+  "texts": [
+    {
+      "id": "F21.title",
+      "text": "同一块组织，保留不同的信息",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        113.96440972222219,
+        58.83200000000001,
+        119.03559027777776
+      ]
+    },
+    {
+      "id": "F21.source.cell.0.identity",
+      "text": "癌",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        74.49716666666669,
+        105.12586805555554,
+        77.50283333333336,
+        108.87413194444443
+      ]
+    },
+    {
+      "id": "F21.source.cell.1.identity",
+      "text": "免",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        83.49716666666669,
+        105.12586805555554,
+        86.50283333333334,
+        108.87413194444443
+      ]
+    },
+    {
+      "id": "F21.source.cell.2.identity",
+      "text": "癌",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        92.49716666666667,
+        105.12586805555554,
+        95.50283333333334,
+        108.87413194444443
+      ]
+    },
+    {
+      "id": "F21.source.cell.3.identity",
+      "text": "间",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        74.49716666666669,
+        96.12586805555553,
+        77.50283333333336,
+        99.87413194444444
+      ]
+    },
+    {
+      "id": "F21.source.cell.4.identity",
+      "text": "癌",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        83.49716666666669,
+        96.12586805555553,
+        86.50283333333334,
+        99.87413194444444
+      ]
+    },
+    {
+      "id": "F21.source.cell.5.identity",
+      "text": "免",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        92.49716666666667,
+        96.12586805555553,
+        95.50283333333334,
+        99.87413194444444
+      ]
+    },
+    {
+      "id": "F21.source.label",
+      "text": "示例组织",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        110.0,
+        100.90538194444444,
+        123.37733333333335,
+        105.09461805555553
+      ]
+    },
+    {
+      "id": "F21.legend.0.identity",
+      "text": "癌",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        8.497166666666677,
+        104.12586805555551,
+        11.502833333333346,
+        107.87413194444443
+      ]
+    },
+    {
+      "id": "F21.legend.label.0",
+      "text": "癌细胞",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        17.000000000000014,
+        104.12586805555551,
+        26.017000000000014,
+        107.87413194444443
+      ]
+    },
+    {
+      "id": "F21.legend.1.identity",
+      "text": "免",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        8.497166666666677,
+        94.12586805555553,
+        11.502833333333346,
+        97.87413194444443
+      ]
+    },
+    {
+      "id": "F21.legend.label.1",
+      "text": "免疫细胞",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        17.000000000000014,
+        94.12586805555553,
+        29.02266666666668,
+        97.87413194444443
+      ]
+    },
+    {
+      "id": "F21.legend.2.identity",
+      "text": "间",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        8.497166666666677,
+        84.12586805555554,
+        11.502833333333346,
+        87.87413194444444
+      ]
+    },
+    {
+      "id": "F21.legend.label.2",
+      "text": "间质细胞",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        17.000000000000014,
+        84.12586805555554,
+        29.02266666666668,
+        87.87413194444444
+      ]
+    },
+    {
+      "id": "F21.measure.0.heading",
+      "text": "群体组学",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        22.97266666666668,
+        71.79513888888889,
+        37.027333333333345,
+        76.2048611111111
+      ]
+    },
+    {
+      "id": "F21.measure.1.heading",
+      "text": "单细胞组学",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        76.21583333333335,
+        71.79513888888889,
+        93.78416666666668,
+        76.2048611111111
+      ]
+    },
+    {
+      "id": "F21.measure.2.heading",
+      "text": "空间组学",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        132.9726666666667,
+        71.79513888888889,
+        147.02733333333336,
+        76.2048611111111
+      ]
+    },
+    {
+      "id": "F21.bulk.question",
+      "text": "发生了什么？",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        19.959000000000014,
+        60.79513888888888,
+        41.04100000000001,
+        65.20486111111109
+      ]
+    },
+    {
+      "id": "F21.bulk.token.0.identity",
+      "text": "癌",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        18.497166666666676,
+        48.12586805555554,
+        21.502833333333346,
+        51.87413194444442
+      ]
+    },
+    {
+      "id": "F21.bulk.token.1.identity",
+      "text": "免",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        28.497166666666676,
+        48.12586805555554,
+        31.502833333333346,
+        51.87413194444442
+      ]
+    },
+    {
+      "id": "F21.bulk.token.2.identity",
+      "text": "间",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        38.49716666666668,
+        48.12586805555554,
+        41.50283333333335,
+        51.87413194444442
+      ]
+    },
+    {
+      "id": "F21.bulk.result",
+      "text": "混合后的总体信号",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        18.47733333333335,
+        33.12586805555555,
+        42.52266666666668,
+        36.874131944444436
+      ]
+    },
+    {
+      "id": "F21.single.question",
+      "text": "谁发生变化？",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        74.45900000000002,
+        60.79513888888888,
+        95.54100000000001,
+        65.20486111111109
+      ]
+    },
+    {
+      "id": "F21.single.cell.0.identity",
+      "text": "癌",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        68.49716666666669,
+        49.12586805555555,
+        71.50283333333336,
+        52.874131944444436
+      ]
+    },
+    {
+      "id": "F21.single.cell.1.identity",
+      "text": "免",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        82.49716666666669,
+        47.12586805555556,
+        85.50283333333336,
+        50.874131944444436
+      ]
+    },
+    {
+      "id": "F21.single.cell.2.identity",
+      "text": "癌",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        98.49716666666667,
+        50.12586805555556,
+        101.50283333333334,
+        53.87413194444443
+      ]
+    },
+    {
+      "id": "F21.single.cell.3.identity",
+      "text": "间",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        73.49716666666669,
+        38.12586805555555,
+        76.50283333333336,
+        41.87413194444444
+      ]
+    },
+    {
+      "id": "F21.single.cell.4.identity",
+      "text": "免",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        92.49716666666667,
+        38.12586805555555,
+        95.50283333333334,
+        41.87413194444444
+      ]
+    },
+    {
+      "id": "F21.single.result",
+      "text": "身份和状态",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        77.48583333333335,
+        29.625868055555546,
+        92.51416666666668,
+        33.37413194444444
+      ]
+    },
+    {
+      "id": "F21.space.question",
+      "text": "变化在哪里？",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        128.959,
+        60.79513888888888,
+        150.04100000000003,
+        65.20486111111109
+      ]
+    },
+    {
+      "id": "F21.space.cell.0.identity",
+      "text": "癌",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        127.49716666666669,
+        48.12586805555554,
+        130.50283333333334,
+        51.87413194444442
+      ]
+    },
+    {
+      "id": "F21.space.cell.1.identity",
+      "text": "免",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        137.4971666666667,
+        48.12586805555554,
+        140.50283333333337,
+        51.87413194444442
+      ]
+    },
+    {
+      "id": "F21.space.cell.2.identity",
+      "text": "癌",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        148.4971666666667,
+        48.12586805555554,
+        151.50283333333337,
+        51.87413194444442
+      ]
+    },
+    {
+      "id": "F21.space.cell.3.identity",
+      "text": "间",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        127.49716666666669,
+        38.12586805555555,
+        130.50283333333334,
+        41.87413194444444
+      ]
+    },
+    {
+      "id": "F21.space.cell.4.identity",
+      "text": "癌",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        137.4971666666667,
+        38.12586805555555,
+        140.50283333333337,
+        41.87413194444444
+      ]
+    },
+    {
+      "id": "F21.space.cell.5.identity",
+      "text": "免",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        148.4971666666667,
+        38.12586805555555,
+        151.50283333333337,
+        41.87413194444444
+      ]
+    },
+    {
+      "id": "F21.space.result",
+      "text": "保留原位关系",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        130.48300000000003,
+        29.125868055555546,
+        148.51700000000002,
+        32.87413194444444
+      ]
+    },
+    {
+      "id": "F21.mean.ambiguity",
+      "text": "相似平均值，可能来自单个细胞状态改变，也可能来自细胞组成改变。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        16.12586805555555,
+        99.17566666666666,
+        19.874131944444443
+      ]
+    },
+    {
+      "id": "F21.scope.note",
+      "text": "示意分布；空间测量未必达到单细胞分辨率，相邻也不等于通讯。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.125868055555554,
+        93.16433333333333,
+        9.874131944444443
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "sampling.0",
+      "kind": "observe",
+      "source": "source.tissue",
+      "target": "measure.0.frame",
+      "label": null
+    },
+    {
+      "id": "sampling.1",
+      "kind": "observe",
+      "source": "source.tissue",
+      "target": "measure.1.frame",
+      "label": null
+    },
+    {
+      "id": "sampling.2",
+      "kind": "observe",
+      "source": "source.tissue",
+      "target": "measure.2.frame",
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F21",
+    "title": "从组织平均值到细胞与空间",
+    "source_paragraphs": "P0688–P0701组织混合，RNA升高可来自单细胞变化或细胞组成改变；P0703–P0727群体/单细胞/空间各答发生什么、谁、哪里；P0731–P0732关联边界。",
+    "cognitive_task": "群体、单细胞与空间观察保留不同信息：总体变化、细胞来源和原位关系不能互相替代。",
+    "layout_rationale": "同一组织位于上方，三条无箭头观察连线分到横向并列的群体、单细胞与空间面板；以混合括号、散列身份、原位小图表现各自保留的信息，避免升级阶梯。",
+    "essential_objects": "同一示例组织、癌细胞/免疫/间质等不同细胞、群体混合测量、分离的单细胞、保留位置的空间图。",
+    "relationships": "三种测量对同一来源的取样/对应；每种保留和丢失的信息；细胞构成与单细胞状态两种解释。",
+    "misconceptions": "不把三种组学画成必然逐级升级；不保证空间测量总是单细胞分辨率；不把相邻直接等同通讯；示意分布不是实际患者数据。",
+    "components": "带身份汉字的细胞圆形、组织边界、紫色观察连线、集合括号、位置框、均值歧义注释",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "sampling.0",
+        "kind": "observe",
+        "source": "source.tissue",
+        "target": "measure.0.frame",
+        "label": null
+      },
+      {
+        "id": "sampling.1",
+        "kind": "observe",
+        "source": "source.tissue",
+        "target": "measure.1.frame",
+        "label": null
+      },
+      {
+        "id": "sampling.2",
+        "kind": "observe",
+        "source": "source.tissue",
+        "target": "measure.2.frame",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2976
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        125.99999643961587
+      ],
+      "images": 0,
+      "vector_paths": 33,
+      "fonts": [
+        {
+          "name": "DXLIHE+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 39,
+      "images": 0,
+      "semantic_ids": 71,
+      "font_subset_glyphs": 83
+    }
+  },
+  "output_hashes": {
+    "png": "a56dc0ba748f9b22f9bb636be71a7dfb23a271999725b7e314d50be8ddb0e096",
+    "pdf": "06916a6cef9f37e6bcea36c5c6a1b703c586a4382de0256bd85242cd8de0285a",
+    "svg": "c58055d04c5a92b3650fa996b38df9a8474816957311b0bb6bb060075b417ef3"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

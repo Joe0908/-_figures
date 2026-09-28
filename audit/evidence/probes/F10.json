@@ -1,0 +1,276 @@
+{
+  "id": "F10",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "295435e0dc88d4edd173d2d8d7606744eebcc1c75fba4204f055be257d89a528",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F10_access_to_transcription.py",
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "artist_count": 27,
+  "texts": [
+    {
+      "id": "F10.a.heading",
+      "text": "包装影响接近机会",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        113.46440972222219,
+        38.51200000000001,
+        118.53559027777776
+      ]
+    },
+    {
+      "id": "F10.b.heading",
+      "text": "空间接触与分子组装",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        74.00000000000001,
+        113.46440972222219,
+        110.57600000000001,
+        118.53559027777776
+      ]
+    },
+    {
+      "id": "F10.packing.label",
+      "text": "局部包装动态变化",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        16.97733333333335,
+        72.12586805555554,
+        41.02266666666667,
+        75.87413194444443
+      ]
+    },
+    {
+      "id": "F10.enhancer.label",
+      "text": "增强子",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        70.49150000000002,
+        97.12586805555554,
+        79.50850000000001,
+        100.87413194444443
+      ]
+    },
+    {
+      "id": "F10.promoter.label",
+      "text": "启动子",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        136.49150000000003,
+        73.12586805555556,
+        145.50850000000003,
+        76.87413194444443
+      ]
+    },
+    {
+      "id": "F10.tf.label",
+      "text": "转录因子",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        71.98866666666669,
+        62.12586805555555,
+        84.01133333333335,
+        65.87413194444443
+      ]
+    },
+    {
+      "id": "F10.machine.label",
+      "text": "转录机器",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        136.9886666666667,
+        50.12586805555556,
+        149.01133333333334,
+        53.87413194444443
+      ]
+    },
+    {
+      "id": "F10.rna.label",
+      "text": "新合成的 RNA",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        116.70783333333334,
+        20.125868055555554,
+        135.29216666666667,
+        23.874131944444443
+      ]
+    },
+    {
+      "id": "F10.raw.label",
+      "text": "RNA 原料",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        66.71350000000002,
+        29.125868055555546,
+        79.28650000000003,
+        32.87413194444444
+      ]
+    },
+    {
+      "id": "F10.condition",
+      "text": "可接近性只是条件之一；\n因子状态与协作也影响转录。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        41.2517361111111,
+        45.073666666666675,
+        48.74826388888888
+      ]
+    },
+    {
+      "id": "F10.scope.note",
+      "text": "DNA 折叠使序列上相距较远的区域靠近；并非所有转录因子都促进转录。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        7.125868055555554,
+        102.901,
+        10.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "access",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "cooperation",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "template",
+      "kind": "template",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "synthesis",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F10",
+    "title": "从 DNA 可接近到基因被使用",
+    "source_paragraphs": "P0281–P0285 动态可接近性；P0287–P0297 启动子、转录因子、增强子与折叠协作，多个条件共同影响RNA产量。",
+    "cognitive_task": "可接近性只是条件之一，调控蛋白状态、启动子组装和空间协作共同改变转录机会。",
+    "layout_rationale": "左侧局部包装提供接近条件，右侧连续折叠DNA使增强子靠近启动子与组装机器；DNA模板和RNA原料分别接入新RNA。",
+    "essential_objects": "同一DNA、松紧局部包装、启动子、远端增强子、转录因子、转录机器、RNA输出。",
+    "relationships": "空间折叠让远端区域靠近；调控蛋白与DNA接触；多个条件汇入转录概率；RNA由模板生成。",
+    "misconceptions": "不画永久开/关闸门；不让增强子移动或变成启动子；不把所有转录因子都画成激活；“远”是一维序列距离。",
+    "components": "DNA折线、区域强调、包装蛋白、转录因子与机器轮廓、接触线、模板/条件/过程箭头",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "access",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "cooperation",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "template",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "synthesis",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2976
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        125.99999643961587
+      ],
+      "images": 0,
+      "vector_paths": 23,
+      "fonts": [
+        {
+          "name": "HJFIRM+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 12,
+      "images": 0,
+      "semantic_ids": 27,
+      "font_subset_glyphs": 73
+    }
+  },
+  "output_hashes": {
+    "png": "164861c4d7a4ebb4b4ac7010e33f191bd090c914843d8ba0f138410dbf666212",
+    "pdf": "2cf88d4f01792747ad8b14eb26978ce29364f96fb38f255abce4b36b1bd491a9",
+    "svg": "f624dcd65edcd7c4eb3d0c5d13752eb563f801c4a5580c25acd44166c61ed0ae"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

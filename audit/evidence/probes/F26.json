@@ -1,0 +1,316 @@
+{
+  "id": "F26",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "47b998819caf2df0cf776f6dc4b5f762a3bdb103fb285e7efdc07e84fa2b55b1",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F26_guide_and_execution_tools.py",
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "artist_count": 69,
+  "texts": [
+    {
+      "id": "F26.title",
+      "text": "先定位，再由不同工具执行任务",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        113.96440972222219,
+        62.896000000000015,
+        119.03559027777776
+      ]
+    },
+    {
+      "id": "F26.navigation.heading",
+      "text": "共同的定位模块",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        23.70216666666668,
+        99.79513888888887,
+        48.297833333333344,
+        104.2048611111111
+      ]
+    },
+    {
+      "id": "F26.navigation.guide_label",
+      "text": "引导 RNA",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        27.972666666666683,
+        87.90538194444443,
+        42.027333333333345,
+        92.09461805555553
+      ]
+    },
+    {
+      "id": "F26.navigation.target_label",
+      "text": "DNA 目标区域",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        26.072833333333346,
+        51.01562499999999,
+        45.92716666666668,
+        54.98437499999999
+      ]
+    },
+    {
+      "id": "F26.navigation.carrier_label",
+      "text": "定位载体携带工具",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        23.97733333333335,
+        40.12586805555554,
+        48.02266666666668,
+        43.874131944444436
+      ]
+    },
+    {
+      "id": "F26.cut.heading",
+      "text": "切割工具",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        83.00000000000001,
+        102.79513888888886,
+        97.05466666666669,
+        107.2048611111111
+      ]
+    },
+    {
+      "id": "F26.cut.repair.label",
+      "text": "细胞修复",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        132.65,
+        88.01562499999997,
+        145.35000000000002,
+        91.98437499999997
+      ]
+    },
+    {
+      "id": "F26.repair.indel_result",
+      "text": "插入／删除",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        113.48583333333333,
+        67.12586805555556,
+        128.51416666666668,
+        70.87413194444443
+      ]
+    },
+    {
+      "id": "F26.repair.template_result",
+      "text": "依模板*",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        145.793,
+        67.12586805555556,
+        156.20700000000002,
+        70.87413194444443
+      ]
+    },
+    {
+      "id": "F26.base.heading",
+      "text": "碱基编辑工具",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        83.00000000000001,
+        48.795138888888886,
+        104.08200000000002,
+        53.2048611111111
+      ]
+    },
+    {
+      "id": "F26.base.action",
+      "text": "改写某些碱基\n无需先切断双链",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        129.4801666666667,
+        33.25173611111111,
+        150.51983333333334,
+        40.748263888888886
+      ]
+    },
+    {
+      "id": "F26.repair.condition",
+      "text": "* 按模板修复需要额外模板与合适条件；工具执行不保证得到预期序列。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        14.125868055555555,
+        101.25,
+        17.87413194444444
+      ]
+    },
+    {
+      "id": "F26.scope.note",
+      "text": "定位与执行是不同任务；碱基编辑受位点与工具限制，图中地址仅为抽象示意。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.125868055555554,
+        111.19833333333334,
+        9.874131944444443
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "tool_branch.cut",
+      "kind": "order",
+      "source": "navigation",
+      "target": "cut",
+      "label": null
+    },
+    {
+      "id": "tool_branch.base",
+      "kind": "order",
+      "source": "navigation",
+      "target": "base",
+      "label": null
+    },
+    {
+      "id": "cut.to_repair",
+      "kind": "process",
+      "source": "cut.dna",
+      "target": "cut.repair",
+      "label": null
+    },
+    {
+      "id": "repair.indel",
+      "kind": "conditional",
+      "source": "cut.repair",
+      "target": "repair.indel_result",
+      "label": null
+    },
+    {
+      "id": "repair.template",
+      "kind": "conditional",
+      "source": "cut.repair",
+      "target": "repair.template_result",
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F26",
+    "title": "引导 RNA 定位与执行工具的不同任务",
+    "source_paragraphs": "P1073–P1087定位/执行分开，切割后仍需细胞修复；P1089–P1103碱基编辑借定位而换执行工具；P1134–P1154后文再讲不切DNA的dCas9调控概念验证。",
+    "cognitive_task": "可编程定位把工具带到指定区域，随后执行的切割、碱基改写或调控是可区分的任务。",
+    "layout_rationale": "左侧空间定位模块连接右侧两种执行面板；上方切开DNA后独立进入细胞修复与不同可能结果，下方连续DNA表现碱基改写。",
+    "essential_objects": "DNA目标区域、引导RNA、定位载体、切割工具与碱基编辑工具；可选灰色调控工具预告；切割后的修复阶段。",
+    "relationships": "序列识别/定位不等于执行；不同工具分支；切割后多种修复可能；碱基改写不等于任意地址任意字母。",
+    "misconceptions": "不画100%精准靶心；不把Cas9剪切直接连到正确序列；不把所有工具都画断双链；未指定DNA序列用抽象位点避免技术设计。",
+    "components": "DNA目标区域、引导RNA识别短线、定位载体、无箭头工具选择线、断链、修复分支、连续链局部改写",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "tool_branch.cut",
+        "kind": "order",
+        "source": "navigation",
+        "target": "cut",
+        "label": null
+      },
+      {
+        "id": "tool_branch.base",
+        "kind": "order",
+        "source": "navigation",
+        "target": "base",
+        "label": null
+      },
+      {
+        "id": "cut.to_repair",
+        "kind": "process",
+        "source": "cut.dna",
+        "target": "cut.repair",
+        "label": null
+      },
+      {
+        "id": "repair.indel",
+        "kind": "conditional",
+        "source": "cut.repair",
+        "target": "repair.indel_result",
+        "label": null
+      },
+      {
+        "id": "repair.template",
+        "kind": "conditional",
+        "source": "cut.repair",
+        "target": "repair.template_result",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2976
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        125.99999643961587
+      ],
+      "images": 0,
+      "vector_paths": 62,
+      "fonts": [
+        {
+          "name": "ERINUI+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 14,
+      "images": 0,
+      "semantic_ids": 69,
+      "font_subset_glyphs": 94
+    }
+  },
+  "output_hashes": {
+    "png": "6599b9d90985560cbaeb9ae05fb04cbcde8016af7cc1c104f5b2d17377428a83",
+    "pdf": "2ab139bd0a74e692b8579f56ebd251217ef375ef5b4ca493899250e074c85177",
+    "svg": "acfada655715723044acfd1d64f4f7d9d1d06c2db7e5c68bd7281b0bde3d0834"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

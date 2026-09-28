@@ -1,0 +1,794 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F25",
+    "title": "生命链条上的不同治疗入口",
+    "source_paragraphs": "P0965–P0986 nusinersen改SMN2剪接；P0993–P1009 patisiran减少TTR RNA；P1011–P1025 osimertinib抑制特定异常EGFR功能；P1028–P1045 PKU管理苯丙氨酸输入、入口选择条件。",
+    "cognitive_task": "治疗可在能改变疾病过程的不同层进入，最初病因不是唯一入口，且每条入口都有递送、持续性与风险条件。",
+    "layout_rationale": "140毫米高的四个独立病例行共享DNA、RNA、蛋白作用、细胞和组织个体的横向导航；只展开本行局部机制，橙色入口直接指向RNA剪接、RNA减少、蛋白功能或系统输入。",
+    "essential_objects": "共享DNA/RNA/蛋白及作用/细胞/组织与个体横向定位；四行独立疾病情境；SMN2初始RNA剪接、TTR mRNA减少、异常EGFR功能抑制、苯丙氨酸输入管理四端口。",
+    "relationships": "四条橙色人为干预端口可位于各行侧边，分别进入对应层；端口不得与紫色观察窗混用。干预不代替后续机制，PKU输入箭头不可指向DNA或PAH修复。",
+    "misconceptions": "不把四种疾病叠成同一患者/同一治疗链；不把PKU画成去掉全部必需氨基酸；不把药名等于对所有病人有效；不把DNA/细胞后续入口画成已在本章完整论证。",
+    "components": "五组层级导航、原DNA保留轨、病例分隔、橙色干预端口、模板虚线、条件影响线、PKU输入节点",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      140
+    ],
+    "relations_drawn": [
+      {
+        "id": "sma.intervention.port",
+        "kind": "intervention",
+        "source": "sma.intervention.treatment",
+        "target": "sma.intervention.target",
+        "label": null
+      },
+      {
+        "id": "sma.template",
+        "kind": "template",
+        "source": "sma.rna",
+        "target": "sma.protein",
+        "label": null
+      },
+      {
+        "id": "sma.downstream_effect",
+        "kind": "conditional",
+        "source": "sma.protein",
+        "target": "sma.downstream",
+        "label": null
+      },
+      {
+        "id": "ttr.intervention.port",
+        "kind": "intervention",
+        "source": "ttr.intervention.treatment",
+        "target": "ttr.intervention.target",
+        "label": null
+      },
+      {
+        "id": "ttr.template",
+        "kind": "template",
+        "source": "ttr.rna",
+        "target": "ttr.protein",
+        "label": null
+      },
+      {
+        "id": "ttr.downstream_effect",
+        "kind": "conditional",
+        "source": "ttr.protein",
+        "target": "ttr.downstream",
+        "label": null
+      },
+      {
+        "id": "egfr.intervention.port",
+        "kind": "intervention",
+        "source": "egfr.intervention.treatment",
+        "target": "egfr.intervention.target",
+        "label": null
+      },
+      {
+        "id": "egfr.downstream_effect",
+        "kind": "conditional",
+        "source": "egfr.protein",
+        "target": "egfr.downstream",
+        "label": null
+      },
+      {
+        "id": "pku.intervention.port",
+        "kind": "intervention",
+        "source": "pku.intervention.treatment",
+        "target": "pku.intervention.target",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    140.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 64,
+    "text_count": 34,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F25.navigation.dna": [
+        31.9732,
+        129.6259,
+        38.0268,
+        133.3741
+      ],
+      "F25.navigation.rna": [
+        62.0578,
+        129.6259,
+        67.9422,
+        133.3741
+      ],
+      "F25.navigation.protein": [
+        94.4858,
+        129.6259,
+        109.5142,
+        133.3741
+      ],
+      "F25.navigation.cell": [
+        129.9943,
+        129.6259,
+        136.0057,
+        133.3741
+      ],
+      "F25.navigation.organism": [
+        146.4858,
+        129.6259,
+        161.5142,
+        133.3741
+      ],
+      "F25.case.separator.0": [
+        6.0,
+        99.0,
+        164.0,
+        99.0
+      ],
+      "F25.case.separator.1": [
+        6.0,
+        69.0,
+        164.0,
+        69.0
+      ],
+      "F25.case.separator.2": [
+        6.0,
+        39.0,
+        164.0,
+        39.0
+      ],
+      "F25.sma.case": [
+        6.0,
+        110.9054,
+        12.7733,
+        115.0946
+      ],
+      "F25.sma.drug": [
+        6.0,
+        104.1259,
+        21.5998,
+        107.8741
+      ],
+      "F25.sma.dna.upper": [
+        27.0,
+        118.0,
+        43.0,
+        118.0
+      ],
+      "F25.sma.dna.lower": [
+        27.0,
+        115.0,
+        43.0,
+        115.0
+      ],
+      "F25.sma.dna.caption": [
+        27.4858,
+        106.1259,
+        42.5142,
+        109.8741
+      ],
+      "F25.sma.rna.boundary": [
+        50.5,
+        105.5,
+        79.5,
+        118.5
+      ],
+      "F25.sma.rna.label": [
+        56.6603,
+        108.2517,
+        73.3397,
+        115.7483
+      ],
+      "F25.sma.protein.boundary": [
+        87.5,
+        105.5,
+        116.5,
+        118.5
+      ],
+      "F25.sma.protein.label": [
+        95.4595,
+        108.2517,
+        108.5405,
+        115.7483
+      ],
+      "F25.sma.downstream.boundary": [
+        128.5,
+        105.5,
+        163.5,
+        118.5
+      ],
+      "F25.sma.downstream.label": [
+        139.9887,
+        108.2517,
+        152.0113,
+        115.7483
+      ],
+      "F25.sma.intervention.verb": [
+        58.65,
+        123.0156,
+        71.35,
+        126.9844
+      ],
+      "F25.sma.intervention.port": [
+        64.4003,
+        118.9339,
+        65.5997,
+        121.5
+      ],
+      "F25.sma.template": [
+        79.5,
+        111.4003,
+        87.0661,
+        112.5997
+      ],
+      "F25.sma.downstream_effect": [
+        116.5,
+        111.4003,
+        128.0661,
+        112.5997
+      ],
+      "F25.ttr.case": [
+        6.0,
+        80.2517,
+        21.1553,
+        87.7483
+      ],
+      "F25.ttr.drug": [
+        6.0,
+        72.1259,
+        18.3329,
+        75.8741
+      ],
+      "F25.ttr.dna.upper": [
+        27.0,
+        88.0,
+        43.0,
+        88.0
+      ],
+      "F25.ttr.dna.lower": [
+        27.0,
+        85.0,
+        43.0,
+        85.0
+      ],
+      "F25.ttr.dna.caption": [
+        27.4858,
+        76.1259,
+        42.5142,
+        79.8741
+      ],
+      "F25.ttr.rna.boundary": [
+        50.5,
+        75.5,
+        79.5,
+        88.5
+      ],
+      "F25.ttr.rna.label": [
+        57.5917,
+        78.2517,
+        72.4083,
+        85.7483
+      ],
+      "F25.ttr.protein.boundary": [
+        87.5,
+        75.5,
+        116.5,
+        88.5
+      ],
+      "F25.ttr.protein.label": [
+        95.9252,
+        78.2517,
+        108.0748,
+        85.7483
+      ],
+      "F25.ttr.downstream.boundary": [
+        128.5,
+        75.5,
+        163.5,
+        88.5
+      ],
+      "F25.ttr.downstream.label": [
+        139.9887,
+        78.2517,
+        152.0113,
+        85.7483
+      ],
+      "F25.ttr.intervention.verb": [
+        58.3325,
+        93.0156,
+        71.6675,
+        96.9844
+      ],
+      "F25.ttr.intervention.port": [
+        64.4003,
+        88.9339,
+        65.5997,
+        91.5
+      ],
+      "F25.ttr.template": [
+        79.5,
+        81.4003,
+        87.0661,
+        82.5997
+      ],
+      "F25.ttr.downstream_effect": [
+        116.5,
+        81.4003,
+        128.0661,
+        82.5997
+      ],
+      "F25.egfr.case": [
+        6.0,
+        50.2517,
+        21.0283,
+        57.7483
+      ],
+      "F25.egfr.drug": [
+        6.0,
+        42.1259,
+        22.2831,
+        45.8741
+      ],
+      "F25.egfr.dna.upper": [
+        27.0,
+        58.0,
+        43.0,
+        58.0
+      ],
+      "F25.egfr.dna.lower": [
+        27.0,
+        55.0,
+        43.0,
+        55.0
+      ],
+      "F25.egfr.dna.caption": [
+        27.4858,
+        46.1259,
+        42.5142,
+        49.8741
+      ],
+      "F25.egfr.rna": [
+        58.9887,
+        50.1259,
+        71.0113,
+        53.8741
+      ],
+      "F25.egfr.protein.boundary": [
+        87.5,
+        45.5,
+        116.5,
+        58.5
+      ],
+      "F25.egfr.protein.label": [
+        94.9727,
+        48.2517,
+        109.0273,
+        55.7483
+      ],
+      "F25.egfr.downstream.boundary": [
+        128.5,
+        45.5,
+        163.5,
+        58.5
+      ],
+      "F25.egfr.downstream.label": [
+        139.9887,
+        48.2517,
+        152.0113,
+        55.7483
+      ],
+      "F25.egfr.intervention.verb": [
+        95.65,
+        63.0156,
+        108.35,
+        66.9844
+      ],
+      "F25.egfr.intervention.port": [
+        101.4003,
+        58.9339,
+        102.5997,
+        61.5
+      ],
+      "F25.egfr.downstream_effect": [
+        116.5,
+        51.4003,
+        128.0661,
+        52.5997
+      ],
+      "F25.pku.case": [
+        6.0,
+        21.9054,
+        12.6708,
+        26.0946
+      ],
+      "F25.pku.management": [
+        6.0,
+        15.1259,
+        18.0227,
+        18.8741
+      ],
+      "F25.pku.dna.upper": [
+        27.0,
+        28.0,
+        43.0,
+        28.0
+      ],
+      "F25.pku.dna.lower": [
+        27.0,
+        25.0,
+        43.0,
+        25.0
+      ],
+      "F25.pku.dna.caption": [
+        27.4858,
+        16.1259,
+        42.5142,
+        19.8741
+      ],
+      "F25.pku.rna": [
+        60.4915,
+        20.1259,
+        69.5085,
+        23.8741
+      ],
+      "F25.pku.pah.boundary": [
+        87.5,
+        15.5,
+        116.5,
+        28.5
+      ],
+      "F25.pku.pah.label": [
+        95.8018,
+        18.2517,
+        108.1982,
+        25.7483
+      ],
+      "F25.pku.input.boundary": [
+        128.5,
+        15.5,
+        163.5,
+        28.5
+      ],
+      "F25.pku.input.label": [
+        139.9887,
+        18.2517,
+        152.0113,
+        25.7483
+      ],
+      "F25.pku.intervention.verb": [
+        136.475,
+        33.0156,
+        155.525,
+        36.9844
+      ],
+      "F25.pku.intervention.port": [
+        145.4003,
+        28.9339,
+        146.5997,
+        31.5
+      ],
+      "F25.scope.note": [
+        6.0,
+        6.1259,
+        114.7848,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      3307
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 40,
+    "svg_text_count": 46,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F25.navigation.dna": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.navigation.rna": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.navigation.protein": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.navigation.cell": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.navigation.organism": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.case.separator.0": {
+      "type": "Line2D",
+      "role": "panel_separator"
+    },
+    "F25.case.separator.1": {
+      "type": "Line2D",
+      "role": "panel_separator"
+    },
+    "F25.case.separator.2": {
+      "type": "Line2D",
+      "role": "panel_separator"
+    },
+    "F25.sma.case": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.sma.drug": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.sma.dna.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F25.sma.dna.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F25.sma.dna.caption": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.sma.rna.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F25.sma.rna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.sma.protein.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F25.sma.protein.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.sma.downstream.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F25.sma.downstream.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.sma.intervention.verb": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.sma.intervention.port": {
+      "type": "FancyArrowPatch",
+      "role": "intervention"
+    },
+    "F25.sma.template": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F25.sma.downstream_effect": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F25.ttr.case": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.ttr.drug": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.ttr.dna.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F25.ttr.dna.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F25.ttr.dna.caption": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.ttr.rna.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F25.ttr.rna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.ttr.protein.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F25.ttr.protein.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.ttr.downstream.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F25.ttr.downstream.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.ttr.intervention.verb": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.ttr.intervention.port": {
+      "type": "FancyArrowPatch",
+      "role": "intervention"
+    },
+    "F25.ttr.template": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F25.ttr.downstream_effect": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F25.egfr.case": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.egfr.drug": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.egfr.dna.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F25.egfr.dna.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F25.egfr.dna.caption": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.egfr.rna": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.egfr.protein.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F25.egfr.protein.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.egfr.downstream.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F25.egfr.downstream.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.egfr.intervention.verb": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.egfr.intervention.port": {
+      "type": "FancyArrowPatch",
+      "role": "intervention"
+    },
+    "F25.egfr.downstream_effect": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F25.pku.case": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.pku.management": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.pku.dna.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F25.pku.dna.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F25.pku.dna.caption": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.pku.rna": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.pku.pah.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F25.pku.pah.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.pku.input.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F25.pku.input.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.pku.intervention.verb": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F25.pku.intervention.port": {
+      "type": "FancyArrowPatch",
+      "role": "intervention"
+    },
+    "F25.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F25_treatment_entry_points.py": "5e810caa39e5db2b7ca391d9324fcd740bc780bf205e6e5419e88608883b37a1",
+    "figure_specs/F25.json": "ddde76a76670ae3f1df07588455190871bea9c9712e80b69ba1de8ca2f9b2505",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F25_treatment_entry_points.png",
+      "sha256": "02e8acd62418a5b4498566b164765ab8d758c4b9d613dddf3176826dd56de388"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F25_treatment_entry_points.pdf",
+      "sha256": "88d9df8932f1fd8b608a409f8f9f25f40187f6bd12504defe314766cccdecfa1"
+    },
+    "svg": {
+      "path": "outputs/svg/F25_treatment_entry_points.svg",
+      "sha256": "4e8c0701e580f548f27b7c6c782c2f9fe3e4fa57f45bd854f05d386cb4ad2b37"
+    }
+  },
+  "adjacent_pdf_sha256": "88d9df8932f1fd8b608a409f8f9f25f40187f6bd12504defe314766cccdecfa1",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

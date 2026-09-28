@@ -1,0 +1,1109 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F28",
+    "title": "修改原有序列与补充功能性副本",
+    "source_paragraphs": "P1179–P1181原位改字与额外可用基因，Luxturna/RPE65存活目标细胞；P1184–P1186递送、载量、表达、免疫、持续性及无固定优劣。",
+    "cognitive_task": "修改原有序列与添加功能性版本是两种不同动作，二者都须在目标细胞中形成足够且持续的功能。",
+    "layout_rationale": "相同细胞起点的左右对照；左在原位置改写，右保留原异常版本且另置额外功能信息，不画染色体整合；底部共享表达和功能条件。",
+    "essential_objects": "两个相同起点细胞、原异常版本；左原位序列改写；右原版本仍在加额外功能性信息；RNA/蛋白/功能条件。",
+    "relationships": "原位改变与额外添加的操作差异；新增信息到表达的模板关系；部分存活目标细胞与功能结果的条件关系。",
+    "misconceptions": "不默认添加副本必整合某染色体位置；不让旧异常版本消失；不画两技术固定优劣；不称Luxturna恢复所有视力或所有细胞；额外副本未必足以抵消有害产物。",
+    "components": "细胞边界、持续原DNA、目标位点、额外信息双轨、干预箭头、条件表达带",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "operation.0",
+        "kind": "intervention",
+        "source": "start.cell.0",
+        "target": "result.cell.0",
+        "label": null
+      },
+      {
+        "id": "operation.1",
+        "kind": "intervention",
+        "source": "start.cell.1",
+        "target": "result.cell.1",
+        "label": null
+      },
+      {
+        "id": "edit.expression_condition",
+        "kind": "conditional",
+        "source": "edit.modified_original",
+        "target": "shared.expression",
+        "label": null
+      },
+      {
+        "id": "addition.expression_condition",
+        "kind": "conditional",
+        "source": "addition.extra_information",
+        "target": "shared.expression",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 99,
+    "text_count": 9,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F28.edit.heading": [
+        8.0,
+        113.9644,
+        32.384,
+        119.0356
+      ],
+      "F28.addition.heading": [
+        90.0,
+        113.9644,
+        118.448,
+        119.0356
+      ],
+      "F28.start.cell.0": [
+        11.0,
+        82.0,
+        77.0,
+        110.0
+      ],
+      "F28.start.original.0.region": [
+        39.0,
+        97.4,
+        48.0,
+        102.6
+      ],
+      "F28.start.original.0.upper": [
+        23.0,
+        102.0,
+        65.0,
+        102.0
+      ],
+      "F28.start.original.0.lower": [
+        23.0,
+        98.0,
+        65.0,
+        98.0
+      ],
+      "F28.start.original.0.pair.0": [
+        25.0,
+        98.0,
+        25.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.1": [
+        28.0,
+        98.0,
+        28.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.2": [
+        31.0,
+        98.0,
+        31.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.3": [
+        34.0,
+        98.0,
+        34.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.4": [
+        37.0,
+        98.0,
+        37.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.5": [
+        40.0,
+        98.0,
+        40.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.6": [
+        43.0,
+        98.0,
+        43.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.7": [
+        46.0,
+        98.0,
+        46.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.8": [
+        49.0,
+        98.0,
+        49.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.9": [
+        52.0,
+        98.0,
+        52.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.10": [
+        55.0,
+        98.0,
+        55.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.11": [
+        58.0,
+        98.0,
+        58.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.12": [
+        61.0,
+        98.0,
+        61.0,
+        102.0
+      ],
+      "F28.start.original.0.pair.13": [
+        64.0,
+        98.0,
+        64.0,
+        102.0
+      ],
+      "F28.start.label.0": [
+        36.0625,
+        87.0156,
+        51.9375,
+        90.9844
+      ],
+      "F28.result.cell.0": [
+        10.0,
+        33.0,
+        78.0,
+        77.0
+      ],
+      "F28.operation.0": [
+        43.4003,
+        77.9339,
+        44.5997,
+        81.0
+      ],
+      "F28.start.cell.1": [
+        93.0,
+        82.0,
+        159.0,
+        110.0
+      ],
+      "F28.start.original.1.region": [
+        121.0,
+        97.4,
+        130.0,
+        102.6
+      ],
+      "F28.start.original.1.upper": [
+        105.0,
+        102.0,
+        147.0,
+        102.0
+      ],
+      "F28.start.original.1.lower": [
+        105.0,
+        98.0,
+        147.0,
+        98.0
+      ],
+      "F28.start.original.1.pair.0": [
+        107.0,
+        98.0,
+        107.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.1": [
+        110.0,
+        98.0,
+        110.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.2": [
+        113.0,
+        98.0,
+        113.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.3": [
+        116.0,
+        98.0,
+        116.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.4": [
+        119.0,
+        98.0,
+        119.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.5": [
+        122.0,
+        98.0,
+        122.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.6": [
+        125.0,
+        98.0,
+        125.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.7": [
+        128.0,
+        98.0,
+        128.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.8": [
+        131.0,
+        98.0,
+        131.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.9": [
+        134.0,
+        98.0,
+        134.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.10": [
+        137.0,
+        98.0,
+        137.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.11": [
+        140.0,
+        98.0,
+        140.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.12": [
+        143.0,
+        98.0,
+        143.0,
+        102.0
+      ],
+      "F28.start.original.1.pair.13": [
+        146.0,
+        98.0,
+        146.0,
+        102.0
+      ],
+      "F28.start.label.1": [
+        118.0625,
+        87.0156,
+        133.9375,
+        90.9844
+      ],
+      "F28.result.cell.1": [
+        92.0,
+        33.0,
+        160.0,
+        77.0
+      ],
+      "F28.operation.1": [
+        125.4003,
+        77.9339,
+        126.5997,
+        81.0
+      ],
+      "F28.edit.modified_original.region": [
+        39.0,
+        62.4,
+        48.0,
+        67.6
+      ],
+      "F28.edit.modified_original.upper": [
+        23.0,
+        67.0,
+        65.0,
+        67.0
+      ],
+      "F28.edit.modified_original.lower": [
+        23.0,
+        63.0,
+        65.0,
+        63.0
+      ],
+      "F28.edit.modified_original.pair.0": [
+        25.0,
+        63.0,
+        25.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.1": [
+        28.0,
+        63.0,
+        28.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.2": [
+        31.0,
+        63.0,
+        31.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.3": [
+        34.0,
+        63.0,
+        34.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.4": [
+        37.0,
+        63.0,
+        37.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.5": [
+        40.0,
+        63.0,
+        40.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.6": [
+        43.0,
+        63.0,
+        43.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.7": [
+        46.0,
+        63.0,
+        46.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.8": [
+        49.0,
+        63.0,
+        49.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.9": [
+        52.0,
+        63.0,
+        52.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.10": [
+        55.0,
+        63.0,
+        55.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.11": [
+        58.0,
+        63.0,
+        58.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.12": [
+        61.0,
+        63.0,
+        61.0,
+        67.0
+      ],
+      "F28.edit.modified_original.pair.13": [
+        64.0,
+        63.0,
+        64.0,
+        67.0
+      ],
+      "F28.edit.action": [
+        33.967,
+        44.8108,
+        54.033,
+        53.1892
+      ],
+      "F28.addition.original_retained.region": [
+        121.0,
+        63.4,
+        130.0,
+        68.6
+      ],
+      "F28.addition.original_retained.upper": [
+        105.0,
+        68.0,
+        147.0,
+        68.0
+      ],
+      "F28.addition.original_retained.lower": [
+        105.0,
+        64.0,
+        147.0,
+        64.0
+      ],
+      "F28.addition.original_retained.pair.0": [
+        107.0,
+        64.0,
+        107.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.1": [
+        110.0,
+        64.0,
+        110.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.2": [
+        113.0,
+        64.0,
+        113.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.3": [
+        116.0,
+        64.0,
+        116.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.4": [
+        119.0,
+        64.0,
+        119.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.5": [
+        122.0,
+        64.0,
+        122.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.6": [
+        125.0,
+        64.0,
+        125.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.7": [
+        128.0,
+        64.0,
+        128.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.8": [
+        131.0,
+        64.0,
+        131.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.9": [
+        134.0,
+        64.0,
+        134.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.10": [
+        137.0,
+        64.0,
+        137.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.11": [
+        140.0,
+        64.0,
+        140.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.12": [
+        143.0,
+        64.0,
+        143.0,
+        68.0
+      ],
+      "F28.addition.original_retained.pair.13": [
+        146.0,
+        64.0,
+        146.0,
+        68.0
+      ],
+      "F28.addition.original_label": [
+        115.4802,
+        56.1259,
+        136.5198,
+        59.8741
+      ],
+      "F28.addition.extra_information.upper": [
+        109.0,
+        46.0,
+        143.0,
+        46.0
+      ],
+      "F28.addition.extra_information.lower": [
+        109.0,
+        42.0,
+        143.0,
+        42.0
+      ],
+      "F28.addition.extra_information.pair.0": [
+        111.0,
+        42.0,
+        111.0,
+        46.0
+      ],
+      "F28.addition.extra_information.pair.1": [
+        114.0,
+        42.0,
+        114.0,
+        46.0
+      ],
+      "F28.addition.extra_information.pair.2": [
+        117.0,
+        42.0,
+        117.0,
+        46.0
+      ],
+      "F28.addition.extra_information.pair.3": [
+        120.0,
+        42.0,
+        120.0,
+        46.0
+      ],
+      "F28.addition.extra_information.pair.4": [
+        123.0,
+        42.0,
+        123.0,
+        46.0
+      ],
+      "F28.addition.extra_information.pair.5": [
+        126.0,
+        42.0,
+        126.0,
+        46.0
+      ],
+      "F28.addition.extra_information.pair.6": [
+        129.0,
+        42.0,
+        129.0,
+        46.0
+      ],
+      "F28.addition.extra_information.pair.7": [
+        132.0,
+        42.0,
+        132.0,
+        46.0
+      ],
+      "F28.addition.extra_information.pair.8": [
+        135.0,
+        42.0,
+        135.0,
+        46.0
+      ],
+      "F28.addition.extra_information.pair.9": [
+        138.0,
+        42.0,
+        138.0,
+        46.0
+      ],
+      "F28.addition.extra_information.pair.10": [
+        141.0,
+        42.0,
+        141.0,
+        46.0
+      ],
+      "F28.addition.extra_label": [
+        115.4802,
+        36.6259,
+        136.5198,
+        40.3741
+      ],
+      "F28.shared.expression.boundary": [
+        11.5,
+        14.5,
+        158.5,
+        29.5
+      ],
+      "F28.shared.expression.label": [
+        58.0125,
+        18.0312,
+        111.9875,
+        25.9687
+      ],
+      "F28.edit.expression_condition": [
+        43.4003,
+        29.9339,
+        44.5997,
+        33.0
+      ],
+      "F28.addition.expression_condition": [
+        125.4003,
+        29.9339,
+        126.5997,
+        33.0
+      ],
+      "F28.scope.note": [
+        6.0,
+        6.1259,
+        123.221,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2976
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 99,
+    "svg_text_count": 11,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F28.edit.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F28.addition.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F28.start.cell.0": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F28.start.original.0.region": {
+      "type": "FancyBboxPatch",
+      "role": "region_fill"
+    },
+    "F28.start.original.0.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.11": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.12": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.0.pair.13": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.label.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F28.result.cell.0": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F28.operation.0": {
+      "type": "FancyArrowPatch",
+      "role": "intervention"
+    },
+    "F28.start.cell.1": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F28.start.original.1.region": {
+      "type": "FancyBboxPatch",
+      "role": "region_fill"
+    },
+    "F28.start.original.1.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.11": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.12": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.original.1.pair.13": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.start.label.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F28.result.cell.1": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F28.operation.1": {
+      "type": "FancyArrowPatch",
+      "role": "intervention"
+    },
+    "F28.edit.modified_original.region": {
+      "type": "FancyBboxPatch",
+      "role": "region_fill"
+    },
+    "F28.edit.modified_original.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.11": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.12": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.modified_original.pair.13": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.edit.action": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F28.addition.original_retained.region": {
+      "type": "FancyBboxPatch",
+      "role": "region_fill"
+    },
+    "F28.addition.original_retained.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.11": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.12": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_retained.pair.13": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.original_label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F28.addition.extra_information.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_information.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F28.addition.extra_label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F28.shared.expression.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F28.shared.expression.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F28.edit.expression_condition": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F28.addition.expression_condition": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F28.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F28_edit_or_add_functional_copy.py": "b33dacd2b1142cab8d176e51f74eecdadb3dac4034b566e38b81eeb2a6da698f",
+    "figure_specs/F28.json": "7320cbe79ef3e4b4578cb36ee310ccdeb6746761c7b3d125dad94e8d3032a0d0",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F28_edit_or_add_functional_copy.png",
+      "sha256": "53cc36d737213a7e1480026a2fc87d4e993a78c23af6da0f607e698f7a444ff4"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F28_edit_or_add_functional_copy.pdf",
+      "sha256": "e38ef73f09982c356899b83bbb8300fe995e87b36138c50581c6b00bd06422fe"
+    },
+    "svg": {
+      "path": "outputs/svg/F28_edit_or_add_functional_copy.svg",
+      "sha256": "e04f756f4c92f91cc0f19154d9aea57afc8d8fadc536afa9641feb1128934ca1"
+    }
+  },
+  "adjacent_pdf_sha256": "e38ef73f09982c356899b83bbb8300fe995e87b36138c50581c6b00bd06422fe",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

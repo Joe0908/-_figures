@@ -1,0 +1,1648 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>运行生命 · 全书配图</title><style>*{box-sizing:border-box}body{margin:0;background:#eef2f2;color:#26353E;font-family:Arial,"Noto Sans SC","PingFang SC",sans-serif;font-size:16px;line-height:1.7}header{max-width:1050px;margin:48px auto 28px;padding:0 32px}h1{font-size:34px;letter-spacing:.02em}h2{font-size:24px;line-height:1.5;margin:.25em 0}.intro{max-width:800px}nav{display:flex;flex-wrap:wrap;gap:5px;margin:28px 0}a{color:#2F6174;text-decoration:none}nav a,.links a{border:1px solid #ccd8dc;padding:6px 11px;border-radius:4px;background:white}main{max-width:1050px;margin:auto;padding:0 32px 64px}article{background:white;border:1px solid #dbe3e3;padding:34px;margin-bottom:26px;border-radius:8px;scroll-margin-top:16px}.eyebrow{color:#A6633F;font-size:13px;letter-spacing:.08em}.task{font-size:18px}img{display:block;width:100%;height:auto;border:1px solid #edf0ef;margin:22px 0}.links{display:flex;gap:10px;flex-wrap:wrap}dl{font-size:15px}dt{font-weight:600;margin-top:13px}dd{margin:2px 0;color:#53636b}summary{cursor:pointer;color:#2F6174}pre{font-size:12px;line-height:1.65;overflow:auto;background:#f4f6f5;padding:20px}footer{font-size:14px;color:#677278}@media(max-width:600px){main{padding:0 12px}header{padding:0 18px}article{padding:18px}h2{font-size:20px}}@media print{nav,.links,details{display:none}body{background:white}article{break-inside:avoid;border:0}}</style><header><div class="eyebrow">RUNNING LIFE · FIGURE SYSTEM 1.0</div><h1>《运行生命》全书配图</h1><p class="intro">30 张科学机制图，统一采用「海青与铜」。每张图保留原稿标题，附成图、完整源码与布局说明。本页可离线浏览。</p><p><a href="Running_Life_F01-F30.pdf">30 页矢量合订本</a> · <a href="PALETTE_SPECIFICATION.md">统一配色</a> · <a href="MAINTENANCE.md">维护说明</a> · <a href="audit/">审计记录</a></p><nav><a href="#F01">F01</a><a href="#F02">F02</a><a href="#F03">F03</a><a href="#F04">F04</a><a href="#F05">F05</a><a href="#F06">F06</a><a href="#F07">F07</a><a href="#F08">F08</a><a href="#F09">F09</a><a href="#F10">F10</a><a href="#F11">F11</a><a href="#F12">F12</a><a href="#F13">F13</a><a href="#F14">F14</a><a href="#F15">F15</a><a href="#F16">F16</a><a href="#F17">F17</a><a href="#F18">F18</a><a href="#F19">F19</a><a href="#F20">F20</a><a href="#F21">F21</a><a href="#F22">F22</a><a href="#F23">F23</a><a href="#F24">F24</a><a href="#F25">F25</a><a href="#F26">F26</a><a href="#F27">F27</a><a href="#F28">F28</a><a href="#F29">F29</a><a href="#F30">F30</a></nav></header><main><article id="F01"><div class="eyebrow">F01 / 30</div><h2>图 F01｜基因组 染色体 DNA 和基因的关系</h2>
+        <p class="task">基因是 DNA 上的区域，染色体组织长 DNA，基因组统称一套 DNA 信息；它们不是四种互不相干的颗粒。</p><img src="outputs/png/F01_genome_chromosome_dna_gene.png" alt="图 F01｜基因组 染色体 DNA 和基因的关系" loading="lazy">
+        <div class="links"><a href="outputs/png/F01_genome_chromosome_dna_gene.png">png</a><a href="outputs/pdf/F01_genome_chromosome_dna_gene.pdf">pdf</a><a href="outputs/svg/F01_genome_chromosome_dna_gene.svg">svg</a><a href="figures/F01_genome_chromosome_dna_gene.py">Python</a></div><dl><dt>布局理由</dt><dd>170×100 mm，两个panel：左侧细胞/核局部放大，右侧某条染色体的一段DNA及HBB区域；跨整套DNA的基因组括号独立于放大线；少量染色体为示意，不用条数声称23对。</dd><dt>复用组件</dt><dd>visual_grammar.boundary、organised_dna、dna_region、bracket、zoom_frame、zoom_link、label、line，以及book_style统一参数。</dd><dt>书稿来源</dt><dd>P0034–P0042：细胞、细胞核、染色体；染色体含长 DNA 与相关蛋白；HBB 是 DNA 上的区域；基因组是整套 DNA。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F01: genome, chromosome, DNA and gene. Run this file without arguments.&quot;&quot;&quot;
+from dataclasses import dataclass
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+import matplotlib as mpl
+from book_style import STYLE, PALETTE, COLOR_TUNING, mix_color, rc_settings
+from matplotlib.lines import Line2D
+from matplotlib.text import Text
+from layout_utils import Box, BuildResult, new_canvas
+from visual_grammar import boundary, bracket, dna_region, label, line, organised_dna, zoom_frame, zoom_link
+
+OUT = Path(__file__).resolve().parent
+
+
+@dataclass(frozen=True)
+class F01Layout:
+    cell_center: tuple = (32, 59)
+    cell_size: tuple = (49, 45)
+    nucleus_center: tuple = (33, 59)
+    nucleus_size: tuple = (30, 28)
+    chromosome_box: Box = Box(84, 62, 73, 15)
+    chromosome_selection: Box = Box(35, 56, 12, 10)
+    dna_selection: Box = Box(109, 60, 13, 18)
+    dna_box: Box = Box(83, 33, 76, 4.5)
+    gene_x_mm: float = 108
+    gene_width_mm: float = 26
+    gene_label_y_mm: float = 22
+
+
+LAYOUT = F01Layout()
+
+
+def apply_f01_colors(result, palette=PALETTE, tuning=COLOR_TUNING):
+    &quot;&quot;&quot;Color existing Artists only. No object, text or layout edits.&quot;&quot;&quot;
+    a = result.artists
+    tint = lambda color, weight: mix_color(color, palette.background, weight)
+    muted = tint(palette.neutral, tuning.muted_weight)
+    dna_secondary = tint(palette.primary, tuning.secondary_dna_weight)
+    result.figure.set_facecolor(palette.background)
+    result.axes.set_facecolor(palette.background)
+    for name, item in a.items():
+        if isinstance(item, Text):
+            item.set_color(palette.neutral)
+        elif isinstance(item, Line2D):
+            item.set_color(muted if item._running_life_role == &quot;zoom&quot; else palette.primary)
+
+    a[&quot;F01.cell.boundary&quot;].set_edgecolor(palette.secondary)
+    a[&quot;F01.cell.boundary&quot;].set_facecolor(tint(palette.secondary, tuning.cell_fill_weight))
+    a[&quot;F01.nucleus.boundary&quot;].set_edgecolor(tint(palette.primary, tuning.nucleus_edge_weight))
+    a[&quot;F01.nucleus.boundary&quot;].set_facecolor(tint(palette.primary, tuning.nucleus_fill_weight))
+    for name, item in a.items():
+        if name.startswith(&quot;F01.nucleus.other.&quot;) or &quot;.pair.&quot; in name:
+            item.set_color(dna_secondary)
+        if item._running_life_role == &quot;protein&quot;:
+            item.set_edgecolor(palette.supplement)
+            item.set_facecolor(tint(palette.supplement, tuning.protein_fill_weight))
+        if item._running_life_role == &quot;zoom&quot; and not isinstance(item, Line2D):
+            item.set_edgecolor(muted)
+
+    for name in (&quot;F01.genome.set_bracket&quot;, &quot;F01.genome.label_leader&quot;):
+        a[name].set_color(palette.neutral)
+    a[&quot;F01.organised_dna.leader&quot;].set_color(palette.primary)
+    a[&quot;F01.protein.leader&quot;].set_color(palette.supplement)
+    a[&quot;F01.scope.note&quot;].set_color(muted)
+    a[&quot;F01.zoom.chromosome.label&quot;].set_color(muted)
+    a[&quot;F01.dna.gene_region&quot;].set_facecolor(tint(palette.accent, tuning.gene_fill_weight))
+    a[&quot;F01.dna.gene_region&quot;].set_edgecolor(palette.accent)
+    for name in (&quot;F01.dna.gene.upper&quot;, &quot;F01.dna.gene.lower&quot;, &quot;F01.gene.bracket&quot;, &quot;F01.gene.label&quot;):
+        a[name].set_color(palette.accent)
+    # Keep interior base-pair strokes in the same DNA color family. The warm
+    # rectangle and overlaid rails mark a region, not a separate substance.
+    result.spec[&quot;color_system&quot;] = {
+        &quot;version&quot;: &quot;1.0&quot;, &quot;palette&quot;: palette.__dict__, &quot;tuning&quot;: tuning.__dict__,
+        &quot;scope&quot;: &quot;Color-only application; existing geometry, text and relationships preserved.&quot;,
+    }
+    return result
+
+
+def build_figure(style=STYLE, layout=LAYOUT, palette=PALETTE, tuning=COLOR_TUNING):
+    &quot;&quot;&quot;Return a native Figure plus stable handles; do not write files here.&quot;&quot;&quot;
+    with mpl.rc_context(rc_settings()):
+        fig, ax = new_canvas(style)
+        a = {}
+        left_x = style.margin_mm
+        right_x = 72 + style.major_gap_mm
+        label(ax, a, &quot;F01.panel.set&quot;, &quot;整套与所在位置&quot;, (left_x, 90.5), size=style.heading_pt, style=style)
+
+        boundary(ax, a, &quot;F01.cell.boundary&quot;, layout.cell_center, layout.cell_size, style=style)
+        boundary(ax, a, &quot;F01.nucleus.boundary&quot;, layout.nucleus_center, layout.nucleus_size, style=style)
+        label(ax, a, &quot;F01.cell.label&quot;, &quot;有核细胞&quot;, (left_x + style.minor_gap_mm, 84), style=style)
+        label(ax, a, &quot;F01.nucleus.label&quot;, &quot;细胞核&quot;, (32, 76), ha=&quot;center&quot;, size=style.secondary_pt, style=style)
+        for i, b in enumerate((Box(22, 60, 9, 7), Box(22, 51, 10, 7), Box(33, 49, 9, 6))):
+            organised_dna(ax, a, f&quot;F01.nucleus.other.{i}&quot;, b, muted=True, style=style)
+        organised_dna(ax, a, &quot;F01.chromosome_example&quot;, Box(36, 57, 10, 8), style=style)
+        zoom_frame(ax, a, &quot;F01.zoom.chromosome.frame&quot;, layout.chromosome_selection, style=style)
+        bracket(ax, a, &quot;F01.genome.set_bracket&quot;, 19, 48, 43, style=style)
+        line(ax, a, &quot;F01.genome.label_leader&quot;, [(33.5, 43), (33.5, 33)], width=style.boundary_pt, style=style)
+        label(ax, a, &quot;F01.genome.label&quot;, &quot;基因组&quot;, (33.5, 28.5), size=style.heading_pt, ha=&quot;center&quot;, style=style)
+        label(ax, a, &quot;F01.genome.definition&quot;, &quot;整套DNA信息&quot;, (33.5, 22), ha=&quot;center&quot;, style=style)
+
+        s = layout.chromosome_selection
+        b = layout.chromosome_box
+        zoom_link(ax, a, &quot;F01.zoom.chromosome.link&quot;, [(s.right, s.top), (s.right, s.y)],
+                  [(b.x, b.top), (b.x, b.y)], style=style)
+        label(ax, a, &quot;F01.zoom.chromosome.label&quot;, &quot;放大&quot;, (64, 76), ha=&quot;center&quot;, size=style.note_pt, style=style)
+        label(ax, a, &quot;F01.chromosome.label&quot;, &quot;一条染色体&quot;, (right_x, 90.5), size=style.heading_pt, style=style)
+        label(ax, a, &quot;F01.chromosome.definition&quot;, &quot;长DNA与相关蛋白组织在一起&quot;, (right_x, 84.5), size=style.secondary_pt, style=style)
+        organised_dna(ax, a, &quot;F01.organised_chromosome&quot;, b, detailed=True, style=style)
+        label(ax, a, &quot;F01.organised_dna.label&quot;, &quot;长DNA&quot;, (92, 55.5), ha=&quot;center&quot;, size=style.note_pt, style=style)
+        line(ax, a, &quot;F01.organised_dna.leader&quot;, [(100, 63.3), (92, 59)], width=style.boundary_pt, color=style.muted, style=style)
+        label(ax, a, &quot;F01.protein.label&quot;, &quot;相关蛋白&quot;, (151, 55.5), ha=&quot;center&quot;, size=style.note_pt, style=style)
+        line(ax, a, &quot;F01.protein.leader&quot;, [(b.x + b.w * 5 / 6, b.y + b.h / 2), (151, 59)],
+             width=style.boundary_pt, color=style.muted, style=style)
+        zoom_frame(ax, a, &quot;F01.zoom.dna.frame&quot;, layout.dna_selection, style=style)
+        q = layout.dna_selection
+        d = layout.dna_box
+        zoom_link(ax, a, &quot;F01.zoom.dna.link&quot;, [(q.x, q.y), (q.right, q.y)],
+                  [(d.x, d.top + style.label_gap_mm), (d.right, d.top + style.label_gap_mm)], style=style)
+        label(ax, a, &quot;F01.dna.label&quot;, &quot;DNA的一段&quot;, (d.cx, 45), size=style.label_pt, ha=&quot;center&quot;, style=style)
+        dna_region(ax, a, &quot;F01.dna&quot;, d, layout.gene_x_mm, layout.gene_width_mm, style=style)
+        gx, gw = layout.gene_x_mm, layout.gene_width_mm
+        bracket(ax, a, &quot;F01.gene.bracket&quot;, gx, gx + gw, d.y - style.minor_gap_mm, style=style)
+        label(ax, a, &quot;F01.gene.label&quot;, &quot;基因 HBB&quot;, (gx + gw / 2, layout.gene_label_y_mm),
+              ha=&quot;center&quot;, size=style.heading_pt, style=style)
+        label(ax, a, &quot;F01.gene.definition&quot;, &quot;DNA上的一个区域&quot;, (gx + gw / 2, 16), ha=&quot;center&quot;, style=style)
+        label(ax, a, &quot;F01.scope.note&quot;, &quot;示意：聚焦核内DNA的组织；染色体只画部分。放大与尺寸均非真实比例。&quot;,
+              (left_x, 8), size=style.note_pt, color=style.muted, style=style)
+        result = BuildResult(fig, ax, a, {
+            &quot;figure_id&quot;: &quot;F01&quot;,
+            &quot;title&quot;: &quot;基因组 染色体 DNA 和基因的关系&quot;,
+            &quot;source_paragraphs&quot;: [&quot;P0034–P0042&quot;, &quot;P0044&quot;, &quot;P0053–P0064&quot;],
+            &quot;quantitative&quot;: False,
+            &quot;relationships&quot;: [
+                {&quot;kind&quot;: &quot;containment&quot;, &quot;source&quot;: &quot;F01.cell.boundary&quot;, &quot;target&quot;: &quot;F01.nucleus.boundary&quot;, &quot;evidence&quot;: &quot;P0034–P0036&quot;},
+                {&quot;kind&quot;: &quot;collection&quot;, &quot;source&quot;: &quot;F01.genome.set_bracket&quot;, &quot;target&quot;: &quot;F01.genome.label&quot;, &quot;evidence&quot;: &quot;P0041–P0042&quot;},
+                {&quot;kind&quot;: &quot;conceptual_zoom&quot;, &quot;source&quot;: &quot;F01.chromosome_example.dna&quot;, &quot;target&quot;: &quot;F01.organised_chromosome.dna&quot;, &quot;evidence&quot;: &quot;P0037–P0039&quot;},
+                {&quot;kind&quot;: &quot;organisation&quot;, &quot;source&quot;: &quot;F01.organised_chromosome.dna&quot;, &quot;target&quot;: &quot;F01.chromosome.label&quot;, &quot;evidence&quot;: &quot;P0036–P0038,P0042&quot;},
+                {&quot;kind&quot;: &quot;conceptual_zoom&quot;, &quot;source&quot;: &quot;F01.zoom.dna.frame&quot;, &quot;target&quot;: &quot;F01.dna.backbone.upper&quot;, &quot;evidence&quot;: &quot;P0039–P0040&quot;},
+                {&quot;kind&quot;: &quot;region_on_sequence&quot;, &quot;source&quot;: &quot;F01.dna.gene_region&quot;, &quot;target&quot;: &quot;F01.dna.backbone.upper&quot;, &quot;evidence&quot;: &quot;P0039–P0040&quot;},
+            ],
+            &quot;layout&quot;: {k: str(v) for k, v in layout.__dict__.items()},
+            &quot;limits&quot;: &quot;Conceptual, not to scale; only some nuclear chromosomes shown; no actual HBB sequence or base-pair count represented.&quot;,
+        })
+        return apply_f01_colors(result, palette, tuning)
+
+
+def main():
+    from export_utils import export_figure, preflight
+    with mpl.rc_context(rc_settings()):
+        result = build_figure()
+        report = preflight(result)
+        fig = result.figure
+        # Explicit, adjacent, static PDF name for Tavotto&#x27;s figure contract.
+        fig.savefig(OUT / &quot;F01_genome_chromosome_dna_gene.pdf&quot;, metadata={&quot;CreationDate&quot;: None, &quot;ModDate&quot;: None})
+        return export_figure(result, report, ROOT, OUT / &quot;F01_genome_chromosome_dna_gene.pdf&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F02"><div class="eyebrow">F02 / 30</div><h2>图 F02｜互补双链为复制提供参照</h2>
+        <p class="task">两条 DNA 链保存互补信息，特定配对让已有序列能够成为新链合成的参照。</p><img src="outputs/png/F02_complementary_strands.png" alt="图 F02｜互补双链为复制提供参照" loading="lazy">
+        <div class="links"><a href="outputs/png/F02_complementary_strands.png">png</a><a href="outputs/pdf/F02_complementary_strands.pdf">pdf</a><a href="outputs/svg/F02_complementary_strands.svg">svg</a><a href="figures/F02_complementary_strands.py">Python</a></div><dl><dt>布局理由</dt><dd>上下平行双链展示反向端点和四组配对；短对应线不使用转化箭头。底部括注提炼已有序列提供参照。</dd><dt>复用组件</dt><dd>DNA骨架、单碱基文字、非因果配对线、集合括号、方向端点</dd><dt>书稿来源</dt><dd>P0053–P0057 序列差异；P0073–P0074 两条反向链、A–T/C–G 配对、互补记录可提供复制参照。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F02: complementary_strands. Coordinates in mm; all objects remain editable.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+from production_utils import export_figure
+OUT = Path(__file__).resolve().parent
+
+def build_figure():
+    c=Drawing(&quot;F02&quot;,100)
+    c.heading(&quot;panel&quot;, &quot;两条链，保存互补的序列&quot;,(6,90))
+    c.strand(&quot;upper.backbone&quot;,25,70,88)
+    c.strand(&quot;lower.backbone&quot;,25,42,88)
+    for i,(a,b) in enumerate(zip(&quot;ACGT&quot;,&quot;TGCA&quot;)):
+        x=36+i*22
+        c.text(f&quot;upper.base.{i}&quot;,a,(x,63),size=11.5)
+        c.text(f&quot;lower.base.{i}&quot;,b,(x,49),size=11.5)
+        c.line(f&quot;upper.attach.{i}&quot;,[(x,70),(x,67)],width=.8)
+        c.line(f&quot;lower.attach.{i}&quot;,[(x,42),(x,45)],width=.8)
+        c.line(f&quot;pair.{i}&quot;,[(x,59),(x,53)],color=&quot;accent&quot; if i==1 else &quot;primary&quot;,dashed=True)
+    for name,label,xy in [(&#x27;u5&#x27;,&#x27;5′&#x27;,(18,70)),(&#x27;u3&#x27;,&#x27;3′&#x27;,(120,70)),(&#x27;l3&#x27;,&#x27;3′&#x27;,(18,42)),(&#x27;l5&#x27;,&#x27;5′&#x27;,(120,42))]:
+        c.text(name,label,xy,size=8.5)
+    c.text(&quot;pair.rule&quot;,&quot;A 对 T\nC 对 G&quot;,(145,57))
+    c.bracket(&quot;pair.bracket&quot;,26,112,31)
+    c.text(&quot;meaning&quot;,&quot;已有一条链的序列，限制另一条链的对应位置&quot;,(85,23))
+    c.note(&quot;配对线表示对应关系；两条链方向相反。序列与间距均为示意。&quot;,y=9)
+    return c.result()
+
+
+def main():
+    result=build_figure()
+    fig=result.figure
+    fig.savefig(OUT / &quot;F02_complementary_strands.pdf&quot;, metadata={&quot;CreationDate&quot;:None,&quot;ModDate&quot;:None})
+    return export_figure(result,ROOT,OUT / &quot;F02_complementary_strands.pdf&quot;)
+
+if __name__==&quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F03"><div class="eyebrow">F03 / 30</div><h2>图 F03｜DNA 复制中的旧链与新链</h2>
+        <p class="task">原来的两条链各自带出一条新互补链，结果是两份各含一旧一新的 DNA。</p><img src="outputs/png/F03_old_and_new_strands.png" alt="图 F03｜DNA 复制中的旧链与新链" loading="lazy">
+        <div class="links"><a href="outputs/png/F03_old_and_new_strands.png">png</a><a href="outputs/pdf/F03_old_and_new_strands.pdf">pdf</a><a href="outputs/svg/F03_old_and_new_strands.svg">svg</a><a href="figures/F03_old_and_new_strands.py">Python</a></div><dl><dt>布局理由</dt><dd>三列从原双链经分离到两份结果；两条旧链保持连续路径，新链用铜色和虚线双重区分；原料入口独立。</dd><dt>复用组件</dt><dd>连续链、模板箭头、合成箭头、原料容器、旧新身份标签</dd><dt>书稿来源</dt><dd>P0078–P0083：细胞分裂前先复制 DNA，每一旧链配成一条新互补链，两份结果各含一旧一新。P0087–P0091 复制稳定但非绝对无误。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F03: old_and_new_strands. Coordinates in mm; all objects remain editable.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+from production_utils import export_figure
+OUT = Path(__file__).resolve().parent
+
+def build_figure():
+    c=Drawing(&quot;F03&quot;,116)
+    for x,title in [(6,&quot;原来的一份&quot;),(65,&quot;各自作为模板&quot;),(123,&quot;两份复制结果&quot;)]:
+        c.heading(&quot;heading.&quot;+str(x),title,(x,106))
+    c.strand(&quot;old.a.start&quot;,10,71,32)
+    c.strand(&quot;old.b.start&quot;,10,57,32,color=&quot;secondary&quot;)
+    c.text(&quot;old.a.tag&quot;,&quot;旧链 A&quot;,(26,79),size=8.5)
+    c.text(&quot;old.b.tag&quot;,&quot;旧链 B&quot;,(26,49),size=8.5)
+    for i,x in enumerate(range(12,41,5)):
+        c.line(f&quot;pairs.{i}&quot;,[(x,60),(x,68)],width=.8,color=&quot;muted&quot;)
+    # Continuous old-strand paths preserve identity across the three views.
+    c.line(&quot;old.a.path&quot;,[(42,71),(61,84),(158,84)],width=1.5)
+    c.line(&quot;old.b.path&quot;,[(42,57),(61,43),(158,43)],width=1.5,color=&quot;secondary&quot;)
+    c.strand(&quot;new.a&quot;,67,73,91,color=&quot;accent&quot;,dashed=True)
+    c.strand(&quot;new.b&quot;,67,54,91,color=&quot;accent&quot;,dashed=True)
+    c.edge(&quot;template.a&quot;,(89,82),(89,75),kind=&quot;template&quot;)
+    c.edge(&quot;template.b&quot;,(89,45),(89,52),kind=&quot;template&quot;)
+    c.text(&quot;template.key&quot;,&quot;虚线箭头：模板参照&quot;,(87,94),size=8.5)
+    c.text(&quot;output.a&quot;,&quot;旧链 A ＋ 新链&quot;,(140,64),size=8.5)
+    c.text(&quot;output.b&quot;,&quot;新链 ＋ 旧链 B&quot;,(140,33),size=8.5)
+    c.node(&quot;raw&quot;,&quot;游离的 DNA 原料&quot;,(57,23),w=49,h=12,color=&quot;accent&quot;,size=8.5)
+    c.edge(&quot;synthesis&quot;,(72,30),(76,51),kind=&quot;process&quot;,color=&quot;accent&quot;)
+    c.text(&quot;synthesis.label&quot;,&quot;合成新链&quot;,(92,36),size=8.5)
+    c.note(&quot;旧链各保留一条；铜色虚线是新链。仅示意链的去向，不表示真实空间或时间比例。&quot;,y=9)
+    return c.result()
+
+
+def main():
+    result=build_figure()
+    fig=result.figure
+    fig.savefig(OUT / &quot;F03_old_and_new_strands.pdf&quot;, metadata={&quot;CreationDate&quot;:None,&quot;ModDate&quot;:None})
+    return export_figure(result,ROOT,OUT / &quot;F03_old_and_new_strands.pdf&quot;)
+
+if __name__==&quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F04"><div class="eyebrow">F04 / 30</div><h2>图 F04｜染色体重组与配子组合</h2>
+        <p class="task">连续片段的重组、配子取样与受精，把传下来的染色体版本组合成新的组合。</p><img src="outputs/png/F04_recombination_and_gametes.png" alt="图 F04｜染色体重组与配子组合" loading="lazy">
+        <div class="links"><a href="outputs/png/F04_recombination_and_gametes.png">png</a><a href="outputs/pdf/F04_recombination_and_gametes.pdf">pdf</a><a href="outputs/svg/F04_recombination_and_gametes.svg">svg</a><a href="figures/F04_recombination_and_gametes.py">Python</a></div><dl><dt>布局理由</dt><dd>父母两条示例通道分别展示同源片段交换与抽取一种配子，再组合为双亲两份；用连续分块保持片段来源可追踪。片段以A/B字母与颜色双重编码，便于灰度追踪。</dd><dt>复用组件</dt><dd>染色体分段、过程箭头、平行通道、受精组合、片段来源字母</dd><dt>书稿来源</dt><dd>P0095–P0098：成对染色体相应区域交换连续片段；配子获得一套重新组合版本；受精让父母两套相遇。P0101–P0103 组合不等于完整命运。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F04: recombination_and_gametes. Coordinates in mm; all objects remain editable.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+from production_utils import export_figure
+OUT = Path(__file__).resolve().parent
+
+def chromosome(c,name,x,y,colors):
+    for i,color in enumerate(colors):
+        c.rect(f&quot;{name}.{i}&quot;,(x+7*i,y),7,5.5,color=color,weight=.32,radius=0)
+        c.text(f&quot;{name}.origin.{i}&quot;,&quot;A&quot; if color==&quot;primary&quot; else &quot;B&quot;,(x+7*i+3.5,y+2.75),size=8.5)
+
+def build_figure():
+    c=Drawing(&quot;F04&quot;,126)
+    for x,title in [(6,&quot;亲本的同源染色体&quot;),(68,&quot;交换对应片段&quot;),(127,&quot;抽取一种配子&quot;)]:
+        c.heading(&quot;heading.&quot;+str(x),title,(x,116))
+    for k,(y,title) in enumerate([(91,&quot;父方示例&quot;),(54,&quot;母方示例&quot;)]):
+        c.text(f&quot;parent.{k}&quot;,title,(6,y+11),ha=&quot;left&quot;,size=8.5)
+        chromosome(c,f&quot;pair.{k}.a&quot;,10,y,[&#x27;primary&#x27;]*4)
+        chromosome(c,f&quot;pair.{k}.b&quot;,10,y-8,[&#x27;secondary&#x27;]*4)
+        c.edge(f&quot;exchange.{k}&quot;,(44,y-2),(67,y-2),kind=&quot;process&quot;)
+        chromosome(c,f&quot;recombined.{k}.a&quot;,73,y,[&#x27;primary&#x27;]*2+[&#x27;secondary&#x27;]*2)
+        chromosome(c,f&quot;recombined.{k}.b&quot;,73,y-8,[&#x27;secondary&#x27;]*2+[&#x27;primary&#x27;]*2)
+        c.edge(f&quot;gamete.{k}&quot;,(107,y-2),(126,y-2),kind=&quot;process&quot;)
+        chromosome(c,f&quot;selected.{k}&quot;,132,y-2,[&#x27;primary&#x27;]*2+[&#x27;secondary&#x27;]*2 if k==0 else [&#x27;secondary&#x27;]*2+[&#x27;primary&#x27;]*2)
+    c.text(&quot;sperm&quot;,&quot;精子中的一份&quot;,(146,78),size=8.5)
+    c.text(&quot;egg&quot;,&quot;卵子中的一份&quot;,(146,41),size=8.5)
+    c.line(&quot;combine.sperm.route&quot;,[(163,87),(163,29),(158,29)])
+    c.edge(&quot;combine.sperm&quot;,(158,29),(154,26.5),kind=&quot;process&quot;)
+    c.line(&quot;combine.egg.route&quot;,[(146,37),(122,37),(122,18)])
+    c.edge(&quot;combine.egg&quot;,(122,18),(126,18),kind=&quot;process&quot;)
+    chromosome(c,&quot;zygote.p&quot;,126,21,[&#x27;primary&#x27;]*2+[&#x27;secondary&#x27;]*2)
+    chromosome(c,&quot;zygote.m&quot;,126,15,[&#x27;secondary&#x27;]*2+[&#x27;primary&#x27;]*2)
+    c.text(&quot;zygote.label&quot;,&quot;受精组合：来自双亲的两份&quot;,(117,31),ha=&quot;right&quot;,size=9.5)
+    c.note(&quot;A/B 区分每位亲本内部的同源来源；只画部分染色体与一种配子组合。&quot;,y=8)
+    return c.result()
+
+
+def main():
+    result=build_figure()
+    fig=result.figure
+    fig.savefig(OUT / &quot;F04_recombination_and_gametes.pdf&quot;, metadata={&quot;CreationDate&quot;:None,&quot;ModDate&quot;:None})
+    return export_figure(result,ROOT,OUT / &quot;F04_recombination_and_gametes.pdf&quot;)
+
+if __name__==&quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F05"><div class="eyebrow">F05 / 30</div><h2>图 F05｜DNA 被转录后产生不同 RNA 版本</h2>
+        <p class="task">DNA 提供模板而保持存在，初始 RNA 经不同剪接可得到不同成熟 RNA 版本。</p><img src="outputs/png/F05_transcription_and_splicing.png" alt="图 F05｜DNA 被转录后产生不同 RNA 版本" loading="lazy">
+        <div class="links"><a href="outputs/png/F05_transcription_and_splicing.png">png</a><a href="outputs/pdf/F05_transcription_and_splicing.pdf">pdf</a><a href="outputs/svg/F05_transcription_and_splicing.svg">svg</a><a href="figures/F05_transcription_and_splicing.py">Python</a></div><dl><dt>布局理由</dt><dd>左侧保留DNA并以模板关系连接初始RNA、原料另行合成；右侧上下两个分支显示不同片段组合。</dd><dt>复用组件</dt><dd>双链、模板箭头、原料容器、片段条、分支过程箭头</dd><dt>书稿来源</dt><dd>P0109–P0113 DNA 留在原处，以序列为参照合成新 RNA；P0114–P0116 初始 RNA 剪接，同一初始 RNA 可有不同成熟版本。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F05: transcription_and_splicing. Coordinates in mm; all objects remain editable.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+from production_utils import export_figure
+OUT = Path(__file__).resolve().parent
+
+def build_figure():
+    c=Drawing(&quot;F05&quot;,116)
+    c.heading(&quot;transcription.heading&quot;,&quot;先按模板合成 RNA&quot;,(6,106))
+    c.heading(&quot;splicing.heading&quot;,&quot;再加工出不同版本&quot;,(95,106))
+    c.dna(&quot;dna&quot;,9,81,59)
+    c.text(&quot;dna.label&quot;,&quot;DNA 保留在原处&quot;,(39,94),size=9.5)
+    c.edge(&quot;template&quot;,(27,79),(27,67),kind=&quot;template&quot;)
+    c.segments(&quot;initial&quot;,[1,2,3,4],9,54,segment_w=12)
+    c.text(&quot;initial.label&quot;,&quot;初始 RNA&quot;,(16,44),size=9.5)
+    c.node(&quot;raw&quot;,&quot;游离 RNA 原料&quot;,(36,26),w=43,h=12,color=&quot;secondary&quot;,size=8.5)
+    c.edge(&quot;assembly&quot;,(49,33),(49,51),kind=&quot;process&quot;,color=&quot;secondary&quot;)
+    c.edge(&quot;branch.a&quot;,(69,58),(102,80),kind=&quot;process&quot;)
+    c.edge(&quot;branch.b&quot;,(69,56),(102,39),kind=&quot;process&quot;)
+    c.text(&quot;splicing&quot;,&quot;剪接&quot;,(86,57),size=8.5)
+    c.segments(&quot;mature.a&quot;,[1,2,4],105,80,segment_w=14,color=&quot;secondary&quot;)
+    c.segments(&quot;mature.b&quot;,[1,3,4],105,36,segment_w=14,color=&quot;secondary&quot;)
+    c.text(&quot;a.label&quot;,&quot;成熟 RNA 版本 A&quot;,(128,95),size=9.5)
+    c.text(&quot;b.label&quot;,&quot;成熟 RNA 版本 B&quot;,(128,51),size=9.5)
+    c.note(&quot;编号只是片段示意；不同加工可保留不同组合，并非所有基因都有这两种版本。&quot;,y=9)
+    return c.result()
+
+
+def main():
+    result=build_figure()
+    fig=result.figure
+    fig.savefig(OUT / &quot;F05_transcription_and_splicing.pdf&quot;, metadata={&quot;CreationDate&quot;:None,&quot;ModDate&quot;:None})
+    return export_figure(result,ROOT,OUT / &quot;F05_transcription_and_splicing.pdf&quot;)
+
+if __name__==&quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F06"><div class="eyebrow">F06 / 30</div><h2>图 F06｜RNA 怎样指导氨基酸链的形成</h2>
+        <p class="task">核糖体和 tRNA 读取密码子，用另外取得的氨基酸连接新链，RNA 本身不变成蛋白质。</p><img src="outputs/png/F06_translation.png" alt="图 F06｜RNA 怎样指导氨基酸链的形成" loading="lazy">
+        <div class="links"><a href="outputs/png/F06_translation.png">png</a><a href="outputs/pdf/F06_translation.pdf">pdf</a><a href="outputs/svg/F06_translation.svg">svg</a><a href="figures/F06_translation.py">Python</a></div><dl><dt>布局理由</dt><dd>底部横向mRNA与读取方向固定；中部核糖体围住tRNA识别和肽链连接处，顶部原料输入与增长链分开。</dd><dt>复用组件</dt><dd>RNA骨架、密码子文字、核糖体轮廓、tRNA折线、氨基酸圆点、过程/模板箭头</dd><dt>书稿来源</dt><dd>P0123–P0145 RNA 与氨基酸使用不同字母表，密码子三联读取；P0146–P0154 tRNA 识别并携带氨基酸，核糖体连接新链，RNA 仍是 RNA。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F06: translation. Coordinates in mm; all objects remain editable.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+from production_utils import export_figure
+OUT = Path(__file__).resolve().parent
+
+def build_figure():
+    c=Drawing(&quot;F06&quot;,116)
+    c.heading(&quot;heading&quot;,&quot;RNA 提供读取顺序，氨基酸来自独立原料&quot;,(6,106))
+    c.strand(&quot;mrna&quot;,10,38,147,color=&quot;secondary&quot;)
+    for i,codon in enumerate([&#x27;AUG&#x27;,&#x27;GCU&#x27;,&#x27;AAA&#x27;,&#x27;GGC&#x27;]):
+        c.text(f&quot;codon.{i}&quot;,codon,(30+i*34,44),size=11.5)
+    c.ellipse(&quot;ribosome&quot;,(64,61),40,46,color=&quot;supplement&quot;,fill=False)
+    c.text(&quot;ribosome.label&quot;,&quot;核糖体&quot;,(65,26),size=9.5)
+    c.text(&quot;mrna.label&quot;,&quot;mRNA&quot;,(145,30),size=9.5)
+    c.line(&quot;trna&quot;,[(63,51),(59,61),(63,67),(67,61),(63,51)],color=&quot;accent&quot;)
+    c.line(&quot;trna.carry.contact&quot;,[(63,67),(63,70)],color=&quot;accent&quot;)
+    c.line(&quot;trna.label.leader&quot;,[(96,63),(70,62)],color=&quot;muted&quot;,width=.8)
+    c.circle(&quot;incoming.aa&quot;,(63,72),r=2.3,color=&quot;accent&quot;)
+    c.text(&quot;trna.label&quot;,&quot;tRNA&quot;,(111,65),size=8.5)
+    c.text(&quot;trna.recognition&quot;,&quot;识别密码子&quot;,(118,55),size=8.5)
+    c.edge(&quot;recognition&quot;,(102,50),(70,49),kind=&quot;template&quot;,color=&quot;accent&quot;)
+    c.text(&quot;peptide.label&quot;,&quot;正在增长的氨基酸链&quot;,(44,93),size=9.5)
+    for i,(x,y) in enumerate([(27,88),(35,85),(43,81),(51,78)]):
+        if i:c.line(f&quot;peptide.join.{i}&quot;,[[(27,88),(35,85),(43,81),(51,78)][i-1],(x,y)],color=&quot;primary&quot;,zorder=1)
+        c.circle(f&quot;peptide.aa.{i}&quot;,(x,y),r=2.3)
+    c.edge(&quot;join&quot;,(60,73),(55,77),kind=&quot;process&quot;,color=&quot;accent&quot;)
+    c.text(&quot;join.label&quot;,&quot;连接&quot;,(76,87),size=8.5)
+    c.node(&quot;raw&quot;,&quot;独立的氨基酸原料&quot;,(128,86),w=49,h=12,color=&quot;accent&quot;,size=9.5)
+    c.edge(&quot;carry&quot;,(101,82),(67,74),kind=&quot;process&quot;,color=&quot;accent&quot;)
+    c.text(&quot;carry.label&quot;,&quot;由 tRNA 携带&quot;,(104,98),size=8.5)
+    c.edge(&quot;read.direction&quot;,(16,19),(83,19),kind=&quot;process&quot;,color=&quot;secondary&quot;)
+    c.text(&quot;read.label&quot;,&quot;沿 RNA 的读取方向&quot;,(115,19),size=8.5)
+    c.note(&quot;核糖体按三个碱基一组读取；mRNA 不会变成氨基酸，肽链由氨基酸连接而成。&quot;,y=9)
+    return c.result()
+
+
+def main():
+    result=build_figure()
+    fig=result.figure
+    fig.savefig(OUT / &quot;F06_translation.pdf&quot;, metadata={&quot;CreationDate&quot;:None,&quot;ModDate&quot;:None})
+    return export_figure(result,ROOT,OUT / &quot;F06_translation.pdf&quot;)
+
+if __name__==&quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F07"><div class="eyebrow">F07 / 30</div><h2>图 F07｜氨基酸顺序怎样影响蛋白质作用</h2>
+        <p class="task">顺序通过结构与表面性质影响分子接触，接触才让蛋白质参与细胞工作。</p><img src="outputs/png/F07_sequence_structure_action.png" alt="图 F07｜氨基酸顺序怎样影响蛋白质作用" loading="lazy">
+        <div class="links"><a href="outputs/png/F07_sequence_structure_action.png">png</a><a href="outputs/pdf/F07_sequence_structure_action.pdf">pdf</a><a href="outputs/svg/F07_sequence_structure_action.svg">svg</a><a href="figures/F07_sequence_structure_action.py">Python</a></div><dl><dt>布局理由</dt><dd>三个横向区分别展示链顺序、折叠及接触面、作用伙伴与细胞过程；条件箭头表达可能的影响，不设无依据定量。</dd><dt>复用组件</dt><dd>氨基酸链、抽象折叠线、接触点、伙伴容器、条件箭头</dd><dt>书稿来源</dt><dd>P0158–P0177：氨基酸性质影响折叠，表面形状与化学性质影响接触；顺序变化可能无影响，也可能改变关键接触。图后 P0181–P0188 才展开 HbS 多尺度实例。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F07: sequence_structure_action. Coordinates in mm; all objects remain editable.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+from production_utils import export_figure
+OUT = Path(__file__).resolve().parent
+
+def build_figure():
+    c=Drawing(&quot;F07&quot;,116)
+    for x,title in [(6,&quot;氨基酸顺序&quot;),(66,&quot;折叠与表面性质&quot;),(128,&quot;接触与作用&quot;)]:
+        c.heading(&quot;heading.&quot;+str(x),title,(x,106))
+    chain=[(12,76),(19,78),(26,75),(33,78),(40,76)]
+    for i,xy in enumerate(chain):
+        if i:c.line(f&quot;sequence.join.{i}&quot;,[chain[i-1],xy],color=&quot;primary&quot;,zorder=1)
+        c.circle(f&quot;sequence.aa.{i}&quot;,xy,r=2.6,color=&quot;accent&quot; if i==2 else &quot;primary&quot;)
+    c.text(&quot;change.label&quot;,&quot;某一位置改变&quot;,(26,62),size=8.5)
+    c.edge(&quot;folding&quot;,(46,76),(64,76),kind=&quot;conditional&quot;)
+    c.line(&quot;folded&quot;,[(71,67),(68,78),(77,88),(85,82),(75,76),(86,67),(96,77),(91,90)],width=2)
+    c.circle(&quot;surface&quot;,(94,79),r=2.7,color=&quot;accent&quot;)
+    c.text(&quot;surface.label&quot;,&quot;接触面与化学性质&quot;,(83,55),size=8.5)
+    c.edge(&quot;effect&quot;,(103,76),(119,76),kind=&quot;conditional&quot;)
+    c.ellipse(&quot;partner&quot;,(143,77),30,24,color=&quot;secondary&quot;)
+    c.text(&quot;partner.label&quot;,&quot;作用伙伴&quot;,(143,77),size=9.5)
+    c.circle(&quot;contact&quot;,(126,79),r=2.7,color=&quot;accent&quot;)
+    c.node(&quot;action&quot;,&quot;细胞过程改变&quot;,(142,43),w=39,h=12,color=&quot;secondary&quot;,size=8.5)
+    c.edge(&quot;action.link&quot;,(143,63),(143,51),kind=&quot;conditional&quot;)
+    c.text(&quot;condition&quot;,&quot;位置、折叠与接触条件共同影响结果&quot;,(83,28),size=9.5)
+    c.note(&quot;一个氨基酸变化可能保留原有作用，也可能改变关键接触；示意不表示必然失活。&quot;,y=9)
+    return c.result()
+
+
+def main():
+    result=build_figure()
+    fig=result.figure
+    fig.savefig(OUT / &quot;F07_sequence_structure_action.pdf&quot;, metadata={&quot;CreationDate&quot;:None,&quot;ModDate&quot;:None})
+    return export_figure(result,ROOT,OUT / &quot;F07_sequence_structure_action.pdf&quot;)
+
+if __name__==&quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F08"><div class="eyebrow">F08 / 30</div><h2>图 F08｜DNA 变化在不同层次的传播与缓冲</h2>
+        <p class="task">变化能否穿过各层，要看它改变了什么、是否被补偿，以及当时是否满足继续传播的条件。</p><img src="outputs/png/F08_propagation_and_buffering.png" alt="图 F08｜DNA 变化在不同层次的传播与缓冲" loading="lazy">
+        <div class="links"><a href="outputs/png/F08_propagation_and_buffering.png">png</a><a href="outputs/pdf/F08_propagation_and_buffering.pdf">pdf</a><a href="outputs/svg/F08_propagation_and_buffering.svg">svg</a><a href="figures/F08_propagation_and_buffering.py">Python</a></div><dl><dt>布局理由</dt><dd>170×140 mm；顶部五组覆盖七个层次，下方四条独立路径分别到达不同缓冲位置。各行等宽等高，通用条件与解释放在底注。</dd><dt>复用组件</dt><dd>层级标题、并行节点、模板/条件箭头、缓冲强调、双行底注</dd><dt>书稿来源</dt><dd>P0219–P0237 同义、错义、提前停止、移码、剪接可从不同处进入链；P0239–P0248 DNA→RNA→蛋白→相互作用→细胞→组织→表型，多个缓冲位置；P0252–P0260 条件及表达前提。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F08: propagation_and_buffering. Coordinates in mm; all objects remain editable.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+from production_utils import export_figure
+OUT = Path(__file__).resolve().parent
+
+def build_figure():
+    c=Drawing(&quot;F08&quot;,140)
+    xs=[18,49,83,116,148]
+    heads=[&#x27;DNA&#x27;,&#x27;RNA&#x27;,&#x27;蛋白质及\n分子作用&#x27;,&#x27;细胞&#x27;,&#x27;组织与\n表现&#x27;]
+    for i,(x,label) in enumerate(zip(xs,heads)):
+        c.text(f&quot;head.{i}&quot;,label,(x,128),size=10.5)
+    rows=[(106,[&#x27;序列改变&#x27;,&#x27;密码子变&#x27;,&#x27;氨基酸未变&#x27;,None,None]),
+          (81,[&#x27;序列改变&#x27;,&#x27;密码子变&#x27;,&#x27;氨基酸变\n功能仍保留&#x27;,None,None]),
+          (56,[&#x27;序列改变&#x27;,&#x27;产物改变&#x27;,&#x27;作用改变&#x27;,&#x27;其他途径\n补偿&#x27;,None]),
+          (31,[&#x27;序列改变&#x27;,&#x27;产物改变&#x27;,&#x27;作用改变&#x27;,&#x27;功能改变&#x27;,&#x27;功能余量\n仍足够&#x27;])]
+    for r,(y,labels) in enumerate(rows):
+        last=max(i for i,v in enumerate(labels) if v)
+        for i,label in enumerate(labels):
+            if label:
+                c.node(f&quot;r{r}.n{i}&quot;,label,(xs[i],y),w=24 if i!=2 else 28,h=16,color=&quot;secondary&quot; if i==last else &quot;primary&quot;,size=8.5)
+                if i:
+                    c.edge(f&quot;r{r}.e{i}&quot;,(xs[i-1]+(14 if i==3 else 12)+1,y),(xs[i]-(14 if i==2 else 12)-1,y),kind=&quot;template&quot; if i==1 or (i==2 and r&lt;2) else &quot;conditional&quot;)
+    c.note(&quot;四行是独立示例。传播还取决于基因是否表达，以及氧、浓度、持续时间等条件。&quot;,y=15)
+    c.note(&quot;同义变化在此仅指氨基酸顺序不变；缓冲不等于 DNA 恢复。线宽不表示效应大小。&quot;,y=8,name=&quot;scope.note2&quot;)
+    return c.result()
+
+
+def main():
+    result=build_figure()
+    fig=result.figure
+    fig.savefig(OUT / &quot;F08_propagation_and_buffering.pdf&quot;, metadata={&quot;CreationDate&quot;:None,&quot;ModDate&quot;:None})
+    return export_figure(result,ROOT,OUT / &quot;F08_propagation_and_buffering.pdf&quot;)
+
+if __name__==&quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F09"><div class="eyebrow">F09 / 30</div><h2>图 F09｜人的基因组不只有蛋白质编码序列</h2>
+        <p class="task">蛋白质编码只是基因组的一部分，许多其他序列影响信息使用、结构或尚待理解。</p><img src="outputs/png/F09_genome_annotation_tracks.png" alt="图 F09｜人的基因组不只有蛋白质编码序列" loading="lazy">
+        <div class="links"><a href="outputs/png/F09_genome_annotation_tracks.png">png</a><a href="outputs/pdf/F09_genome_annotation_tracks.pdf">pdf</a><a href="outputs/svg/F09_genome_annotation_tracks.svg">svg</a><a href="figures/F09_genome_annotation_tracks.py">Python</a></div><dl><dt>布局理由</dt><dd>同一DNA条下方配置六种平行注释轨道；重叠区间表示注释可以交叠，明确所有长度和比例为示意。</dd><dt>复用组件</dt><dd>DNA双链、注释基线、功能区段、非比例说明</dd><dt>书稿来源</dt><dd>P0264–P0267 基因数不能直接解释复杂性；P0270–P0272 编码序列只占很小部分，其他区域包括基因内非最终编码部分、重复、非编码RNA、调控/结构及未明区域。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F09: genome_annotation_tracks. Coordinates in mm; all objects remain editable.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+from production_utils import export_figure
+OUT = Path(__file__).resolve().parent
+
+def build_figure():
+    c=Drawing(&quot;F09&quot;,126)
+    c.heading(&quot;heading&quot;,&quot;沿同一段 DNA，可从不同角度标注&quot;,(6,116))
+    c.dna(&quot;dna&quot;,49,96,110)
+    labels=[(&#x27;蛋白质编码&#x27;,[(68,9),(100,10)],&#x27;primary&#x27;),
+            (&#x27;基因内部非编码&#x27;,[(55,13),(77,23),(110,11)],&#x27;secondary&#x27;),
+            (&#x27;非编码 RNA&#x27;,[(130,24)],&#x27;secondary&#x27;),
+            (&#x27;调控作用&#x27;,[(52,15),(114,14)],&#x27;accent&#x27;),
+            (&#x27;重复／结构&#x27;,[(87,14),(133,21)],&#x27;supplement&#x27;),
+            (&#x27;作用仍待研究&#x27;,[(72,14),(120,11)],&#x27;muted&#x27;)]
+    for i,(label,regions,col) in enumerate(labels):
+        y=82-i*11
+        c.text(f&quot;track.label.{i}&quot;,label,(6,y+2.5),ha=&quot;left&quot;,size=8.5)
+        c.line(f&quot;track.baseline.{i}&quot;,[(49,y+2.5),(159,y+2.5)],width=.6,color=&quot;muted&quot;)
+        for j,(x,w) in enumerate(regions):
+            c.rect(f&quot;track.region.{i}.{j}&quot;,(x,y),w,5,color=col,weight=.3,radius=0)
+    c.text(&quot;meaning&quot;,&quot;注释可以交叠；非编码不等于没有作用，也不等于每段都有已知功能。&quot;,(85,18),size=8.5)
+    c.note(&quot;抽象注释示意，不对应真实位点；长度、间距与各类占比均不按比例。&quot;,y=8)
+    return c.result()
+
+
+def main():
+    result=build_figure()
+    fig=result.figure
+    fig.savefig(OUT / &quot;F09_genome_annotation_tracks.pdf&quot;, metadata={&quot;CreationDate&quot;:None,&quot;ModDate&quot;:None})
+    return export_figure(result,ROOT,OUT / &quot;F09_genome_annotation_tracks.pdf&quot;)
+
+if __name__==&quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F10"><div class="eyebrow">F10 / 30</div><h2>图 F10｜从 DNA 可接近到基因被使用</h2>
+        <p class="task">可接近性只是条件之一，调控蛋白状态、启动子组装和空间协作共同改变转录机会。</p><img src="outputs/png/F10_access_to_transcription.png" alt="图 F10｜从 DNA 可接近到基因被使用" loading="lazy">
+        <div class="links"><a href="outputs/png/F10_access_to_transcription.png">png</a><a href="outputs/pdf/F10_access_to_transcription.pdf">pdf</a><a href="outputs/svg/F10_access_to_transcription.svg">svg</a><a href="figures/F10_access_to_transcription.py">Python</a></div><dl><dt>布局理由</dt><dd>左侧局部包装提供接近条件，右侧连续折叠DNA使增强子靠近启动子与组装机器；DNA模板和RNA原料分别接入新RNA。</dd><dt>复用组件</dt><dd>DNA折线、区域强调、包装蛋白、转录因子与机器轮廓、接触线、模板/条件/过程箭头</dd><dt>书稿来源</dt><dd>P0281–P0285 动态可接近性；P0287–P0297 启动子、转录因子、增强子与折叠协作，多个条件共同影响RNA产量。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F10: access_to_transcription. Coordinates in mm; all objects remain editable.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+from production_utils import export_figure
+OUT = Path(__file__).resolve().parent
+
+def build_figure():
+    c=Drawing(&quot;F10&quot;,126)
+    c.heading(&quot;a.heading&quot;,&quot;包装影响接近机会&quot;,(6,116))
+    c.heading(&quot;b.heading&quot;,&quot;空间接触与分子组装&quot;,(74,116))
+    for i,x in enumerate([16,29,42]):
+        c.circle(f&quot;packing.protein.{i}&quot;,(x,88),r=5,color=&quot;supplement&quot;)
+    c.line(&quot;packing.dna&quot;,[(8,89),(12,94),(20,94),(24,82),(33,82),(37,94),(45,94),(51,89)],width=1.4)
+    c.text(&quot;packing.label&quot;,&quot;局部包装动态变化&quot;,(29,74),size=8.5)
+    c.edge(&quot;access&quot;,(54,87),(69,87),kind=&quot;conditional&quot;)
+    # A continuous folded DNA path brings distant regions into spatial contact.
+    c.line(&quot;folded.dna&quot;,[(75,79),(87,85),(91,97),(109,102),(124,94),(121,81),(110,76),(113,63),(150,63)],width=1.5)
+    c.rect(&quot;enhancer&quot;,(85,81),9,5,color=&quot;accent&quot;,weight=.32,radius=0,role=&quot;region_fill&quot;)
+    c.rect(&quot;promoter&quot;,(108,68),9,5,color=&quot;accent&quot;,weight=.32,radius=0,role=&quot;region_fill&quot;)
+    c.text(&quot;enhancer.label&quot;,&quot;增强子&quot;,(75,99),size=8.5)
+    c.text(&quot;promoter.label&quot;,&quot;启动子&quot;,(141,75),size=8.5)
+    c.ellipse(&quot;tf&quot;,(96,76),13,10,color=&quot;secondary&quot;)
+    c.line(&quot;tf.contact&quot;,[(90,82),(92,79)],color=&quot;secondary&quot;,width=1.1)
+    c.edge(&quot;cooperation&quot;,(102,73),(110,64),kind=&quot;conditional&quot;,color=&quot;secondary&quot;)
+    c.text(&quot;tf.label&quot;,&quot;转录因子&quot;,(78,64),size=8.5)
+    c.ellipse(&quot;machine&quot;,(117,58),23,13,color=&quot;supplement&quot;)
+    c.text(&quot;machine.label&quot;,&quot;转录机器&quot;,(143,52),size=8.5)
+    c.edge(&quot;template&quot;,(151,63),(155,33),kind=&quot;template&quot;)
+    c.strand(&quot;rna&quot;,104,31,45,color=&quot;secondary&quot;)
+    c.text(&quot;rna.label&quot;,&quot;新合成的 RNA&quot;,(126,22),size=8.5)
+    c.node(&quot;raw&quot;,&quot;RNA 原料&quot;,(73,31),w=27,h=12,color=&quot;secondary&quot;,size=8.5)
+    c.edge(&quot;synthesis&quot;,(89,31),(101,31),kind=&quot;process&quot;,color=&quot;secondary&quot;)
+    c.text(&quot;condition&quot;,&quot;可接近性只是条件之一；\n因子状态与协作也影响转录。&quot;,(6,45),ha=&quot;left&quot;,size=8.5)
+    c.note(&quot;DNA 折叠使序列上相距较远的区域靠近；并非所有转录因子都促进转录。&quot;,y=9)
+    return c.result()
+
+
+def main():
+    result=build_figure()
+    fig=result.figure
+    fig.savefig(OUT / &quot;F10_access_to_transcription.pdf&quot;, metadata={&quot;CreationDate&quot;:None,&quot;ModDate&quot;:None})
+    return export_figure(result,ROOT,OUT / &quot;F10_access_to_transcription.pdf&quot;)
+
+if __name__==&quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F11"><div class="eyebrow">F11 / 30</div><h2>图 F11｜同一基因组运行不同细胞程序</h2>
+        <p class="task">相近基因组在不同调控环境中运行不同表达程序，产生不同分子组合与细胞行为。</p><img src="outputs/png/F11_cell_programs.png" alt="图 F11｜同一基因组运行不同细胞程序" loading="lazy">
+        <div class="links"><a href="outputs/png/F11_cell_programs.png">png</a><a href="outputs/pdf/F11_cell_programs.pdf">pdf</a><a href="outputs/svg/F11_cell_programs.svg">svg</a><a href="figures/F11_cell_programs.py">Python</a></div><dl><dt>布局理由</dt><dd>170×116 mm。两行四列同位对照：相近 DNA、调控状态、RNA 与蛋白组合、细胞工作。神经元与皮肤细胞保留同形 DNA，A/B 标签及分子组合图区分使用程序；每行以三条条件影响线连接，行间细虚线仅用于分隔。</dd><dt>复用组件</dt><dd>两组平行 DNA 片段、A/B 调控节点、RNA 线段与蛋白质图符、细胞功能节点、六条条件影响边、行分隔线、非计数范围说明。</dd><dt>书稿来源</dt><dd>P0276–P0279 神经元/皮肤细胞DNA相近，分化非大规模删除；P0301–P0314 使用的数量、时序、版本及调控状态不同，形成不同结构行为。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F11: 同一基因组运行不同细胞程序. Geometry is in millimetres.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+
+
+def draw_program_row(c, key, y, cell_name, version, function):
+    c.text(key+&#x27;.cell&#x27;, cell_name, (26, y+13), size=9)
+    c.dna(key+&#x27;.dna&#x27;, 15, y-2, 23, gap=4)
+    c.node(key+&#x27;.regulation&#x27;, &#x27;可接近区域\n与调控组合 &#x27;+version, (65,y), w=36,h=19,size=9)
+    c.text(key+&#x27;.products.label&#x27;,&#x27;组合 &#x27;+version,(108,y+7),size=9)
+    for i in range(3):
+        lengths=(12,9,14) if version==&#x27;A&#x27; else (8,14,10)
+        c.strand(key+f&#x27;.rna.{i}&#x27;,94,y-1-i*3,lengths[i],color=&#x27;primary&#x27; if (i+(version==&#x27;B&#x27;))%2==0 else &#x27;secondary&#x27;)
+        c.circle(key+f&#x27;.protein.{i}&#x27;,(113+i*4,y-4),1.3,color=&#x27;supplement&#x27; if (i+(version==&#x27;B&#x27;))%2==0 else &#x27;secondary&#x27;)
+    c.node(key+&#x27;.function&#x27;, function, (148,y),w=29,h=18,color=&#x27;secondary&#x27;,size=9)
+    for j,(x0,x1) in enumerate(((40,45),(85,91),(125,131))):
+        c.edge(key+f&#x27;.influence.{j}&#x27;,(x0,y),(x1,y),kind=&#x27;conditional&#x27;)
+
+
+def build_figure():
+    c=Drawing(&#x27;F11&#x27;,height=116)
+    c.heading(&#x27;shared.heading&#x27;,&#x27;相近的信息背景，不同的使用程序&#x27;,(6,107))
+    for i,(x,value) in enumerate(((26,&#x27;相近 DNA&#x27;),(65,&#x27;调控状态&#x27;),(108,&#x27;RNA 与蛋白&#x27;),(148,&#x27;细胞工作&#x27;))):
+        c.text(f&#x27;column.{i}&#x27;,value,(x,96),size=9)
+    draw_program_row(c,&#x27;neuron&#x27;,76,&#x27;神经元&#x27;,&#x27;A&#x27;,&#x27;信号传递&#x27;)
+    draw_program_row(c,&#x27;skin&#x27;,39,&#x27;皮肤细胞&#x27;,&#x27;B&#x27;,&#x27;屏障与更新&#x27;)
+    c.line(&#x27;row.separator&#x27;,[(8,57),(162,57)],color=&#x27;muted&#x27;,width=.8,dashed=True)
+    c.note(&#x27;示意：DNA高度相似；图符不是实测数量，也不表示单一基因决定细胞身份。&#x27;)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result=build_figure(); fig=result.figure; OUT=Path(__file__).resolve().parent
+    fig.savefig(OUT/&#x27;F11_cell_programs.pdf&#x27;,metadata={&#x27;CreationDate&#x27;:None,&#x27;ModDate&#x27;:None})
+    return export_figure(result,ROOT,OUT/&#x27;F11_cell_programs.pdf&#x27;)
+
+
+if __name__==&#x27;__main__&#x27;:
+    main()
+</code></pre></details></article><article id="F12"><div class="eyebrow">F12 / 30</div><h2>图 F12｜细胞怎样接收并回应外部信号</h2>
+        <p class="task">信号先经接收和已有分子状态变化，可快速改变行为，也可较慢地改变表达，结果取决于细胞原有状态。</p><img src="outputs/png/F12_signal_response.png" alt="图 F12｜细胞怎样接收并回应外部信号" loading="lazy">
+        <div class="links"><a href="outputs/png/F12_signal_response.png">png</a><a href="outputs/pdf/F12_signal_response.pdf">pdf</a><a href="outputs/svg/F12_signal_response.svg">svg</a><a href="figures/F12_signal_response.py">Python</a></div><dl><dt>布局理由</dt><dd>170×116 mm。左侧外部输入跨入细胞边界，受体与已有蛋白状态居中；上方分支表示相对较快的既有蛋白作用，下方分支表示较慢的转录与新产物响应。顶部独立条件卡说明既有状态和信号持续时间；箭头不使用数值时间刻度。</dd><dt>复用组件</dt><dd>细胞区域边界、外部信号节点、受体／感应节点、已有蛋白状态枢纽、上／下响应分支、条件输入节点、影响与条件边、相对时间范围说明。</dd><dt>书稿来源</dt><dd>P0318–P0325：邻居、激素、营养、氧气、基质输入；受体/感应分子先改已有蛋白；快速行为与较慢转录两条时间线；接收细胞与持续时间改变结果。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F12: 细胞怎样接收并回应外部信号. Relative timing, not measured minutes.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0,str(ROOT))
+from shared_shapes import Drawing
+
+
+def build_figure():
+    c=Drawing(&#x27;F12&#x27;,height=116)
+    c.heading(&#x27;outside.heading&#x27;,&#x27;外部输入&#x27;,(6,105))
+    c.rect(&#x27;cell.boundary&#x27;,(44,28),119,65,color=&#x27;secondary&#x27;,weight=.06)
+    c.text(&#x27;cell.label&#x27;,&#x27;细胞内&#x27;,(59,87),size=9,color=&#x27;muted&#x27;)
+    c.node(&#x27;input&#x27;,&#x27;外部信号&#x27;,(21,66),w=28,h=15,color=&#x27;secondary&#x27;,size=9)
+    c.node(&#x27;reception&#x27;,&#x27;受体／\n感应分子&#x27;,(61,66),w=26,h=18,color=&#x27;secondary&#x27;,size=9)
+    c.node(&#x27;existing&#x27;,&#x27;已有蛋白\n状态改变&#x27;,(100,66),w=29,h=18,size=9)
+    c.node(&#x27;fast&#x27;,&#x27;较快：细胞\n形状或行为改变&#x27;,(145,84),w=34,h=17,color=&#x27;primary&#x27;,size=8.5)
+    c.node(&#x27;transcription&#x27;,&#x27;较慢：影响\n转录因子与转录&#x27;,(99,39),w=37,h=17,size=8.5)
+    c.node(&#x27;products&#x27;,&#x27;RNA 与新蛋白\n后续行为改变&#x27;,(145,39),w=34,h=17,color=&#x27;secondary&#x27;,size=8.5)
+    c.node(&#x27;conditions&#x27;,&#x27;既有细胞状态＋信号持续时间&#x27;,(105,104),w=101,h=12,color=&#x27;secondary&#x27;,size=9)
+    c.edge(&#x27;input.reception&#x27;,(36,66),(47,66),kind=&#x27;influence&#x27;)
+    c.edge(&#x27;reception.existing&#x27;,(75,66),(84,66),kind=&#x27;influence&#x27;)
+    c.edge(&#x27;existing.fast&#x27;,(115,72),(127,80),kind=&#x27;influence&#x27;)
+    c.edge(&#x27;existing.transcription&#x27;,(100,56),(100,49),kind=&#x27;influence&#x27;)
+    c.edge(&#x27;transcription.products&#x27;,(119,39),(127,39),kind=&#x27;conditional&#x27;)
+    c.edge(&#x27;conditions.response&#x27;,(104,97),(104,77),kind=&#x27;conditional&#x27;)
+    c.text(&#x27;branch.meaning&#x27;,&#x27;同一输入，可走不同时间路径&#x27;,(100,18),size=9,color=&#x27;muted&#x27;)
+    c.note(&#x27;示意：快慢取决于具体过程；并非所有反应都要先制造新的 RNA。&#x27;)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result=build_figure();fig=result.figure;OUT=Path(__file__).resolve().parent
+    fig.savefig(OUT/&#x27;F12_signal_response.pdf&#x27;,metadata={&#x27;CreationDate&#x27;:None,&#x27;ModDate&#x27;:None})
+    return export_figure(result,ROOT,OUT/&#x27;F12_signal_response.pdf&#x27;)
+
+
+if __name__==&#x27;__main__&#x27;:
+    main()
+</code></pre></details></article><article id="F13"><div class="eyebrow">F13 / 30</div><h2>图 F13｜从细胞行为到组织结构的空间反馈</h2>
+        <p class="task">细胞行为改造空间，新的位置、邻居与基质又改变下一轮行为，组织由这种往返持续形成和维护。</p><img src="outputs/png/F13_spatial_feedback.png" alt="图 F13｜从细胞行为到组织结构的空间反馈" loading="lazy">
+        <div class="links"><a href="outputs/png/F13_spatial_feedback.png">png</a><a href="outputs/pdf/F13_spatial_feedback.pdf">pdf</a><a href="outputs/svg/F13_spatial_feedback.svg">svg</a><a href="figures/F13_spatial_feedback.py">Python</a></div><dl><dt>布局理由</dt><dd>170×116 mm。左侧为三枚上皮细胞、邻居接触和基质带的空间示意；右侧以“位置与邻居—局部信号与已有状态—行为组—空间与基质改变”四节点顺时针回路表达持续反馈。两部分分别承担空间定位和机制解释，不用静态组织画面替代回路。</dd><dt>复用组件</dt><dd>三枚上皮轮廓与细胞核、接触短线、基质带、空间输入文字、四个反馈节点、三条影响边与一条行为过程边、行为非必经序列范围说明。</dd><dt>书稿来源</dt><dd>P0336–P0341 细胞身份不足以组成组织；邻居、基质、位置改变信号，行为再改变空间；P0340上皮例含连接、基质固定、补充/成熟；P0344桥接分子—细胞—组织。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F13: 从细胞行为到组织结构的空间反馈. Space and behavior form a loop.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0,str(ROOT))
+from shared_shapes import Drawing
+
+
+def draw_tissue(c):
+    c.heading(&#x27;tissue.heading&#x27;,&#x27;上皮与基质示意&#x27;,(6,107))
+    for i,x in enumerate((10,26,42)):
+        c.rect(f&#x27;tissue.cell.{i}&#x27;,(x,72),14,22,color=&#x27;secondary&#x27;,weight=.08)
+        c.ellipse(f&#x27;tissue.nucleus.{i}&#x27;,(x+7,82),5,7,color=&#x27;primary&#x27;)
+        c.line(f&#x27;tissue.attachment.{i}&#x27;,[(x+7,68),(x+7,72)],color=&#x27;secondary&#x27;,width=1.1)
+    for i,x in enumerate((25,41)):
+        c.line(f&#x27;tissue.contact.{i}&#x27;,[(x-1,84),(x+1,84)],color=&#x27;secondary&#x27;,width=1.5)
+    c.rect(&#x27;tissue.matrix&#x27;,(8,63),50,5,color=&#x27;secondary&#x27;,weight=.18,radius=0)
+    c.text(&#x27;tissue.matrix.label&#x27;,&#x27;细胞外基质&#x27;,(33,55),size=9)
+    c.text(&#x27;tissue.neighbors&#x27;,&#x27;邻居接触&#x27;,(33,99),size=8.5,color=&#x27;muted&#x27;)
+    c.text(&#x27;tissue.context&#x27;,&#x27;位置、邻居与基质\n也是细胞的输入&#x27;,(33,35),size=9)
+
+
+def build_figure():
+    c=Drawing(&#x27;F13&#x27;,height=116)
+    draw_tissue(c)
+    c.heading(&#x27;loop.heading&#x27;,&#x27;空间与行为持续往返&#x27;,(72,107))
+    c.node(&#x27;location&#x27;,&#x27;位置与邻居\n基质条件&#x27;,(112,89),w=51,h=18,color=&#x27;secondary&#x27;,size=9)
+    c.node(&#x27;signals&#x27;,&#x27;局部信号\n与已有状态&#x27;,(148,63),w=30,h=19,size=9)
+    c.node(&#x27;behaviors&#x27;,&#x27;移动／黏附／增殖\n清除／分泌&#x27;,(112,36),w=63,h=20,size=9)
+    c.node(&#x27;space&#x27;,&#x27;空间与基质\n重新改变&#x27;,(78,63),w=28,h=19,color=&#x27;secondary&#x27;,size=8.5)
+    c.edge(&#x27;location.signals&#x27;,(137,84),(148,74),kind=&#x27;influence&#x27;)
+    c.edge(&#x27;signals.behaviors&#x27;,(148,52),(141,41),kind=&#x27;influence&#x27;)
+    c.edge(&#x27;behaviors.space&#x27;,(79,36),(76,52),kind=&#x27;process&#x27;)
+    c.edge(&#x27;space.location&#x27;,(78,74),(86,86),kind=&#x27;influence&#x27;)
+    c.note(&#x27;示意：行为是多种可能选择，不是每个细胞必经的步骤；空间关系也不是固定成品。&#x27;)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result=build_figure();fig=result.figure;OUT=Path(__file__).resolve().parent
+    fig.savefig(OUT/&#x27;F13_spatial_feedback.pdf&#x27;,metadata={&#x27;CreationDate&#x27;:None,&#x27;ModDate&#x27;:None})
+    return export_figure(result,ROOT,OUT/&#x27;F13_spatial_feedback.pdf&#x27;)
+
+
+if __name__==&#x27;__main__&#x27;:
+    main()
+</code></pre></details></article><article id="F14"><div class="eyebrow">F14 / 30</div><h2>图 F14｜相同 DNA 的不同表观状态</h2>
+        <p class="task">同一DNA序列可以处于不同化学和染色质状态，从而拥有不同的分子接触机会。</p><img src="outputs/png/F14_epigenetic_states.png" alt="图 F14｜相同 DNA 的不同表观状态" loading="lazy">
+        <div class="links"><a href="outputs/png/F14_epigenetic_states.png">png</a><a href="outputs/pdf/F14_epigenetic_states.pdf">pdf</a><a href="outputs/svg/F14_epigenetic_states.svg">svg</a><a href="figures/F14_epigenetic_states.py">Python</a></div><dl><dt>布局理由</dt><dd>170×116 mm。上下两行在相同位置展示 A T C G A C 序列，状态 B 的同一 C 上附加甲基标记；右侧局部染色质曲线及周边蛋白表现不同环境。连接采用无箭头的虚线观察／放大关系，序列相同另以底部文字确认，不将甲基化等同于关闭。</dd><dt>复用组件</dt><dd>两组相同 DNA 梯形骨架与六字母序列、状态 A/B 标签、一枚甲基圆点与键线、局部染色质曲线、周边蛋白图符、两条无箭头放大线、序列身份与作用范围说明。</dd><dt>书稿来源</dt><dd>P0366–P0372 相同序列可有不同化学状态、核小体位置和蛋白环境；P0374–P0383 C甲基化仍是C，改变局部环境与被使用机会。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F14: 相同 DNA 的不同表观状态. Identical sequence, different environment.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+import numpy as np
+ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0,str(ROOT))
+from shared_shapes import Drawing
+
+
+def draw_state(c,key,y,modified=False):
+    c.dna(key+&#x27;.dna&#x27;,22,y-7,72,gap=4,rungs=True)
+    for i,letter in enumerate(&#x27;ATCGAC&#x27;):
+        c.text(key+f&#x27;.base.{i}&#x27;,letter,(28+i*12,y+3),size=9.5)
+    c.text(key+&#x27;.name&#x27;,&#x27;状态 B&#x27; if modified else &#x27;状态 A&#x27;,(13,y+3),size=9)
+    if modified:
+        c.circle(key+&#x27;.methyl&#x27;,(52,y+15),1.6,color=&#x27;accent&#x27;)
+        c.line(key+&#x27;.methyl.bond&#x27;,[(52,y+13.3),(52,y+6)],color=&#x27;accent&#x27;,width=.8)
+        c.text(key+&#x27;.methyl.label&#x27;,&#x27;甲基&#x27;,(66,y+15),size=8.5,color=&#x27;accent&#x27;)
+    t=np.linspace(0,1,160)
+    yy=y-3+(5 if modified else 3)*np.sin(t*4*np.pi)
+    c.line(key+&#x27;.chromatin&#x27;,np.column_stack((110+44*t,yy)),color=&#x27;primary&#x27;)
+    for i,x in enumerate((118,137,149) if modified else (120,140)):
+        c.circle(key+f&#x27;.protein.{i}&#x27;,(x,y-3),2,color=&#x27;supplement&#x27;)
+    c.edge(key+&#x27;.same_material&#x27;,(97,y-4),(106,y-4),kind=&#x27;zoom&#x27;)
+
+
+def build_figure():
+    c=Drawing(&#x27;F14&#x27;,height=116)
+    c.heading(&#x27;sequence.heading&#x27;,&#x27;字母顺序相同&#x27;,(22,106))
+    c.heading(&#x27;state.heading&#x27;,&#x27;局部状态不同&#x27;,(108,106))
+    draw_state(c,&#x27;state_a&#x27;,81)
+    draw_state(c,&#x27;state_b&#x27;,43,modified=True)
+    c.text(&#x27;sequence.identity&#x27;,&#x27;两行都是 A T C G A C&#x27;,(59,24),size=9)
+    c.text(&#x27;environment.label&#x27;,&#x27;修饰、包装与\n周边蛋白环境&#x27;,(132,24),size=8.5)
+    c.note(&#x27;示意：加上甲基后 C 仍然是 C；甲基化并不是通用的“关闭”指令。&#x27;)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result=build_figure();fig=result.figure;OUT=Path(__file__).resolve().parent
+    fig.savefig(OUT/&#x27;F14_epigenetic_states.pdf&#x27;,metadata={&#x27;CreationDate&#x27;:None,&#x27;ModDate&#x27;:None})
+    return export_figure(result,ROOT,OUT/&#x27;F14_epigenetic_states.pdf&#x27;)
+
+
+if __name__==&#x27;__main__&#x27;:
+    main()
+</code></pre></details></article><article id="F15"><div class="eyebrow">F15 / 30</div><h2>图 F15｜基因调控与表观状态相互影响</h2>
+        <p class="task">表观状态与基因调控彼此塑造，稳定身份来自动态网络，不是一枚标记的独立命令。</p><img src="outputs/png/F15_regulatory_feedback.png" alt="图 F15｜基因调控与表观状态相互影响" loading="lazy">
+        <div class="links"><a href="outputs/png/F15_regulatory_feedback.png">png</a><a href="outputs/pdf/F15_regulatory_feedback.pdf">pdf</a><a href="outputs/svg/F15_regulatory_feedback.svg">svg</a><a href="figures/F15_regulatory_feedback.py">Python</a></div><dl><dt>布局理由</dt><dd>170×116 mm。上部三节点从染色质状态经分子接触与调控组合指向启动子／增强子协作及转录；下部单列“相关蛋白识别／招募、局部重塑”节点形成独立返回路径。顶部外部信号与历史分别影响状态和调控活动，两个方向用各自机制说明，不用一根双向箭头代替。</dd><dt>复用组件</dt><dd>三个前向调控节点、局部重塑节点、顶部情境节点、前向影响／条件边、两条返回影响边、上下方向说明、关联不足以证明因果的范围说明。</dd><dt>书稿来源</dt><dd>P0387–P0400 修饰关联、添加/移除/识别；P0403–P0418 表观状态影响调控，转录因子及转录反向塑造状态；P0422–P0449历史和互相支持网络。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F15: 基因调控与表观状态相互影响. Labelled directional mechanisms.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0,str(ROOT))
+from shared_shapes import Drawing
+
+
+def build_figure():
+    c=Drawing(&#x27;F15&#x27;,height=116)
+    c.node(&#x27;context&#x27;,&#x27;外部信号与历史&#x27;,(85,103),w=67,h=12,color=&#x27;secondary&#x27;,size=9)
+    c.node(&#x27;state&#x27;,&#x27;染色质状态\n修饰与核小体组织&#x27;,(32,75),w=49,h=20,color=&#x27;secondary&#x27;,size=9)
+    c.node(&#x27;access&#x27;,&#x27;分子接触机会\n调控蛋白组合&#x27;,(85,75),w=41,h=20,size=9)
+    c.node(&#x27;transcription&#x27;,&#x27;启动子／增强子协作\n与转录&#x27;,(138,75),w=49,h=20,size=9)
+    c.edge(&#x27;state.access&#x27;,(58,75),(63,75),kind=&#x27;influence&#x27;)
+    c.edge(&#x27;access.transcription&#x27;,(107,75),(112,75),kind=&#x27;conditional&#x27;)
+    c.edge(&#x27;context.state&#x27;,(62,96),(40,87),kind=&#x27;conditional&#x27;)
+    c.edge(&#x27;context.regulation&#x27;,(105,96),(130,87),kind=&#x27;conditional&#x27;)
+    c.node(&#x27;remodeling&#x27;,&#x27;相关蛋白识别／招募\n局部状态被重新塑造&#x27;,(85,37),w=71,h=20,color=&#x27;secondary&#x27;,size=9)
+    c.edge(&#x27;activity.remodeling&#x27;,(138,63),(122,42),kind=&#x27;influence&#x27;)
+    c.edge(&#x27;remodeling.state&#x27;,(48,38),(31,63),kind=&#x27;influence&#x27;)
+    c.text(&#x27;forward.label&#x27;,&#x27;状态影响基因的使用机会&#x27;,(85,88),size=8.5,color=&#x27;muted&#x27;)
+    c.text(&#x27;return.label&#x27;,&#x27;调控活动反过来塑造状态&#x27;,(85,20),size=9,color=&#x27;muted&#x27;)
+    c.note(&#x27;两条方向代表不同机制；修饰与高表达同时出现，尚不足以证明因果。&#x27;)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result=build_figure();fig=result.figure;OUT=Path(__file__).resolve().parent
+    fig.savefig(OUT/&#x27;F15_regulatory_feedback.pdf&#x27;,metadata={&#x27;CreationDate&#x27;:None,&#x27;ModDate&#x27;:None})
+    return export_figure(result,ROOT,OUT/&#x27;F15_regulatory_feedback.pdf&#x27;)
+
+
+if __name__==&#x27;__main__&#x27;:
+    main()
+</code></pre></details></article><article id="F16"><div class="eyebrow">F16 / 30</div><h2>图 F16｜同一 DNA 可以产生不同 RNA 图景</h2>
+        <p class="task">相近DNA之下，RNA可在存在、数量或剪接版本上不同，且某些基因保持不变。</p><img src="outputs/png/F16_rna_landscapes.png" alt="图 F16｜同一 DNA 可以产生不同 RNA 图景" loading="lazy">
+        <div class="links"><a href="outputs/png/F16_rna_landscapes.png">png</a><a href="outputs/pdf/F16_rna_landscapes.pdf">pdf</a><a href="outputs/svg/F16_rna_landscapes.svg">svg</a><a href="figures/F16_rna_landscapes.py">Python</a></div><dl><dt>布局理由</dt><dd>170×126 mm。顶部一份共同 DNA 背景，下方 A/B 两条件形成四行矩阵；依次对照检出情况、RNA 定性数量、剪接版本 1—2—4／1—3—4 和不变参照。各行共用列位置与行分隔线，分子图符仅传达定性差别。</dd><dt>复用组件</dt><dd>共同 DNA 片段、两个条件列边界、四个行标签、RNA 线段图符、六个外显子段及短连接、不变参照、RNA 存量不等于即时速率范围说明。</dd><dt>书稿来源</dt><dd>P0479 RNA存量/版本不是即时转录速率；P0481–P0491 A/B条件下有无、数量、1—2—4与1—3—4版本三类差异，也有不变基因。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F16: 同一 DNA 可以产生不同 RNA 图景. Four independent contrasts.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0,str(ROOT))
+from shared_shapes import Drawing
+
+
+def rna_tokens(c,name,x,y,count):
+    for i in range(count):
+        c.strand(name+f&#x27;.{i}&#x27;,x,y+(i-(count-1)/2)*3.2,29)
+
+
+def build_figure():
+    c=Drawing(&#x27;F16&#x27;,height=126)
+    c.heading(&#x27;shared.heading&#x27;,&#x27;相同 DNA 背景&#x27;,(6,117))
+    c.dna(&#x27;shared.dna&#x27;,83,114,71,gap=4)
+    c.text(&#x27;condition.a&#x27;,&#x27;条件 A&#x27;,(68,102),size=11.5)
+    c.text(&#x27;condition.b&#x27;,&#x27;条件 B&#x27;,(132,102),size=11.5)
+    c.rect(&#x27;condition.a.boundary&#x27;,(40,15),57,80,color=&#x27;secondary&#x27;,weight=.04)
+    c.rect(&#x27;condition.b.boundary&#x27;,(103,15),59,80,color=&#x27;secondary&#x27;,weight=.04)
+    rows=[(84,&#x27;检出情况&#x27;),(64,&#x27;RNA 数量&#x27;),(43,&#x27;剪接版本&#x27;),(24,&#x27;不变参照&#x27;)]
+    for i,(y,value) in enumerate(rows):
+        c.text(f&#x27;row.{i}.label&#x27;,value,(22,y),size=9)
+    for i,y in enumerate((74,54,34)):
+        c.line(f&#x27;row.divider.{i}&#x27;,[(8,y),(162,y)],color=&#x27;muted&#x27;,width=.8,dashed=True)
+    c.text(&#x27;detection.a&#x27;,&#x27;很少／未检出&#x27;,(68,84),size=9)
+    rna_tokens(c,&#x27;detection.b&#x27;,117,84,3)
+    rna_tokens(c,&#x27;abundance.a&#x27;,54,64,1)
+    rna_tokens(c,&#x27;abundance.b&#x27;,117,64,3)
+    c.segments(&#x27;splice.a&#x27;,[1,2,4],48,40,segment_w=11,h=6,gap=1.8)
+    c.segments(&#x27;splice.b&#x27;,[1,3,4],111,40,segment_w=11,h=6,gap=1.8)
+    rna_tokens(c,&#x27;stable.a&#x27;,54,24,2)
+    rna_tokens(c,&#x27;stable.b&#x27;,117,24,2)
+    c.note(&#x27;示意：图符仅表示定性差别；RNA 存量与版本不等于即时转录速率。&#x27;)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result=build_figure();fig=result.figure;OUT=Path(__file__).resolve().parent
+    fig.savefig(OUT/&#x27;F16_rna_landscapes.pdf&#x27;,metadata={&#x27;CreationDate&#x27;:None,&#x27;ModDate&#x27;:None})
+    return export_figure(result,ROOT,OUT/&#x27;F16_rna_landscapes.pdf&#x27;)
+
+
+if __name__==&#x27;__main__&#x27;:
+    main()
+</code></pre></details></article><article id="F17"><div class="eyebrow">F17 / 30</div><h2>图 F17｜蛋白质数量与功能状态</h2>
+        <p class="task">蛋白质的数量相同，修饰、位置与结合伙伴不同仍可能改变功能。</p><img src="outputs/png/F17_protein_states.png" alt="图 F17｜蛋白质数量与功能状态" loading="lazy">
+        <div class="links"><a href="outputs/png/F17_protein_states.png">png</a><a href="outputs/pdf/F17_protein_states.pdf">pdf</a><a href="outputs/svg/F17_protein_states.svg">svg</a><a href="figures/F17_protein_states.py">Python</a></div><dl><dt>布局理由</dt><dd>170×126 mm。三个等宽独立面板，每个上 A 下 B：磷酸化、细胞内位置、结合伙伴。各对主蛋白数保持一致；中间面板以细胞和细胞核嵌套边界定位。顶部说明总量相同，底部仅写“功能可能改变”，不添加未经支持的特定活性结果。</dd><dt>复用组件</dt><dd>三个对照面板、每组 A/B 标签、等量主蛋白图符、含 P 的磷酸基标记、两组细胞／细胞核边界、游离／结合伙伴、可能结果和非计数范围说明。</dd><dt>书稿来源</dt><dd>P0496–P0511 丰度相同但磷酸化、位置或结合伙伴不同，功能可变；P0514–P0525 RNA与蛋白不一致可指向翻译、降解、取样时间。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F17: 蛋白质数量与功能状态. State changes are separate comparisons.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0,str(ROOT))
+from shared_shapes import Drawing
+
+
+def protein(c,name,xy,r=3.6):
+    c.circle(name,xy,r,color=&#x27;primary&#x27;,weight=.18)
+
+
+def build_figure():
+    c=Drawing(&#x27;F17&#x27;,height=126)
+    c.heading(&#x27;common.heading&#x27;,&#x27;蛋白质总量相同，状态可以不同&#x27;,(6,117))
+    for i,(x,title) in enumerate(((6,&#x27;磷酸化&#x27;),(60,&#x27;位置&#x27;),(114,&#x27;结合伙伴&#x27;))):
+        c.rect(f&#x27;panel.{i}&#x27;,(x,26),48,80,color=&#x27;secondary&#x27;,weight=.04)
+        c.text(f&#x27;panel.{i}.heading&#x27;,title,(x+24,102),size=10)
+        c.text(f&#x27;panel.{i}.a&#x27;,&#x27;A&#x27;,(x+6,90),size=8.5,color=&#x27;muted&#x27;)
+        c.text(f&#x27;panel.{i}.b&#x27;,&#x27;B&#x27;,(x+6,57),size=8.5,color=&#x27;muted&#x27;)
+    protein(c,&#x27;phosphorylation.a&#x27;,(30,83))
+    protein(c,&#x27;phosphorylation.b&#x27;,(30,49))
+    c.line(&#x27;phosphorylation.bond&#x27;,[(32.76,51.30),(33.70,52.08)],color=&#x27;accent&#x27;,width=.8)
+    c.circle(&#x27;phosphorylation.marker&#x27;,(36,54),3,color=&#x27;accent&#x27;)
+    c.text(&#x27;phosphorylation.marker.label&#x27;,&#x27;P&#x27;,(36,54),size=8.5,color=&#x27;accent&#x27;)
+    c.text(&#x27;phosphorylation.a.label&#x27;,&#x27;未加该磷酸基&#x27;,(30,71),size=8.5)
+    c.text(&#x27;phosphorylation.b.label&#x27;,&#x27;加上该磷酸基&#x27;,(30,35),size=8.5)
+    for key,y in ((&#x27;a&#x27;,83),(&#x27;b&#x27;,49)):
+        c.ellipse(&#x27;location.&#x27;+key+&#x27;.cell&#x27;,(85,y),26,23,color=&#x27;secondary&#x27;)
+        c.ellipse(&#x27;location.&#x27;+key+&#x27;.nucleus&#x27;,(90,y),10,13,color=&#x27;primary&#x27;,weight=.07)
+    protein(c,&#x27;location.a.protein&#x27;,(77,83),2.5)
+    protein(c,&#x27;location.b.protein&#x27;,(90,49),2.5)
+    c.text(&#x27;location.a.label&#x27;,&#x27;位于细胞质&#x27;,(84,68),size=8.5)
+    c.text(&#x27;location.b.label&#x27;,&#x27;位于细胞核&#x27;,(84,34),size=8.5)
+    protein(c,&#x27;binding.a.protein&#x27;,(131,83))
+    c.circle(&#x27;binding.a.partner&#x27;,(152,83),3,color=&#x27;supplement&#x27;)
+    protein(c,&#x27;binding.b.protein&#x27;,(136,49))
+    c.circle(&#x27;binding.b.partner&#x27;,(142.5,49),3,color=&#x27;supplement&#x27;)
+    c.text(&#x27;binding.a.label&#x27;,&#x27;尚未结合&#x27;,(138,71),size=8.5)
+    c.text(&#x27;binding.b.label&#x27;,&#x27;与伙伴结合&#x27;,(138,35),size=8.5)
+    c.text(&#x27;result&#x27;,&#x27;功能可能改变&#x27;,(85,18),size=9.5,color=&#x27;accent&#x27;)
+    c.note(&#x27;三组是独立比较；图符不是实测数量，磷酸化也不普遍等于激活。&#x27;)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result=build_figure();fig=result.figure;OUT=Path(__file__).resolve().parent
+    fig.savefig(OUT/&#x27;F17_protein_states.pdf&#x27;,metadata={&#x27;CreationDate&#x27;:None,&#x27;ModDate&#x27;:None})
+    return export_figure(result,ROOT,OUT/&#x27;F17_protein_states.pdf&#x27;)
+
+
+if __name__==&#x27;__main__&#x27;:
+    main()
+</code></pre></details></article><article id="F18"><div class="eyebrow">F18 / 30</div><h2>图 F18｜相同代谢物浓度与不同代谢流</h2>
+        <p class="task">一个时点的存量由多种流入流出过程共同决定，浓度相同不代表周转过程相同。</p><img src="outputs/png/F18_metabolic_flux.png" alt="图 F18｜相同代谢物浓度与不同代谢流" loading="lazy">
+        <div class="links"><a href="outputs/png/F18_metabolic_flux.png">png</a><a href="outputs/pdf/F18_metabolic_flux.pdf">pdf</a><a href="outputs/svg/F18_metabolic_flux.svg">svg</a><a href="figures/F18_metabolic_flux.py">Python</a></div><dl><dt>布局理由</dt><dd>170×116 mm。左右两组使用同样体积的池和相同概念数量图符，制造在上、消耗在下、输入在左、输出在右。顶部标签分别表示较慢／较快周转，四向过程箭头保持等宽；底部明确相同体积、相同浓度和单时点比较。</dd><dt>复用组件</dt><dd>两个相同代谢池、各六枚定性小分子图符、八条等宽物质过程箭头、制造／输入／输出／消耗标签、较慢／较快周转标题、相同状态和无实测数值说明。</dd><dt>书稿来源</dt><dd>P0527–P0540 代谢物制造、消耗、输入、输出共同影响存量；乳酸增加不能单独证明制造加快；P0543–P0544 测得结果不等于产生过程。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F18: 相同代谢物浓度与不同代谢流. Equal pools, qualitative turnover.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0,str(ROOT))
+from shared_shapes import Drawing
+
+
+def draw_pool(c,key,x,turnover):
+    c.text(key+&#x27;.heading&#x27;,turnover,(x,104),size=11.5)
+    c.rect(key+&#x27;.pool&#x27;,(x-13,49),26,26,color=&#x27;primary&#x27;,weight=.10)
+    for i,(dx,dy) in enumerate(((-6,-4),(0,-4),(6,-4),(-6,4),(0,4),(6,4))):
+        c.circle(key+f&#x27;.metabolite.{i}&#x27;,(x+dx,62+dy),1.3,color=&#x27;primary&#x27;)
+    c.text(key+&#x27;.production.label&#x27;,&#x27;制造&#x27;,(x,94),size=9)
+    c.text(key+&#x27;.input.label&#x27;,&#x27;输入&#x27;,(x-32,62),size=9)
+    c.text(key+&#x27;.output.label&#x27;,&#x27;输出&#x27;,(x+32,62),size=9)
+    c.text(key+&#x27;.consumption.label&#x27;,&#x27;消耗&#x27;,(x,31),size=9)
+    c.edge(key+&#x27;.production&#x27;,(x,88),(x,77),kind=&#x27;process&#x27;)
+    c.edge(key+&#x27;.input&#x27;,(x-23,62),(x-15,62),kind=&#x27;process&#x27;)
+    c.edge(key+&#x27;.output&#x27;,(x+15,62),(x+23,62),kind=&#x27;process&#x27;)
+    c.edge(key+&#x27;.consumption&#x27;,(x,47),(x,37),kind=&#x27;process&#x27;)
+
+
+def build_figure():
+    c=Drawing(&#x27;F18&#x27;,height=116)
+    draw_pool(c,&#x27;slower&#x27;,44,&#x27;较慢周转&#x27;)
+    draw_pool(c,&#x27;faster&#x27;,124,&#x27;较快周转&#x27;)
+    c.text(&#x27;equal_state&#x27;,&#x27;同一时点：相同体积、相同浓度&#x27;,(85,19),size=9.5)
+    c.note(&#x27;概念示意：箭头等宽，快慢由标签表示；没有浓度或流速的实测数值。&#x27;)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result=build_figure();fig=result.figure;OUT=Path(__file__).resolve().parent
+    fig.savefig(OUT/&#x27;F18_metabolic_flux.pdf&#x27;,metadata={&#x27;CreationDate&#x27;:None,&#x27;ModDate&#x27;:None})
+    return export_figure(result,ROOT,OUT/&#x27;F18_metabolic_flux.pdf&#x27;)
+
+
+if __name__==&#x27;__main__&#x27;:
+    main()
+</code></pre></details></article><article id="F19"><div class="eyebrow">F19 / 30</div><h2>图 F19｜五扇窗口观察同一个细胞</h2>
+        <p class="task">五个窗口分别观察同一系统的序列、调控状态、RNA、蛋白与代谢存量，各有范围与盲点。</p><img src="outputs/png/F19_five_windows.png" alt="图 F19｜五扇窗口观察同一个细胞" loading="lazy">
+        <div class="links"><a href="outputs/png/F19_five_windows.png">png</a><a href="outputs/pdf/F19_five_windows.pdf">pdf</a><a href="outputs/svg/F19_five_windows.svg">svg</a><a href="figures/F19_five_windows.py">Python</a></div><dl><dt>布局理由</dt><dd>170×126 mm。中央唯一细胞系统容器内放置 DNA 与调控状态、RNA、蛋白质和代谢物；上方三窗、下方两窗分别与对应测量端口相连。紫色点线无箭头，窗口之间不连因果链；系统标签位于中央留白，避免观察线穿字。</dd><dt>复用组件</dt><dd>单一细胞椭圆边界、DNA 骨架与状态标记、RNA 线段、蛋白与代谢物图符、五个观察卡、五条无箭头点线、五枚测量端口、检测范围和同一细胞系统含义说明。</dd><dt>书稿来源</dt><dd>P0462–P0469 同DNA不同条件与测量范围；P0471–P0479前3窗口；P0496–P0511蛋白状态；P0527–P0540代谢存量；P0546五窗口总结。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F19: 五扇窗口观察同一个细胞. Observation links carry no arrowheads.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0,str(ROOT))
+from shared_shapes import Drawing
+
+
+def build_figure():
+    c=Drawing(&#x27;F19&#x27;,height=126)
+    c.ellipse(&#x27;cell.system&#x27;,(85,67),76,59,color=&#x27;secondary&#x27;,weight=.06)
+    c.text(&#x27;cell.label&#x27;,&#x27;同一细胞系统&#x27;,(85,60),size=9.5)
+    c.dna(&#x27;cell.dna&#x27;,60,73,33,gap=3)
+    for i,x in enumerate((78,85)):
+        c.circle(f&#x27;cell.state.{i}&#x27;,(x,79),1.1,color=&#x27;accent&#x27;)
+        c.line(f&#x27;cell.state.bond.{i}&#x27;,[(x,78),(x,76)],color=&#x27;accent&#x27;,width=.8)
+    c.text(&#x27;cell.dna.label&#x27;,&#x27;DNA 与调控状态&#x27;,(77,66),size=8.5)
+    for i in range(2):
+        c.strand(f&#x27;cell.rna.{i}&#x27;,99,73+i*4,13)
+    c.text(&#x27;cell.rna.label&#x27;,&#x27;RNA&#x27;,(106,66),size=8.5)
+    for i,x in enumerate((66,75)):
+        c.circle(f&#x27;cell.protein.{i}&#x27;,(x,53),2.1,color=&#x27;primary&#x27;)
+    c.text(&#x27;cell.protein.label&#x27;,&#x27;蛋白质&#x27;,(71,44),size=8.5)
+    for i,(x,y) in enumerate(((98,53),(105,54),(111,52))):
+        c.circle(f&#x27;cell.metabolite.{i}&#x27;,(x,y),1.2,color=&#x27;primary&#x27;)
+    c.text(&#x27;cell.metabolite.label&#x27;,&#x27;代谢物&#x27;,(102,47),size=8.5)
+    windows=[
+        (&#x27;genome&#x27;,&#x27;基因组\n序列&#x27;,(32,111),48,(32,102),(61,77)),
+        (&#x27;epigenome&#x27;,&#x27;表观基因组\n调控状态&#x27;,(85,111),48,(85,102),(85,81)),
+        (&#x27;transcriptome&#x27;,&#x27;转录组\nRNA 存量／版本&#x27;,(138,111),48,(138,102),(112,78)),
+        (&#x27;proteome&#x27;,&#x27;蛋白质组\n数量与状态&#x27;,(41,22),62,(41,31),(66,51)),
+        (&#x27;metabolome&#x27;,&#x27;代谢组\n小分子存量&#x27;,(129,22),62,(129,31),(111,50)),
+    ]
+    for key,title,center,width,start,end in windows:
+        c.node(&#x27;window.&#x27;+key,title,center,w=width,h=17,color=&#x27;supplement&#x27;,size=9)
+        c.edge(&#x27;observe.&#x27;+key,start,end,kind=&#x27;observe&#x27;,source=&#x27;window.&#x27;+key+&#x27;.boundary&#x27;,target=&#x27;measure.&#x27;+key)
+        c.circle(&#x27;measure.&#x27;+key,end,.65,color=&#x27;supplement&#x27;,weight=1)
+    c.note(&#x27;“同一细胞”是认知系统；不保证同一枚细胞同时完成五类测量，各窗口也有检测范围。&#x27;)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result=build_figure();fig=result.figure;OUT=Path(__file__).resolve().parent
+    fig.savefig(OUT/&#x27;F19_five_windows.pdf&#x27;,metadata={&#x27;CreationDate&#x27;:None,&#x27;ModDate&#x27;:None})
+    return export_figure(result,ROOT,OUT/&#x27;F19_five_windows.pdf&#x27;)
+
+
+if __name__==&#x27;__main__&#x27;:
+    main()
+</code></pre></details></article><article id="F20"><div class="eyebrow">F20 / 30</div><h2>图 F20｜从结肠组织到结直肠癌的跨层观察</h2>
+        <p class="task">配对样本中各层测量能检验同一疾病故事，任一层变化仍不保证下一层同向改变。</p><img src="outputs/png/F20_colorectal_observations.png" alt="图 F20｜从结肠组织到结直肠癌的跨层观察" loading="lazy">
+        <div class="links"><a href="outputs/png/F20_colorectal_observations.png">png</a><a href="outputs/pdf/F20_colorectal_observations.pdf">pdf</a><a href="outputs/svg/F20_colorectal_observations.svg">svg</a><a href="figures/F20_colorectal_observations.py">Python</a></div><dl><dt>布局理由</dt><dd>左右两列对照同一个人的非肿瘤结肠黏膜与结直肠癌组织；五行分别显示DNA、RNA、蛋白质、代谢物和组织行为。取样关系用观察点线，不用演变箭头。</dd><dt>复用组件</dt><dd>同人取样标题、两份样本节点、两条观察取样线、五个层级标签、十个并列观察卡、配对而非纵向及跨层解释待检验范围说明。</dd><dt>书稿来源</dt><dd>P0560–P0567同人非肿瘤黏膜/癌组织配对；P0574–P0626生长控制、RNA程序、蛋白、资源分配与组织行为；P0629为学习简化；P0630–P0673不一致与反馈边界。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F20: 从结肠组织到结直肠癌的跨层观察. Paired, not longitudinal samples.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0,str(ROOT))
+from shared_shapes import Drawing
+
+
+def build_figure():
+    c=Drawing(&#x27;F20&#x27;,height=140)
+    c.text(&#x27;person&#x27;,&#x27;同一个人的两份组织样本&#x27;,(85,131),size=11.5)
+    c.node(&#x27;sample.mucosa&#x27;,&#x27;非肿瘤结肠黏膜&#x27;,(67,114),w=58,h=15,color=&#x27;secondary&#x27;,size=9.5)
+    c.node(&#x27;sample.tumor&#x27;,&#x27;结直肠癌组织&#x27;,(133,114),w=58,h=15,color=&#x27;secondary&#x27;,size=9.5)
+    c.edge(&#x27;sampling.mucosa&#x27;,(72,126),(67,123),kind=&#x27;observe&#x27;)
+    c.edge(&#x27;sampling.tumor&#x27;,(108,126),(133,123),kind=&#x27;observe&#x27;)
+    rows=[
+        (&#x27;dna&#x27;,94,&#x27;DNA&#x27;,&#x27;共同遗传背景&#x27;,&#x27;体细胞生长控制变化\n提供可能线索&#x27;),
+        (&#x27;rna&#x27;,76,&#x27;RNA&#x27;,&#x27;成熟组织程序&#x27;,&#x27;分裂与合成程序\n可能增强&#x27;),
+        (&#x27;protein&#x27;,58,&#x27;蛋白质&#x27;,&#x27;日常工作的执行分子&#x27;,&#x27;数量／状态可能改变&#x27;),
+        (&#x27;metabolism&#x27;,40,&#x27;代谢物&#x27;,&#x27;日常资源利用&#x27;,&#x27;资源分配可能改变&#x27;),
+        (&#x27;tissue&#x27;,22,&#x27;组织行为&#x27;,&#x27;结构维持与更新&#x27;,&#x27;细胞增多／排列紊乱&#x27;),
+    ]
+    for key,y,layer,left,right in rows:
+        c.text(&#x27;layer.&#x27;+key,layer,(20,y),size=9)
+        c.node(&#x27;mucosa.&#x27;+key,left,(67,y),w=58,h=14,color=&#x27;secondary&#x27;,size=8.5)
+        c.node(&#x27;tumor.&#x27;+key,right,(133,y),w=58,h=14,color=&#x27;primary&#x27;,size=8.5)
+    c.note(&#x27;配对观察示意，不是同一组织的时间演变；跨层解释仍待检验，并非总会同向变化。&#x27;)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result=build_figure();fig=result.figure;OUT=Path(__file__).resolve().parent
+    fig.savefig(OUT/&#x27;F20_colorectal_observations.pdf&#x27;,metadata={&#x27;CreationDate&#x27;:None,&#x27;ModDate&#x27;:None})
+    return export_figure(result,ROOT,OUT/&#x27;F20_colorectal_observations.pdf&#x27;)
+
+
+if __name__==&#x27;__main__&#x27;:
+    main()
+</code></pre></details></article><article id="F21"><div class="eyebrow">F21 / 30</div><h2>图 F21｜从组织平均值到细胞与空间</h2>
+        <p class="task">群体、单细胞与空间观察保留不同信息：总体变化、细胞来源和原位关系不能互相替代。</p><img src="outputs/png/F21_tissue_cell_space.png" alt="图 F21｜从组织平均值到细胞与空间" loading="lazy">
+        <div class="links"><a href="outputs/png/F21_tissue_cell_space.png">png</a><a href="outputs/pdf/F21_tissue_cell_space.pdf">pdf</a><a href="outputs/svg/F21_tissue_cell_space.svg">svg</a><a href="figures/F21_tissue_cell_space.py">Python</a></div><dl><dt>布局理由</dt><dd>同一组织位于上方，三条无箭头观察连线分到横向并列的群体、单细胞与空间面板；以混合括号、散列身份、原位小图表现各自保留的信息，避免升级阶梯。</dd><dt>复用组件</dt><dd>带身份汉字的细胞圆形、组织边界、紫色观察连线、集合括号、位置框、均值歧义注释</dd><dt>书稿来源</dt><dd>P0688–P0701组织混合，RNA升高可来自单细胞变化或细胞组成改变；P0703–P0727群体/单细胞/空间各答发生什么、谁、哪里；P0731–P0732关联边界。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F21: 从组织平均值到细胞与空间. Native semantic Artists; importing writes no files.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+
+
+LAYOUT = {&quot;height&quot;: 126, &quot;source&quot;: (69, 92, 32, 22), &quot;panels&quot;: [(6, 28, 49, 43), (61, 28, 48, 43), (115, 28, 49, 43)]}
+CELL = {&quot;癌&quot;: &quot;primary&quot;, &quot;免&quot;: &quot;secondary&quot;, &quot;间&quot;: &quot;supplement&quot;}
+
+
+def cell(c, name, kind, xy, r=3.2):
+    c.circle(name + &quot;.shape&quot;, xy, r, color=CELL[kind])
+    c.text(name + &quot;.identity&quot;, kind, xy, size=8.5)
+
+
+def build_figure():
+    c = Drawing(&quot;F21&quot;, height=LAYOUT[&quot;height&quot;])
+    c.heading(&quot;title&quot;, &quot;同一块组织，保留不同的信息&quot;, (6, 116.5))
+    c.rect(&quot;source.tissue&quot;, (69, 92), 32, 22, color=&quot;secondary&quot;, weight=.07)
+    for i, (x, y, k) in enumerate([(76,107,&quot;癌&quot;),(85,107,&quot;免&quot;),(94,107,&quot;癌&quot;),(76,98,&quot;间&quot;),(85,98,&quot;癌&quot;),(94,98,&quot;免&quot;)]):
+        cell(c, f&quot;source.cell.{i}&quot;, k, (x, y))
+    c.text(&quot;source.label&quot;, &quot;示例组织&quot;, (110, 103), ha=&quot;left&quot;)
+    for i,(k,word) in enumerate([(&quot;癌&quot;,&quot;癌细胞&quot;),(&quot;免&quot;,&quot;免疫细胞&quot;),(&quot;间&quot;,&quot;间质细胞&quot;)]):
+        cell(c, f&quot;legend.{i}&quot;, k, (10, 106-i*10))
+        c.text(f&quot;legend.label.{i}&quot;, word, (17,106-i*10), ha=&quot;left&quot;, size=8.5)
+    for i,(x,y,w,h) in enumerate(LAYOUT[&quot;panels&quot;]):
+        c.rect(f&quot;measure.{i}.frame&quot;,(x,y),w,h,color=&quot;supplement&quot;,fill=False)
+    for i, (end, label) in enumerate([((30,79),&quot;群体组学&quot;),((85,79),&quot;单细胞组学&quot;),((140,79),&quot;空间组学&quot;)]):
+        c.edge(f&quot;sampling.{i}&quot;,(76+9*i,92),end,kind=&quot;observe&quot;,source=&quot;source.tissue&quot;,target=f&quot;measure.{i}.frame&quot;)
+        c.text(f&quot;measure.{i}.heading&quot;, label, (end[0],74), size=10)
+    c.text(&quot;bulk.question&quot;, &quot;发生了什么？&quot;, (30.5,63), size=10)
+    for i,k in enumerate([&quot;癌&quot;,&quot;免&quot;,&quot;间&quot;]):
+        cell(c,f&quot;bulk.token.{i}&quot;,k,(20+i*10,50))
+    c.bracket(&quot;bulk.aggregate&quot;,16,44,43,color=&quot;supplement&quot;)
+    c.text(&quot;bulk.result&quot;,&quot;混合后的总体信号&quot;,(30.5,35),size=8.5)
+    c.text(&quot;single.question&quot;, &quot;谁发生变化？&quot;, (85,63), size=10)
+    for i,(x,y,k) in enumerate([(70,51,&quot;癌&quot;),(84,49,&quot;免&quot;),(100,52,&quot;癌&quot;),(75,40,&quot;间&quot;),(94,40,&quot;免&quot;)]):
+        cell(c,f&quot;single.cell.{i}&quot;,k,(x,y))
+    c.text(&quot;single.result&quot;,&quot;身份和状态&quot;,(85,31.5),size=8.5)
+    c.text(&quot;space.question&quot;, &quot;变化在哪里？&quot;, (139.5,63), size=10)
+    c.rect(&quot;space.coordinates&quot;,(123,35),33,21,color=&quot;secondary&quot;,fill=False,radius=0)
+    for i,(x,y,k) in enumerate([(129,50,&quot;癌&quot;),(139,50,&quot;免&quot;),(150,50,&quot;癌&quot;),(129,40,&quot;间&quot;),(139,40,&quot;癌&quot;),(150,40,&quot;免&quot;)]):
+        cell(c,f&quot;space.cell.{i}&quot;,k,(x,y),r=3.3)
+    c.text(&quot;space.result&quot;,&quot;保留原位关系&quot;,(139.5,31),size=8.5)
+    c.note(&quot;相似平均值，可能来自单个细胞状态改变，也可能来自细胞组成改变。&quot;, y=18, name=&quot;mean.ambiguity&quot;)
+    c.note(&quot;示意分布；空间测量未必达到单细胞分辨率，相邻也不等于通讯。&quot;, y=8)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result = build_figure()
+    fig = result.figure
+    OUT = Path(__file__).resolve().parent
+    fig.savefig(OUT / &quot;F21_tissue_cell_space.pdf&quot;, metadata={&quot;CreationDate&quot;: None, &quot;ModDate&quot;: None})
+    return export_figure(result, ROOT, OUT / &quot;F21_tissue_cell_space.pdf&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F22"><div class="eyebrow">F22 / 30</div><h2>图 F22｜同样风险翻倍，不同绝对风险</h2>
+        <p class="task">相对倍数相同不等于绝对变化相同，必须同时看基线、人群与观察期。</p><img src="outputs/png/F22_relative_absolute_risk.png" alt="图 F22｜同样风险翻倍，不同绝对风险" loading="lazy">
+        <div class="links"><a href="outputs/png/F22_relative_absolute_risk.png">png</a><a href="outputs/pdf/F22_relative_absolute_risk.pdf">pdf</a><a href="outputs/svg/F22_relative_absolute_risk.svg">svg</a><a href="figures/F22_relative_absolute_risk.py">Python</a></div><dl><dt>布局理由</dt><dd>两行各两组严格100个等大的点，1/100到2/100与10/100到20/100共享图形分母和未来十年观察期；右侧分别写相对倍数与绝对百分点。</dd><dt>复用组件</dt><dd>固定100点网格、实心/空心双编码、相对倍数文本、绝对百分点文本、同分母括号</dd><dt>书稿来源</dt><dd>P0768–P0770风险需疾病、人群、时间；P0772–P0777明确假设：未来十年1/100→2/100，以及10%→20%；绝对增加1与10个百分点。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F22: 同样风险翻倍，不同绝对风险. Native semantic Artists; importing writes no files.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+
+
+LAYOUT = {&quot;height&quot;: 116, &quot;grid_x&quot;: (12, 53), &quot;grid_y&quot;: (63, 24), &quot;step&quot;: 2.9, &quot;radius&quot;: .90}
+
+
+def hundred(c, name, x, y, positive):
+    # Fixed denominator: exactly 100 equally sized marks in every group.
+    for i in range(100):
+        xx = x + (i % 10) * LAYOUT[&quot;step&quot;]
+        yy = y + (9 - i // 10) * LAYOUT[&quot;step&quot;]
+        active = i &lt; positive
+        c.circle(f&quot;{name}.person.{i:03d}&quot;, (xx, yy), LAYOUT[&quot;radius&quot;],
+                 color=&quot;accent&quot; if active else &quot;muted&quot;, fill=&quot;accent&quot; if active else &quot;background&quot;)
+
+
+def build_figure():
+    c = Drawing(&quot;F22&quot;, height=LAYOUT[&quot;height&quot;])
+    c.heading(&quot;scope&quot;, &quot;假设示例 · 未来十年 · 每组 100 人&quot;, (6,106.5))
+    for row,(a,b,delta,y) in enumerate([(1,2,1,63),(10,20,10,24)]):
+        for col,n in enumerate([a,b]):
+            x=LAYOUT[&quot;grid_x&quot;][col]
+            hundred(c,f&quot;comparison.{row}.group.{col}&quot;,x,y,n)
+            c.text(f&quot;comparison.{row}.risk.{col}&quot;,f&quot;{n}/100（{n}%）&quot;,(x+13.05,y+33),size=10)
+        c.text(f&quot;comparison.{row}.relative&quot;,&quot;相对风险 ×2&quot;,(116,y+20),size=11.5)
+        c.text(f&quot;comparison.{row}.absolute&quot;,f&quot;绝对增加 {delta} 个百分点&quot;,(116,y+8),size=10,color=&quot;accent&quot;)
+        c.bracket(f&quot;comparison.{row}.shared_denominator&quot;,11,80,y-3,color=&quot;muted&quot;)
+    c.note(&quot;实心点表示假设的患病人数；不是实际疾病数据，也不能点名某个人的结局。&quot;,y=8)
+    c.spec[&quot;risk_examples&quot;]={&quot;hypothetical&quot;:True,&quot;period_years&quot;:10,&quot;denominator&quot;:100,&quot;pairs&quot;:[[1,2],[10,20]],&quot;absolute_percentage_points&quot;:[1,10]}
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result = build_figure()
+    fig = result.figure
+    OUT = Path(__file__).resolve().parent
+    fig.savefig(OUT / &quot;F22_relative_absolute_risk.pdf&quot;, metadata={&quot;CreationDate&quot;: None, &quot;ModDate&quot;: None})
+    return export_figure(result, ROOT, OUT / &quot;F22_relative_absolute_risk.pdf&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F23"><div class="eyebrow">F23 / 30</div><h2>图 F23｜风险描述未来机会</h2>
+        <p class="task">风险是用相似人群经验估计特定时期的未来机会，不是对某个个体结局的预先点名。</p><img src="outputs/png/F23_risk_future_possibilities.png" alt="图 F23｜风险描述未来机会" loading="lazy">
+        <div class="links"><a href="outputs/png/F23_risk_future_possibilities.png">png</a><a href="outputs/pdf/F23_risk_future_possibilities.pdf">pdf</a><a href="outputs/svg/F23_risk_future_possibilities.svg">svg</a><a href="figures/F23_risk_future_possibilities.py">Python</a></div><dl><dt>布局理由</dt><dd>上部人群证据与估计窗口通过观察线关联；中部个体现状分出两条非比例的未来可能；底部条件带以影响关系进入未来判断。</dd><dt>复用组件</dt><dd>参照人群卡、概率估计窗、条件分支、未来状态卡、自然影响线、非比例边界注释</dd><dt>书稿来源</dt><dd>P0754–P0770今天无病与未来机会分开；P0793–P0808相似条件人群经验、年龄/遗传/暴露、个体无法预先分格、风险可更新。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F23: 风险描述未来机会. Native semantic Artists; importing writes no files.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+
+
+LAYOUT = {&quot;height&quot;: 126, &quot;reference_y&quot;: 100, &quot;individual&quot;: (28,66), &quot;futures&quot;: [(139,78),(139,51)]}
+
+
+def build_figure():
+    c = Drawing(&quot;F23&quot;, height=LAYOUT[&quot;height&quot;])
+    c.heading(&quot;title&quot;,&quot;风险估计从人群而来，用于判断未来机会&quot;,(6,116.5))
+    ref=c.node(&quot;reference&quot;,&quot;相似条件人群\n已有的观察结果&quot;,(35,100),w=58,h=19,color=&quot;supplement&quot;)
+    estimate=c.node(&quot;estimate&quot;,&quot;特定疾病、人群与时期\n未来患病机会的估计&quot;,(122,100),w=80,h=19,color=&quot;supplement&quot;)
+    c.edge(&quot;evidence.reference_to_estimate&quot;,ref[&quot;right&quot;],estimate[&quot;left&quot;],kind=&quot;observe&quot;,source=&quot;reference&quot;,target=&quot;estimate&quot;)
+    now=c.node(&quot;individual.now&quot;,&quot;一个人\n现在未患病&quot;,LAYOUT[&quot;individual&quot;],w=41,h=20,color=&quot;secondary&quot;)
+    disease=c.node(&quot;future.disease&quot;,&quot;未来患病&quot;,LAYOUT[&quot;futures&quot;][0],w=46,h=13)
+    no_disease=c.node(&quot;future.no_disease&quot;,&quot;同期未患病&quot;,LAYOUT[&quot;futures&quot;][1],w=46,h=13,color=&quot;secondary&quot;)
+    c.edge(&quot;future.possibility.disease&quot;,now[&quot;right&quot;],disease[&quot;left&quot;],kind=&quot;conditional&quot;,source=&quot;individual.now&quot;,target=&quot;future.disease&quot;)
+    c.edge(&quot;future.possibility.no_disease&quot;,now[&quot;right&quot;],no_disease[&quot;left&quot;],kind=&quot;conditional&quot;,source=&quot;individual.now&quot;,target=&quot;future.no_disease&quot;)
+    c.edge(&quot;estimate.reference_for_individual&quot;,(103,90.5),(86,79),kind=&quot;observe&quot;,source=&quot;estimate&quot;,target=&quot;future.possibilities&quot;)
+    c.text(&quot;estimate.role&quot;,&quot;提供参照&quot;,(79,87),size=8.5,color=&quot;supplement&quot;)
+    c.text(&quot;future.label&quot;,&quot;可能的未来&quot;,(104,44),size=9.5)
+    cond=c.node(&quot;conditions&quot;,&quot;遗传背景、年龄、暴露、身体状态\n条件改变或出现新证据时，可以更新估计&quot;,(85,26),w=143,h=20,color=&quot;secondary&quot;,size=9)
+    c.edge(&quot;conditions.influence&quot;,(85,36),(85,56),kind=&quot;influence&quot;,source=&quot;conditions&quot;,target=&quot;future.possibilities&quot;)
+    c.note(&quot;分支不表示概率比例；风险不能预先点名谁会患病，也不等于当前诊断。&quot;,y=8)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result = build_figure()
+    fig = result.figure
+    OUT = Path(__file__).resolve().parent
+    fig.savefig(OUT / &quot;F23_risk_future_possibilities.pdf&quot;, metadata={&quot;CreationDate&quot;: None, &quot;ModDate&quot;: None})
+    return export_figure(result, ROOT, OUT / &quot;F23_risk_future_possibilities.pdf&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F24"><div class="eyebrow">F24 / 30</div><h2>图 F24｜相似疾病表现可以来自不同路径</h2>
+        <p class="task">相似组织表现可以由不同路径形成和维持，分子检测要辨认关键机制，不能把每个变化都当原因。</p><img src="outputs/png/F24_converging_disease_paths.png" alt="图 F24｜相似疾病表现可以来自不同路径" loading="lazy">
+        <div class="links"><a href="outputs/png/F24_converging_disease_paths.png">png</a><a href="outputs/pdf/F24_converging_disease_paths.pdf">pdf</a><a href="outputs/svg/F24_converging_disease_paths.svg">svg</a><a href="figures/F24_converging_disease_paths.py">Python</a></div><dl><dt>布局理由</dt><dd>两条不同机制路径汇合肺腺癌组织表现，甲保留特定EGFR路径，乙保留其他/未知；下部独立的分子检测观察窗追问机制。</dd><dt>复用组件</dt><dd>汇合条件线、未知路径节点、疾病分类节点、紫色观察端口、因果边界说明</dd><dt>书稿来源</dt><dd>P0831–P0860 EGFR路径与其他/未知路径汇合肺腺癌；P0862–P0876驱动/搭载；P0893标志物未必机制；P0903–P0937从重要状态到治疗入口。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F24: 相似疾病表现可以来自不同路径. Native semantic Artists; importing writes no files.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+
+
+LAYOUT = {&quot;height&quot;:116,&quot;path_y&quot;:(81,49),&quot;disease&quot;:(143,65)}
+
+
+def build_figure():
+    c = Drawing(&quot;F24&quot;,height=LAYOUT[&quot;height&quot;])
+    c.heading(&quot;title&quot;,&quot;同一病名，需要继续辨认机制&quot;,(6,106.5))
+    c.text(&quot;patient.a&quot;,&quot;甲&quot;,(10,81),size=10)
+    egfr=c.node(&quot;path.a.egfr&quot;,&quot;特定 EGFR\n激活改变&quot;,(41,81),w=42,h=18)
+    signal=c.node(&quot;path.a.signal&quot;,&quot;异常生长\n信号持续&quot;,(91,81),w=38,h=18)
+    c.edge(&quot;path.a.signal_propagation&quot;,egfr[&quot;right&quot;],signal[&quot;left&quot;],kind=&quot;process&quot;,source=&quot;path.a.egfr&quot;,target=&quot;path.a.signal&quot;)
+    c.text(&quot;patient.b&quot;,&quot;乙&quot;,(10,49),size=10)
+    unknown=c.node(&quot;path.b.unknown&quot;,&quot;其他可能路径\n或机制尚未明确&quot;,(47,49),w=54,h=18,color=&quot;secondary&quot;)
+    disease=c.node(&quot;disease.shared&quot;,&quot;肺腺癌\n相似组织表现&quot;,LAYOUT[&quot;disease&quot;],w=40,h=27)
+    c.edge(&quot;convergence.a&quot;,signal[&quot;right&quot;],(123,72),kind=&quot;conditional&quot;,source=&quot;path.a.signal&quot;,target=&quot;disease.shared&quot;)
+    c.edge(&quot;convergence.b&quot;,unknown[&quot;right&quot;],(123,58),kind=&quot;conditional&quot;,source=&quot;path.b.unknown&quot;,target=&quot;disease.shared&quot;)
+    c.text(&quot;classification.label&quot;,&quot;组织层分类&quot;,(143,91),size=9,color=&quot;muted&quot;)
+    c.text(&quot;unknown.boundary&quot;,&quot;尚未明确 ≠ 没有机制&quot;,(86,36),size=8.5,color=&quot;muted&quot;)
+    c.rect(&quot;measurement.boundary&quot;,(6,14),158,16,color=&quot;supplement&quot;,weight=.06)
+    c.text(&quot;measurement.question&quot;,&quot;分子检测：哪些变化真正参与了疾病的形成和维持？&quot;,(85,24),size=9)
+    c.text(&quot;measurement.caution&quot;,&quot;发现变化或有用标志物，并不自动证明因果。&quot;,(85,18),size=8.5,color=&quot;muted&quot;)
+    c.edge(&quot;measurement.port&quot;,(41,40),(41,30),kind=&quot;observe&quot;,source=&quot;path.b.unknown&quot;,target=&quot;measurement.boundary&quot;)
+    c.note(&quot;不同路径可汇合到相似表现；此图不为乙补造具体驱动基因。&quot;,y=8)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result = build_figure()
+    fig = result.figure
+    OUT = Path(__file__).resolve().parent
+    fig.savefig(OUT / &quot;F24_converging_disease_paths.pdf&quot;, metadata={&quot;CreationDate&quot;: None, &quot;ModDate&quot;: None})
+    return export_figure(result, ROOT, OUT / &quot;F24_converging_disease_paths.pdf&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F25"><div class="eyebrow">F25 / 30</div><h2>图 F25｜生命链条上的不同治疗入口</h2>
+        <p class="task">治疗可在能改变疾病过程的不同层进入，最初病因不是唯一入口，且每条入口都有递送、持续性与风险条件。</p><img src="outputs/png/F25_treatment_entry_points.png" alt="图 F25｜生命链条上的不同治疗入口" loading="lazy">
+        <div class="links"><a href="outputs/png/F25_treatment_entry_points.png">png</a><a href="outputs/pdf/F25_treatment_entry_points.pdf">pdf</a><a href="outputs/svg/F25_treatment_entry_points.svg">svg</a><a href="figures/F25_treatment_entry_points.py">Python</a></div><dl><dt>布局理由</dt><dd>140毫米高的四个独立病例行共享DNA、RNA、蛋白作用、细胞和组织个体的横向导航；只展开本行局部机制，橙色入口直接指向RNA剪接、RNA减少、蛋白功能或系统输入。</dd><dt>复用组件</dt><dd>五组层级导航、原DNA保留轨、病例分隔、橙色干预端口、模板虚线、条件影响线、PKU输入节点</dd><dt>书稿来源</dt><dd>P0965–P0986 nusinersen改SMN2剪接；P0993–P1009 patisiran减少TTR RNA；P1011–P1025 osimertinib抑制特定异常EGFR功能；P1028–P1045 PKU管理苯丙氨酸输入、入口选择条件。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F25: 生命链条上的不同治疗入口. Native semantic Artists; importing writes no files.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+
+
+LAYOUT = {&quot;height&quot;:140,&quot;rows&quot;:(112,82,52,22),&quot;columns&quot;:{&quot;dna&quot;:35,&quot;rna&quot;:65,&quot;protein&quot;:102,&quot;cell&quot;:133,&quot;organism&quot;:154}}
+
+
+def preserved_dna(c,name,y):
+    c.dna(name,27,y+3,16,gap=3,rungs=False)
+    c.text(name+&quot;.caption&quot;,&quot;原序列保留&quot;,(35,y-4),size=8.5,color=&quot;muted&quot;)
+
+
+def intervention(c,name,x,y,label):
+    c.text(name+&quot;.verb&quot;,label,(x,y+13),size=9,color=&quot;accent&quot;)
+    c.edge(name+&quot;.port&quot;,(x,y+9.5),(x,y+6.5),kind=&quot;intervention&quot;,source=name+&quot;.treatment&quot;,target=name+&quot;.target&quot;)
+
+
+def build_figure():
+    c=Drawing(&quot;F25&quot;,height=LAYOUT[&quot;height&quot;])
+    for name,x in LAYOUT[&quot;columns&quot;].items():
+        label={&quot;dna&quot;:&quot;DNA&quot;,&quot;rna&quot;:&quot;RNA&quot;,&quot;protein&quot;:&quot;蛋白及作用&quot;,&quot;cell&quot;:&quot;细胞&quot;,&quot;organism&quot;:&quot;组织与个体&quot;}[name]
+        c.text(&quot;navigation.&quot;+name,label,(x,131.5),size=8.5,color=&quot;muted&quot;)
+    for i,y in enumerate(LAYOUT[&quot;rows&quot;][:-1]):
+        c.line(f&quot;case.separator.{i}&quot;,[(6,y-13),(164,y-13)],color=&quot;muted&quot;,width=.45,role=&quot;panel_separator&quot;)
+    y=112
+    c.text(&quot;sma.case&quot;,&quot;SMA&quot;,(6,y+1),ha=&quot;left&quot;,size=9.5)
+    c.text(&quot;sma.drug&quot;,&quot;nusinersen&quot;,(6,y-6),ha=&quot;left&quot;,size=8.5)
+    preserved_dna(c,&quot;sma.dna&quot;,y)
+    rna=c.node(&quot;sma.rna&quot;,&quot;SMN2 剪接\n保留外显子7&quot;,(65,y),w=29,h=13,size=8.5)
+    protein=c.node(&quot;sma.protein&quot;,&quot;完整 SMN\n增加&quot;,(102,y),w=29,h=13,size=8.5)
+    outcome=c.node(&quot;sma.downstream&quot;,&quot;神经系统\n功能目标&quot;,(146,y),w=35,h=13,color=&quot;secondary&quot;,size=8.5)
+    intervention(c,&quot;sma.intervention&quot;,65,y,&quot;调整剪接&quot;)
+    c.edge(&quot;sma.template&quot;,rna[&quot;right&quot;],protein[&quot;left&quot;],kind=&quot;template&quot;,source=&quot;sma.rna&quot;,target=&quot;sma.protein&quot;)
+    c.edge(&quot;sma.downstream_effect&quot;,protein[&quot;right&quot;],outcome[&quot;left&quot;],kind=&quot;conditional&quot;,source=&quot;sma.protein&quot;,target=&quot;sma.downstream&quot;)
+    y=82
+    c.text(&quot;ttr.case&quot;,&quot;遗传性 TTR\n淀粉样变&quot;,(6,y+2),ha=&quot;left&quot;,size=8.5)
+    c.text(&quot;ttr.drug&quot;,&quot;patisiran&quot;,(6,y-8),ha=&quot;left&quot;,size=8.5)
+    preserved_dna(c,&quot;ttr.dna&quot;,y)
+    rna=c.node(&quot;ttr.rna&quot;,&quot;TTR mRNA\n降解增加&quot;,(65,y),w=29,h=13,size=8.5)
+    protein=c.node(&quot;ttr.protein&quot;,&quot;TTR 产生\n减少&quot;,(102,y),w=29,h=13,size=8.5)
+    outcome=c.node(&quot;ttr.downstream&quot;,&quot;异常沉积\n相关过程&quot;,(146,y),w=35,h=13,color=&quot;secondary&quot;,size=8.5)
+    intervention(c,&quot;ttr.intervention&quot;,65,y,&quot;减少 RNA&quot;)
+    c.edge(&quot;ttr.template&quot;,rna[&quot;right&quot;],protein[&quot;left&quot;],kind=&quot;template&quot;,source=&quot;ttr.rna&quot;,target=&quot;ttr.protein&quot;)
+    c.edge(&quot;ttr.downstream_effect&quot;,protein[&quot;right&quot;],outcome[&quot;left&quot;],kind=&quot;conditional&quot;,source=&quot;ttr.protein&quot;,target=&quot;ttr.downstream&quot;)
+    y=52
+    c.text(&quot;egfr.case&quot;,&quot;特定 EGFR\n改变的肺癌&quot;,(6,y+2),ha=&quot;left&quot;,size=8.5)
+    c.text(&quot;egfr.drug&quot;,&quot;osimertinib&quot;,(6,y-8),ha=&quot;left&quot;,size=8.5)
+    preserved_dna(c,&quot;egfr.dna&quot;,y)
+    c.text(&quot;egfr.rna&quot;,&quot;仍可产生&quot;,(65,y),size=8.5,color=&quot;muted&quot;)
+    protein=c.node(&quot;egfr.protein&quot;,&quot;异常 EGFR\n功能受抑&quot;,(102,y),w=29,h=13,size=8.5)
+    outcome=c.node(&quot;egfr.downstream&quot;,&quot;生长行为\n可能改变&quot;,(146,y),w=35,h=13,color=&quot;secondary&quot;,size=8.5)
+    intervention(c,&quot;egfr.intervention&quot;,102,y,&quot;抑制功能&quot;)
+    c.edge(&quot;egfr.downstream_effect&quot;,protein[&quot;right&quot;],outcome[&quot;left&quot;],kind=&quot;conditional&quot;,source=&quot;egfr.protein&quot;,target=&quot;egfr.downstream&quot;)
+    y=22
+    c.text(&quot;pku.case&quot;,&quot;PKU&quot;,(6,y+2),ha=&quot;left&quot;,size=9.5)
+    c.text(&quot;pku.management&quot;,&quot;营养管理&quot;,(6,y-5),ha=&quot;left&quot;,size=8.5)
+    preserved_dna(c,&quot;pku.dna&quot;,y)
+    c.text(&quot;pku.rna&quot;,&quot;未改写&quot;,(65,y),size=8.5,color=&quot;muted&quot;)
+    c.node(&quot;pku.pah&quot;,&quot;PAH 功能\n仍不足&quot;,(102,y),w=29,h=13,color=&quot;secondary&quot;,size=8.5)
+    c.node(&quot;pku.input&quot;,&quot;苯丙氨酸\n输入受控&quot;,(146,y),w=35,h=13,color=&quot;secondary&quot;,size=8.5)
+    intervention(c,&quot;pku.intervention&quot;,146,y,&quot;管理系统输入&quot;)
+    c.note(&quot;四个独立病例；入口取决于递送、持续性与风险。PKU 管理输入，并非完全去除。&quot;,y=8)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result = build_figure()
+    fig = result.figure
+    OUT = Path(__file__).resolve().parent
+    fig.savefig(OUT / &quot;F25_treatment_entry_points.pdf&quot;, metadata={&quot;CreationDate&quot;: None, &quot;ModDate&quot;: None})
+    return export_figure(result, ROOT, OUT / &quot;F25_treatment_entry_points.pdf&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F26"><div class="eyebrow">F26 / 30</div><h2>图 F26｜引导 RNA 定位与执行工具的不同任务</h2>
+        <p class="task">可编程定位把工具带到指定区域，随后执行的切割、碱基改写或调控是可区分的任务。</p><img src="outputs/png/F26_guide_and_execution_tools.png" alt="图 F26｜引导 RNA 定位与执行工具的不同任务" loading="lazy">
+        <div class="links"><a href="outputs/png/F26_guide_and_execution_tools.png">png</a><a href="outputs/pdf/F26_guide_and_execution_tools.pdf">pdf</a><a href="outputs/svg/F26_guide_and_execution_tools.svg">svg</a><a href="figures/F26_guide_and_execution_tools.py">Python</a></div><dl><dt>布局理由</dt><dd>左侧空间定位模块连接右侧两种执行面板；上方切开DNA后独立进入细胞修复与不同可能结果，下方连续DNA表现碱基改写。</dd><dt>复用组件</dt><dd>DNA目标区域、引导RNA识别短线、定位载体、无箭头工具选择线、断链、修复分支、连续链局部改写</dd><dt>书稿来源</dt><dd>P1073–P1087定位/执行分开，切割后仍需细胞修复；P1089–P1103碱基编辑借定位而换执行工具；P1134–P1154后文再讲不切DNA的dCas9调控概念验证。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F26: 引导 RNA 定位与执行工具的不同任务. Native semantic Artists; importing writes no files.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+
+
+LAYOUT = {&quot;height&quot;:126,&quot;navigation_frame&quot;:(6,31,60,79),&quot;cut_frame&quot;:(78,62,86,50),&quot;base_frame&quot;:(78,24,86,33)}
+
+
+def build_figure():
+    c=Drawing(&quot;F26&quot;,height=LAYOUT[&quot;height&quot;])
+    c.heading(&quot;title&quot;,&quot;先定位，再由不同工具执行任务&quot;,(6,116.5))
+    for key in [&quot;navigation_frame&quot;,&quot;cut_frame&quot;,&quot;base_frame&quot;]:
+        x,y,w,h=LAYOUT[key]
+        c.rect(key,(x,y),w,h,color=&quot;secondary&quot;,fill=False)
+    c.text(&quot;navigation.heading&quot;,&quot;共同的定位模块&quot;,(36,102),size=10)
+    c.ellipse(&quot;navigation.cas_carrier&quot;,(35,69),26,24,color=&quot;secondary&quot;,weight=.10)
+    c.dna(&quot;navigation.target&quot;,13,65,44,gap=4,region=(31,8))
+    c.strand(&quot;navigation.guide&quot;,28,82,14,color=&quot;accent&quot;)
+    c.text(&quot;navigation.guide_label&quot;,&quot;引导 RNA&quot;,(35,90),size=9.5)
+    for i,x in enumerate([31,35,39]):
+        c.line(f&quot;navigation.recognition.{i}&quot;,[(x,79),(x,73)],color=&quot;accent&quot;,dashed=True,width=.8,role=&quot;recognition&quot;)
+    c.text(&quot;navigation.target_label&quot;,&quot;DNA 目标区域&quot;,(36,53),size=9)
+    c.text(&quot;navigation.carrier_label&quot;,&quot;定位载体携带工具&quot;,(36,42),size=8.5)
+    c.edge(&quot;tool_branch.cut&quot;,(66,78),(78,90),kind=&quot;order&quot;,source=&quot;navigation&quot;,target=&quot;cut&quot;)
+    c.edge(&quot;tool_branch.base&quot;,(66,61),(78,41),kind=&quot;order&quot;,source=&quot;navigation&quot;,target=&quot;base&quot;)
+    c.text(&quot;cut.heading&quot;,&quot;切割工具&quot;,(83,105),ha=&quot;left&quot;,size=10)
+    c.dna(&quot;cut.left&quot;,84,88,11,gap=4)
+    c.dna(&quot;cut.right&quot;,99,88,11,gap=4)
+    c.line(&quot;cut.break.upper&quot;,[(95.5,94),(98,90)],color=&quot;accent&quot;,width=1.5,role=&quot;intervention&quot;)
+    c.line(&quot;cut.break.lower&quot;,[(95.5,90),(98,86)],color=&quot;accent&quot;,width=1.5,role=&quot;intervention&quot;)
+    repair=c.node(&quot;cut.repair&quot;,&quot;细胞修复&quot;,(139,90),w=39,h=12,size=9)
+    c.edge(&quot;cut.to_repair&quot;,(111,90),repair[&quot;left&quot;],kind=&quot;process&quot;,source=&quot;cut.dna&quot;,target=&quot;cut.repair&quot;)
+    c.edge(&quot;repair.indel&quot;,(134,84),(124,76),kind=&quot;conditional&quot;,source=&quot;cut.repair&quot;,target=&quot;repair.indel_result&quot;)
+    c.edge(&quot;repair.template&quot;,(144,84),(151,76),kind=&quot;conditional&quot;,source=&quot;cut.repair&quot;,target=&quot;repair.template_result&quot;)
+    c.text(&quot;repair.indel_result&quot;,&quot;插入／删除&quot;,(121,69),size=8.5)
+    c.text(&quot;repair.template_result&quot;,&quot;依模板*&quot;,(151,69),size=8.5)
+    c.text(&quot;base.heading&quot;,&quot;碱基编辑工具&quot;,(83,51),ha=&quot;left&quot;,size=10)
+    c.dna(&quot;base.target&quot;,85,33,31,gap=4,region=(99,6))
+    c.text(&quot;base.action&quot;,&quot;改写某些碱基\n无需先切断双链&quot;,(140,37),size=8.5)
+    c.note(&quot;* 按模板修复需要额外模板与合适条件；工具执行不保证得到预期序列。&quot;,y=16,name=&quot;repair.condition&quot;)
+    c.note(&quot;定位与执行是不同任务；碱基编辑受位点与工具限制，图中地址仅为抽象示意。&quot;,y=8)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result = build_figure()
+    fig = result.figure
+    OUT = Path(__file__).resolve().parent
+    fig.savefig(OUT / &quot;F26_guide_and_execution_tools.pdf&quot;, metadata={&quot;CreationDate&quot;: None, &quot;ModDate&quot;: None})
+    return export_figure(result, ROOT, OUT / &quot;F26_guide_and_execution_tools.pdf&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F27"><div class="eyebrow">F27 / 30</div><h2>图 F27｜KJ 的分子修复与临床观察</h2>
+        <p class="task">个体化编辑把分子设计推进到人体，但单人早期观察与后续更新仍需同长期安全和持续获益分开判断。</p><img src="outputs/png/F27_kj_mechanism_and_observation.png" alt="图 F27｜KJ 的分子修复与临床观察" loading="lazy">
+        <div class="links"><a href="outputs/png/F27_kj_mechanism_and_observation.png">png</a><a href="outputs/pdf/F27_kj_mechanism_and_observation.pdf">pdf</a><a href="outputs/svg/F27_kj_mechanism_and_observation.svg">svg</a><a href="figures/F27_kj_mechanism_and_observation.py">Python</a></div><dl><dt>布局理由</dt><dd>140毫米高的三个清晰层：设计验证递送；以拟实现文字和条件线表示作用目标；分别标注2025早期报告和2026医院更新的单人观察卡。</dd><dt>复用组件</dt><dd>设计节点、过程线、目标DNA、条件机制链、紫色临床观察卡、年份标记、长期未定边界</dd><dt>书稿来源</dt><dd>P1108–P1114 CPS1缺乏与氮处理；P1119–P1124设计、实验测试与脂质纳米颗粒递送；P1125早期单人报告；P1126后续医院更新；P1127–P1131明确不能写成确定治愈。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F27: KJ 的分子修复与临床观察. Native semantic Artists; importing writes no files.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+
+
+LAYOUT={&quot;height&quot;:140,&quot;design_y&quot;:113,&quot;mechanism_y&quot;:85,&quot;observation_cards&quot;:[(6,21,76,37),(88,21,76,37)]}
+
+
+def build_figure():
+    c=Drawing(&quot;F27&quot;,height=LAYOUT[&quot;height&quot;])
+    c.heading(&quot;design.heading&quot;,&quot;设计、验证与递送&quot;,(6,130.5))
+    design=[]
+    for name,label,x,w in [(&quot;variant&quot;,&quot;CPS1 变异\n提前停止&quot;,24,34),(&quot;editor&quot;,&quot;个体化\n编辑器&quot;,64,32),(&quot;test&quot;,&quot;实验模型\n测试&quot;,104,32),(&quot;delivery&quot;,&quot;脂质纳米颗粒\n递送肝细胞&quot;,145,37)]:
+        design.append(c.node(&quot;design.&quot;+name,label,(x,113),w=w,h=18,size=8.5))
+    for i in range(3):
+        c.edge(f&quot;design.step.{i}&quot;,design[i][&quot;right&quot;],design[i+1][&quot;left&quot;],kind=&quot;process&quot;,source=[&quot;variant&quot;,&quot;editor&quot;,&quot;test&quot;][i],target=[&quot;editor&quot;,&quot;test&quot;,&quot;delivery&quot;][i])
+    c.text(&quot;mechanism.heading&quot;,&quot;进入肝细胞后：拟实现的目标机制&quot;,(6,98),ha=&quot;left&quot;,size=9.5)
+    c.dna(&quot;mechanism.sequence&quot;,15,83,36,gap=4,region=(31,6))
+    c.text(&quot;mechanism.sequence_label&quot;,&quot;目标碱基改写&quot;,(33,76),size=8.5)
+    cps=c.node(&quot;mechanism.cps1&quot;,&quot;拟增加完整 CPS1&quot;,(87,85),w=48,h=14,size=9)
+    function=c.node(&quot;mechanism.function&quot;,&quot;拟改善\n氮处理功能&quot;,(145,85),w=37,h=17,color=&quot;secondary&quot;,size=9)
+    c.edge(&quot;mechanism.sequence_to_protein&quot;,(52,85),cps[&quot;left&quot;],kind=&quot;conditional&quot;,source=&quot;mechanism.sequence&quot;,target=&quot;mechanism.cps1&quot;)
+    c.edge(&quot;mechanism.protein_to_function&quot;,cps[&quot;right&quot;],function[&quot;left&quot;],kind=&quot;conditional&quot;,source=&quot;mechanism.cps1&quot;,target=&quot;mechanism.function&quot;)
+    c.heading(&quot;observation.heading&quot;,&quot;原稿报告的观察：单名患者&quot;,(6,65))
+    for i,(x,y,w,h) in enumerate(LAYOUT[&quot;observation_cards&quot;]):
+        c.rect(f&quot;observation.card.{i}&quot;,(x,y),w,h,color=&quot;supplement&quot;,weight=.07)
+    c.text(&quot;early.date&quot;,&quot;2025 年早期临床报告&quot;,(11,52),ha=&quot;left&quot;,size=9.5,color=&quot;supplement&quot;)
+    c.text(&quot;early.observed&quot;,&quot;更多膳食蛋白质\n部分清除氮药物减少\n未报告严重治疗相关不良事件&quot;,(44,38),size=8.5)
+    c.text(&quot;early.boundary&quot;,&quot;一位患者的早期结果&quot;,(44,25),size=8.5,color=&quot;muted&quot;)
+    c.text(&quot;later.date&quot;,&quot;2026 年医院一周年更新&quot;,(93,52),ha=&quot;left&quot;,size=9.5,color=&quot;supplement&quot;)
+    c.text(&quot;later.observed&quot;,&quot;回家后能够行走、说话\n继续达到新的发育里程碑&quot;,(126,39),size=8.5)
+    c.text(&quot;later.boundary&quot;,&quot;医院更新，非长期疗效结论&quot;,(126,25),size=8.5,color=&quot;muted&quot;)
+    c.note(&quot;单人早期结果与后续更新均不等于已治愈；长期安全与持续获益仍待观察。&quot;,y=8)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result = build_figure()
+    fig = result.figure
+    OUT = Path(__file__).resolve().parent
+    fig.savefig(OUT / &quot;F27_kj_mechanism_and_observation.pdf&quot;, metadata={&quot;CreationDate&quot;: None, &quot;ModDate&quot;: None})
+    return export_figure(result, ROOT, OUT / &quot;F27_kj_mechanism_and_observation.pdf&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F28"><div class="eyebrow">F28 / 30</div><h2>图 F28｜修改原有序列与补充功能性副本</h2>
+        <p class="task">修改原有序列与添加功能性版本是两种不同动作，二者都须在目标细胞中形成足够且持续的功能。</p><img src="outputs/png/F28_edit_or_add_functional_copy.png" alt="图 F28｜修改原有序列与补充功能性副本" loading="lazy">
+        <div class="links"><a href="outputs/png/F28_edit_or_add_functional_copy.png">png</a><a href="outputs/pdf/F28_edit_or_add_functional_copy.pdf">pdf</a><a href="outputs/svg/F28_edit_or_add_functional_copy.svg">svg</a><a href="figures/F28_edit_or_add_functional_copy.py">Python</a></div><dl><dt>布局理由</dt><dd>相同细胞起点的左右对照；左在原位置改写，右保留原异常版本且另置额外功能信息，不画染色体整合；底部共享表达和功能条件。</dd><dt>复用组件</dt><dd>细胞边界、持续原DNA、目标位点、额外信息双轨、干预箭头、条件表达带</dd><dt>书稿来源</dt><dd>P1179–P1181原位改字与额外可用基因，Luxturna/RPE65存活目标细胞；P1184–P1186递送、载量、表达、免疫、持续性及无固定优劣。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F28: 修改原有序列与补充功能性副本. Native semantic Artists; importing writes no files.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+
+
+LAYOUT={&quot;height&quot;:126,&quot;columns&quot;:(44,126),&quot;start_y&quot;:96,&quot;result_y&quot;:55}
+
+
+def build_figure():
+    c=Drawing(&quot;F28&quot;,height=LAYOUT[&quot;height&quot;])
+    c.heading(&quot;edit.heading&quot;,&quot;修改原有序列&quot;,(8,116.5))
+    c.heading(&quot;addition.heading&quot;,&quot;补充功能性副本&quot;,(90,116.5))
+    for i,x in enumerate(LAYOUT[&quot;columns&quot;]):
+        c.ellipse(f&quot;start.cell.{i}&quot;,(x,96),66,28,color=&quot;secondary&quot;)
+        c.dna(f&quot;start.original.{i}&quot;,x-21,98,42,gap=4,region=(x-5,9))
+        c.text(f&quot;start.label.{i}&quot;,&quot;原异常版本&quot;,(x,89),size=9)
+        c.ellipse(f&quot;result.cell.{i}&quot;,(x,55),68,44,color=&quot;secondary&quot;)
+        c.edge(f&quot;operation.{i}&quot;,(x,81),(x,77.5),kind=&quot;intervention&quot;,source=f&quot;start.cell.{i}&quot;,target=f&quot;result.cell.{i}&quot;)
+    c.dna(&quot;edit.modified_original&quot;,23,63,42,gap=4,region=(39,9))
+    c.text(&quot;edit.action&quot;,&quot;在原位置\n改写目标序列&quot;,(44,49),size=9.5)
+    c.dna(&quot;addition.original_retained&quot;,105,64,42,gap=4,region=(121,9))
+    c.text(&quot;addition.original_label&quot;,&quot;原异常版本仍在&quot;,(126,58),size=8.5)
+    c.dna(&quot;addition.extra_information&quot;,109,42,34,gap=4,color=&quot;accent&quot;)
+    c.text(&quot;addition.extra_label&quot;,&quot;额外功能性信息&quot;,(126,38.5),size=8.5,color=&quot;accent&quot;)
+    conditions=c.node(&quot;shared.expression&quot;,&quot;RNA、蛋白质的表达与实际功能\n仍取决于递送、存活目标细胞及持续性&quot;,(85,22),w=147,h=15,color=&quot;secondary&quot;,size=9)
+    c.edge(&quot;edit.expression_condition&quot;,(44,33),(44,29.5),kind=&quot;conditional&quot;,source=&quot;edit.modified_original&quot;,target=&quot;shared.expression&quot;)
+    c.edge(&quot;addition.expression_condition&quot;,(126,33),(126,29.5),kind=&quot;conditional&quot;,source=&quot;addition.extra_information&quot;,target=&quot;shared.expression&quot;)
+    c.note(&quot;新增信息不默认整合进染色体；两种路径无固定优劣，额外副本也未必能抵消有害产物。&quot;,y=8)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result = build_figure()
+    fig = result.figure
+    OUT = Path(__file__).resolve().parent
+    fig.savefig(OUT / &quot;F28_edit_or_add_functional_copy.pdf&quot;, metadata={&quot;CreationDate&quot;: None, &quot;ModDate&quot;: None})
+    return export_figure(result, ROOT, OUT / &quot;F28_edit_or_add_functional_copy.pdf&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F29"><div class="eyebrow">F29 / 30</div><h2>图 F29｜CAR T 进入身体后仍继续运行</h2>
+        <p class="task">细胞治疗在体内继续识别、反应和变化，其作用、风险与可能逃逸都来自持续的细胞—环境互动。</p><img src="outputs/png/F29_cart_continues_in_body.png" alt="图 F29｜CAR T 进入身体后仍继续运行" loading="lazy">
+        <div class="links"><a href="outputs/png/F29_cart_continues_in_body.png">png</a><a href="outputs/pdf/F29_cart_continues_in_body.pdf">pdf</a><a href="outputs/svg/F29_cart_continues_in_body.svg">svg</a><a href="figures/F29_cart_continues_in_body.py">Python</a></div><dl><dt>布局理由</dt><dd>上部为CAR-T迁移识别响应扩增与再搜索环；下方左右分别解释CD19的正常B细胞在靶影响及治疗后的可能群体变化。</dd><dt>复用组件</dt><dd>运行环、条件响应、持续或失功分支、同CD19标记、不同细胞身份、可能群体选择、风险边界注释</dd><dt>书稿来源</dt><dd>P1242–P1253人工受体识别CD19并接激活；P1254–P1273迁移、激活、杀伤、扩增、持续或失功；P1275–P1291正常B细胞在靶影响与毒性；P1293–P1306选择后肿瘤继续变化。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F29: CAR T 进入身体后仍继续运行. Native semantic Artists; importing writes no files.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+
+
+LAYOUT={&quot;height&quot;:140,&quot;running_y&quot;:117,&quot;response_y&quot;:92,&quot;target_y&quot;:53}
+
+
+def target_cell(c,name,center,kind,color):
+    c.circle(name+&quot;.cell&quot;,center,7,color=color)
+    x,y=center
+    c.line(name+&quot;.cd19_stalk&quot;,[(x,y+7),(x,y+10)],color=&quot;primary&quot;,width=1.2,role=&quot;receptor&quot;)
+    c.line(name+&quot;.cd19_tip&quot;,[(x-2,y+10),(x+2,y+10)],color=&quot;primary&quot;,width=1.2,role=&quot;receptor&quot;)
+    c.text(name+&quot;.identity&quot;,kind,(x,y-12),size=8.5)
+    c.text(name+&quot;.marker&quot;,&quot;CD19&quot;,(x,y+15),size=8.5)
+
+
+def build_figure():
+    c=Drawing(&quot;F29&quot;,height=LAYOUT[&quot;height&quot;])
+    c.heading(&quot;a.heading&quot;,&quot;A  回输后的 CAR-T 继续运行&quot;,(6,130.5))
+    search=c.node(&quot;a.search&quot;,&quot;迁移与搜索&quot;,(26,117),w=36,h=13,color=&quot;secondary&quot;,size=9)
+    recognize=c.node(&quot;a.recognize&quot;,&quot;识别 CD19&quot;,(73,117),w=36,h=13,size=9)
+    response=c.node(&quot;a.response&quot;,&quot;激活与杀伤&quot;,(124,117),w=44,h=13,size=9)
+    c.edge(&quot;a.search_to_recognize&quot;,search[&quot;right&quot;],recognize[&quot;left&quot;],kind=&quot;process&quot;,source=&quot;a.search&quot;,target=&quot;a.recognize&quot;)
+    c.edge(&quot;a.recognize_to_response&quot;,recognize[&quot;right&quot;],response[&quot;left&quot;],kind=&quot;conditional&quot;,source=&quot;a.recognize&quot;,target=&quot;a.response&quot;)
+    expansion=c.node(&quot;a.expansion&quot;,&quot;扩增&quot;,(102,92),w=34,h=13,color=&quot;secondary&quot;,size=9)
+    c.edge(&quot;a.activation_to_expansion&quot;,(117,110.5),(109,98.5),kind=&quot;conditional&quot;,source=&quot;a.response&quot;,target=&quot;a.expansion&quot;)
+    c.edge(&quot;a.loop&quot;,(85,92),(26,110.5),kind=&quot;process&quot;,rad=-.28,source=&quot;a.expansion&quot;,target=&quot;a.search&quot;)
+    c.text(&quot;a.loop_label&quot;,&quot;继续搜索&quot;,(47,85),size=8.5)
+    fate=c.node(&quot;a.persistence&quot;,&quot;可能持续存在\n或逐渐失功&quot;,(146,92),w=35,h=17,color=&quot;secondary&quot;,size=8.5)
+    c.edge(&quot;a.possible_fate&quot;,expansion[&quot;right&quot;],fate[&quot;left&quot;],kind=&quot;conditional&quot;,source=&quot;a.expansion&quot;,target=&quot;a.persistence&quot;)
+    c.line(&quot;panel.separator&quot;,[(6,79),(164,79)],color=&quot;muted&quot;,width=.5,role=&quot;panel_separator&quot;)
+    c.text(&quot;b.heading&quot;,&quot;B  同一靶点的不同细胞&quot;,(6,73),ha=&quot;left&quot;,size=10)
+    target_cell(c,&quot;b.tumor&quot;,(26,51),&quot;肿瘤细胞&quot;,&quot;primary&quot;)
+    target_cell(c,&quot;b.normal&quot;,(65,51),&quot;正常 B 细胞&quot;,&quot;secondary&quot;)
+    c.text(&quot;b.on_target&quot;,&quot;正常 B 细胞减少属在靶影响&quot;,(44,27),size=8.5)
+    c.line(&quot;panel.vertical&quot;,[(87,21),(87,76)],color=&quot;muted&quot;,width=.5,role=&quot;panel_separator&quot;)
+    c.text(&quot;c.heading&quot;,&quot;C  可能的群体变化&quot;,(93,73),ha=&quot;left&quot;,size=10)
+    for i,(x,y) in enumerate([(103,56),(111,56),(107,48)]):
+        c.circle(f&quot;c.before.recognizable.{i}&quot;,(x,y),3,color=&quot;primary&quot;)
+    c.circle(&quot;c.before.escape&quot;,(117,48),3,color=&quot;supplement&quot;)
+    for i,(x,y) in enumerate([(145,55),(155,48)]):
+        c.circle(f&quot;c.after.escape.{i}&quot;,(x,y),3,color=&quot;supplement&quot;)
+    c.edge(&quot;c.selection&quot;,(123,53),(137,53),kind=&quot;conditional&quot;,source=&quot;c.before&quot;,target=&quot;c.after&quot;)
+    c.text(&quot;c.before_label&quot;,&quot;易识别者减少&quot;,(110,38),size=8.5)
+    c.text(&quot;c.after_label&quot;,&quot;低 CD19 等\n逃逸者可能留存&quot;,(150,37),size=8.5)
+    c.text(&quot;c.boundary&quot;,&quot;群体变化不等于必然复发&quot;,(128,25),size=8.5)
+    c.note(&quot;还需监测炎症反应与神经系统毒性；示意细胞数不表示疗效、毒性或复发概率。&quot;,y=8)
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result = build_figure()
+    fig = result.figure
+    OUT = Path(__file__).resolve().parent
+    fig.savefig(OUT / &quot;F29_cart_continues_in_body.pdf&quot;, metadata={&quot;CreationDate&quot;: None, &quot;ModDate&quot;: None})
+    return export_figure(result, ROOT, OUT / &quot;F29_cart_continues_in_body.pdf&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></details></article><article id="F30"><div class="eyebrow">F30 / 30</div><h2>图 F30｜从工具工作到患者持续获益</h2>
+        <p class="task">治疗需分别跨过正确递送、分子改变、细胞工作、关键细胞覆盖、组织功能与持续患者获益六道门，安全和时间贯穿全程。</p><img src="outputs/png/F30_six_gates_patient_benefit.png" alt="图 F30｜从工具工作到患者持续获益" loading="lazy">
+        <div class="links"><a href="outputs/png/F30_six_gates_patient_benefit.png">png</a><a href="outputs/pdf/F30_six_gates_patient_benefit.pdf">pdf</a><a href="outputs/svg/F30_six_gates_patient_benefit.svg">svg</a><a href="figures/F30_six_gates_patient_benefit.py">Python</a></div><dl><dt>布局理由</dt><dd>六个等权证据卡按两行三列编号，使用无箭头阅读连线；第四门专问细胞数量位置，第五门单独判断组织功能；时间和安全两条全宽带明确每道门都要追问。</dd><dt>复用组件</dt><dd>六门证据问题卡、六个紫色观察端口、无箭头阅读序线、持续性带、安全带、分母提醒</dd><dt>书稿来源</dt><dd>P1317–P1332“80%”分母与测量歧义；P1333–P1403前五门（递送、分子、细胞、细胞覆盖、组织阈值）；P1404–P1436持续性与安全；P1437–P1450体细胞/可遗传边界；P1451–P1480第六门患者持续获益。</dd></dl>
+        <details><summary>完整 Python 代码</summary><pre><code>&quot;&quot;&quot;F30: 从工具工作到患者持续获益. Native semantic Artists; importing writes no files.&quot;&quot;&quot;
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from shared_shapes import Drawing
+
+
+LAYOUT={&quot;height&quot;:140,&quot;columns&quot;:(8,62,116),&quot;rows&quot;:(85,42),&quot;card_w&quot;:46,&quot;card_h&quot;:37}
+GATES=[
+    (&quot;1  正确递送&quot;,&quot;工具到对的\n细胞了吗？&quot;,&quot;测位置与细胞身份&quot;),
+    (&quot;2  分子改变&quot;,&quot;目标分子\n真的改变了吗？&quot;,&quot;测预期与非预期变化&quot;),
+    (&quot;3  细胞功能&quot;,&quot;细胞真的\n重新工作了吗？&quot;,&quot;测功能与行为&quot;),
+    (&quot;4  关键细胞覆盖&quot;,&quot;多少正确细胞\n在什么位置恢复？&quot;,&quot;测数量、位置与能力&quot;),
+    (&quot;5  组织功能&quot;,&quot;整体工作能力\n够了吗？&quot;,&quot;测组织功能与阈值&quot;),
+    (&quot;6  患者持续获益&quot;,&quot;症状、负担和生活\n能持续改善吗？&quot;,&quot;测患者结局与持续性&quot;),
+]
+
+
+def build_figure():
+    c=Drawing(&quot;F30&quot;,height=LAYOUT[&quot;height&quot;])
+    c.heading(&quot;title&quot;,&quot;六道门，各自都要拿出证据&quot;,(6,130.5))
+    for i,(heading,question,evidence) in enumerate(GATES):
+        x=LAYOUT[&quot;columns&quot;][i%3]; y=LAYOUT[&quot;rows&quot;][i//3]
+        c.rect(f&quot;gate.{i+1}.boundary&quot;,(x,y),46,37,color=&quot;primary&quot;,weight=.06)
+        c.text(f&quot;gate.{i+1}.heading&quot;,heading,(x+4,y+29),ha=&quot;left&quot;,size=9.5)
+        c.text(f&quot;gate.{i+1}.question&quot;,question,(x+23,y+19),size=9.5)
+        c.circle(f&quot;gate.{i+1}.observation_port&quot;,(x+4,y+5),1.2,color=&quot;supplement&quot;,fill=&quot;supplement&quot;)
+        c.text(f&quot;gate.{i+1}.evidence&quot;,evidence,(x+8,y+5),ha=&quot;left&quot;,size=8.5,color=&quot;supplement&quot;)
+    for row,y in enumerate(LAYOUT[&quot;rows&quot;]):
+        for col in [0,1]:
+            c.edge(f&quot;reading_order.{row}.{col}&quot;,(LAYOUT[&quot;columns&quot;][col]+46,y+19),(LAYOUT[&quot;columns&quot;][col+1],y+19),kind=&quot;order&quot;,source=f&quot;gate.{row*3+col+1}&quot;,target=f&quot;gate.{row*3+col+2}&quot;)
+    c.rect(&quot;duration.rail&quot;,(6,24),158,10,color=&quot;secondary&quot;,weight=.09)
+    c.text(&quot;duration.question&quot;,&quot;每道门都问时间：疾病需要改变多久，获益是否持续？&quot;,(85,29),size=9)
+    c.rect(&quot;safety.rail&quot;,(6,12),158,10,color=&quot;accent&quot;,weight=.08)
+    c.text(&quot;safety.question&quot;,&quot;每道门都看安全：非预期改变、身体负担与长期风险&quot;,(85,17),size=9)
+    c.note(&quot;比例要说明分母与测量对象；前一门通过，不保证后一门通过。连线仅表示阅读顺序。&quot;,y=8)
+    c.spec[&quot;independent_gates&quot;]=[&quot;correct_delivery&quot;,&quot;molecular_change&quot;,&quot;cell_function&quot;,&quot;critical_cell_coverage&quot;,&quot;tissue_function&quot;,&quot;sustained_patient_benefit&quot;]
+    return c.result()
+
+
+def main():
+    from production_utils import export_figure
+    result = build_figure()
+    fig = result.figure
+    OUT = Path(__file__).resolve().parent
+    fig.savefig(OUT / &quot;F30_six_gates_patient_benefit.pdf&quot;, metadata={&quot;CreationDate&quot;: None, &quot;ModDate&quot;: None})
+    return export_figure(result, ROOT, OUT / &quot;F30_six_gates_patient_benefit.pdf&quot;)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre></details></article><footer>概念图不按真实比例。除 F22 的原稿假设人数外不引入定量数据。sRGB 交付；实体印刷、真人理解、Tavotto 回放及全部编辑器兼容性尚未验证。</footer></main></html>

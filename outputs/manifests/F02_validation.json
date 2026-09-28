@@ -1,0 +1,400 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F02",
+    "title": "互补双链为复制提供参照",
+    "source_paragraphs": "P0053–P0057 序列差异；P0073–P0074 两条反向链、A–T/C–G 配对、互补记录可提供复制参照。",
+    "cognitive_task": "两条 DNA 链保存互补信息，特定配对让已有序列能够成为新链合成的参照。",
+    "layout_rationale": "上下平行双链展示反向端点和四组配对；短对应线不使用转化箭头。底部括注提炼已有序列提供参照。",
+    "essential_objects": "两条相反方向的 DNA 链、示例 A C G T 与对应 T G C A、骨架、碱基配对位置。",
+    "relationships": "A 对 T、C 对 G 的横向配对；两条链的方向相反；由已知链可推定互补位置，不能画作分子转化。",
+    "misconceptions": "不把两条链称作父母各一份；不把序列上下对齐误画成同向链；不在此图声称 DNA 自行复制。",
+    "components": "DNA骨架、单碱基文字、非因果配对线、集合括号、方向端点",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      100
+    ],
+    "relations_drawn": [],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    100.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 31,
+    "text_count": 16,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F02.panel": [
+        6.0,
+        87.4644,
+        50.704,
+        92.5356
+      ],
+      "F02.upper.backbone": [
+        25.0,
+        70.0,
+        113.0,
+        70.0
+      ],
+      "F02.lower.backbone": [
+        25.0,
+        42.0,
+        113.0,
+        42.0
+      ],
+      "F02.upper.base.0": [
+        34.7723,
+        60.4644,
+        37.2277,
+        65.5356
+      ],
+      "F02.lower.base.0": [
+        34.7935,
+        46.4644,
+        37.2065,
+        51.5356
+      ],
+      "F02.upper.attach.0": [
+        36.0,
+        67.0,
+        36.0,
+        70.0
+      ],
+      "F02.lower.attach.0": [
+        36.0,
+        42.0,
+        36.0,
+        45.0
+      ],
+      "F02.pair.0": [
+        36.0,
+        53.0,
+        36.0,
+        59.0
+      ],
+      "F02.upper.base.1": [
+        56.7088,
+        60.4644,
+        59.2912,
+        65.5356
+      ],
+      "F02.lower.base.1": [
+        56.603,
+        46.4644,
+        59.397,
+        51.5356
+      ],
+      "F02.upper.attach.1": [
+        58.0,
+        67.0,
+        58.0,
+        70.0
+      ],
+      "F02.lower.attach.1": [
+        58.0,
+        42.0,
+        58.0,
+        45.0
+      ],
+      "F02.pair.1": [
+        58.0,
+        53.0,
+        58.0,
+        59.0
+      ],
+      "F02.upper.base.2": [
+        78.603,
+        60.4644,
+        81.397,
+        65.5356
+      ],
+      "F02.lower.base.2": [
+        78.7088,
+        46.4644,
+        81.2912,
+        51.5356
+      ],
+      "F02.upper.attach.2": [
+        80.0,
+        67.0,
+        80.0,
+        70.0
+      ],
+      "F02.lower.attach.2": [
+        80.0,
+        42.0,
+        80.0,
+        45.0
+      ],
+      "F02.pair.2": [
+        80.0,
+        53.0,
+        80.0,
+        59.0
+      ],
+      "F02.upper.base.3": [
+        100.7935,
+        60.4644,
+        103.2065,
+        65.5356
+      ],
+      "F02.lower.base.3": [
+        100.7723,
+        46.4644,
+        103.2277,
+        51.5356
+      ],
+      "F02.upper.attach.3": [
+        102.0,
+        67.0,
+        102.0,
+        70.0
+      ],
+      "F02.lower.attach.3": [
+        102.0,
+        42.0,
+        102.0,
+        45.0
+      ],
+      "F02.pair.3": [
+        102.0,
+        53.0,
+        102.0,
+        59.0
+      ],
+      "F02.u5": [
+        16.7512,
+        68.1259,
+        19.2488,
+        71.8741
+      ],
+      "F02.u3": [
+        118.7512,
+        68.1259,
+        121.2488,
+        71.8741
+      ],
+      "F02.l3": [
+        16.7512,
+        40.1259,
+        19.2488,
+        43.8741
+      ],
+      "F02.l5": [
+        118.7512,
+        40.1259,
+        121.2488,
+        43.8741
+      ],
+      "F02.pair.rule": [
+        140.3222,
+        52.8108,
+        149.6778,
+        61.1892
+      ],
+      "F02.pair.bracket": [
+        26.0,
+        31.0,
+        112.0,
+        32.5
+      ],
+      "F02.meaning": [
+        51.5567,
+        20.9054,
+        118.4433,
+        25.0946
+      ],
+      "F02.scope.note": [
+        6.0,
+        7.1259,
+        90.1587,
+        10.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2362
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 16,
+    "svg_text_count": 17,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F02.panel": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.upper.backbone": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.lower.backbone": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.upper.base.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.lower.base.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.upper.attach.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.lower.attach.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.upper.base.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.lower.base.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.upper.attach.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.lower.attach.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.upper.base.2": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.lower.base.2": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.upper.attach.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.lower.attach.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.upper.base.3": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.lower.base.3": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.upper.attach.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.lower.attach.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F02.u5": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.u3": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.l3": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.l5": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.pair.rule": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.pair.bracket": {
+      "type": "Line2D",
+      "role": "set_or_region"
+    },
+    "F02.meaning": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F02.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F02_complementary_strands.py": "66058968056b79cc2df29de27ff0bf3f9d5954bea9efec7dad3e989d72b35a92",
+    "figure_specs/F02.json": "bb341ab452738e927c7d22358607e4d1a0821947211103d4f6782f60d8b42432",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F02_complementary_strands.png",
+      "sha256": "c7643d0d3f02d48637693d129cd471928c9bb17446737947cc4f72f6dd144d79"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F02_complementary_strands.pdf",
+      "sha256": "7ad74883ffab3a55ba054561c56775377359a9e1979b52bbc0d50caef516c8b4"
+    },
+    "svg": {
+      "path": "outputs/svg/F02_complementary_strands.svg",
+      "sha256": "7088c0c6463956888df6dd00b3a56cd2b40fe9dd904e2417b630554cede9b637"
+    }
+  },
+  "adjacent_pdf_sha256": "7ad74883ffab3a55ba054561c56775377359a9e1979b52bbc0d50caef516c8b4",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

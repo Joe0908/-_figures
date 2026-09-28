@@ -1,0 +1,277 @@
+{
+  "id": "F23",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "27d0af24f2ebe8fc549e34afeaa6cf36aed1cd86a5e50d4b9e944bbf51001e78",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F23_risk_future_possibilities.py",
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "artist_count": 21,
+  "texts": [
+    {
+      "id": "F23.title",
+      "text": "风险估计从人群而来，用于判断未来机会",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        113.96440972222219,
+        79.152,
+        119.03559027777776
+      ]
+    },
+    {
+      "id": "F23.reference.label",
+      "text": "相似条件人群\n已有的观察结果",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        23.29483333333335,
+        95.81076388888886,
+        46.70516666666668,
+        104.18923611111109
+      ]
+    },
+    {
+      "id": "F23.estimate.label",
+      "text": "特定疾病、人群与时期\n未来患病机会的估计",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        105.27833333333334,
+        95.81076388888886,
+        138.7216666666667,
+        104.18923611111109
+      ]
+    },
+    {
+      "id": "F23.individual.now.label",
+      "text": "一个人\n现在未患病",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        19.639166666666682,
+        61.81076388888887,
+        36.360833333333346,
+        70.1892361111111
+      ]
+    },
+    {
+      "id": "F23.future.disease.label",
+      "text": "未来患病",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        132.31133333333335,
+        75.90538194444443,
+        145.68866666666668,
+        80.09461805555554
+      ]
+    },
+    {
+      "id": "F23.future.no_disease.label",
+      "text": "同期未患病",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        130.63916666666668,
+        48.905381944444436,
+        147.36083333333335,
+        53.09461805555555
+      ]
+    },
+    {
+      "id": "F23.estimate.role",
+      "text": "提供参照",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#827592",
+      "extent_mm": [
+        72.98866666666669,
+        85.12586805555554,
+        85.01133333333335,
+        88.87413194444443
+      ]
+    },
+    {
+      "id": "F23.future.label",
+      "text": "可能的未来",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        95.63916666666667,
+        41.90538194444444,
+        112.36083333333335,
+        46.09461805555555
+      ]
+    },
+    {
+      "id": "F23.conditions.label",
+      "text": "遗传背景、年龄、暴露、身体状态\n条件改变或出现新证据时，可以更新估计",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        56.42500000000002,
+        22.031249999999996,
+        113.57500000000002,
+        29.968749999999996
+      ]
+    },
+    {
+      "id": "F23.scope.note",
+      "text": "分支不表示概率比例；风险不能预先点名谁会患病，也不等于当前诊断。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.125868055555554,
+        102.18133333333333,
+        9.874131944444443
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "evidence.reference_to_estimate",
+      "kind": "observe",
+      "source": "reference",
+      "target": "estimate",
+      "label": null
+    },
+    {
+      "id": "future.possibility.disease",
+      "kind": "conditional",
+      "source": "individual.now",
+      "target": "future.disease",
+      "label": null
+    },
+    {
+      "id": "future.possibility.no_disease",
+      "kind": "conditional",
+      "source": "individual.now",
+      "target": "future.no_disease",
+      "label": null
+    },
+    {
+      "id": "estimate.reference_for_individual",
+      "kind": "observe",
+      "source": "estimate",
+      "target": "future.possibilities",
+      "label": null
+    },
+    {
+      "id": "conditions.influence",
+      "kind": "influence",
+      "source": "conditions",
+      "target": "future.possibilities",
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F23",
+    "title": "风险描述未来机会",
+    "source_paragraphs": "P0754–P0770今天无病与未来机会分开；P0793–P0808相似条件人群经验、年龄/遗传/暴露、个体无法预先分格、风险可更新。",
+    "cognitive_task": "风险是用相似人群经验估计特定时期的未来机会，不是对某个个体结局的预先点名。",
+    "layout_rationale": "上部人群证据与估计窗口通过观察线关联；中部个体现状分出两条非比例的未来可能；底部条件带以影响关系进入未来判断。",
+    "essential_objects": "现在状态、未来观察期、患病/未患病可能分支、遗传/年龄/暴露/状态输入、相似参照人群与估计窗口。",
+    "relationships": "时间向前；多条可能未来；条件影响机会；人群观察支持概率估计但不指认谁患病。",
+    "misconceptions": "不按两分支等宽暗示50/50（明确不按概率比例）；不把高风险画成已患病；不加遗传专用直通病路；筛查阳性不等于确诊。",
+    "components": "参照人群卡、概率估计窗、条件分支、未来状态卡、自然影响线、非比例边界注释",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "evidence.reference_to_estimate",
+        "kind": "observe",
+        "source": "reference",
+        "target": "estimate",
+        "label": null
+      },
+      {
+        "id": "future.possibility.disease",
+        "kind": "conditional",
+        "source": "individual.now",
+        "target": "future.disease",
+        "label": null
+      },
+      {
+        "id": "future.possibility.no_disease",
+        "kind": "conditional",
+        "source": "individual.now",
+        "target": "future.no_disease",
+        "label": null
+      },
+      {
+        "id": "estimate.reference_for_individual",
+        "kind": "observe",
+        "source": "estimate",
+        "target": "future.possibilities",
+        "label": null
+      },
+      {
+        "id": "conditions.influence",
+        "kind": "influence",
+        "source": "conditions",
+        "target": "future.possibilities",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2976
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        125.99999643961587
+      ],
+      "images": 0,
+      "vector_paths": 15,
+      "fonts": [
+        {
+          "name": "GOHCSD+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 14,
+      "images": 0,
+      "semantic_ids": 21,
+      "font_subset_glyphs": 90
+    }
+  },
+  "output_hashes": {
+    "png": "389546406cc4123c747fa493639b25b057181f58ecb70c6573541fa398a355e0",
+    "pdf": "91534ba8b417f77ad79dc603a0664126fe2e29155042e7926887883624cf3a26",
+    "svg": "4c3fdb60c5f76fcf2b5ac7c4ae999cce60a231994169f435b7561056a8c0d29f"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

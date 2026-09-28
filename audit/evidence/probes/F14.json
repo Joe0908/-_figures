@@ -1,0 +1,365 @@
+{
+  "id": "F14",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "e23117e3458fb225f32fd08bcb4e360c4cd9aa2ccd2a9e5a607f9b45e0af3f40",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F14_epigenetic_states.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 83,
+  "texts": [
+    {
+      "id": "F14.sequence.heading",
+      "text": "字母顺序相同",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        22.00000000000001,
+        103.46440972222221,
+        46.38400000000001,
+        108.53559027777777
+      ]
+    },
+    {
+      "id": "F14.state.heading",
+      "text": "局部状态不同",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        108.00000000000003,
+        103.46440972222221,
+        132.38400000000001,
+        108.53559027777777
+      ]
+    },
+    {
+      "id": "F14.state_a.base.0",
+      "text": "A",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        26.962833333333347,
+        81.90538194444444,
+        29.037166666666682,
+        86.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_a.base.1",
+      "text": "T",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        39.00516666666668,
+        81.90538194444444,
+        40.99483333333335,
+        86.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_a.base.2",
+      "text": "C",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        50.92050000000002,
+        81.90538194444444,
+        53.07950000000002,
+        86.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_a.base.3",
+      "text": "G",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        62.83583333333335,
+        81.90538194444444,
+        65.16416666666669,
+        86.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_a.base.4",
+      "text": "A",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        74.96283333333336,
+        81.90538194444444,
+        77.03716666666669,
+        86.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_a.base.5",
+      "text": "C",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        86.9205,
+        81.90538194444444,
+        89.07950000000001,
+        86.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_a.name",
+      "text": "状态 A",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        8.512666666666677,
+        82.01562499999999,
+        17.487333333333343,
+        85.98437499999999
+      ]
+    },
+    {
+      "id": "F14.state_b.base.0",
+      "text": "A",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        26.962833333333347,
+        43.90538194444444,
+        29.037166666666682,
+        48.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_b.base.1",
+      "text": "T",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        39.00516666666668,
+        43.90538194444444,
+        40.99483333333335,
+        48.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_b.base.2",
+      "text": "C",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        50.92050000000002,
+        43.90538194444444,
+        53.07950000000002,
+        48.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_b.base.3",
+      "text": "G",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        62.83583333333335,
+        43.90538194444444,
+        65.16416666666669,
+        48.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_b.base.4",
+      "text": "A",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        74.96283333333336,
+        43.90538194444444,
+        77.03716666666669,
+        48.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_b.base.5",
+      "text": "C",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        86.9205,
+        43.90538194444444,
+        89.07950000000001,
+        48.09461805555556
+      ]
+    },
+    {
+      "id": "F14.state_b.name",
+      "text": "状态 B",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        8.42800000000001,
+        44.015625,
+        17.57200000000001,
+        47.984375
+      ]
+    },
+    {
+      "id": "F14.state_b.methyl.label",
+      "text": "甲基",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#A6633F",
+      "extent_mm": [
+        62.99433333333335,
+        56.12586805555556,
+        69.00566666666667,
+        59.87413194444444
+      ]
+    },
+    {
+      "id": "F14.sequence.identity",
+      "text": "两行都是 A T C G A C",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        44.56433333333336,
+        22.015625,
+        73.43566666666668,
+        25.984375
+      ]
+    },
+    {
+      "id": "F14.environment.label",
+      "text": "修饰、包装与\n周边蛋白环境",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        122.98300000000002,
+        20.25173611111111,
+        141.01700000000002,
+        27.74826388888889
+      ]
+    },
+    {
+      "id": "F14.scope.note",
+      "text": "示意：加上甲基后 C 仍然是 C；甲基化并不是通用的“关闭”指令。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.1258680555555545,
+        96.00066666666666,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "state_a.same_material",
+      "kind": "zoom",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "state_b.same_material",
+      "kind": "zoom",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F14",
+    "title": "相同 DNA 的不同表观状态",
+    "source_paragraphs": "P0366–P0372 相同序列可有不同化学状态、核小体位置和蛋白环境；P0374–P0383 C甲基化仍是C，改变局部环境与被使用机会。",
+    "cognitive_task": "同一DNA序列可以处于不同化学和染色质状态，从而拥有不同的分子接触机会。",
+    "layout_rationale": "170×116 mm。上下两行在相同位置展示 A T C G A C 序列，状态 B 的同一 C 上附加甲基标记；右侧局部染色质曲线及周边蛋白表现不同环境。连接采用无箭头的虚线观察／放大关系，序列相同另以底部文字确认，不将甲基化等同于关闭。",
+    "essential_objects": "两份完全相同的示意DNA序列、同位置的C、甲基小标、不同包装/接触机会；少量核小体和周边蛋白示意。",
+    "relationships": "两序列相等；修饰附加而非碱基替换；状态影响可接近/接触机会。",
+    "misconceptions": "不画C变成另一字母；不把甲基化普遍等于关闭；不将一处标记单独画成固定命令；正文P0366章节回指有歧义，不照搬错误章号。",
+    "components": "两组相同 DNA 梯形骨架与六字母序列、状态 A/B 标签、一枚甲基圆点与键线、局部染色质曲线、周边蛋白图符、两条无箭头放大线、序列身份与作用范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "state_a.same_material",
+        "kind": "zoom",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "state_b.same_material",
+        "kind": "zoom",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 64,
+      "fonts": [
+        {
+          "name": "DNRQCR+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 21,
+      "images": 0,
+      "semantic_ids": 83,
+      "font_subset_glyphs": 56
+    }
+  },
+  "output_hashes": {
+    "png": "440ab71314981c2984ca57451a290b82e221d55a3742d1035b95e6cb2a51508e",
+    "pdf": "cc24a1dbd6476496ce661aa91d657ad38116243912a76cdd72495e575147f5a0",
+    "svg": "4d2b0f92564ee72ee39e73a17f3dd32f6ee3a432abdd002a7b1f77a09649b03d"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

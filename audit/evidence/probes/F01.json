@@ -1,0 +1,323 @@
+{
+  "id": "F01",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "dc45cbec3d00e84cc6e20df8e4c277592df36211afe1f87e278cee4f63a37742",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F01_genome_chromosome_dna_gene.py",
+  "size_mm": [
+    170.0,
+    100.0
+  ],
+  "artist_count": 77,
+  "texts": [
+    {
+      "id": "F01.panel.set",
+      "text": "整套与所在位置",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000018,
+        87.96440972222221,
+        34.448000000000015,
+        93.03559027777779
+      ]
+    },
+    {
+      "id": "F01.cell.label",
+      "text": "有核细胞",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        11.000000000000018,
+        81.90538194444444,
+        24.377333333333354,
+        86.09461805555556
+      ]
+    },
+    {
+      "id": "F01.nucleus.label",
+      "text": "细胞核",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        27.237500000000015,
+        74.01562500000001,
+        36.76250000000002,
+        77.98437500000001
+      ]
+    },
+    {
+      "id": "F01.genome.label",
+      "text": "基因组",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        27.404000000000014,
+        25.96440972222222,
+        39.59600000000001,
+        31.035590277777782
+      ]
+    },
+    {
+      "id": "F01.genome.definition",
+      "text": "整套DNA信息",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        23.40350000000001,
+        19.90538194444445,
+        43.59650000000001,
+        24.094618055555554
+      ]
+    },
+    {
+      "id": "F01.zoom.chromosome.label",
+      "text": "放大",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        60.994333333333344,
+        74.12586805555556,
+        67.00566666666667,
+        77.87413194444444
+      ]
+    },
+    {
+      "id": "F01.chromosome.label",
+      "text": "一条染色体",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        80.00000000000001,
+        87.96440972222221,
+        100.32000000000002,
+        93.03559027777779
+      ]
+    },
+    {
+      "id": "F01.chromosome.definition",
+      "text": "长DNA与相关蛋白组织在一起",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        80.00000000000001,
+        82.51562499999999,
+        121.35966666666668,
+        86.48437499999999
+      ]
+    },
+    {
+      "id": "F01.organised_dna.label",
+      "text": "长DNA",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        87.47033333333334,
+        53.62586805555555,
+        96.52966666666667,
+        57.374131944444436
+      ]
+    },
+    {
+      "id": "F01.protein.label",
+      "text": "相关蛋白",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        144.98866666666666,
+        53.62586805555555,
+        157.01133333333334,
+        57.374131944444436
+      ]
+    },
+    {
+      "id": "F01.dna.label",
+      "text": "DNA的一段",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        112.57566666666666,
+        42.90538194444444,
+        129.42433333333332,
+        47.09461805555556
+      ]
+    },
+    {
+      "id": "F01.gene.label",
+      "text": "基因 HBB",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#A6633F",
+      "extent_mm": [
+        112.34283333333332,
+        19.464409722222225,
+        129.65716666666665,
+        24.535590277777782
+      ]
+    },
+    {
+      "id": "F01.gene.definition",
+      "text": "DNA上的一个区域",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        107.55916666666667,
+        13.905381944444446,
+        134.44083333333333,
+        18.094618055555554
+      ]
+    },
+    {
+      "id": "F01.scope.note",
+      "text": "示意：聚焦核内DNA的组织；染色体只画部分。放大与尺寸均非真实比例。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000018,
+        6.1258680555555545,
+        105.22933333333336,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [],
+  "spec": {
+    "figure_id": "F01",
+    "title": "基因组 染色体 DNA 和基因的关系",
+    "source_paragraphs": [
+      "P0034–P0042",
+      "P0044",
+      "P0053–P0064"
+    ],
+    "quantitative": false,
+    "relationships": [
+      {
+        "kind": "containment",
+        "source": "F01.cell.boundary",
+        "target": "F01.nucleus.boundary",
+        "evidence": "P0034–P0036"
+      },
+      {
+        "kind": "collection",
+        "source": "F01.genome.set_bracket",
+        "target": "F01.genome.label",
+        "evidence": "P0041–P0042"
+      },
+      {
+        "kind": "conceptual_zoom",
+        "source": "F01.chromosome_example.dna",
+        "target": "F01.organised_chromosome.dna",
+        "evidence": "P0037–P0039"
+      },
+      {
+        "kind": "organisation",
+        "source": "F01.organised_chromosome.dna",
+        "target": "F01.chromosome.label",
+        "evidence": "P0036–P0038,P0042"
+      },
+      {
+        "kind": "conceptual_zoom",
+        "source": "F01.zoom.dna.frame",
+        "target": "F01.dna.backbone.upper",
+        "evidence": "P0039–P0040"
+      },
+      {
+        "kind": "region_on_sequence",
+        "source": "F01.dna.gene_region",
+        "target": "F01.dna.backbone.upper",
+        "evidence": "P0039–P0040"
+      }
+    ],
+    "layout": {
+      "cell_center": "(32, 59)",
+      "cell_size": "(49, 45)",
+      "nucleus_center": "(33, 59)",
+      "nucleus_size": "(30, 28)",
+      "chromosome_box": "Box(x=84, y=62, w=73, h=15)",
+      "chromosome_selection": "Box(x=35, y=56, w=12, h=10)",
+      "dna_selection": "Box(x=109, y=60, w=13, h=18)",
+      "dna_box": "Box(x=83, y=33, w=76, h=4.5)",
+      "gene_x_mm": "108",
+      "gene_width_mm": "26",
+      "gene_label_y_mm": "22"
+    },
+    "limits": "Conceptual, not to scale; only some nuclear chromosomes shown; no actual HBB sequence or base-pair count represented.",
+    "color_system": {
+      "version": "1.0",
+      "palette": {
+        "name": "海青与铜",
+        "primary": "#2F6174",
+        "secondary": "#6B8B7A",
+        "accent": "#A6633F",
+        "supplement": "#827592",
+        "neutral": "#26353E",
+        "background": "#FFFFFF"
+      },
+      "tuning": {
+        "cell_fill_weight": 0.08,
+        "nucleus_fill_weight": 0.1,
+        "nucleus_edge_weight": 0.76,
+        "secondary_dna_weight": 0.75,
+        "protein_fill_weight": 0.16,
+        "gene_fill_weight": 0.18,
+        "muted_weight": 0.7
+      },
+      "scope": "Color-only application; existing geometry, text and relationships preserved."
+    }
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2362
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        100.00000076293945
+      ],
+      "images": 0,
+      "vector_paths": 64,
+      "fonts": [
+        {
+          "name": "HJNKAX+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 14,
+      "images": 0,
+      "semantic_ids": 77,
+      "font_subset_glyphs": 62
+    }
+  },
+  "output_hashes": {
+    "png": "9d34a7d5d9b798ba9b60b44af4621fb070a7f1487149aa5a00980ac1cb9c164c",
+    "pdf": "2edc68da71aa9b4a849c67ca4b132b77ed3c6b1f8820721af85805382d73e05a",
+    "svg": "46d5b4a6c29fc3594f29bd8957f2bc1ea3528e8270df5a53f511e0408da3971b"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

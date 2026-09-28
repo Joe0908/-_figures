@@ -1,0 +1,323 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F15",
+    "title": "基因调控与表观状态相互影响",
+    "source_paragraphs": "P0387–P0400 修饰关联、添加/移除/识别；P0403–P0418 表观状态影响调控，转录因子及转录反向塑造状态；P0422–P0449历史和互相支持网络。",
+    "cognitive_task": "表观状态与基因调控彼此塑造，稳定身份来自动态网络，不是一枚标记的独立命令。",
+    "layout_rationale": "170×116 mm。上部三节点从染色质状态经分子接触与调控组合指向启动子／增强子协作及转录；下部单列“相关蛋白识别／招募、局部重塑”节点形成独立返回路径。顶部外部信号与历史分别影响状态和调控活动，两个方向用各自机制说明，不用一根双向箭头代替。",
+    "essential_objects": "染色质/化学状态、转录因子及相关蛋白、启动子/增强子协作、转录、局部状态重塑；外部信号/历史作旁注。",
+    "relationships": "状态→接触/使用机会；调控蛋白/活动→状态塑造；两条有标签的方向边构成反馈，关联观察另作无向对应。",
+    "misconceptions": "不以一根无标签双箭头代替两机制；不说某修饰必定导致表达；P0398“写入器识别”与P0397读取器定义潜在冲突，此图中性写“相关蛋白识别/招募”，不擅改正文或画实争议角色。",
+    "components": "三个前向调控节点、局部重塑节点、顶部情境节点、前向影响／条件边、两条返回影响边、上下方向说明、关联不足以证明因果的范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "state.access",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "access.transcription",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "context.state",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "context.regulation",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "activity.remodeling",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "remodeling.state",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 19,
+    "text_count": 8,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F15.context.boundary": [
+        51.5,
+        97.0,
+        118.5,
+        109.0
+      ],
+      "F15.context.label": [
+        73.8875,
+        101.0156,
+        96.1125,
+        104.9844
+      ],
+      "F15.state.boundary": [
+        7.5,
+        65.0,
+        56.5,
+        85.0
+      ],
+      "F15.state.label": [
+        19.3,
+        71.0312,
+        44.7,
+        78.9688
+      ],
+      "F15.access.boundary": [
+        64.5,
+        65.0,
+        105.5,
+        85.0
+      ],
+      "F15.access.label": [
+        75.475,
+        71.0312,
+        94.525,
+        78.9688
+      ],
+      "F15.transcription.boundary": [
+        113.5,
+        65.0,
+        162.5,
+        85.0
+      ],
+      "F15.transcription.label": [
+        123.7125,
+        71.0312,
+        152.2875,
+        78.9688
+      ],
+      "F15.state.access": [
+        58.0,
+        74.4003,
+        62.5661,
+        75.5997
+      ],
+      "F15.access.transcription": [
+        107.0,
+        74.4003,
+        111.5661,
+        75.5997
+      ],
+      "F15.context.state": [
+        40.4016,
+        87.0634,
+        62.0,
+        96.0
+      ],
+      "F15.context.regulation": [
+        105.0,
+        86.989,
+        129.5918,
+        96.0
+      ],
+      "F15.remodeling.boundary": [
+        49.5,
+        27.0,
+        120.5,
+        47.0
+      ],
+      "F15.remodeling.label": [
+        70.7125,
+        33.0312,
+        99.2875,
+        40.9688
+      ],
+      "F15.activity.remodeling": [
+        122.2629,
+        42.3451,
+        138.0,
+        63.0
+      ],
+      "F15.remodeling.state": [
+        31.244,
+        38.0,
+        48.0,
+        62.6412
+      ],
+      "F15.forward.label": [
+        68.4688,
+        86.1259,
+        101.5312,
+        89.8741
+      ],
+      "F15.return.label": [
+        67.5375,
+        18.0156,
+        102.4625,
+        21.9844
+      ],
+      "F15.scope.note": [
+        6.0,
+        6.1259,
+        99.1757,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2740
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 18,
+    "svg_text_count": 12,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F15.context.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F15.context.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F15.state.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F15.state.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F15.access.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F15.access.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F15.transcription.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F15.transcription.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F15.state.access": {
+      "type": "FancyArrowPatch",
+      "role": "influence"
+    },
+    "F15.access.transcription": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F15.context.state": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F15.context.regulation": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F15.remodeling.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F15.remodeling.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F15.activity.remodeling": {
+      "type": "FancyArrowPatch",
+      "role": "influence"
+    },
+    "F15.remodeling.state": {
+      "type": "FancyArrowPatch",
+      "role": "influence"
+    },
+    "F15.forward.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F15.return.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F15.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F15_regulatory_feedback.py": "14ca4a5cfb1aa577b2dfc8b521870d43098282713d224e0396c4795e5ab58bc9",
+    "figure_specs/F15.json": "b02da6e6a105b032af6278d8d86c297bb79cfd036dbf831a6582ee039469c644",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F15_regulatory_feedback.png",
+      "sha256": "298454a1a54984cd2032379b95914ae75ef28b85230acdf94d5f82d584c0f55b"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F15_regulatory_feedback.pdf",
+      "sha256": "8e3cf4ead679f8cf44533eb57d70f2468d1aaffdf91471a4276ae228a6d203b5"
+    },
+    "svg": {
+      "path": "outputs/svg/F15_regulatory_feedback.svg",
+      "sha256": "90a87583a33e1a3601e44637f3c7694abd2c8f23c2d93ffaa7e055a35b64f4f1"
+    }
+  },
+  "adjacent_pdf_sha256": "8e3cf4ead679f8cf44533eb57d70f2468d1aaffdf91471a4276ae228a6d203b5",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

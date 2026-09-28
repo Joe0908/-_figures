@@ -1,0 +1,382 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F03",
+    "title": "DNA 复制中的旧链与新链",
+    "source_paragraphs": "P0078–P0083：细胞分裂前先复制 DNA，每一旧链配成一条新互补链，两份结果各含一旧一新。P0087–P0091 复制稳定但非绝对无误。",
+    "cognitive_task": "原来的两条链各自带出一条新互补链，结果是两份各含一旧一新的 DNA。",
+    "layout_rationale": "三列从原双链经分离到两份结果；两条旧链保持连续路径，新链用铜色和虚线双重区分；原料入口独立。",
+    "essential_objects": "一份旧双链、分开的两旧链、新原料的概念入口、两条新链、两份最终双链。",
+    "relationships": "旧链身份保持；互补模板关系与新链合成过程分开编码；从一份到两份的时间顺序。",
+    "misconceptions": "不能让旧链消失、混成半截新旧；不能说 DNA 材料凭空增加；不画细胞分裂的详细阶段或暗示百分百无误。",
+    "components": "连续链、模板箭头、合成箭头、原料容器、旧新身份标签",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "template.a",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "template.b",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "synthesis",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 27,
+    "text_count": 11,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F03.heading.6": [
+        6.0,
+        103.4644,
+        26.32,
+        108.5356
+      ],
+      "F03.heading.65": [
+        65.0,
+        103.4644,
+        89.384,
+        108.5356
+      ],
+      "F03.heading.123": [
+        123.0,
+        103.4644,
+        147.384,
+        108.5356
+      ],
+      "F03.old.a.start": [
+        10.0,
+        71.0,
+        42.0,
+        71.0
+      ],
+      "F03.old.b.start": [
+        10.0,
+        57.0,
+        42.0,
+        57.0
+      ],
+      "F03.old.a.tag": [
+        21.7455,
+        77.1259,
+        30.2545,
+        80.8741
+      ],
+      "F03.old.b.tag": [
+        21.682,
+        47.1259,
+        30.318,
+        50.8741
+      ],
+      "F03.pairs.0": [
+        12.0,
+        60.0,
+        12.0,
+        68.0
+      ],
+      "F03.pairs.1": [
+        17.0,
+        60.0,
+        17.0,
+        68.0
+      ],
+      "F03.pairs.2": [
+        22.0,
+        60.0,
+        22.0,
+        68.0
+      ],
+      "F03.pairs.3": [
+        27.0,
+        60.0,
+        27.0,
+        68.0
+      ],
+      "F03.pairs.4": [
+        32.0,
+        60.0,
+        32.0,
+        68.0
+      ],
+      "F03.pairs.5": [
+        37.0,
+        60.0,
+        37.0,
+        68.0
+      ],
+      "F03.old.a.path": [
+        42.0,
+        71.0,
+        158.0,
+        84.0
+      ],
+      "F03.old.b.path": [
+        42.0,
+        43.0,
+        158.0,
+        57.0
+      ],
+      "F03.new.a": [
+        67.0,
+        73.0,
+        158.0,
+        73.0
+      ],
+      "F03.new.b": [
+        67.0,
+        54.0,
+        158.0,
+        54.0
+      ],
+      "F03.template.a": [
+        88.4003,
+        75.4339,
+        89.5997,
+        82.0
+      ],
+      "F03.template.b": [
+        88.4003,
+        45.0,
+        89.5997,
+        51.5661
+      ],
+      "F03.template.key": [
+        73.4745,
+        92.1259,
+        100.5255,
+        95.8741
+      ],
+      "F03.output.a": [
+        130.5597,
+        62.1259,
+        149.4403,
+        65.8741
+      ],
+      "F03.output.b": [
+        130.4962,
+        31.1259,
+        149.5038,
+        34.8741
+      ],
+      "F03.raw.boundary": [
+        32.5,
+        17.0,
+        81.5,
+        29.0
+      ],
+      "F03.raw.label": [
+        45.7817,
+        21.1259,
+        68.2183,
+        24.8741
+      ],
+      "F03.synthesis": [
+        72.0,
+        30.0,
+        76.2835,
+        50.5738
+      ],
+      "F03.synthesis.label": [
+        85.9887,
+        34.1259,
+        98.0113,
+        37.8741
+      ],
+      "F03.scope.note": [
+        6.0,
+        7.1259,
+        117.2097,
+        10.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2740
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 20,
+    "svg_text_count": 11,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F03.heading.6": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F03.heading.65": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F03.heading.123": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F03.old.a.start": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.old.b.start": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.old.a.tag": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F03.old.b.tag": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F03.pairs.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.pairs.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.pairs.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.pairs.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.pairs.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.pairs.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.old.a.path": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.old.b.path": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.new.a": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.new.b": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F03.template.a": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F03.template.b": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F03.template.key": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F03.output.a": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F03.output.b": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F03.raw.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F03.raw.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F03.synthesis": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F03.synthesis.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F03.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F03_old_and_new_strands.py": "245ba918eaf153f1c24cdeac5e90aba21ff36d070cd0aeaac202ea8283c5ab93",
+    "figure_specs/F03.json": "92fe0c8def3d5ddd8f86802322f414ece1b04476fb81092b33458a0ad770c4cc",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F03_old_and_new_strands.png",
+      "sha256": "a1c82dd1218272b3a8110e7d5584c02edc4d945e617a43cb804c435266832a66"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F03_old_and_new_strands.pdf",
+      "sha256": "0a476f3cbea2f9e2daeee3650e50f8b271b2c95537924ac5af4593b7222653e7"
+    },
+    "svg": {
+      "path": "outputs/svg/F03_old_and_new_strands.svg",
+      "sha256": "ad0f2a7b915583839524542a7d9f2d165dcb6d45525e9991d9c899cd479979c8"
+    }
+  },
+  "adjacent_pdf_sha256": "0a476f3cbea2f9e2daeee3650e50f8b271b2c95537924ac5af4593b7222653e7",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

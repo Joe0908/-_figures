@@ -1,0 +1,192 @@
+{
+  "id": "F09",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "d4ab3aa0e24e9f83e76939ae443b44dd2f78b7ef350721fb67a59b91acd83df7",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F09_genome_annotation_tracks.py",
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "artist_count": 65,
+  "texts": [
+    {
+      "id": "F09.heading",
+      "text": "沿同一段 DNA，可从不同角度标注",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        113.46440972222219,
+        67.97600000000001,
+        118.53559027777776
+      ]
+    },
+    {
+      "id": "F09.track.label.0",
+      "text": "蛋白质编码",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        82.62586805555554,
+        21.028333333333343,
+        86.37413194444443
+      ]
+    },
+    {
+      "id": "F09.track.label.1",
+      "text": "基因内部非编码",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        71.62586805555554,
+        27.03966666666668,
+        75.37413194444443
+      ]
+    },
+    {
+      "id": "F09.track.label.2",
+      "text": "非编码 RNA",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        60.62586805555555,
+        21.578666666666678,
+        64.37413194444443
+      ]
+    },
+    {
+      "id": "F09.track.label.3",
+      "text": "调控作用",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        49.62586805555555,
+        18.02266666666668,
+        53.37413194444443
+      ]
+    },
+    {
+      "id": "F09.track.label.4",
+      "text": "重复／结构",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        38.62586805555555,
+        21.028333333333343,
+        42.374131944444436
+      ]
+    },
+    {
+      "id": "F09.track.label.5",
+      "text": "作用仍待研究",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        27.62586805555555,
+        24.03400000000001,
+        31.374131944444443
+      ]
+    },
+    {
+      "id": "F09.meaning",
+      "text": "注释可以交叠；非编码不等于没有作用，也不等于每段都有已知功能。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        38.412166666666685,
+        16.12586805555555,
+        131.58783333333335,
+        19.874131944444443
+      ]
+    },
+    {
+      "id": "F09.scope.note",
+      "text": "抽象注释示意，不对应真实位点；长度、间距与各类占比均不按比例。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.125868055555554,
+        99.17566666666666,
+        9.874131944444443
+      ]
+    }
+  ],
+  "relations": [],
+  "spec": {
+    "id": "F09",
+    "title": "人的基因组不只有蛋白质编码序列",
+    "source_paragraphs": "P0264–P0267 基因数不能直接解释复杂性；P0270–P0272 编码序列只占很小部分，其他区域包括基因内非最终编码部分、重复、非编码RNA、调控/结构及未明区域。",
+    "cognitive_task": "蛋白质编码只是基因组的一部分，许多其他序列影响信息使用、结构或尚待理解。",
+    "layout_rationale": "同一DNA条下方配置六种平行注释轨道；重叠区间表示注释可以交叠，明确所有长度和比例为示意。",
+    "essential_objects": "同一 DNA 长带、编码区域小段、非编码 RNA 区域、调控区域、重复/其他区域、作用尚未明确标识。",
+    "relationships": "区域都属于 DNA；功能注释可能重叠，不把不同标签强行变成互斥的百分比分区。",
+    "misconceptions": "不画无依据精确比例饼图；不把非编码全称垃圾或全称有用；不让基因等于蛋白质编码段；示意长度不表示实际比例。",
+    "components": "DNA双链、注释基线、功能区段、非比例说明",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2976
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        125.99999643961587
+      ],
+      "images": 0,
+      "vector_paths": 69,
+      "fonts": [
+        {
+          "name": "SSVQPL+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 9,
+      "images": 0,
+      "semantic_ids": 65,
+      "font_subset_glyphs": 79
+    }
+  },
+  "output_hashes": {
+    "png": "436ea245cc7116d57f0bcdd69fdde24b3e0ab00edec87e5cbfa460f1090ff88f",
+    "pdf": "fa00ad4af4c57d6eeebe249b70c16dcf27cf6c0b81f2648fa0797a17cd017e0c",
+    "svg": "714799811450563645131feb2dba922282280495b350878ef04928c96c751cc2"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

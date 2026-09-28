@@ -1,0 +1,352 @@
+{
+  "id": "F20",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "4cf2b4840ff54a24a327abde173ef9b6bd05096dae690e19fe5d8f6286cc9baf",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F20_colorectal_observations.py",
+  "size_mm": [
+    170.0,
+    140.0
+  ],
+  "artist_count": 33,
+  "texts": [
+    {
+      "id": "F20.person",
+      "text": "同一个人的两份组织样本",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        62.648,
+        128.4644097222222,
+        107.352,
+        133.53559027777777
+      ]
+    },
+    {
+      "id": "F20.sample.mucosa.label",
+      "text": "非肿瘤结肠黏膜",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        55.294833333333344,
+        111.90538194444446,
+        78.70516666666667,
+        116.09461805555554
+      ]
+    },
+    {
+      "id": "F20.sample.tumor.label",
+      "text": "结直肠癌组织",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        122.96700000000001,
+        111.90538194444446,
+        143.03300000000002,
+        116.09461805555554
+      ]
+    },
+    {
+      "id": "F20.layer.dna",
+      "text": "DNA",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        16.782666666666668,
+        92.01562499999999,
+        23.217333333333336,
+        95.98437499999999
+      ]
+    },
+    {
+      "id": "F20.mucosa.dna.label",
+      "text": "共同遗传背景",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        57.98300000000001,
+        92.12586805555554,
+        76.01700000000001,
+        95.87413194444444
+      ]
+    },
+    {
+      "id": "F20.tumor.dna.label",
+      "text": "体细胞生长控制变化\n提供可能线索",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        119.4745,
+        90.2517361111111,
+        146.52550000000002,
+        97.74826388888887
+      ]
+    },
+    {
+      "id": "F20.layer.rna",
+      "text": "RNA",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        16.867333333333335,
+        74.01562500000001,
+        23.132666666666672,
+        77.98437500000001
+      ]
+    },
+    {
+      "id": "F20.mucosa.rna.label",
+      "text": "成熟组织程序",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        57.98300000000001,
+        74.12586805555556,
+        76.01700000000001,
+        77.87413194444444
+      ]
+    },
+    {
+      "id": "F20.tumor.rna.label",
+      "text": "分裂与合成程序\n可能增强",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        122.48016666666668,
+        72.25173611111111,
+        143.51983333333337,
+        79.74826388888889
+      ]
+    },
+    {
+      "id": "F20.layer.protein",
+      "text": "蛋白质",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        15.237500000000002,
+        56.01562499999999,
+        24.762500000000006,
+        59.98437499999999
+      ]
+    },
+    {
+      "id": "F20.mucosa.protein.label",
+      "text": "日常工作的执行分子",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        53.474500000000006,
+        56.12586805555556,
+        80.52550000000001,
+        59.87413194444444
+      ]
+    },
+    {
+      "id": "F20.tumor.protein.label",
+      "text": "数量／状态可能改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        119.4745,
+        56.12586805555556,
+        146.52550000000002,
+        59.87413194444444
+      ]
+    },
+    {
+      "id": "F20.layer.metabolism",
+      "text": "代谢物",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        15.237500000000002,
+        38.015625,
+        24.762500000000006,
+        41.984375
+      ]
+    },
+    {
+      "id": "F20.mucosa.metabolism.label",
+      "text": "日常资源利用",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        57.98300000000001,
+        38.12586805555555,
+        76.01700000000001,
+        41.87413194444445
+      ]
+    },
+    {
+      "id": "F20.tumor.metabolism.label",
+      "text": "资源分配可能改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        120.97733333333335,
+        38.12586805555555,
+        145.02266666666668,
+        41.87413194444445
+      ]
+    },
+    {
+      "id": "F20.layer.tissue",
+      "text": "组织行为",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        13.650000000000004,
+        20.015625000000004,
+        26.35,
+        23.984375000000004
+      ]
+    },
+    {
+      "id": "F20.mucosa.tissue.label",
+      "text": "结构维持与更新",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        56.48016666666667,
+        20.125868055555554,
+        77.51983333333334,
+        23.87413194444445
+      ]
+    },
+    {
+      "id": "F20.tumor.tissue.label",
+      "text": "细胞增多／排列紊乱",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        119.4745,
+        20.125868055555554,
+        146.52550000000002,
+        23.87413194444445
+      ]
+    },
+    {
+      "id": "F20.scope.note",
+      "text": "配对观察示意，不是同一组织的时间演变；跨层解释仍待检验，并非总会同向变化。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000001,
+        6.1258680555555545,
+        117.20966666666666,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "sampling.mucosa",
+      "kind": "observe",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "sampling.tumor",
+      "kind": "observe",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F20",
+    "title": "从结肠组织到结直肠癌的跨层观察",
+    "source_paragraphs": "P0560–P0567同人非肿瘤黏膜/癌组织配对；P0574–P0626生长控制、RNA程序、蛋白、资源分配与组织行为；P0629为学习简化；P0630–P0673不一致与反馈边界。",
+    "cognitive_task": "配对样本中各层测量能检验同一疾病故事，任一层变化仍不保证下一层同向改变。",
+    "layout_rationale": "左右两列对照同一个人的非肿瘤结肠黏膜与结直肠癌组织；五行分别显示DNA、RNA、蛋白质、代谢物和组织行为。取样关系用观察点线，不用演变箭头。",
+    "essential_objects": "同一人两份组织、共同遗传背景、后来体细胞变化、RNA分裂/合成程序、蛋白执行状态、代谢资源、细胞增多/排列紊乱。",
+    "relationships": "配对比较；各层分别观察；层间解释是待检验联系；组织混合细胞及非一致可能作为边界。",
+    "misconceptions": "不把配对样本画成同一块组织的实测纵向演变；不捏造具体突变/数值/热图；不把所有癌症同化为唯一链；非肿瘤癌旁不称完美健康。",
+    "components": "同人取样标题、两份样本节点、两条观察取样线、五个层级标签、十个并列观察卡、配对而非纵向及跨层解释待检验范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      140
+    ],
+    "relations_drawn": [
+      {
+        "id": "sampling.mucosa",
+        "kind": "observe",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "sampling.tumor",
+        "kind": "observe",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        3307
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        140.0000032212999
+      ],
+      "images": 0,
+      "vector_paths": 15,
+      "fonts": [
+        {
+          "name": "CTYNRC+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 21,
+      "images": 0,
+      "semantic_ids": 33,
+      "font_subset_glyphs": 114
+    }
+  },
+  "output_hashes": {
+    "png": "027cbc241270ca55820e557dfe3554509555fffb796cd7e105ff9ed878708d4f",
+    "pdf": "d598a91730a613f39613a879d6d5fd739c98a2289d952cbaaf7087e6b829c9e5",
+    "svg": "1144547eb5705d3bd896fc5e3da7ca9af7a565df40f0e79f38084edb97522454"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

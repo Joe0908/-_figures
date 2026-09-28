@@ -1,0 +1,12 @@
+{
+  "id": "F06",
+  "title": "RNA 怎样指导氨基酸链的形成",
+  "source_paragraphs": "P0123–P0145 RNA 与氨基酸使用不同字母表，密码子三联读取；P0146–P0154 tRNA 识别并携带氨基酸，核糖体连接新链，RNA 仍是 RNA。",
+  "cognitive_task": "核糖体和 tRNA 读取密码子，用另外取得的氨基酸连接新链，RNA 本身不变成蛋白质。",
+  "layout_rationale": "底部横向mRNA与读取方向固定；中部核糖体围住tRNA识别和肽链连接处，顶部原料输入与增长链分开。",
+  "essential_objects": "原稿 AUG/GCU/AAA/GGC 示例或简化三联组、mRNA、抽象核糖体、tRNA 连接角色、独立氨基酸原料、增长链。",
+  "relationships": "密码子与携带者的识别对应；核糖体沿 RNA 的读取方向；氨基酸之间实际连接；RNA 模板保持存在。",
+  "misconceptions": "不把字母变形为珠子；不把密码子直接画成抓手；不画完整密码表；终止信号若出现不可连成终止氨基酸。",
+  "components": "RNA骨架、密码子文字、核糖体轮廓、tRNA折线、氨基酸圆点、过程/模板箭头",
+  "quantitative": false
+}

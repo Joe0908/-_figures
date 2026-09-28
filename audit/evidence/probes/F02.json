@@ -1,0 +1,283 @@
+{
+  "id": "F02",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "66058968056b79cc2df29de27ff0bf3f9d5954bea9efec7dad3e989d72b35a92",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F02_complementary_strands.py",
+  "size_mm": [
+    170.0,
+    100.0
+  ],
+  "artist_count": 31,
+  "texts": [
+    {
+      "id": "F02.panel",
+      "text": "两条链，保存互补的序列",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000018,
+        87.46440972222221,
+        50.70400000000002,
+        92.53559027777779
+      ]
+    },
+    {
+      "id": "F02.upper.base.0",
+      "text": "A",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        34.77233333333334,
+        60.46440972222222,
+        37.22766666666668,
+        65.53559027777777
+      ]
+    },
+    {
+      "id": "F02.lower.base.0",
+      "text": "T",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        34.793500000000016,
+        46.46440972222223,
+        37.20650000000001,
+        51.53559027777778
+      ]
+    },
+    {
+      "id": "F02.upper.base.1",
+      "text": "C",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        56.70883333333334,
+        60.46440972222222,
+        59.29116666666667,
+        65.53559027777777
+      ]
+    },
+    {
+      "id": "F02.lower.base.1",
+      "text": "G",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        56.603,
+        46.46440972222223,
+        59.39700000000001,
+        51.53559027777778
+      ]
+    },
+    {
+      "id": "F02.upper.base.2",
+      "text": "G",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        78.60300000000001,
+        60.46440972222222,
+        81.397,
+        65.53559027777777
+      ]
+    },
+    {
+      "id": "F02.lower.base.2",
+      "text": "C",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        78.70883333333335,
+        46.46440972222223,
+        81.29116666666668,
+        51.53559027777778
+      ]
+    },
+    {
+      "id": "F02.upper.base.3",
+      "text": "T",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        100.7935,
+        60.46440972222222,
+        103.2065,
+        65.53559027777777
+      ]
+    },
+    {
+      "id": "F02.lower.base.3",
+      "text": "A",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        100.77233333333334,
+        46.46440972222223,
+        103.22766666666668,
+        51.53559027777778
+      ]
+    },
+    {
+      "id": "F02.u5",
+      "text": "5′",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        16.751166666666684,
+        68.12586805555556,
+        19.248833333333348,
+        71.87413194444444
+      ]
+    },
+    {
+      "id": "F02.u3",
+      "text": "3′",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        118.75116666666668,
+        68.12586805555556,
+        121.24883333333334,
+        71.87413194444444
+      ]
+    },
+    {
+      "id": "F02.l3",
+      "text": "3′",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        16.751166666666684,
+        40.12586805555555,
+        19.248833333333348,
+        43.874131944444436
+      ]
+    },
+    {
+      "id": "F02.l5",
+      "text": "5′",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        118.75116666666668,
+        40.12586805555555,
+        121.24883333333334,
+        43.874131944444436
+      ]
+    },
+    {
+      "id": "F02.pair.rule",
+      "text": "A 对 T\nC 对 G",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        140.32216666666667,
+        52.81076388888889,
+        149.67783333333333,
+        61.189236111111114
+      ]
+    },
+    {
+      "id": "F02.meaning",
+      "text": "已有一条链的序列，限制另一条链的对应位置",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        51.55666666666668,
+        20.905381944444446,
+        118.44333333333333,
+        25.094618055555554
+      ]
+    },
+    {
+      "id": "F02.scope.note",
+      "text": "配对线表示对应关系；两条链方向相反。序列与间距均为示意。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000018,
+        7.125868055555555,
+        90.15866666666669,
+        10.874131944444445
+      ]
+    }
+  ],
+  "relations": [],
+  "spec": {
+    "id": "F02",
+    "title": "互补双链为复制提供参照",
+    "source_paragraphs": "P0053–P0057 序列差异；P0073–P0074 两条反向链、A–T/C–G 配对、互补记录可提供复制参照。",
+    "cognitive_task": "两条 DNA 链保存互补信息，特定配对让已有序列能够成为新链合成的参照。",
+    "layout_rationale": "上下平行双链展示反向端点和四组配对；短对应线不使用转化箭头。底部括注提炼已有序列提供参照。",
+    "essential_objects": "两条相反方向的 DNA 链、示例 A C G T 与对应 T G C A、骨架、碱基配对位置。",
+    "relationships": "A 对 T、C 对 G 的横向配对；两条链的方向相反；由已知链可推定互补位置，不能画作分子转化。",
+    "misconceptions": "不把两条链称作父母各一份；不把序列上下对齐误画成同向链；不在此图声称 DNA 自行复制。",
+    "components": "DNA骨架、单碱基文字、非因果配对线、集合括号、方向端点",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      100
+    ],
+    "relations_drawn": [],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2362
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        100.00000076293945
+      ],
+      "images": 0,
+      "vector_paths": 16,
+      "fonts": [
+        {
+          "name": "BFWFZF+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 17,
+      "images": 0,
+      "semantic_ids": 31,
+      "font_subset_glyphs": 47
+    }
+  },
+  "output_hashes": {
+    "png": "c7643d0d3f02d48637693d129cd471928c9bb17446737947cc4f72f6dd144d79",
+    "pdf": "7ad74883ffab3a55ba054561c56775377359a9e1979b52bbc0d50caef516c8b4",
+    "svg": "7088c0c6463956888df6dd00b3a56cd2b40fe9dd904e2417b630554cede9b637"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

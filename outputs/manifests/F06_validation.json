@@ -1,0 +1,449 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F06",
+    "title": "RNA 怎样指导氨基酸链的形成",
+    "source_paragraphs": "P0123–P0145 RNA 与氨基酸使用不同字母表，密码子三联读取；P0146–P0154 tRNA 识别并携带氨基酸，核糖体连接新链，RNA 仍是 RNA。",
+    "cognitive_task": "核糖体和 tRNA 读取密码子，用另外取得的氨基酸连接新链，RNA 本身不变成蛋白质。",
+    "layout_rationale": "底部横向mRNA与读取方向固定；中部核糖体围住tRNA识别和肽链连接处，顶部原料输入与增长链分开。",
+    "essential_objects": "原稿 AUG/GCU/AAA/GGC 示例或简化三联组、mRNA、抽象核糖体、tRNA 连接角色、独立氨基酸原料、增长链。",
+    "relationships": "密码子与携带者的识别对应；核糖体沿 RNA 的读取方向；氨基酸之间实际连接；RNA 模板保持存在。",
+    "misconceptions": "不把字母变形为珠子；不把密码子直接画成抓手；不画完整密码表；终止信号若出现不可连成终止氨基酸。",
+    "components": "RNA骨架、密码子文字、核糖体轮廓、tRNA折线、氨基酸圆点、过程/模板箭头",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "recognition",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "join",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "carry",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "read.direction",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 33,
+    "text_count": 15,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F06.heading": [
+        6.0,
+        103.4644,
+        79.9563,
+        108.5356
+      ],
+      "F06.mrna": [
+        10.0,
+        38.0,
+        157.0,
+        38.0
+      ],
+      "F06.codon.0": [
+        25.9555,
+        41.4644,
+        34.0445,
+        46.5356
+      ],
+      "F06.codon.1": [
+        59.8877,
+        41.4644,
+        68.1123,
+        46.5356
+      ],
+      "F06.codon.2": [
+        94.3534,
+        41.4644,
+        101.6466,
+        46.5356
+      ],
+      "F06.codon.3": [
+        127.9148,
+        41.4644,
+        136.0852,
+        46.5356
+      ],
+      "F06.ribosome": [
+        44.0,
+        38.0,
+        84.0,
+        84.0
+      ],
+      "F06.ribosome.label": [
+        59.9835,
+        23.9054,
+        70.0165,
+        28.0946
+      ],
+      "F06.mrna.label": [
+        140.1528,
+        27.9054,
+        149.8472,
+        32.0946
+      ],
+      "F06.trna": [
+        59.0,
+        51.0,
+        67.0,
+        67.0
+      ],
+      "F06.trna.carry.contact": [
+        63.0,
+        67.0,
+        63.0,
+        70.0
+      ],
+      "F06.trna.label.leader": [
+        70.0,
+        62.0,
+        96.0,
+        63.0
+      ],
+      "F06.incoming.aa": [
+        60.7,
+        69.7,
+        65.3,
+        74.3
+      ],
+      "F06.trna.label": [
+        107.4863,
+        63.1259,
+        114.5137,
+        66.8741
+      ],
+      "F06.trna.recognition": [
+        110.4858,
+        53.1259,
+        125.5142,
+        56.8741
+      ],
+      "F06.recognition": [
+        70.4336,
+        48.4516,
+        102.0,
+        50.0
+      ],
+      "F06.peptide.label": [
+        28.9505,
+        90.9054,
+        59.0495,
+        95.0946
+      ],
+      "F06.peptide.aa.0": [
+        24.7,
+        85.7,
+        29.3,
+        90.3
+      ],
+      "F06.peptide.join.1": [
+        27.0,
+        85.0,
+        35.0,
+        88.0
+      ],
+      "F06.peptide.aa.1": [
+        32.7,
+        82.7,
+        37.3,
+        87.3
+      ],
+      "F06.peptide.join.2": [
+        35.0,
+        81.0,
+        43.0,
+        85.0
+      ],
+      "F06.peptide.aa.2": [
+        40.7,
+        78.7,
+        45.3,
+        83.3
+      ],
+      "F06.peptide.join.3": [
+        43.0,
+        78.0,
+        51.0,
+        81.0
+      ],
+      "F06.peptide.aa.3": [
+        48.7,
+        75.7,
+        53.3,
+        80.3
+      ],
+      "F06.join": [
+        55.3388,
+        73.0,
+        60.0,
+        76.729
+      ],
+      "F06.join.label": [
+        72.9943,
+        85.1259,
+        79.0057,
+        88.8741
+      ],
+      "F06.raw.boundary": [
+        103.5,
+        80.0,
+        152.5,
+        92.0
+      ],
+      "F06.raw.label": [
+        114.6227,
+        83.9054,
+        141.3773,
+        88.0946
+      ],
+      "F06.carry": [
+        67.4223,
+        73.7903,
+        101.0,
+        82.0
+      ],
+      "F06.carry.label": [
+        95.3005,
+        96.1259,
+        112.6995,
+        99.8741
+      ],
+      "F06.read.direction": [
+        16.0,
+        18.4003,
+        82.5661,
+        19.5997
+      ],
+      "F06.read.label": [
+        102.3635,
+        17.1259,
+        127.6365,
+        20.8741
+      ],
+      "F06.scope.note": [
+        6.0,
+        7.1259,
+        111.537,
+        10.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2740
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 23,
+    "svg_text_count": 15,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F06.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.mrna": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F06.codon.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.codon.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.codon.2": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.codon.3": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.ribosome": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F06.ribosome.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.mrna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.trna": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F06.trna.carry.contact": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F06.trna.label.leader": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F06.incoming.aa": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F06.trna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.trna.recognition": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.recognition": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F06.peptide.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.peptide.aa.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F06.peptide.join.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F06.peptide.aa.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F06.peptide.join.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F06.peptide.aa.2": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F06.peptide.join.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F06.peptide.aa.3": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F06.join": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F06.join.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.raw.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F06.raw.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.carry": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F06.carry.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.read.direction": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F06.read.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F06.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F06_translation.py": "7d6cce895de4fce5881c122c0d79a908b784121d25e0b96b9eb15a2962f3cc81",
+    "figure_specs/F06.json": "e874669504b0e025b6c1a3cfacbf93fef7c2afa26e0e3100775ccb9abfbad7e7",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F06_translation.png",
+      "sha256": "aec2e54ecd62b0547a5ce80e75e1cd8865c7a50d8a1a1ca23a130aa71696f241"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F06_translation.pdf",
+      "sha256": "bb1ac13ed5f0cbd7018e58f8a49bb68ab9576839df22fdb78a11202c64e4af32"
+    },
+    "svg": {
+      "path": "outputs/svg/F06_translation.svg",
+      "sha256": "ded888f88db38f05120bf8a650b7fc373996e7ddde1084d2a98d192a4fd995cd"
+    }
+  },
+  "adjacent_pdf_sha256": "bb1ac13ed5f0cbd7018e58f8a49bb68ab9576839df22fdb78a11202c64e4af32",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

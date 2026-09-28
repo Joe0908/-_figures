@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="481.889764pt" height="357.165354pt" viewBox="0 0 481.889764 357.165354" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs><style type="text/css">@font-face{font-family:'Noto Sans SC';src:url(data:font/woff;base64,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) format('woff');font-weight:400;font-style:normal;}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 357.165354 
+L 481.889764 357.165354 
+L 481.889764 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="F19.cell.system">
+    <path d="M 240.944882 250.866142 
+C 269.511641 250.866142 296.912225 242.055195 317.111975 226.373811 
+C 337.311724 210.692427 348.661417 189.420921 348.661417 167.244094 
+C 348.661417 145.067268 337.311724 123.795762 317.111975 108.114378 
+C 296.912225 92.432994 269.511641 83.622047 240.944882 83.622047 
+C 212.378123 83.622047 184.977538 92.432994 164.777789 108.114378 
+C 144.57804 123.795762 133.228346 145.067268 133.228346 167.244094 
+C 133.228346 189.420921 144.57804 210.692427 164.777789 226.373811 
+C 184.977538 242.055195 212.378123 250.866142 240.944882 250.866142 
+z
+" style="fill: #f6f8f7; stroke: #6b8b7a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.cell.state.0">
+    <path d="M 221.102362 136.346457 
+C 221.929295 136.346457 222.72247 136.017913 223.307199 135.433183 
+C 223.891929 134.848454 224.220472 134.055279 224.220472 133.228346 
+C 224.220472 132.401414 223.891929 131.608239 223.307199 131.02351 
+C 222.72247 130.43878 221.929295 130.110236 221.102362 130.110236 
+C 220.27543 130.110236 219.482255 130.43878 218.897525 131.02351 
+C 218.312796 131.608239 217.984252 132.401414 217.984252 133.228346 
+C 217.984252 134.055279 218.312796 134.848454 218.897525 135.433183 
+C 219.482255 136.017913 220.27543 136.346457 221.102362 136.346457 
+z
+" style="fill: #f1e6e0; stroke: #a6633f; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.cell.state.1">
+    <path d="M 240.944882 136.346457 
+C 241.771814 136.346457 242.564989 136.017913 243.149719 135.433183 
+C 243.734448 134.848454 244.062992 134.055279 244.062992 133.228346 
+C 244.062992 132.401414 243.734448 131.608239 243.149719 131.02351 
+C 242.564989 130.43878 241.771814 130.110236 240.944882 130.110236 
+C 240.117949 130.110236 239.324775 130.43878 238.740045 131.02351 
+C 238.155315 131.608239 237.826772 132.401414 237.826772 133.228346 
+C 237.826772 134.055279 238.155315 134.848454 238.740045 135.433183 
+C 239.324775 136.017913 240.117949 136.346457 240.944882 136.346457 
+z
+" style="fill: #f1e6e0; stroke: #a6633f; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.cell.protein.0">
+    <path d="M 187.086614 212.88189 
+C 188.665303 212.88189 190.179546 212.25467 191.295848 211.138368 
+C 192.41215 210.022066 193.03937 208.507823 193.03937 206.929134 
+C 193.03937 205.350445 192.41215 203.836202 191.295848 202.7199 
+C 190.179546 201.603598 188.665303 200.976378 187.086614 200.976378 
+C 185.507925 200.976378 183.993682 201.603598 182.87738 202.7199 
+C 181.761078 203.836202 181.133858 205.350445 181.133858 206.929134 
+C 181.133858 208.507823 181.761078 210.022066 182.87738 211.138368 
+C 183.993682 212.25467 185.507925 212.88189 187.086614 212.88189 
+z
+" style="fill: #dee6e9; stroke: #2f6174; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.cell.protein.1">
+    <path d="M 212.598425 212.88189 
+C 214.177115 212.88189 215.691357 212.25467 216.807659 211.138368 
+C 217.923961 210.022066 218.551181 208.507823 218.551181 206.929134 
+C 218.551181 205.350445 217.923961 203.836202 216.807659 202.7199 
+C 215.691357 201.603598 214.177115 200.976378 212.598425 200.976378 
+C 211.019736 200.976378 209.505493 201.603598 208.389191 202.7199 
+C 207.272889 203.836202 206.645669 205.350445 206.645669 206.929134 
+C 206.645669 208.507823 207.272889 210.022066 208.389191 211.138368 
+C 209.505493 212.25467 211.019736 212.88189 212.598425 212.88189 
+z
+" style="fill: #dee6e9; stroke: #2f6174; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.cell.metabolite.0">
+    <path d="M 277.795276 210.330709 
+C 278.697384 210.330709 279.562665 209.972297 280.200552 209.33441 
+C 280.838439 208.696524 281.19685 207.831242 281.19685 206.929134 
+C 281.19685 206.027026 280.838439 205.161744 280.200552 204.523857 
+C 279.562665 203.88597 278.697384 203.527559 277.795276 203.527559 
+C 276.893167 203.527559 276.027886 203.88597 275.389999 204.523857 
+C 274.752112 205.161744 274.393701 206.027026 274.393701 206.929134 
+C 274.393701 207.831242 274.752112 208.696524 275.389999 209.33441 
+C 276.027886 209.972297 276.893167 210.330709 277.795276 210.330709 
+z
+" style="fill: #dee6e9; stroke: #2f6174; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.cell.metabolite.1">
+    <path d="M 297.637795 207.496063 
+C 298.539903 207.496063 299.405185 207.137652 300.043072 206.499765 
+C 300.680959 205.861878 301.03937 204.996596 301.03937 204.094488 
+C 301.03937 203.19238 300.680959 202.327098 300.043072 201.689212 
+C 299.405185 201.051325 298.539903 200.692913 297.637795 200.692913 
+C 296.735687 200.692913 295.870405 201.051325 295.232519 201.689212 
+C 294.594632 202.327098 294.23622 203.19238 294.23622 204.094488 
+C 294.23622 204.996596 294.594632 205.861878 295.232519 206.499765 
+C 295.870405 207.137652 296.735687 207.496063 297.637795 207.496063 
+z
+" style="fill: #dee6e9; stroke: #2f6174; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.cell.metabolite.2">
+    <path d="M 314.645669 213.165354 
+C 315.547777 213.165354 316.413059 212.806943 317.050946 212.169056 
+C 317.688833 211.531169 318.047244 210.665888 318.047244 209.76378 
+C 318.047244 208.861671 317.688833 207.99639 317.050946 207.358503 
+C 316.413059 206.720616 315.547777 206.362205 314.645669 206.362205 
+C 313.743561 206.362205 312.878279 206.720616 312.240393 207.358503 
+C 311.602506 207.99639 311.244094 208.861671 311.244094 209.76378 
+C 311.244094 210.665888 311.602506 211.531169 312.240393 212.169056 
+C 312.878279 212.806943 313.743561 213.165354 314.645669 213.165354 
+z
+" style="fill: #dee6e9; stroke: #2f6174; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.window.genome.boundary">
+    <path d="M 26.07874 66.614173 
+L 155.338583 66.614173 
+Q 158.740157 66.614173 158.740157 63.212598 
+L 158.740157 21.826772 
+Q 158.740157 18.425197 155.338583 18.425197 
+L 26.07874 18.425197 
+Q 22.677165 18.425197 22.677165 21.826772 
+L 22.677165 63.212598 
+Q 22.677165 66.614173 26.07874 66.614173 
+z
+" style="fill: #f3f1f4; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.measure.genome">
+    <path d="M 172.913386 140.740157 
+C 173.402028 140.740157 173.870722 140.546018 174.216244 140.200496 
+C 174.561766 139.854974 174.755906 139.38628 174.755906 138.897638 
+C 174.755906 138.408996 174.561766 137.940302 174.216244 137.59478 
+C 173.870722 137.249258 173.402028 137.055118 172.913386 137.055118 
+C 172.424744 137.055118 171.95605 137.249258 171.610528 137.59478 
+C 171.265006 137.940302 171.070866 138.408996 171.070866 138.897638 
+C 171.070866 139.38628 171.265006 139.854974 171.610528 140.200496 
+C 171.95605 140.546018 172.424744 140.740157 172.913386 140.740157 
+z
+" style="fill: #827592; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.window.epigenome.boundary">
+    <path d="M 176.314961 66.614173 
+L 305.574803 66.614173 
+Q 308.976378 66.614173 308.976378 63.212598 
+L 308.976378 21.826772 
+Q 308.976378 18.425197 305.574803 18.425197 
+L 176.314961 18.425197 
+Q 172.913386 18.425197 172.913386 21.826772 
+L 172.913386 63.212598 
+Q 172.913386 66.614173 176.314961 66.614173 
+z
+" style="fill: #f3f1f4; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.measure.epigenome">
+    <path d="M 240.944882 129.401575 
+C 241.433524 129.401575 241.902218 129.207435 242.24774 128.861913 
+C 242.593262 128.516391 242.787402 128.047697 242.787402 127.559055 
+C 242.787402 127.070413 242.593262 126.601719 242.24774 126.256197 
+C 241.902218 125.910675 241.433524 125.716535 240.944882 125.716535 
+C 240.45624 125.716535 239.987546 125.910675 239.642024 126.256197 
+C 239.296502 126.601719 239.102362 127.070413 239.102362 127.559055 
+C 239.102362 128.047697 239.296502 128.516391 239.642024 128.861913 
+C 239.987546 129.207435 240.45624 129.401575 240.944882 129.401575 
+z
+" style="fill: #827592; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.window.transcriptome.boundary">
+    <path d="M 326.551181 66.614173 
+L 455.811024 66.614173 
+Q 459.212598 66.614173 459.212598 63.212598 
+L 459.212598 21.826772 
+Q 459.212598 18.425197 455.811024 18.425197 
+L 326.551181 18.425197 
+Q 323.149606 18.425197 323.149606 21.826772 
+L 323.149606 63.212598 
+Q 323.149606 66.614173 326.551181 66.614173 
+z
+" style="fill: #f3f1f4; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.measure.transcriptome">
+    <path d="M 317.480315 137.905512 
+C 317.968957 137.905512 318.437651 137.711372 318.783173 137.36585 
+C 319.128695 137.020328 319.322835 136.551634 319.322835 136.062992 
+C 319.322835 135.57435 319.128695 135.105656 318.783173 134.760134 
+C 318.437651 134.414612 317.968957 134.220472 317.480315 134.220472 
+C 316.991673 134.220472 316.522979 134.414612 316.177457 134.760134 
+C 315.831935 135.105656 315.637795 135.57435 315.637795 136.062992 
+C 315.637795 136.551634 315.831935 137.020328 316.177457 137.36585 
+C 316.522979 137.711372 316.991673 137.905512 317.480315 137.905512 
+z
+" style="fill: #827592; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.window.proteome.boundary">
+    <path d="M 31.748031 318.897638 
+L 200.692913 318.897638 
+Q 204.094488 318.897638 204.094488 315.496063 
+L 204.094488 274.110236 
+Q 204.094488 270.708661 200.692913 270.708661 
+L 31.748031 270.708661 
+Q 28.346457 270.708661 28.346457 274.110236 
+L 28.346457 315.496063 
+Q 28.346457 318.897638 31.748031 318.897638 
+z
+" style="fill: #f3f1f4; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.measure.proteome">
+    <path d="M 187.086614 214.440945 
+C 187.575256 214.440945 188.04395 214.246805 188.389472 213.901283 
+C 188.734994 213.555761 188.929134 213.087067 188.929134 212.598425 
+C 188.929134 212.109783 188.734994 211.641089 188.389472 211.295567 
+C 188.04395 210.950045 187.575256 210.755906 187.086614 210.755906 
+C 186.597972 210.755906 186.129278 210.950045 185.783756 211.295567 
+C 185.438234 211.641089 185.244094 212.109783 185.244094 212.598425 
+C 185.244094 213.087067 185.438234 213.555761 185.783756 213.901283 
+C 186.129278 214.246805 186.597972 214.440945 187.086614 214.440945 
+z
+" style="fill: #827592; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.window.metabolome.boundary">
+    <path d="M 281.19685 318.897638 
+L 450.141732 318.897638 
+Q 453.543307 318.897638 453.543307 315.496063 
+L 453.543307 274.110236 
+Q 453.543307 270.708661 450.141732 270.708661 
+L 281.19685 270.708661 
+Q 277.795276 270.708661 277.795276 274.110236 
+L 277.795276 315.496063 
+Q 277.795276 318.897638 281.19685 318.897638 
+z
+" style="fill: #f3f1f4; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.measure.metabolome">
+    <path d="M 314.645669 217.275591 
+C 315.134311 217.275591 315.603005 217.081451 315.948527 216.735929 
+C 316.294049 216.390407 316.488189 215.921713 316.488189 215.433071 
+C 316.488189 214.944429 316.294049 214.475735 315.948527 214.130213 
+C 315.603005 213.784691 315.134311 213.590551 314.645669 213.590551 
+C 314.157027 213.590551 313.688333 213.784691 313.342811 214.130213 
+C 312.997289 214.475735 312.80315 214.944429 312.80315 215.433071 
+C 312.80315 215.921713 312.997289 216.390407 313.342811 216.735929 
+C 313.688333 217.081451 314.157027 217.275591 314.645669 217.275591 
+z
+" style="fill: #827592; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F19.observe.genome">
+    <path d="M 90.708661 68.031496 
+Q 131.811024 103.464567 172.913386 138.897638 
+" style="fill: none; stroke-dasharray: 1.1,2.75; stroke-dashoffset: 0; stroke: #827592; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F19.observe.epigenome">
+    <path d="M 240.944882 68.031496 
+Q 240.944882 97.795276 240.944882 127.559055 
+" style="fill: none; stroke-dasharray: 1.1,2.75; stroke-dashoffset: 0; stroke: #827592; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F19.observe.transcriptome">
+    <path d="M 391.181102 68.031496 
+Q 354.330709 102.047244 317.480315 136.062992 
+" style="fill: none; stroke-dasharray: 1.1,2.75; stroke-dashoffset: 0; stroke: #827592; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F19.observe.proteome">
+    <path d="M 116.220472 269.291339 
+Q 151.653543 240.944882 187.086614 212.598425 
+" style="fill: none; stroke-dasharray: 1.1,2.75; stroke-dashoffset: 0; stroke: #827592; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F19.observe.metabolome">
+    <path d="M 365.669291 269.291339 
+Q 340.15748 242.362205 314.645669 215.433071 
+" style="fill: none; stroke-dasharray: 1.1,2.75; stroke-dashoffset: 0; stroke: #827592; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.upper">
+    <path d="M 170.07874 141.732283 
+L 263.622047 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.lower">
+    <path d="M 170.07874 150.23622 
+L 263.622047 150.23622 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.pair.0">
+    <path d="M 175.748031 150.23622 
+L 175.748031 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.pair.1">
+    <path d="M 184.251969 150.23622 
+L 184.251969 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.pair.2">
+    <path d="M 192.755906 150.23622 
+L 192.755906 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.pair.3">
+    <path d="M 201.259843 150.23622 
+L 201.259843 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.pair.4">
+    <path d="M 209.76378 150.23622 
+L 209.76378 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.pair.5">
+    <path d="M 218.267717 150.23622 
+L 218.267717 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.pair.6">
+    <path d="M 226.771654 150.23622 
+L 226.771654 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.pair.7">
+    <path d="M 235.275591 150.23622 
+L 235.275591 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.pair.8">
+    <path d="M 243.779528 150.23622 
+L 243.779528 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.pair.9">
+    <path d="M 252.283465 150.23622 
+L 252.283465 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.dna.pair.10">
+    <path d="M 260.787402 150.23622 
+L 260.787402 141.732283 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.state.bond.0">
+    <path d="M 221.102362 136.062992 
+L 221.102362 141.732283 
+" style="fill: none; stroke: #a6633f; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.state.bond.1">
+    <path d="M 240.944882 136.062992 
+L 240.944882 141.732283 
+" style="fill: none; stroke: #a6633f; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.rna.0">
+    <path d="M 280.629921 150.23622 
+L 317.480315 150.23622 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.rna.1">
+    <path d="M 280.629921 138.897638 
+L 317.480315 138.897638 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="F19.cell.label">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="240.944882" y="190.701809" transform="rotate(-0 240.944882 190.701809)">同一细胞系统</text>
+   </g>
+   <g id="F19.cell.dna.label">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="218.267717" y="173.32999" transform="rotate(-0 218.267717 173.32999)">DNA 与调控状态</text>
+   </g>
+   <g id="F19.cell.rna.label">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="300.472441" y="173.193857" transform="rotate(-0 300.472441 173.193857)">RNA</text>
+   </g>
+   <g id="F19.cell.protein.label">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="201.259843" y="235.637078" transform="rotate(-0 201.259843 235.637078)">蛋白质</text>
+   </g>
+   <g id="F19.cell.metabolite.label">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="289.133858" y="227.167008" transform="rotate(-0 289.133858 227.167008)">代谢物</text>
+   </g>
+   <g id="F19.window.genome.label">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #26353e" transform="translate(77.208661 40.318904)">基因组</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #26353e" transform="translate(81.708661 51.564685)">序列</text>
+   </g>
+   <g id="F19.window.epigenome.label">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #26353e" transform="translate(218.444882 40.318904)">表观基因组</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #26353e" transform="translate(222.944882 51.587185)">调控状态</text>
+   </g>
+   <g id="F19.window.transcriptome.label">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #26353e" transform="translate(377.681102 40.305544)">转录组</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #26353e" transform="translate(358.826102 51.564685)">RNA 存量／版本</text>
+   </g>
+   <g id="F19.window.proteome.label">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #26353e" transform="translate(98.220472 292.56229)">蛋白质组</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #26353e" transform="translate(93.720472 303.853071)">数量与状态</text>
+   </g>
+   <g id="F19.window.metabolome.label">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #26353e" transform="translate(352.169291 292.59815)">代谢组</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #26353e" transform="translate(343.169291 303.83479)">小分子存量</text>
+   </g>
+   <g id="F19.scope.note">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #677278" x="17.007874" y="337.41272" transform="rotate(-0 17.007874 337.41272)">“同一细胞”是认知系统；不保证同一枚细胞同时完成五类测量，各窗口也有检测范围。</text>
+   </g>
+  </g>
+ </g>
+</svg>

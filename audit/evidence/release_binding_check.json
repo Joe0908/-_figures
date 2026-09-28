@@ -1,0 +1,249 @@
+{
+  "passed": true,
+  "errors": [],
+  "version": "Running-Life-F01-F30-v1.0",
+  "manifest_sha256": "24af06384cf6394d5b45aefda4e4f58f5c3ce4f3fc0bab1f411a47248dfdb7fd",
+  "core_file_count": 240,
+  "inputs": {
+    "运行生命.docx": {
+      "expected": "2feab6034a2d85dbc78c8045dbb5e29c1a909889eb6a70e17b937fcd9140704d",
+      "actual": "2feab6034a2d85dbc78c8045dbb5e29c1a909889eb6a70e17b937fcd9140704d",
+      "unchanged": true
+    },
+    "prompt.docx": {
+      "expected": "a798aa4ea30eb2a3439006a0449af31a903805b281aa594639b55826b679043f",
+      "actual": "a798aa4ea30eb2a3439006a0449af31a903805b281aa594639b55826b679043f",
+      "unchanged": true
+    },
+    "prompt 2.docx": {
+      "expected": "2431b5675065e9837f8b46beed465edc167406e519de702db9443c06c3d60c57",
+      "actual": "2431b5675065e9837f8b46beed465edc167406e519de702db9443c06c3d60c57",
+      "unchanged": true
+    },
+    "prompt 3.docx": {
+      "expected": "bf5d5d420707c5e5f5a34675dc5a498555e0fadbbf21c8546c55b56fbd789c47",
+      "actual": "bf5d5d420707c5e5f5a34675dc5a498555e0fadbbf21c8546c55b56fbd789c47",
+      "unchanged": true
+    },
+    "prompt 4.docx": {
+      "expected": "abc7790df715391ee7ed760fd52f7c870d60c2d7f2a0bf0afab8ddc2071e41dc",
+      "actual": "abc7790df715391ee7ed760fd52f7c870d60c2d7f2a0bf0afab8ddc2071e41dc",
+      "unchanged": true
+    }
+  },
+  "f01_approved_hashes": {
+    "png": "9d34a7d5d9b798ba9b60b44af4621fb070a7f1487149aa5a00980ac1cb9c164c",
+    "pdf": "2edc68da71aa9b4a849c67ca4b132b77ed3c6b1f8820721af85805382d73e05a",
+    "svg": "46d5b4a6c29fc3594f29bd8957f2bc1ea3528e8270df5a53f511e0408da3971b"
+  },
+  "adjacent_pdf_checks": [
+    {
+      "id": "F01",
+      "hash": "2edc68da71aa9b4a849c67ca4b132b77ed3c6b1f8820721af85805382d73e05a",
+      "same_as_output": true
+    },
+    {
+      "id": "F02",
+      "hash": "7ad74883ffab3a55ba054561c56775377359a9e1979b52bbc0d50caef516c8b4",
+      "same_as_output": true
+    },
+    {
+      "id": "F03",
+      "hash": "0a476f3cbea2f9e2daeee3650e50f8b271b2c95537924ac5af4593b7222653e7",
+      "same_as_output": true
+    },
+    {
+      "id": "F04",
+      "hash": "d6ecdb55cf818697359ed957fa9425e872179e08e9ace90661a856d7876977d1",
+      "same_as_output": true
+    },
+    {
+      "id": "F05",
+      "hash": "733c206d873ef1bcf5433d8bea15f1c6c68379131966815c457be8419279b6ba",
+      "same_as_output": true
+    },
+    {
+      "id": "F06",
+      "hash": "bb1ac13ed5f0cbd7018e58f8a49bb68ab9576839df22fdb78a11202c64e4af32",
+      "same_as_output": true
+    },
+    {
+      "id": "F07",
+      "hash": "83fec2129584c0e4d895f3e2e21160e8cde0be098c2ec0f3461f6aeb0bc8a5c3",
+      "same_as_output": true
+    },
+    {
+      "id": "F08",
+      "hash": "97cfd8e898ced72db431f8246dfa3901a86b922b3200126a6c34c8f07a8e6841",
+      "same_as_output": true
+    },
+    {
+      "id": "F09",
+      "hash": "fa00ad4af4c57d6eeebe249b70c16dcf27cf6c0b81f2648fa0797a17cd017e0c",
+      "same_as_output": true
+    },
+    {
+      "id": "F10",
+      "hash": "2cf88d4f01792747ad8b14eb26978ce29364f96fb38f255abce4b36b1bd491a9",
+      "same_as_output": true
+    },
+    {
+      "id": "F11",
+      "hash": "82ae839bdef326a31adac8be0738bddb7624d88ee30302229fd830b10af62a10",
+      "same_as_output": true
+    },
+    {
+      "id": "F12",
+      "hash": "75205d0edc836e74f6b2773f00d033403cd0a6a921b3c6fb298d3fd7ec5d5f5c",
+      "same_as_output": true
+    },
+    {
+      "id": "F13",
+      "hash": "7ad90ac0326aa228fc8b7a81fa30c0affafb7e962bf8c287af381b9da05f27c3",
+      "same_as_output": true
+    },
+    {
+      "id": "F14",
+      "hash": "cc24a1dbd6476496ce661aa91d657ad38116243912a76cdd72495e575147f5a0",
+      "same_as_output": true
+    },
+    {
+      "id": "F15",
+      "hash": "8e3cf4ead679f8cf44533eb57d70f2468d1aaffdf91471a4276ae228a6d203b5",
+      "same_as_output": true
+    },
+    {
+      "id": "F16",
+      "hash": "ec781bdbf15998382c35eca70119a60c0537dd30d10d08c3569f989bebf68156",
+      "same_as_output": true
+    },
+    {
+      "id": "F17",
+      "hash": "bac6f3dd4f435d537f7cd74d6feff3b50ce38f42a377942e0d1f73bf699c43b8",
+      "same_as_output": true
+    },
+    {
+      "id": "F18",
+      "hash": "c484f3a978f65d8f44dd00f05703f18c2963b80380a84307994f009bf0662055",
+      "same_as_output": true
+    },
+    {
+      "id": "F19",
+      "hash": "9b4bad1c561baa279696dc9273b69669e10bc188bbff65d92ab610c1c512681a",
+      "same_as_output": true
+    },
+    {
+      "id": "F20",
+      "hash": "d598a91730a613f39613a879d6d5fd739c98a2289d952cbaaf7087e6b829c9e5",
+      "same_as_output": true
+    },
+    {
+      "id": "F21",
+      "hash": "06916a6cef9f37e6bcea36c5c6a1b703c586a4382de0256bd85242cd8de0285a",
+      "same_as_output": true
+    },
+    {
+      "id": "F22",
+      "hash": "48e94ae4765b9e107f1ac939161a441dd2832fa703147db6ce8584adb99f4eb4",
+      "same_as_output": true
+    },
+    {
+      "id": "F23",
+      "hash": "91534ba8b417f77ad79dc603a0664126fe2e29155042e7926887883624cf3a26",
+      "same_as_output": true
+    },
+    {
+      "id": "F24",
+      "hash": "aa5442fd274ee7b1d6141e290df9f8c7506b77db1f9b62c9db22cbad7154b156",
+      "same_as_output": true
+    },
+    {
+      "id": "F25",
+      "hash": "88d9df8932f1fd8b608a409f8f9f25f40187f6bd12504defe314766cccdecfa1",
+      "same_as_output": true
+    },
+    {
+      "id": "F26",
+      "hash": "2ab139bd0a74e692b8579f56ebd251217ef375ef5b4ca493899250e074c85177",
+      "same_as_output": true
+    },
+    {
+      "id": "F27",
+      "hash": "3700a6b6c897eb833f1160a9d63e8202a03fd9dbebdf095c4940c6eddc08a2e5",
+      "same_as_output": true
+    },
+    {
+      "id": "F28",
+      "hash": "e38ef73f09982c356899b83bbb8300fe995e87b36138c50581c6b00bd06422fe",
+      "same_as_output": true
+    },
+    {
+      "id": "F29",
+      "hash": "366ea0073c8af3643f598d852da654b8a4f30c557657213b8579898de799f7a9",
+      "same_as_output": true
+    },
+    {
+      "id": "F30",
+      "hash": "704bbd7d65e559f1f67954a39e3343540403917b32937d169ff67b1888b461f6",
+      "same_as_output": true
+    }
+  ],
+  "production_order_checked": true,
+  "source_changes_since_preliminary_visual": [
+    {
+      "id": "F04",
+      "preliminary_source_sha256": "ec372e3a6eced6dc5c9d7784848366b2dd0bbd28b89b1c9f7444c34793c3b34c",
+      "final_source_sha256": "3de19c4ab30d99b46e328fc868cf98fa38baeb92644f89f5e2a72de01112cfed"
+    },
+    {
+      "id": "F05",
+      "preliminary_source_sha256": "a004e4a1dbcb8f7d7ec09e538ec29615ce057a2e4004127612b28d5ebc67b59e",
+      "final_source_sha256": "ddb6b0c7fd2a3cae567ec22123ef9535c84df721b0d34841017c89910baa5c43"
+    },
+    {
+      "id": "F06",
+      "preliminary_source_sha256": "a416193f31f9aa5b538e273401d028b38fc8f2ba5408eca770caafe0a16a907a",
+      "final_source_sha256": "7d6cce895de4fce5881c122c0d79a908b784121d25e0b96b9eb15a2962f3cc81"
+    },
+    {
+      "id": "F08",
+      "preliminary_source_sha256": "b2e74efe5bff4027552efeb9784ad099e5b88711a3bd6b85f3ec04ed9776f7d2",
+      "final_source_sha256": "8e8e2fbad0f3e06e38904550d3356f37a3d4e163a59e08f0e3d17d83b7629ea4"
+    },
+    {
+      "id": "F10",
+      "preliminary_source_sha256": "4cdf96b57f31999d82a429426707b1d4d15dfa043f757fdb98d8da617e15bcdf",
+      "final_source_sha256": "295435e0dc88d4edd173d2d8d7606744eebcc1c75fba4204f055be257d89a528"
+    },
+    {
+      "id": "F12",
+      "preliminary_source_sha256": "b9324d5899fd433e354ec75b8fb3fc5fb01a2b8852ddd263c16a185249dcc212",
+      "final_source_sha256": "eacb83412a652724fee667153fa73d535f2b8b45f919059c9a92014c06ff491d"
+    },
+    {
+      "id": "F13",
+      "preliminary_source_sha256": "6aa53fd5b21f3f5e8da58be223380c67dabeb89281fdfda4d35c63a80c5e348a",
+      "final_source_sha256": "3165eaf74d7a9e38f9b4eef3c8678d7d52132cd8356613145985a7070b50755d"
+    },
+    {
+      "id": "F17",
+      "preliminary_source_sha256": "3ad089d6f4993b336429e38b28ca8669f7cdf8d4e2eca3684827cbc7a556e6e9",
+      "final_source_sha256": "7a14f054421cc78d3b07d3d885423155da9cfb4be9f3f0c7352f2a085f4b197b"
+    }
+  ],
+  "statistics": {
+    "figure_count": 30,
+    "artists": 1826,
+    "texts": 506,
+    "minimum_font_pt": 8.5,
+    "height_counts_mm": {
+      "100": 2,
+      "116": 12,
+      "126": 10,
+      "140": 6
+    },
+    "pdf_raster_images": 0,
+    "svg_raster_images": 0
+  },
+  "scope": "Read-only final core manifest, original inputs, approved F01, adjacency, source versions and build-order checks."
+}

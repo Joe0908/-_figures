@@ -1,0 +1,368 @@
+{
+  "id": "F27",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "c6a8d67d3cf4827aaae391b25ee326b33c607599c56eb5aed664da7d07adbf35",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F27_kj_mechanism_and_observation.py",
+  "size_mm": [
+    170.0,
+    140.0
+  ],
+  "artist_count": 45,
+  "texts": [
+    {
+      "id": "F27.design.heading",
+      "text": "设计、验证与递送",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        127.96440972222221,
+        38.512,
+        133.0355902777778
+      ]
+    },
+    {
+      "id": "F27.design.variant.label",
+      "text": "CPS1 变异\n提前停止",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        17.057002604166673,
+        109.25173611111113,
+        30.942997395833338,
+        116.74826388888889
+      ]
+    },
+    {
+      "id": "F27.design.editor.label",
+      "text": "个体化\n编辑器",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        59.491500000000016,
+        109.25173611111113,
+        68.50850000000001,
+        116.74826388888889
+      ]
+    },
+    {
+      "id": "F27.design.test.label",
+      "text": "实验模型\n测试",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        97.98866666666667,
+        109.25173611111113,
+        110.01133333333334,
+        116.74826388888889
+      ]
+    },
+    {
+      "id": "F27.design.delivery.label",
+      "text": "脂质纳米颗粒\n递送肝细胞",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        135.983,
+        109.25173611111113,
+        154.01700000000002,
+        116.74826388888889
+      ]
+    },
+    {
+      "id": "F27.mechanism.heading",
+      "text": "进入肝细胞后：拟实现的目标机制",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        95.90538194444446,
+        56.165,
+        100.09461805555556
+      ]
+    },
+    {
+      "id": "F27.mechanism.sequence_label",
+      "text": "目标碱基改写",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        23.983000000000004,
+        74.12586805555556,
+        42.017,
+        77.87413194444444
+      ]
+    },
+    {
+      "id": "F27.mechanism.cps1.label",
+      "text": "拟增加完整 CPS1",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        74.89365885416667,
+        83.01562499999999,
+        99.10634114583334,
+        86.98437499999999
+      ]
+    },
+    {
+      "id": "F27.mechanism.function.label",
+      "text": "拟改善\n氮处理功能",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        137.06250000000003,
+        81.03124999999999,
+        152.93750000000003,
+        88.96874999999999
+      ]
+    },
+    {
+      "id": "F27.observation.heading",
+      "text": "原稿报告的观察：单名患者",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        62.46440972222223,
+        54.767999999999994,
+        67.53559027777779
+      ]
+    },
+    {
+      "id": "F27.early.date",
+      "text": "2025 年早期临床报告",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#827592",
+      "extent_mm": [
+        11.000000000000002,
+        49.905381944444436,
+        42.623,
+        54.09461805555555
+      ]
+    },
+    {
+      "id": "F27.early.observed",
+      "text": "更多膳食蛋白质\n部分清除氮药物减少\n未报告严重治疗相关不良事件",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        24.463166666666673,
+        32.37760416666667,
+        63.53683333333334,
+        43.622395833333336
+      ]
+    },
+    {
+      "id": "F27.early.boundary",
+      "text": "一位患者的早期结果",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        30.474500000000006,
+        23.125868055555554,
+        57.5255,
+        26.874131944444446
+      ]
+    },
+    {
+      "id": "F27.later.date",
+      "text": "2026 年医院一周年更新",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#827592",
+      "extent_mm": [
+        93.00000000000001,
+        49.905381944444436,
+        127.96733333333334,
+        54.09461805555555
+      ]
+    },
+    {
+      "id": "F27.later.observed",
+      "text": "回家后能够行走、说话\n继续达到新的发育里程碑",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        109.46883333333334,
+        35.251736111111114,
+        142.53116666666668,
+        42.74826388888889
+      ]
+    },
+    {
+      "id": "F27.later.boundary",
+      "text": "医院更新，非长期疗效结论",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        107.96600000000002,
+        23.125868055555554,
+        144.03400000000002,
+        26.874131944444446
+      ]
+    },
+    {
+      "id": "F27.scope.note",
+      "text": "单人早期结果与后续更新均不等于已治愈；长期安全与持续获益仍待观察。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000001,
+        6.1258680555555545,
+        105.18699999999998,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "design.step.0",
+      "kind": "process",
+      "source": "variant",
+      "target": "editor",
+      "label": null
+    },
+    {
+      "id": "design.step.1",
+      "kind": "process",
+      "source": "editor",
+      "target": "test",
+      "label": null
+    },
+    {
+      "id": "design.step.2",
+      "kind": "process",
+      "source": "test",
+      "target": "delivery",
+      "label": null
+    },
+    {
+      "id": "mechanism.sequence_to_protein",
+      "kind": "conditional",
+      "source": "mechanism.sequence",
+      "target": "mechanism.cps1",
+      "label": null
+    },
+    {
+      "id": "mechanism.protein_to_function",
+      "kind": "conditional",
+      "source": "mechanism.cps1",
+      "target": "mechanism.function",
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F27",
+    "title": "KJ 的分子修复与临床观察",
+    "source_paragraphs": "P1108–P1114 CPS1缺乏与氮处理；P1119–P1124设计、实验测试与脂质纳米颗粒递送；P1125早期单人报告；P1126后续医院更新；P1127–P1131明确不能写成确定治愈。",
+    "cognitive_task": "个体化编辑把分子设计推进到人体，但单人早期观察与后续更新仍需同长期安全和持续获益分开判断。",
+    "layout_rationale": "140毫米高的三个清晰层：设计验证递送；以拟实现文字和条件线表示作用目标；分别标注2025早期报告和2026医院更新的单人观察卡。",
+    "essential_objects": "CPS1变异/提前停止、个体化编辑器、实验验证、脂质纳米颗粒、肝细胞；拟恢复CPS1/氮处理链；分开的早期报告与一周年更新观察卡。",
+    "relationships": "设计与递送的过程；分子改写到功能为待验证跨层联系；临床卡为观察，不是自动因果证明；不同时间信息清楚分层。",
+    "misconceptions": "不添加编辑率、氨浓度、剂量、样本图或数值曲线；不把“未报告严重治疗相关事件”写成无风险；不写已治愈；不把医院更新当对每一机制箭头的测量证明。",
+    "components": "设计节点、过程线、目标DNA、条件机制链、紫色临床观察卡、年份标记、长期未定边界",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      140
+    ],
+    "relations_drawn": [
+      {
+        "id": "design.step.0",
+        "kind": "process",
+        "source": "variant",
+        "target": "editor",
+        "label": null
+      },
+      {
+        "id": "design.step.1",
+        "kind": "process",
+        "source": "editor",
+        "target": "test",
+        "label": null
+      },
+      {
+        "id": "design.step.2",
+        "kind": "process",
+        "source": "test",
+        "target": "delivery",
+        "label": null
+      },
+      {
+        "id": "mechanism.sequence_to_protein",
+        "kind": "conditional",
+        "source": "mechanism.sequence",
+        "target": "mechanism.cps1",
+        "label": null
+      },
+      {
+        "id": "mechanism.protein_to_function",
+        "kind": "conditional",
+        "source": "mechanism.cps1",
+        "target": "mechanism.function",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        3307
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        140.0000032212999
+      ],
+      "images": 0,
+      "vector_paths": 35,
+      "fonts": [
+        {
+          "name": "GUOVDZ+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 25,
+      "images": 0,
+      "semantic_ids": 45,
+      "font_subset_glyphs": 152
+    }
+  },
+  "output_hashes": {
+    "png": "3b0bcd5f94d52d8ca28e0871700514d245da518dae7709010756c4e983ff0809",
+    "pdf": "3700a6b6c897eb833f1160a9d63e8202a03fd9dbebdf095c4940c6eddc08a2e5",
+    "svg": "c203f1fdada93c7a800ac2d8f83721fb0c2016bf3b1ec5ac5dbdad3a7c6f0285"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

@@ -1,0 +1,947 @@
+{
+  "figure": {
+    "figure_id": "F01",
+    "title": "基因组 染色体 DNA 和基因的关系",
+    "source_paragraphs": [
+      "P0034–P0042",
+      "P0044",
+      "P0053–P0064"
+    ],
+    "quantitative": false,
+    "relationships": [
+      {
+        "kind": "containment",
+        "source": "F01.cell.boundary",
+        "target": "F01.nucleus.boundary",
+        "evidence": "P0034–P0036"
+      },
+      {
+        "kind": "collection",
+        "source": "F01.genome.set_bracket",
+        "target": "F01.genome.label",
+        "evidence": "P0041–P0042"
+      },
+      {
+        "kind": "conceptual_zoom",
+        "source": "F01.chromosome_example.dna",
+        "target": "F01.organised_chromosome.dna",
+        "evidence": "P0037–P0039"
+      },
+      {
+        "kind": "organisation",
+        "source": "F01.organised_chromosome.dna",
+        "target": "F01.chromosome.label",
+        "evidence": "P0036–P0038,P0042"
+      },
+      {
+        "kind": "conceptual_zoom",
+        "source": "F01.zoom.dna.frame",
+        "target": "F01.dna.backbone.upper",
+        "evidence": "P0039–P0040"
+      },
+      {
+        "kind": "region_on_sequence",
+        "source": "F01.dna.gene_region",
+        "target": "F01.dna.backbone.upper",
+        "evidence": "P0039–P0040"
+      }
+    ],
+    "layout": {
+      "cell_center": "(32, 59)",
+      "cell_size": "(49, 45)",
+      "nucleus_center": "(33, 59)",
+      "nucleus_size": "(30, 28)",
+      "chromosome_box": "Box(x=84, y=62, w=73, h=15)",
+      "chromosome_selection": "Box(x=35, y=56, w=12, h=10)",
+      "dna_selection": "Box(x=109, y=60, w=13, h=18)",
+      "dna_box": "Box(x=83, y=33, w=76, h=4.5)",
+      "gene_x_mm": "108",
+      "gene_width_mm": "26",
+      "gene_label_y_mm": "22"
+    },
+    "limits": "Conceptual, not to scale; only some nuclear chromosomes shown; no actual HBB sequence or base-pair count represented.",
+    "color_system": {
+      "version": "1.0",
+      "palette": {
+        "name": "海青与铜",
+        "primary": "#2F6174",
+        "secondary": "#6B8B7A",
+        "accent": "#A6633F",
+        "supplement": "#827592",
+        "neutral": "#26353E",
+        "background": "#FFFFFF"
+      },
+      "tuning": {
+        "cell_fill_weight": 0.08,
+        "nucleus_fill_weight": 0.1,
+        "nucleus_edge_weight": 0.76,
+        "secondary_dna_weight": 0.75,
+        "protein_fill_weight": 0.16,
+        "gene_fill_weight": 0.18,
+        "muted_weight": 0.7
+      },
+      "scope": "Color-only application; existing geometry, text and relationships preserved."
+    }
+  },
+  "size_mm": [
+    170,
+    100
+  ],
+  "font": {
+    "family": "Noto Sans SC",
+    "path": "fonts/NotoSansSC-Regular.ttf",
+    "sha256": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2",
+    "numpy": "2.3.5"
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F01_genome_chromosome_dna_gene.py": "dc45cbec3d00e84cc6e20df8e4c277592df36211afe1f87e278cee4f63a37742",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F01_genome_chromosome_dna_gene.png",
+      "sha256": "9d34a7d5d9b798ba9b60b44af4621fb070a7f1487149aa5a00980ac1cb9c164c"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F01_genome_chromosome_dna_gene.pdf",
+      "sha256": "2edc68da71aa9b4a849c67ca4b132b77ed3c6b1f8820721af85805382d73e05a"
+    },
+    "svg": {
+      "path": "outputs/svg/F01_genome_chromosome_dna_gene.svg",
+      "sha256": "46d5b4a6c29fc3594f29bd8957f2bc1ea3528e8270df5a53f511e0408da3971b"
+    }
+  },
+  "adjacent_pdf_sha256": "2edc68da71aa9b4a849c67ca4b132b77ed3c6b1f8820721af85805382d73e05a",
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 77,
+    "text_count": 14,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F01.panel.set": [
+        6.0,
+        87.9644,
+        34.448,
+        93.0356
+      ],
+      "F01.cell.boundary": [
+        7.5,
+        36.5,
+        56.5,
+        81.5
+      ],
+      "F01.nucleus.boundary": [
+        18.0,
+        45.0,
+        48.0,
+        73.0
+      ],
+      "F01.cell.label": [
+        11.0,
+        81.9054,
+        24.3773,
+        86.0946
+      ],
+      "F01.nucleus.label": [
+        27.2375,
+        74.0156,
+        36.7625,
+        77.9844
+      ],
+      "F01.nucleus.other.0.dna": [
+        22.0,
+        61.1,
+        31.0,
+        65.9
+      ],
+      "F01.nucleus.other.1.dna": [
+        22.0,
+        52.1,
+        32.0,
+        56.9
+      ],
+      "F01.nucleus.other.2.dna": [
+        33.0,
+        50.1,
+        42.0,
+        53.9
+      ],
+      "F01.chromosome_example.dna": [
+        36.0,
+        58.1,
+        46.0,
+        63.9
+      ],
+      "F01.zoom.chromosome.frame": [
+        35.0,
+        56.0,
+        47.0,
+        66.0
+      ],
+      "F01.genome.set_bracket": [
+        19.0,
+        43.0,
+        48.0,
+        44.5
+      ],
+      "F01.genome.label_leader": [
+        33.5,
+        33.0,
+        33.5,
+        43.0
+      ],
+      "F01.genome.label": [
+        27.404,
+        25.9644,
+        39.596,
+        31.0356
+      ],
+      "F01.genome.definition": [
+        23.4035,
+        19.9054,
+        43.5965,
+        24.0946
+      ],
+      "F01.zoom.chromosome.link.0": [
+        47.0,
+        66.0,
+        84.0,
+        77.0
+      ],
+      "F01.zoom.chromosome.link.1": [
+        47.0,
+        56.0,
+        84.0,
+        62.0
+      ],
+      "F01.zoom.chromosome.label": [
+        60.9943,
+        74.1259,
+        67.0057,
+        77.8741
+      ],
+      "F01.chromosome.label": [
+        80.0,
+        87.9644,
+        100.32,
+        93.0356
+      ],
+      "F01.chromosome.definition": [
+        80.0,
+        82.5156,
+        121.3597,
+        86.4844
+      ],
+      "F01.organised_chromosome.protein.0": [
+        94.0667,
+        67.4,
+        98.2667,
+        71.6
+      ],
+      "F01.organised_chromosome.protein.1": [
+        118.4,
+        67.4,
+        122.6,
+        71.6
+      ],
+      "F01.organised_chromosome.protein.2": [
+        142.7333,
+        67.4,
+        146.9333,
+        71.6
+      ],
+      "F01.organised_chromosome.dna": [
+        84.0,
+        63.1,
+        157.0,
+        75.9
+      ],
+      "F01.organised_dna.label": [
+        87.4703,
+        53.6259,
+        96.5297,
+        57.3741
+      ],
+      "F01.organised_dna.leader": [
+        92.0,
+        59.0,
+        100.0,
+        63.3
+      ],
+      "F01.protein.label": [
+        144.9887,
+        53.6259,
+        157.0113,
+        57.3741
+      ],
+      "F01.protein.leader": [
+        144.8333,
+        59.0,
+        151.0,
+        69.5
+      ],
+      "F01.zoom.dna.frame": [
+        109.0,
+        60.0,
+        122.0,
+        78.0
+      ],
+      "F01.zoom.dna.link.0": [
+        83.0,
+        39.5,
+        109.0,
+        60.0
+      ],
+      "F01.zoom.dna.link.1": [
+        122.0,
+        39.5,
+        159.0,
+        60.0
+      ],
+      "F01.dna.label": [
+        112.5757,
+        42.9054,
+        129.4243,
+        47.0946
+      ],
+      "F01.dna.gene_region": [
+        108.0,
+        32.4,
+        134.0,
+        38.1
+      ],
+      "F01.dna.backbone.upper": [
+        83.0,
+        37.5,
+        159.0,
+        37.5
+      ],
+      "F01.dna.gene.upper": [
+        108.0,
+        37.5,
+        134.0,
+        37.5
+      ],
+      "F01.dna.continuation.upper.left": [
+        80.5,
+        37.5,
+        82.0,
+        37.5
+      ],
+      "F01.dna.continuation.upper.right": [
+        160.0,
+        37.5,
+        161.5,
+        37.5
+      ],
+      "F01.dna.backbone.lower": [
+        83.0,
+        33.0,
+        159.0,
+        33.0
+      ],
+      "F01.dna.gene.lower": [
+        108.0,
+        33.0,
+        134.0,
+        33.0
+      ],
+      "F01.dna.continuation.lower.left": [
+        80.5,
+        33.0,
+        82.0,
+        33.0
+      ],
+      "F01.dna.continuation.lower.right": [
+        160.0,
+        33.0,
+        161.5,
+        33.0
+      ],
+      "F01.dna.pair.00": [
+        84.5,
+        33.0,
+        84.5,
+        37.5
+      ],
+      "F01.dna.pair.01": [
+        86.8,
+        33.0,
+        86.8,
+        37.5
+      ],
+      "F01.dna.pair.02": [
+        89.1,
+        33.0,
+        89.1,
+        37.5
+      ],
+      "F01.dna.pair.03": [
+        91.4,
+        33.0,
+        91.4,
+        37.5
+      ],
+      "F01.dna.pair.04": [
+        93.7,
+        33.0,
+        93.7,
+        37.5
+      ],
+      "F01.dna.pair.05": [
+        96.0,
+        33.0,
+        96.0,
+        37.5
+      ],
+      "F01.dna.pair.06": [
+        98.3,
+        33.0,
+        98.3,
+        37.5
+      ],
+      "F01.dna.pair.07": [
+        100.6,
+        33.0,
+        100.6,
+        37.5
+      ],
+      "F01.dna.pair.08": [
+        102.9,
+        33.0,
+        102.9,
+        37.5
+      ],
+      "F01.dna.pair.09": [
+        105.2,
+        33.0,
+        105.2,
+        37.5
+      ],
+      "F01.dna.pair.10": [
+        107.5,
+        33.0,
+        107.5,
+        37.5
+      ],
+      "F01.dna.pair.11": [
+        109.8,
+        33.0,
+        109.8,
+        37.5
+      ],
+      "F01.dna.pair.12": [
+        112.1,
+        33.0,
+        112.1,
+        37.5
+      ],
+      "F01.dna.pair.13": [
+        114.4,
+        33.0,
+        114.4,
+        37.5
+      ],
+      "F01.dna.pair.14": [
+        116.7,
+        33.0,
+        116.7,
+        37.5
+      ],
+      "F01.dna.pair.15": [
+        119.0,
+        33.0,
+        119.0,
+        37.5
+      ],
+      "F01.dna.pair.16": [
+        121.3,
+        33.0,
+        121.3,
+        37.5
+      ],
+      "F01.dna.pair.17": [
+        123.6,
+        33.0,
+        123.6,
+        37.5
+      ],
+      "F01.dna.pair.18": [
+        125.9,
+        33.0,
+        125.9,
+        37.5
+      ],
+      "F01.dna.pair.19": [
+        128.2,
+        33.0,
+        128.2,
+        37.5
+      ],
+      "F01.dna.pair.20": [
+        130.5,
+        33.0,
+        130.5,
+        37.5
+      ],
+      "F01.dna.pair.21": [
+        132.8,
+        33.0,
+        132.8,
+        37.5
+      ],
+      "F01.dna.pair.22": [
+        135.1,
+        33.0,
+        135.1,
+        37.5
+      ],
+      "F01.dna.pair.23": [
+        137.4,
+        33.0,
+        137.4,
+        37.5
+      ],
+      "F01.dna.pair.24": [
+        139.7,
+        33.0,
+        139.7,
+        37.5
+      ],
+      "F01.dna.pair.25": [
+        142.0,
+        33.0,
+        142.0,
+        37.5
+      ],
+      "F01.dna.pair.26": [
+        144.3,
+        33.0,
+        144.3,
+        37.5
+      ],
+      "F01.dna.pair.27": [
+        146.6,
+        33.0,
+        146.6,
+        37.5
+      ],
+      "F01.dna.pair.28": [
+        148.9,
+        33.0,
+        148.9,
+        37.5
+      ],
+      "F01.dna.pair.29": [
+        151.2,
+        33.0,
+        151.2,
+        37.5
+      ],
+      "F01.dna.pair.30": [
+        153.5,
+        33.0,
+        153.5,
+        37.5
+      ],
+      "F01.dna.pair.31": [
+        155.8,
+        33.0,
+        155.8,
+        37.5
+      ],
+      "F01.dna.pair.32": [
+        158.1,
+        33.0,
+        158.1,
+        37.5
+      ],
+      "F01.gene.bracket": [
+        108.0,
+        28.0,
+        134.0,
+        29.5
+      ],
+      "F01.gene.label": [
+        112.3428,
+        19.4644,
+        129.6572,
+        24.5356
+      ],
+      "F01.gene.definition": [
+        107.5592,
+        13.9054,
+        134.4408,
+        18.0946
+      ],
+      "F01.scope.note": [
+        6.0,
+        6.1259,
+        105.2293,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "errors": [],
+    "png_pixels": [
+      4015,
+      2362
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_mm": [
+      170.00000237358938,
+      100.00000076293945
+    ],
+    "pdf_pages": 1,
+    "pdf_raster_images": 0,
+    "pdf_fonts": [
+      {
+        "name": "HJNKAX+NotoSansSC-Regular",
+        "type": "Type0",
+        "embedded": true
+      }
+    ],
+    "pdf_vector_paths": 64,
+    "svg_mm": [
+      170.00000007777777,
+      100.00000002499999
+    ],
+    "svg_text_count": 14,
+    "svg_font": "Embedded WOFF subset with text retained; full TTF supplied for editors."
+  },
+  "artists": {
+    "F01.panel.set": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.cell.boundary": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F01.nucleus.boundary": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F01.cell.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.nucleus.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.nucleus.other.0.dna": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.nucleus.other.1.dna": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.nucleus.other.2.dna": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.chromosome_example.dna": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.zoom.chromosome.frame": {
+      "type": "FancyBboxPatch",
+      "role": "zoom"
+    },
+    "F01.genome.set_bracket": {
+      "type": "Line2D",
+      "role": "set_or_region"
+    },
+    "F01.genome.label_leader": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.genome.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.genome.definition": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.zoom.chromosome.link.0": {
+      "type": "Line2D",
+      "role": "zoom"
+    },
+    "F01.zoom.chromosome.link.1": {
+      "type": "Line2D",
+      "role": "zoom"
+    },
+    "F01.zoom.chromosome.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.chromosome.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.chromosome.definition": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.organised_chromosome.protein.0": {
+      "type": "Circle",
+      "role": "protein"
+    },
+    "F01.organised_chromosome.protein.1": {
+      "type": "Circle",
+      "role": "protein"
+    },
+    "F01.organised_chromosome.protein.2": {
+      "type": "Circle",
+      "role": "protein"
+    },
+    "F01.organised_chromosome.dna": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.organised_dna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.organised_dna.leader": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.protein.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.protein.leader": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.zoom.dna.frame": {
+      "type": "FancyBboxPatch",
+      "role": "zoom"
+    },
+    "F01.zoom.dna.link.0": {
+      "type": "Line2D",
+      "role": "zoom"
+    },
+    "F01.zoom.dna.link.1": {
+      "type": "Line2D",
+      "role": "zoom"
+    },
+    "F01.dna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.dna.gene_region": {
+      "type": "Rectangle",
+      "role": "region_fill"
+    },
+    "F01.dna.backbone.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.gene.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.continuation.upper.left": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.continuation.upper.right": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.backbone.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.gene.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.continuation.lower.left": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.continuation.lower.right": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.00": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.01": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.02": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.03": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.04": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.05": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.06": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.07": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.08": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.09": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.11": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.12": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.13": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.14": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.15": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.16": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.17": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.18": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.19": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.20": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.21": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.22": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.23": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.24": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.25": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.26": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.27": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.28": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.29": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.30": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.31": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.dna.pair.32": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F01.gene.bracket": {
+      "type": "Line2D",
+      "role": "set_or_region"
+    },
+    "F01.gene.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.gene.definition": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F01.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "not_verified": [
+    "Real novice reader five-second test",
+    "Physical print proof",
+    "Tavotto application round-trip"
+  ]
+}

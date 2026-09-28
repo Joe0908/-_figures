@@ -1,0 +1,343 @@
+{
+  "id": "F11",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "31b3adc0b4929c621867b32e435996f731e56b266248d161e3ad1e03d7256a00",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F11_cell_programs.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 55,
+  "texts": [
+    {
+      "id": "F11.shared.heading",
+      "text": "相近的信息背景，不同的使用程序",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        104.46440972222221,
+        66.96000000000001,
+        109.53559027777777
+      ]
+    },
+    {
+      "id": "F11.column.0",
+      "text": "相近 DNA",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        19.247833333333343,
+        94.015625,
+        32.752166666666675,
+        97.984375
+      ]
+    },
+    {
+      "id": "F11.column.1",
+      "text": "调控状态",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        58.65000000000002,
+        94.015625,
+        71.35000000000002,
+        97.984375
+      ]
+    },
+    {
+      "id": "F11.column.2",
+      "text": "RNA 与蛋白",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        99.74500000000002,
+        94.015625,
+        116.25500000000004,
+        97.984375
+      ]
+    },
+    {
+      "id": "F11.column.3",
+      "text": "细胞工作",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        141.65,
+        94.015625,
+        154.35,
+        97.984375
+      ]
+    },
+    {
+      "id": "F11.neuron.cell",
+      "text": "神经元",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        21.23750000000001,
+        87.015625,
+        30.76250000000001,
+        90.984375
+      ]
+    },
+    {
+      "id": "F11.neuron.regulation.label",
+      "text": "可接近区域\n与调控组合 A",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        55.75016666666669,
+        72.03125000000001,
+        74.24983333333336,
+        79.96875000000001
+      ]
+    },
+    {
+      "id": "F11.neuron.products.label",
+      "text": "组合 A",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        103.51266666666669,
+        81.015625,
+        112.48733333333337,
+        84.984375
+      ]
+    },
+    {
+      "id": "F11.neuron.function.label",
+      "text": "信号传递",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        141.65,
+        74.01562500000001,
+        154.35,
+        77.98437500000001
+      ]
+    },
+    {
+      "id": "F11.skin.cell",
+      "text": "皮肤细胞",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        19.650000000000013,
+        50.01562499999999,
+        32.35000000000001,
+        53.98437499999999
+      ]
+    },
+    {
+      "id": "F11.skin.regulation.label",
+      "text": "可接近区域\n与调控组合 B",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        55.66550000000002,
+        35.03125,
+        74.33450000000002,
+        42.96875
+      ]
+    },
+    {
+      "id": "F11.skin.products.label",
+      "text": "组合 B",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        103.42800000000001,
+        44.015625,
+        112.57200000000002,
+        47.984375
+      ]
+    },
+    {
+      "id": "F11.skin.function.label",
+      "text": "屏障与更新",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        140.0625,
+        37.015625,
+        155.9375,
+        40.984375
+      ]
+    },
+    {
+      "id": "F11.scope.note",
+      "text": "示意：DNA高度相似；图符不是实测数量，也不表示单一基因决定细胞身份。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.1258680555555545,
+        108.23499999999999,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "neuron.influence.0",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "neuron.influence.1",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "neuron.influence.2",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "skin.influence.0",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "skin.influence.1",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "skin.influence.2",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F11",
+    "title": "同一基因组运行不同细胞程序",
+    "source_paragraphs": "P0276–P0279 神经元/皮肤细胞DNA相近，分化非大规模删除；P0301–P0314 使用的数量、时序、版本及调控状态不同，形成不同结构行为。",
+    "cognitive_task": "相近基因组在不同调控环境中运行不同表达程序，产生不同分子组合与细胞行为。",
+    "layout_rationale": "170×116 mm。两行四列同位对照：相近 DNA、调控状态、RNA 与蛋白组合、细胞工作。神经元与皮肤细胞保留同形 DNA，A/B 标签及分子组合图区分使用程序；每行以三条条件影响线连接，行间细虚线仅用于分隔。",
+    "essential_objects": "神经元与皮肤细胞两条平行轨、相近DNA、不同可接近区域/调控组合、RNA与蛋白组合、信号传递与屏障功能。",
+    "relationships": "DNA相近的对应关系；调控条件差异；表达程序到结构行为的条件性影响。",
+    "misconceptions": "不称完全相同DNA适用于所有细胞；不删去未使用基因；不一基因对应一种身份；形态图只作定位不替代机制。",
+    "components": "两组平行 DNA 片段、A/B 调控节点、RNA 线段与蛋白质图符、细胞功能节点、六条条件影响边、行分隔线、非计数范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "neuron.influence.0",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "neuron.influence.1",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "neuron.influence.2",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.influence.0",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.influence.1",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.influence.2",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 48,
+      "fonts": [
+        {
+          "name": "GFYVSM+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 16,
+      "images": 0,
+      "semantic_ids": 55,
+      "font_subset_glyphs": 74
+    }
+  },
+  "output_hashes": {
+    "png": "27c082e3ea32223403dcf67a779e01960611b0ff8104f0eadada4b1dee1f7e5a",
+    "pdf": "82ae839bdef326a31adac8be0738bddb7624d88ee30302229fd830b10af62a10",
+    "svg": "05807866d3b51864e6345da7b742d1cb9a3b16905282f4d3fad74b6b2c6dc291"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

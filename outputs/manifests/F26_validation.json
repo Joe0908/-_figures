@@ -1,0 +1,816 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F26",
+    "title": "引导 RNA 定位与执行工具的不同任务",
+    "source_paragraphs": "P1073–P1087定位/执行分开，切割后仍需细胞修复；P1089–P1103碱基编辑借定位而换执行工具；P1134–P1154后文再讲不切DNA的dCas9调控概念验证。",
+    "cognitive_task": "可编程定位把工具带到指定区域，随后执行的切割、碱基改写或调控是可区分的任务。",
+    "layout_rationale": "左侧空间定位模块连接右侧两种执行面板；上方切开DNA后独立进入细胞修复与不同可能结果，下方连续DNA表现碱基改写。",
+    "essential_objects": "DNA目标区域、引导RNA、定位载体、切割工具与碱基编辑工具；可选灰色调控工具预告；切割后的修复阶段。",
+    "relationships": "序列识别/定位不等于执行；不同工具分支；切割后多种修复可能；碱基改写不等于任意地址任意字母。",
+    "misconceptions": "不画100%精准靶心；不把Cas9剪切直接连到正确序列；不把所有工具都画断双链；未指定DNA序列用抽象位点避免技术设计。",
+    "components": "DNA目标区域、引导RNA识别短线、定位载体、无箭头工具选择线、断链、修复分支、连续链局部改写",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "tool_branch.cut",
+        "kind": "order",
+        "source": "navigation",
+        "target": "cut",
+        "label": null
+      },
+      {
+        "id": "tool_branch.base",
+        "kind": "order",
+        "source": "navigation",
+        "target": "base",
+        "label": null
+      },
+      {
+        "id": "cut.to_repair",
+        "kind": "process",
+        "source": "cut.dna",
+        "target": "cut.repair",
+        "label": null
+      },
+      {
+        "id": "repair.indel",
+        "kind": "conditional",
+        "source": "cut.repair",
+        "target": "repair.indel_result",
+        "label": null
+      },
+      {
+        "id": "repair.template",
+        "kind": "conditional",
+        "source": "cut.repair",
+        "target": "repair.template_result",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 69,
+    "text_count": 13,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F26.title": [
+        6.0,
+        113.9644,
+        62.896,
+        119.0356
+      ],
+      "F26.navigation_frame": [
+        6.0,
+        31.0,
+        66.0,
+        110.0
+      ],
+      "F26.cut_frame": [
+        78.0,
+        62.0,
+        164.0,
+        112.0
+      ],
+      "F26.base_frame": [
+        78.0,
+        24.0,
+        164.0,
+        57.0
+      ],
+      "F26.navigation.heading": [
+        23.7022,
+        99.7951,
+        48.2978,
+        104.2049
+      ],
+      "F26.navigation.cas_carrier": [
+        22.0,
+        57.0,
+        48.0,
+        81.0
+      ],
+      "F26.navigation.target.region": [
+        31.0,
+        64.4,
+        39.0,
+        69.6
+      ],
+      "F26.navigation.target.upper": [
+        13.0,
+        69.0,
+        57.0,
+        69.0
+      ],
+      "F26.navigation.target.lower": [
+        13.0,
+        65.0,
+        57.0,
+        65.0
+      ],
+      "F26.navigation.target.pair.0": [
+        15.0,
+        65.0,
+        15.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.1": [
+        18.0,
+        65.0,
+        18.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.2": [
+        21.0,
+        65.0,
+        21.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.3": [
+        24.0,
+        65.0,
+        24.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.4": [
+        27.0,
+        65.0,
+        27.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.5": [
+        30.0,
+        65.0,
+        30.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.6": [
+        33.0,
+        65.0,
+        33.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.7": [
+        36.0,
+        65.0,
+        36.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.8": [
+        39.0,
+        65.0,
+        39.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.9": [
+        42.0,
+        65.0,
+        42.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.10": [
+        45.0,
+        65.0,
+        45.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.11": [
+        48.0,
+        65.0,
+        48.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.12": [
+        51.0,
+        65.0,
+        51.0,
+        69.0
+      ],
+      "F26.navigation.target.pair.13": [
+        54.0,
+        65.0,
+        54.0,
+        69.0
+      ],
+      "F26.navigation.guide": [
+        28.0,
+        82.0,
+        42.0,
+        82.0
+      ],
+      "F26.navigation.guide_label": [
+        27.9727,
+        87.9054,
+        42.0273,
+        92.0946
+      ],
+      "F26.navigation.recognition.0": [
+        31.0,
+        73.0,
+        31.0,
+        79.0
+      ],
+      "F26.navigation.recognition.1": [
+        35.0,
+        73.0,
+        35.0,
+        79.0
+      ],
+      "F26.navigation.recognition.2": [
+        39.0,
+        73.0,
+        39.0,
+        79.0
+      ],
+      "F26.navigation.target_label": [
+        26.0728,
+        51.0156,
+        45.9272,
+        54.9844
+      ],
+      "F26.navigation.carrier_label": [
+        23.9773,
+        40.1259,
+        48.0227,
+        43.8741
+      ],
+      "F26.tool_branch.cut": [
+        66.0,
+        78.0,
+        78.0,
+        90.0
+      ],
+      "F26.tool_branch.base": [
+        66.0,
+        41.0,
+        78.0,
+        61.0
+      ],
+      "F26.cut.heading": [
+        83.0,
+        102.7951,
+        97.0547,
+        107.2049
+      ],
+      "F26.cut.left.upper": [
+        84.0,
+        92.0,
+        95.0,
+        92.0
+      ],
+      "F26.cut.left.lower": [
+        84.0,
+        88.0,
+        95.0,
+        88.0
+      ],
+      "F26.cut.left.pair.0": [
+        86.0,
+        88.0,
+        86.0,
+        92.0
+      ],
+      "F26.cut.left.pair.1": [
+        89.0,
+        88.0,
+        89.0,
+        92.0
+      ],
+      "F26.cut.left.pair.2": [
+        92.0,
+        88.0,
+        92.0,
+        92.0
+      ],
+      "F26.cut.right.upper": [
+        99.0,
+        92.0,
+        110.0,
+        92.0
+      ],
+      "F26.cut.right.lower": [
+        99.0,
+        88.0,
+        110.0,
+        88.0
+      ],
+      "F26.cut.right.pair.0": [
+        101.0,
+        88.0,
+        101.0,
+        92.0
+      ],
+      "F26.cut.right.pair.1": [
+        104.0,
+        88.0,
+        104.0,
+        92.0
+      ],
+      "F26.cut.right.pair.2": [
+        107.0,
+        88.0,
+        107.0,
+        92.0
+      ],
+      "F26.cut.break.upper": [
+        95.5,
+        90.0,
+        98.0,
+        94.0
+      ],
+      "F26.cut.break.lower": [
+        95.5,
+        86.0,
+        98.0,
+        90.0
+      ],
+      "F26.cut.repair.boundary": [
+        119.5,
+        84.0,
+        158.5,
+        96.0
+      ],
+      "F26.cut.repair.label": [
+        132.65,
+        88.0156,
+        145.35,
+        91.9844
+      ],
+      "F26.cut.to_repair": [
+        111.0,
+        89.4003,
+        119.0661,
+        90.5997
+      ],
+      "F26.repair.indel": [
+        124.3388,
+        76.271,
+        134.0,
+        84.0
+      ],
+      "F26.repair.template": [
+        144.0,
+        76.3265,
+        150.7143,
+        84.0
+      ],
+      "F26.repair.indel_result": [
+        113.4858,
+        67.1259,
+        128.5142,
+        70.8741
+      ],
+      "F26.repair.template_result": [
+        145.793,
+        67.1259,
+        156.207,
+        70.8741
+      ],
+      "F26.base.heading": [
+        83.0,
+        48.7951,
+        104.082,
+        53.2049
+      ],
+      "F26.base.target.region": [
+        99.0,
+        32.4,
+        105.0,
+        37.6
+      ],
+      "F26.base.target.upper": [
+        85.0,
+        37.0,
+        116.0,
+        37.0
+      ],
+      "F26.base.target.lower": [
+        85.0,
+        33.0,
+        116.0,
+        33.0
+      ],
+      "F26.base.target.pair.0": [
+        87.0,
+        33.0,
+        87.0,
+        37.0
+      ],
+      "F26.base.target.pair.1": [
+        90.0,
+        33.0,
+        90.0,
+        37.0
+      ],
+      "F26.base.target.pair.2": [
+        93.0,
+        33.0,
+        93.0,
+        37.0
+      ],
+      "F26.base.target.pair.3": [
+        96.0,
+        33.0,
+        96.0,
+        37.0
+      ],
+      "F26.base.target.pair.4": [
+        99.0,
+        33.0,
+        99.0,
+        37.0
+      ],
+      "F26.base.target.pair.5": [
+        102.0,
+        33.0,
+        102.0,
+        37.0
+      ],
+      "F26.base.target.pair.6": [
+        105.0,
+        33.0,
+        105.0,
+        37.0
+      ],
+      "F26.base.target.pair.7": [
+        108.0,
+        33.0,
+        108.0,
+        37.0
+      ],
+      "F26.base.target.pair.8": [
+        111.0,
+        33.0,
+        111.0,
+        37.0
+      ],
+      "F26.base.target.pair.9": [
+        114.0,
+        33.0,
+        114.0,
+        37.0
+      ],
+      "F26.base.action": [
+        129.4802,
+        33.2517,
+        150.5198,
+        40.7483
+      ],
+      "F26.repair.condition": [
+        6.0,
+        14.1259,
+        101.25,
+        17.8741
+      ],
+      "F26.scope.note": [
+        6.0,
+        6.1259,
+        111.1983,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2976
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 62,
+    "svg_text_count": 14,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F26.title": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.navigation_frame": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F26.cut_frame": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F26.base_frame": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F26.navigation.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.navigation.cas_carrier": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F26.navigation.target.region": {
+      "type": "FancyBboxPatch",
+      "role": "region_fill"
+    },
+    "F26.navigation.target.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.11": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.12": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.target.pair.13": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.guide": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.navigation.guide_label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.navigation.recognition.0": {
+      "type": "Line2D",
+      "role": "recognition"
+    },
+    "F26.navigation.recognition.1": {
+      "type": "Line2D",
+      "role": "recognition"
+    },
+    "F26.navigation.recognition.2": {
+      "type": "Line2D",
+      "role": "recognition"
+    },
+    "F26.navigation.target_label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.navigation.carrier_label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.tool_branch.cut": {
+      "type": "FancyArrowPatch",
+      "role": "order"
+    },
+    "F26.tool_branch.base": {
+      "type": "FancyArrowPatch",
+      "role": "order"
+    },
+    "F26.cut.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.cut.left.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.cut.left.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.cut.left.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.cut.left.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.cut.left.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.cut.right.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.cut.right.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.cut.right.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.cut.right.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.cut.right.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.cut.break.upper": {
+      "type": "Line2D",
+      "role": "intervention"
+    },
+    "F26.cut.break.lower": {
+      "type": "Line2D",
+      "role": "intervention"
+    },
+    "F26.cut.repair.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F26.cut.repair.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.cut.to_repair": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F26.repair.indel": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F26.repair.template": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F26.repair.indel_result": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.repair.template_result": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.base.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.base.target.region": {
+      "type": "FancyBboxPatch",
+      "role": "region_fill"
+    },
+    "F26.base.target.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.target.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.target.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.target.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.target.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.target.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.target.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.target.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.target.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.target.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.target.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.target.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F26.base.action": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.repair.condition": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F26.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F26_guide_and_execution_tools.py": "47b998819caf2df0cf776f6dc4b5f762a3bdb103fb285e7efdc07e84fa2b55b1",
+    "figure_specs/F26.json": "5095db14790e176122f3aba35f449ca5ba04010c6578a6243771edec92631b71",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F26_guide_and_execution_tools.png",
+      "sha256": "6599b9d90985560cbaeb9ae05fb04cbcde8016af7cc1c104f5b2d17377428a83"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F26_guide_and_execution_tools.pdf",
+      "sha256": "2ab139bd0a74e692b8579f56ebd251217ef375ef5b4ca493899250e074c85177"
+    },
+    "svg": {
+      "path": "outputs/svg/F26_guide_and_execution_tools.svg",
+      "sha256": "acfada655715723044acfd1d64f4f7d9d1d06c2db7e5c68bd7281b0bde3d0834"
+    }
+  },
+  "adjacent_pdf_sha256": "2ab139bd0a74e692b8579f56ebd251217ef375ef5b4ca493899250e074c85177",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

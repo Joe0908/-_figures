@@ -1,0 +1,336 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F23",
+    "title": "风险描述未来机会",
+    "source_paragraphs": "P0754–P0770今天无病与未来机会分开；P0793–P0808相似条件人群经验、年龄/遗传/暴露、个体无法预先分格、风险可更新。",
+    "cognitive_task": "风险是用相似人群经验估计特定时期的未来机会，不是对某个个体结局的预先点名。",
+    "layout_rationale": "上部人群证据与估计窗口通过观察线关联；中部个体现状分出两条非比例的未来可能；底部条件带以影响关系进入未来判断。",
+    "essential_objects": "现在状态、未来观察期、患病/未患病可能分支、遗传/年龄/暴露/状态输入、相似参照人群与估计窗口。",
+    "relationships": "时间向前；多条可能未来；条件影响机会；人群观察支持概率估计但不指认谁患病。",
+    "misconceptions": "不按两分支等宽暗示50/50（明确不按概率比例）；不把高风险画成已患病；不加遗传专用直通病路；筛查阳性不等于确诊。",
+    "components": "参照人群卡、概率估计窗、条件分支、未来状态卡、自然影响线、非比例边界注释",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "evidence.reference_to_estimate",
+        "kind": "observe",
+        "source": "reference",
+        "target": "estimate",
+        "label": null
+      },
+      {
+        "id": "future.possibility.disease",
+        "kind": "conditional",
+        "source": "individual.now",
+        "target": "future.disease",
+        "label": null
+      },
+      {
+        "id": "future.possibility.no_disease",
+        "kind": "conditional",
+        "source": "individual.now",
+        "target": "future.no_disease",
+        "label": null
+      },
+      {
+        "id": "estimate.reference_for_individual",
+        "kind": "observe",
+        "source": "estimate",
+        "target": "future.possibilities",
+        "label": null
+      },
+      {
+        "id": "conditions.influence",
+        "kind": "influence",
+        "source": "conditions",
+        "target": "future.possibilities",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 21,
+    "text_count": 10,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F23.title": [
+        6.0,
+        113.9644,
+        79.152,
+        119.0356
+      ],
+      "F23.reference.boundary": [
+        6.0,
+        90.5,
+        64.0,
+        109.5
+      ],
+      "F23.reference.label": [
+        23.2948,
+        95.8108,
+        46.7052,
+        104.1892
+      ],
+      "F23.estimate.boundary": [
+        82.0,
+        90.5,
+        162.0,
+        109.5
+      ],
+      "F23.estimate.label": [
+        105.2783,
+        95.8108,
+        138.7217,
+        104.1892
+      ],
+      "F23.evidence.reference_to_estimate": [
+        64.0,
+        100.0,
+        82.0,
+        100.0
+      ],
+      "F23.individual.now.boundary": [
+        7.5,
+        56.0,
+        48.5,
+        76.0
+      ],
+      "F23.individual.now.label": [
+        19.6392,
+        61.8108,
+        36.3608,
+        70.1892
+      ],
+      "F23.future.disease.boundary": [
+        116.0,
+        71.5,
+        162.0,
+        84.5
+      ],
+      "F23.future.disease.label": [
+        132.3113,
+        75.9054,
+        145.6887,
+        80.0946
+      ],
+      "F23.future.no_disease.boundary": [
+        116.0,
+        44.5,
+        162.0,
+        57.5
+      ],
+      "F23.future.no_disease.label": [
+        130.6392,
+        48.9054,
+        147.3608,
+        53.0946
+      ],
+      "F23.future.possibility.disease": [
+        48.5,
+        66.0,
+        115.5728,
+        78.3046
+      ],
+      "F23.future.possibility.no_disease": [
+        48.5,
+        50.7689,
+        115.5765,
+        66.0
+      ],
+      "F23.estimate.reference_for_individual": [
+        86.0,
+        79.0,
+        103.0,
+        90.5
+      ],
+      "F23.estimate.role": [
+        72.9887,
+        85.1259,
+        85.0113,
+        88.8741
+      ],
+      "F23.future.label": [
+        95.6392,
+        41.9054,
+        112.3608,
+        46.0946
+      ],
+      "F23.conditions.boundary": [
+        13.5,
+        16.0,
+        156.5,
+        36.0
+      ],
+      "F23.conditions.label": [
+        56.425,
+        22.0312,
+        113.575,
+        29.9687
+      ],
+      "F23.conditions.influence": [
+        84.4003,
+        36.0,
+        85.5997,
+        55.5661
+      ],
+      "F23.scope.note": [
+        6.0,
+        6.1259,
+        102.1813,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2976
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 15,
+    "svg_text_count": 14,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F23.title": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F23.reference.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F23.reference.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F23.estimate.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F23.estimate.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F23.evidence.reference_to_estimate": {
+      "type": "FancyArrowPatch",
+      "role": "observe"
+    },
+    "F23.individual.now.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F23.individual.now.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F23.future.disease.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F23.future.disease.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F23.future.no_disease.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F23.future.no_disease.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F23.future.possibility.disease": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F23.future.possibility.no_disease": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F23.estimate.reference_for_individual": {
+      "type": "FancyArrowPatch",
+      "role": "observe"
+    },
+    "F23.estimate.role": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F23.future.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F23.conditions.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F23.conditions.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F23.conditions.influence": {
+      "type": "FancyArrowPatch",
+      "role": "influence"
+    },
+    "F23.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F23_risk_future_possibilities.py": "27d0af24f2ebe8fc549e34afeaa6cf36aed1cd86a5e50d4b9e944bbf51001e78",
+    "figure_specs/F23.json": "4d24f62eceb0d31265cbb7e1f58ac890fe399b9607695b8e61588079c2dc5dd5",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F23_risk_future_possibilities.png",
+      "sha256": "389546406cc4123c747fa493639b25b057181f58ecb70c6573541fa398a355e0"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F23_risk_future_possibilities.pdf",
+      "sha256": "91534ba8b417f77ad79dc603a0664126fe2e29155042e7926887883624cf3a26"
+    },
+    "svg": {
+      "path": "outputs/svg/F23_risk_future_possibilities.svg",
+      "sha256": "4c3fdb60c5f76fcf2b5ac7c4ae999cce60a231994169f435b7561056a8c0d29f"
+    }
+  },
+  "adjacent_pdf_sha256": "91534ba8b417f77ad79dc603a0664126fe2e29155042e7926887883624cf3a26",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

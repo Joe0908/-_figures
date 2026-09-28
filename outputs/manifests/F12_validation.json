@@ -1,0 +1,383 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F12",
+    "title": "细胞怎样接收并回应外部信号",
+    "source_paragraphs": "P0318–P0325：邻居、激素、营养、氧气、基质输入；受体/感应分子先改已有蛋白；快速行为与较慢转录两条时间线；接收细胞与持续时间改变结果。",
+    "cognitive_task": "信号先经接收和已有分子状态变化，可快速改变行为，也可较慢地改变表达，结果取决于细胞原有状态。",
+    "layout_rationale": "170×116 mm。左侧外部输入跨入细胞边界，受体与已有蛋白状态居中；上方分支表示相对较快的既有蛋白作用，下方分支表示较慢的转录与新产物响应。顶部独立条件卡说明既有状态和信号持续时间；箭头不使用数值时间刻度。",
+    "essential_objects": "外部信号、受体/感应分子、已有蛋白状态、快速形状/移动反应、转录因子与RNA/新蛋白的慢分支、既有细胞状态。",
+    "relationships": "跨膜接收不是信号直接跳入DNA；一输入分成快慢路径；既有状态与信号时长作条件。",
+    "misconceptions": "不写所有响应固定几分钟；不把转录当每个反应必经步骤；不把不同输入都画成同一配体受体；不承诺相同信号同一结果。",
+    "components": "细胞区域边界、外部信号节点、受体／感应节点、已有蛋白状态枢纽、上／下响应分支、条件输入节点、影响与条件边、相对时间范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "input.reception",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "reception.existing",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "existing.fast",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "existing.transcription",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "transcription.products",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "conditions.response",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 25,
+    "text_count": 11,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F12.outside.heading": [
+        6.0,
+        102.4644,
+        22.256,
+        107.5356
+      ],
+      "F12.cell.boundary": [
+        44.0,
+        28.0,
+        163.0,
+        93.0
+      ],
+      "F12.cell.label": [
+        54.2375,
+        85.0156,
+        63.7625,
+        88.9844
+      ],
+      "F12.input.boundary": [
+        7.0,
+        58.5,
+        35.0,
+        73.5
+      ],
+      "F12.input.label": [
+        14.65,
+        64.0156,
+        27.35,
+        67.9844
+      ],
+      "F12.reception.boundary": [
+        48.0,
+        57.0,
+        74.0,
+        75.0
+      ],
+      "F12.reception.label": [
+        54.65,
+        62.0312,
+        67.35,
+        69.9688
+      ],
+      "F12.existing.boundary": [
+        85.5,
+        57.0,
+        114.5,
+        75.0
+      ],
+      "F12.existing.label": [
+        93.65,
+        62.0312,
+        106.35,
+        69.9688
+      ],
+      "F12.fast.boundary": [
+        128.0,
+        75.5,
+        162.0,
+        92.5
+      ],
+      "F12.fast.label": [
+        134.4802,
+        80.2517,
+        155.5198,
+        87.7483
+      ],
+      "F12.transcription.boundary": [
+        80.5,
+        30.5,
+        117.5,
+        47.5
+      ],
+      "F12.transcription.label": [
+        88.4802,
+        35.2517,
+        109.5198,
+        42.7483
+      ],
+      "F12.products.boundary": [
+        128.0,
+        30.5,
+        162.0,
+        47.5
+      ],
+      "F12.products.label": [
+        135.7078,
+        35.2517,
+        154.2922,
+        42.7483
+      ],
+      "F12.conditions.boundary": [
+        54.5,
+        98.0,
+        155.5,
+        110.0
+      ],
+      "F12.conditions.label": [
+        84.3625,
+        102.0156,
+        125.6375,
+        105.9844
+      ],
+      "F12.input.reception": [
+        36.0,
+        65.4003,
+        46.5661,
+        66.5997
+      ],
+      "F12.reception.existing": [
+        75.0,
+        65.4003,
+        83.5661,
+        66.5997
+      ],
+      "F12.existing.fast": [
+        115.0,
+        72.0,
+        126.639,
+        79.7593
+      ],
+      "F12.existing.transcription": [
+        99.4003,
+        49.4339,
+        100.5997,
+        56.0
+      ],
+      "F12.transcription.products": [
+        119.0,
+        38.4003,
+        126.5661,
+        39.5997
+      ],
+      "F12.conditions.response": [
+        103.4003,
+        77.4339,
+        104.5997,
+        97.0
+      ],
+      "F12.branch.meaning": [
+        79.3625,
+        16.0156,
+        120.6375,
+        19.9844
+      ],
+      "F12.scope.note": [
+        6.0,
+        6.1259,
+        93.7147,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2740
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 21,
+    "svg_text_count": 16,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F12.outside.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F12.cell.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F12.cell.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F12.input.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F12.input.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F12.reception.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F12.reception.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F12.existing.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F12.existing.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F12.fast.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F12.fast.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F12.transcription.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F12.transcription.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F12.products.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F12.products.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F12.conditions.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F12.conditions.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F12.input.reception": {
+      "type": "FancyArrowPatch",
+      "role": "influence"
+    },
+    "F12.reception.existing": {
+      "type": "FancyArrowPatch",
+      "role": "influence"
+    },
+    "F12.existing.fast": {
+      "type": "FancyArrowPatch",
+      "role": "influence"
+    },
+    "F12.existing.transcription": {
+      "type": "FancyArrowPatch",
+      "role": "influence"
+    },
+    "F12.transcription.products": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F12.conditions.response": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F12.branch.meaning": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F12.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F12_signal_response.py": "eacb83412a652724fee667153fa73d535f2b8b45f919059c9a92014c06ff491d",
+    "figure_specs/F12.json": "1c717f3d44ce1fc0a27b0dbdef838a315369d333c9e2c551f4f3c3b25796f693",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F12_signal_response.png",
+      "sha256": "01069ec53523bf1ecc47ff69d248a0c9c682f2ce7921ac5591578e6369fd0e38"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F12_signal_response.pdf",
+      "sha256": "75205d0edc836e74f6b2773f00d033403cd0a6a921b3c6fb298d3fd7ec5d5f5c"
+    },
+    "svg": {
+      "path": "outputs/svg/F12_signal_response.svg",
+      "sha256": "eb636a72ab4899523cff7b5e0264033106d4cb53f3dac6d4bd461eec0ca70e97"
+    }
+  },
+  "adjacent_pdf_sha256": "75205d0edc836e74f6b2773f00d033403cd0a6a921b3c6fb298d3fd7ec5d5f5c",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

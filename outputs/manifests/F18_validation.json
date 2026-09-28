@@ -1,0 +1,487 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F18",
+    "title": "相同代谢物浓度与不同代谢流",
+    "source_paragraphs": "P0527–P0540 代谢物制造、消耗、输入、输出共同影响存量；乳酸增加不能单独证明制造加快；P0543–P0544 测得结果不等于产生过程。",
+    "cognitive_task": "一个时点的存量由多种流入流出过程共同决定，浓度相同不代表周转过程相同。",
+    "layout_rationale": "170×116 mm。左右两组使用同样体积的池和相同概念数量图符，制造在上、消耗在下、输入在左、输出在右。顶部标签分别表示较慢／较快周转，四向过程箭头保持等宽；底部明确相同体积、相同浓度和单时点比较。",
+    "essential_objects": "两个相同体积的代谢物池、相同概念存量、制造/输入/消耗/输出四口；低/高周转两条件。",
+    "relationships": "物质流向池内或池外；同一时点浓度相同；两种平衡流动情形的定性差别。",
+    "misconceptions": "不画带刻度的假浓度与流速数据；过程箭头保持等宽，以“较快/较慢”文字表达定性差别，不用线宽编码未经测量的强弱；不把存量恒定说成无反应；同浓度需相同体积示意。",
+    "components": "两个相同代谢池、各六枚定性小分子图符、八条等宽物质过程箭头、制造／输入／输出／消耗标签、较慢／较快周转标题、相同状态和无实测数值说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "slower.production",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "slower.input",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "slower.output",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "slower.consumption",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "faster.production",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "faster.input",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "faster.output",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "faster.consumption",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 34,
+    "text_count": 12,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F18.slower.heading": [
+        35.872,
+        101.4644,
+        52.128,
+        106.5356
+      ],
+      "F18.slower.pool": [
+        31.0,
+        49.0,
+        57.0,
+        75.0
+      ],
+      "F18.slower.metabolite.0": [
+        36.7,
+        56.7,
+        39.3,
+        59.3
+      ],
+      "F18.slower.metabolite.1": [
+        42.7,
+        56.7,
+        45.3,
+        59.3
+      ],
+      "F18.slower.metabolite.2": [
+        48.7,
+        56.7,
+        51.3,
+        59.3
+      ],
+      "F18.slower.metabolite.3": [
+        36.7,
+        64.7,
+        39.3,
+        67.3
+      ],
+      "F18.slower.metabolite.4": [
+        42.7,
+        64.7,
+        45.3,
+        67.3
+      ],
+      "F18.slower.metabolite.5": [
+        48.7,
+        64.7,
+        51.3,
+        67.3
+      ],
+      "F18.slower.production.label": [
+        40.825,
+        92.0156,
+        47.175,
+        95.9844
+      ],
+      "F18.slower.input.label": [
+        8.825,
+        60.0156,
+        15.175,
+        63.9844
+      ],
+      "F18.slower.output.label": [
+        72.825,
+        60.0156,
+        79.175,
+        63.9844
+      ],
+      "F18.slower.consumption.label": [
+        40.825,
+        29.0156,
+        47.175,
+        32.9844
+      ],
+      "F18.slower.production": [
+        43.4003,
+        77.4339,
+        44.5997,
+        88.0
+      ],
+      "F18.slower.input": [
+        21.0,
+        61.4003,
+        28.5661,
+        62.5997
+      ],
+      "F18.slower.output": [
+        59.0,
+        61.4003,
+        66.5661,
+        62.5997
+      ],
+      "F18.slower.consumption": [
+        43.4003,
+        37.4339,
+        44.5997,
+        47.0
+      ],
+      "F18.faster.heading": [
+        115.872,
+        101.4644,
+        132.128,
+        106.5356
+      ],
+      "F18.faster.pool": [
+        111.0,
+        49.0,
+        137.0,
+        75.0
+      ],
+      "F18.faster.metabolite.0": [
+        116.7,
+        56.7,
+        119.3,
+        59.3
+      ],
+      "F18.faster.metabolite.1": [
+        122.7,
+        56.7,
+        125.3,
+        59.3
+      ],
+      "F18.faster.metabolite.2": [
+        128.7,
+        56.7,
+        131.3,
+        59.3
+      ],
+      "F18.faster.metabolite.3": [
+        116.7,
+        64.7,
+        119.3,
+        67.3
+      ],
+      "F18.faster.metabolite.4": [
+        122.7,
+        64.7,
+        125.3,
+        67.3
+      ],
+      "F18.faster.metabolite.5": [
+        128.7,
+        64.7,
+        131.3,
+        67.3
+      ],
+      "F18.faster.production.label": [
+        120.825,
+        92.0156,
+        127.175,
+        95.9844
+      ],
+      "F18.faster.input.label": [
+        88.825,
+        60.0156,
+        95.175,
+        63.9844
+      ],
+      "F18.faster.output.label": [
+        152.825,
+        60.0156,
+        159.175,
+        63.9844
+      ],
+      "F18.faster.consumption.label": [
+        120.825,
+        29.0156,
+        127.175,
+        32.9844
+      ],
+      "F18.faster.production": [
+        123.4003,
+        77.4339,
+        124.5997,
+        88.0
+      ],
+      "F18.faster.input": [
+        101.0,
+        61.4003,
+        108.5661,
+        62.5997
+      ],
+      "F18.faster.output": [
+        139.0,
+        61.4003,
+        146.5661,
+        62.5997
+      ],
+      "F18.faster.consumption": [
+        123.4003,
+        37.4339,
+        124.5997,
+        47.0
+      ],
+      "F18.equal_state": [
+        61.5897,
+        16.9054,
+        108.4103,
+        21.0946
+      ],
+      "F18.scope.note": [
+        6.0,
+        6.1259,
+        99.1757,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2740
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 31,
+    "svg_text_count": 12,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F18.slower.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F18.slower.pool": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F18.slower.metabolite.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.slower.metabolite.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.slower.metabolite.2": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.slower.metabolite.3": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.slower.metabolite.4": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.slower.metabolite.5": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.slower.production.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F18.slower.input.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F18.slower.output.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F18.slower.consumption.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F18.slower.production": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F18.slower.input": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F18.slower.output": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F18.slower.consumption": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F18.faster.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F18.faster.pool": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F18.faster.metabolite.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.faster.metabolite.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.faster.metabolite.2": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.faster.metabolite.3": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.faster.metabolite.4": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.faster.metabolite.5": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F18.faster.production.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F18.faster.input.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F18.faster.output.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F18.faster.consumption.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F18.faster.production": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F18.faster.input": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F18.faster.output": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F18.faster.consumption": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F18.equal_state": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F18.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F18_metabolic_flux.py": "81568f935300d575e7507443680adaaaee20aa6a7e95ccfaa47c25f0250cdb6c",
+    "figure_specs/F18.json": "f37042217fb2972e678ce6df305ce6b00fb8346a643e34fa452ee3476915f1d6",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F18_metabolic_flux.png",
+      "sha256": "810dd79411137b2176112114ddc24ab5958e1f9b18185aaca3c31bd76fd307aa"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F18_metabolic_flux.pdf",
+      "sha256": "c484f3a978f65d8f44dd00f05703f18c2963b80380a84307994f009bf0662055"
+    },
+    "svg": {
+      "path": "outputs/svg/F18_metabolic_flux.svg",
+      "sha256": "57b1b7438bae2e293c2f8a05187756066137d51c635792d02dab7eafbbc15b52"
+    }
+  },
+  "adjacent_pdf_sha256": "c484f3a978f65d8f44dd00f05703f18c2963b80380a84307994f009bf0662055",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

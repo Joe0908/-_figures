@@ -1,0 +1,290 @@
+{
+  "id": "F19",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "29c226033b20963648d4ef631bd92980bc37b0bc7dfc6ab49f4319da68124528",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F19_five_windows.py",
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "artist_count": 51,
+  "texts": [
+    {
+      "id": "F19.cell.label",
+      "text": "同一细胞系统",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        74.96700000000001,
+        57.905381944444436,
+        95.03300000000002,
+        62.09461805555556
+      ]
+    },
+    {
+      "id": "F19.cell.dna.label",
+      "text": "DNA 与调控状态",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        66.12033333333335,
+        64.12586805555554,
+        87.87966666666667,
+        67.87413194444443
+      ]
+    },
+    {
+      "id": "F19.cell.rna.label",
+      "text": "RNA",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        103.05783333333336,
+        64.12586805555554,
+        108.94216666666668,
+        67.87413194444443
+      ]
+    },
+    {
+      "id": "F19.cell.protein.label",
+      "text": "蛋白质",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        66.49150000000002,
+        42.12586805555554,
+        75.50850000000001,
+        45.874131944444436
+      ]
+    },
+    {
+      "id": "F19.cell.metabolite.label",
+      "text": "代谢物",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        97.49150000000002,
+        45.12586805555555,
+        106.50850000000003,
+        48.874131944444436
+      ]
+    },
+    {
+      "id": "F19.window.genome.label",
+      "text": "基因组\n序列",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        27.237500000000015,
+        107.03124999999997,
+        36.76250000000002,
+        114.96874999999997
+      ]
+    },
+    {
+      "id": "F19.window.epigenome.label",
+      "text": "表观基因组\n调控状态",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        77.06250000000001,
+        107.03124999999997,
+        92.93750000000001,
+        114.96874999999997
+      ]
+    },
+    {
+      "id": "F19.window.transcriptome.label",
+      "text": "转录组\nRNA 存量／版本",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        126.57000000000001,
+        107.03124999999997,
+        149.43000000000004,
+        114.96874999999997
+      ]
+    },
+    {
+      "id": "F19.window.proteome.label",
+      "text": "蛋白质组\n数量与状态",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        33.062500000000014,
+        18.031249999999996,
+        48.93750000000001,
+        25.96875
+      ]
+    },
+    {
+      "id": "F19.window.metabolome.label",
+      "text": "代谢组\n小分子存量",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        121.06250000000001,
+        18.031249999999996,
+        136.9375,
+        25.96875
+      ]
+    },
+    {
+      "id": "F19.scope.note",
+      "text": "“同一细胞”是认知系统；不保证同一枚细胞同时完成五类测量，各窗口也有检测范围。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.125868055555554,
+        123.22099999999999,
+        9.874131944444443
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "observe.genome",
+      "kind": "observe",
+      "source": "window.genome.boundary",
+      "target": "measure.genome",
+      "label": null
+    },
+    {
+      "id": "observe.epigenome",
+      "kind": "observe",
+      "source": "window.epigenome.boundary",
+      "target": "measure.epigenome",
+      "label": null
+    },
+    {
+      "id": "observe.transcriptome",
+      "kind": "observe",
+      "source": "window.transcriptome.boundary",
+      "target": "measure.transcriptome",
+      "label": null
+    },
+    {
+      "id": "observe.proteome",
+      "kind": "observe",
+      "source": "window.proteome.boundary",
+      "target": "measure.proteome",
+      "label": null
+    },
+    {
+      "id": "observe.metabolome",
+      "kind": "observe",
+      "source": "window.metabolome.boundary",
+      "target": "measure.metabolome",
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F19",
+    "title": "五扇窗口观察同一个细胞",
+    "source_paragraphs": "P0462–P0469 同DNA不同条件与测量范围；P0471–P0479前3窗口；P0496–P0511蛋白状态；P0527–P0540代谢存量；P0546五窗口总结。",
+    "cognitive_task": "五个窗口分别观察同一系统的序列、调控状态、RNA、蛋白与代谢存量，各有范围与盲点。",
+    "layout_rationale": "170×126 mm。中央唯一细胞系统容器内放置 DNA 与调控状态、RNA、蛋白质和代谢物；上方三窗、下方两窗分别与对应测量端口相连。紫色点线无箭头，窗口之间不连因果链；系统标签位于中央留白，避免观察线穿字。",
+    "essential_objects": "单一细胞系统容器；DNA、调控状态、RNA、蛋白数量/状态、代谢物五层；五个明确命名测量窗口。",
+    "relationships": "窗口与被测对象对应；观察用紫色无箭头点线与测量端标记；调控状态贴在DNA使用条件。五窗之间不连机制箭头，图中不另建单向生命链。",
+    "misconceptions": "不画五个独立细胞或五阶段测量流水线；“同一个细胞”是统一认知对象，不承诺同一枚细胞实际同时测得五组学。RNA量不等于即时速率，浓度不等于流量；不表示检测全覆盖。",
+    "components": "单一细胞椭圆边界、DNA 骨架与状态标记、RNA 线段、蛋白与代谢物图符、五个观察卡、五条无箭头点线、五枚测量端口、检测范围和同一细胞系统含义说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "observe.genome",
+        "kind": "observe",
+        "source": "window.genome.boundary",
+        "target": "measure.genome",
+        "label": null
+      },
+      {
+        "id": "observe.epigenome",
+        "kind": "observe",
+        "source": "window.epigenome.boundary",
+        "target": "measure.epigenome",
+        "label": null
+      },
+      {
+        "id": "observe.transcriptome",
+        "kind": "observe",
+        "source": "window.transcriptome.boundary",
+        "target": "measure.transcriptome",
+        "label": null
+      },
+      {
+        "id": "observe.proteome",
+        "kind": "observe",
+        "source": "window.proteome.boundary",
+        "target": "measure.proteome",
+        "label": null
+      },
+      {
+        "id": "observe.metabolome",
+        "kind": "observe",
+        "source": "window.metabolome.boundary",
+        "target": "measure.metabolome",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2976
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        125.99999643961587
+      ],
+      "images": 0,
+      "vector_paths": 41,
+      "fonts": [
+        {
+          "name": "CFECWQ+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 16,
+      "images": 0,
+      "semantic_ids": 51,
+      "font_subset_glyphs": 66
+    }
+  },
+  "output_hashes": {
+    "png": "951ef3fcd271f914749488b0caae54973d98a9dc38d8613788681176a8ff7c94",
+    "pdf": "9b4bad1c561baa279696dc9273b69669e10bc188bbff65d92ab610c1c512681a",
+    "svg": "f6cb15689c287f8790d9454b1646f31825f3eb30553f183852d29b63b8a9c8d1"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

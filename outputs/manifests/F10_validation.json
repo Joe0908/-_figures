@@ -1,0 +1,389 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F10",
+    "title": "从 DNA 可接近到基因被使用",
+    "source_paragraphs": "P0281–P0285 动态可接近性；P0287–P0297 启动子、转录因子、增强子与折叠协作，多个条件共同影响RNA产量。",
+    "cognitive_task": "可接近性只是条件之一，调控蛋白状态、启动子组装和空间协作共同改变转录机会。",
+    "layout_rationale": "左侧局部包装提供接近条件，右侧连续折叠DNA使增强子靠近启动子与组装机器；DNA模板和RNA原料分别接入新RNA。",
+    "essential_objects": "同一DNA、松紧局部包装、启动子、远端增强子、转录因子、转录机器、RNA输出。",
+    "relationships": "空间折叠让远端区域靠近；调控蛋白与DNA接触；多个条件汇入转录概率；RNA由模板生成。",
+    "misconceptions": "不画永久开/关闸门；不让增强子移动或变成启动子；不把所有转录因子都画成激活；“远”是一维序列距离。",
+    "components": "DNA折线、区域强调、包装蛋白、转录因子与机器轮廓、接触线、模板/条件/过程箭头",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "access",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "cooperation",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "template",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "synthesis",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 27,
+    "text_count": 11,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F10.a.heading": [
+        6.0,
+        113.4644,
+        38.512,
+        118.5356
+      ],
+      "F10.b.heading": [
+        74.0,
+        113.4644,
+        110.576,
+        118.5356
+      ],
+      "F10.packing.protein.0": [
+        11.0,
+        83.0,
+        21.0,
+        93.0
+      ],
+      "F10.packing.protein.1": [
+        24.0,
+        83.0,
+        34.0,
+        93.0
+      ],
+      "F10.packing.protein.2": [
+        37.0,
+        83.0,
+        47.0,
+        93.0
+      ],
+      "F10.packing.dna": [
+        8.0,
+        82.0,
+        51.0,
+        94.0
+      ],
+      "F10.packing.label": [
+        16.9773,
+        72.1259,
+        41.0227,
+        75.8741
+      ],
+      "F10.access": [
+        54.0,
+        86.4003,
+        68.5661,
+        87.5997
+      ],
+      "F10.folded.dna": [
+        75.0,
+        63.0,
+        150.0,
+        102.0
+      ],
+      "F10.enhancer": [
+        85.0,
+        81.0,
+        94.0,
+        86.0
+      ],
+      "F10.promoter": [
+        108.0,
+        68.0,
+        117.0,
+        73.0
+      ],
+      "F10.enhancer.label": [
+        70.4915,
+        97.1259,
+        79.5085,
+        100.8741
+      ],
+      "F10.promoter.label": [
+        136.4915,
+        73.1259,
+        145.5085,
+        76.8741
+      ],
+      "F10.tf": [
+        89.5,
+        71.0,
+        102.5,
+        81.0
+      ],
+      "F10.tf.contact": [
+        90.0,
+        79.0,
+        92.0,
+        82.0
+      ],
+      "F10.cooperation": [
+        102.0,
+        64.3243,
+        109.7118,
+        73.0
+      ],
+      "F10.tf.label": [
+        71.9887,
+        62.1259,
+        84.0113,
+        65.8741
+      ],
+      "F10.machine": [
+        105.5,
+        51.5,
+        128.5,
+        64.5
+      ],
+      "F10.machine.label": [
+        136.9887,
+        50.1259,
+        149.0113,
+        53.8741
+      ],
+      "F10.template": [
+        151.0,
+        33.4301,
+        155.3786,
+        63.0
+      ],
+      "F10.rna": [
+        104.0,
+        31.0,
+        149.0,
+        31.0
+      ],
+      "F10.rna.label": [
+        116.7078,
+        20.1259,
+        135.2922,
+        23.8741
+      ],
+      "F10.raw.boundary": [
+        59.5,
+        25.0,
+        86.5,
+        37.0
+      ],
+      "F10.raw.label": [
+        66.7135,
+        29.1259,
+        79.2865,
+        32.8741
+      ],
+      "F10.synthesis": [
+        89.0,
+        30.4003,
+        100.5661,
+        31.5997
+      ],
+      "F10.condition": [
+        6.0,
+        41.2517,
+        45.0737,
+        48.7483
+      ],
+      "F10.scope.note": [
+        6.0,
+        7.1259,
+        102.901,
+        10.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2976
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 23,
+    "svg_text_count": 12,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F10.a.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F10.b.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F10.packing.protein.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F10.packing.protein.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F10.packing.protein.2": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F10.packing.dna": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F10.packing.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F10.access": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F10.folded.dna": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F10.enhancer": {
+      "type": "FancyBboxPatch",
+      "role": "region_fill"
+    },
+    "F10.promoter": {
+      "type": "FancyBboxPatch",
+      "role": "region_fill"
+    },
+    "F10.enhancer.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F10.promoter.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F10.tf": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F10.tf.contact": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F10.cooperation": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F10.tf.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F10.machine": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F10.machine.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F10.template": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F10.rna": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F10.rna.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F10.raw.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F10.raw.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F10.synthesis": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F10.condition": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F10.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F10_access_to_transcription.py": "295435e0dc88d4edd173d2d8d7606744eebcc1c75fba4204f055be257d89a528",
+    "figure_specs/F10.json": "6971509496574841d7dff2fb010b449c3e37ee8e9e94ef36fcea572b9ed5f696",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F10_access_to_transcription.png",
+      "sha256": "164861c4d7a4ebb4b4ac7010e33f191bd090c914843d8ba0f138410dbf666212"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F10_access_to_transcription.pdf",
+      "sha256": "2cf88d4f01792747ad8b14eb26978ce29364f96fb38f255abce4b36b1bd491a9"
+    },
+    "svg": {
+      "path": "outputs/svg/F10_access_to_transcription.svg",
+      "sha256": "f624dcd65edcd7c4eb3d0c5d13752eb563f801c4a5580c25acd44166c61ed0ae"
+    }
+  },
+  "adjacent_pdf_sha256": "2cf88d4f01792747ad8b14eb26978ce29364f96fb38f255abce4b36b1bd491a9",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

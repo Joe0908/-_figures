@@ -1,0 +1,395 @@
+{
+  "id": "F29",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "cf613cdbbc3181b748e01e3f457f640d7f750ef5f6ad9ad7e16c80f2ef785756",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F29_cart_continues_in_body.py",
+  "size_mm": [
+    170.0,
+    140.0
+  ],
+  "artist_count": 43,
+  "texts": [
+    {
+      "id": "F29.a.heading",
+      "text": "A  回输后的 CAR-T 继续运行",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        127.96440972222221,
+        55.630541666666666,
+        133.0355902777778
+      ]
+    },
+    {
+      "id": "F29.a.search.label",
+      "text": "迁移与搜索",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        18.0625,
+        115.01562499999999,
+        33.9375,
+        118.98437499999999
+      ]
+    },
+    {
+      "id": "F29.a.recognize.label",
+      "text": "识别 CD19",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        65.59166666666668,
+        115.01562499999999,
+        80.40833333333335,
+        118.98437499999999
+      ]
+    },
+    {
+      "id": "F29.a.response.label",
+      "text": "激活与杀伤",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        116.06250000000003,
+        115.01562499999999,
+        131.93750000000003,
+        118.98437499999999
+      ]
+    },
+    {
+      "id": "F29.a.expansion.label",
+      "text": "扩增",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        98.82500000000002,
+        90.015625,
+        105.17500000000001,
+        93.984375
+      ]
+    },
+    {
+      "id": "F29.a.loop_label",
+      "text": "继续搜索",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        40.988666666666674,
+        83.12586805555556,
+        53.01133333333334,
+        86.87413194444444
+      ]
+    },
+    {
+      "id": "F29.a.persistence.label",
+      "text": "可能持续存在\n或逐渐失功",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        136.983,
+        88.25173611111111,
+        155.01700000000002,
+        95.74826388888889
+      ]
+    },
+    {
+      "id": "F29.b.heading",
+      "text": "B  同一靶点的不同细胞",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        70.7951388888889,
+        41.56,
+        75.20486111111111
+      ]
+    },
+    {
+      "id": "F29.b.tumor.identity",
+      "text": "肿瘤细胞",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        19.98866666666667,
+        37.12586805555556,
+        32.01133333333333,
+        40.87413194444445
+      ]
+    },
+    {
+      "id": "F29.b.tumor.marker",
+      "text": "CD19",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        22.359333333333336,
+        64.12586805555556,
+        29.640666666666668,
+        67.87413194444444
+      ]
+    },
+    {
+      "id": "F29.b.normal.identity",
+      "text": "正常 B 细胞",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        57.33766666666668,
+        37.12586805555556,
+        72.66233333333334,
+        40.87413194444445
+      ]
+    },
+    {
+      "id": "F29.b.normal.marker",
+      "text": "CD19",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        61.359333333333346,
+        64.12586805555556,
+        68.64066666666668,
+        67.87413194444444
+      ]
+    },
+    {
+      "id": "F29.b.on_target",
+      "text": "正常 B 细胞减少属在靶影响",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        25.81783333333334,
+        25.125868055555554,
+        62.18216666666666,
+        28.874131944444446
+      ]
+    },
+    {
+      "id": "F29.c.heading",
+      "text": "C  可能的群体变化",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        93.00000000000001,
+        70.7951388888889,
+        121.44800000000001,
+        75.20486111111111
+      ]
+    },
+    {
+      "id": "F29.c.before_label",
+      "text": "易识别者减少",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        100.98300000000002,
+        36.12586805555556,
+        119.01700000000001,
+        39.87413194444444
+      ]
+    },
+    {
+      "id": "F29.c.after_label",
+      "text": "低 CD19 等\n逃逸者可能留存",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        139.4801666666667,
+        33.25173611111111,
+        160.51983333333334,
+        40.748263888888886
+      ]
+    },
+    {
+      "id": "F29.c.boundary",
+      "text": "群体变化不等于必然复发",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        111.46883333333336,
+        23.125868055555554,
+        144.53116666666668,
+        26.874131944444446
+      ]
+    },
+    {
+      "id": "F29.scope.note",
+      "text": "还需监测炎症反应与神经系统毒性；示意细胞数不表示疗效、毒性或复发概率。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000001,
+        6.1258680555555545,
+        111.19833333333334,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "a.search_to_recognize",
+      "kind": "process",
+      "source": "a.search",
+      "target": "a.recognize",
+      "label": null
+    },
+    {
+      "id": "a.recognize_to_response",
+      "kind": "conditional",
+      "source": "a.recognize",
+      "target": "a.response",
+      "label": null
+    },
+    {
+      "id": "a.activation_to_expansion",
+      "kind": "conditional",
+      "source": "a.response",
+      "target": "a.expansion",
+      "label": null
+    },
+    {
+      "id": "a.loop",
+      "kind": "process",
+      "source": "a.expansion",
+      "target": "a.search",
+      "label": null
+    },
+    {
+      "id": "a.possible_fate",
+      "kind": "conditional",
+      "source": "a.expansion",
+      "target": "a.persistence",
+      "label": null
+    },
+    {
+      "id": "c.selection",
+      "kind": "conditional",
+      "source": "c.before",
+      "target": "c.after",
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F29",
+    "title": "CAR T 进入身体后仍继续运行",
+    "source_paragraphs": "P1242–P1253人工受体识别CD19并接激活；P1254–P1273迁移、激活、杀伤、扩增、持续或失功；P1275–P1291正常B细胞在靶影响与毒性；P1293–P1306选择后肿瘤继续变化。",
+    "cognitive_task": "细胞治疗在体内继续识别、反应和变化，其作用、风险与可能逃逸都来自持续的细胞—环境互动。",
+    "layout_rationale": "上部为CAR-T迁移识别响应扩增与再搜索环；下方左右分别解释CD19的正常B细胞在靶影响及治疗后的可能群体变化。",
+    "essential_objects": "回输后的CAR-T、CD19阳性肿瘤细胞、正常B细胞、迁移/识别/激活/杀伤/扩增；低CD19或其他逃逸群、持续/失功分支；风险旁注。",
+    "relationships": "受体接触触发有条件响应；扩增与再搜索的循环；同靶正常细胞影响；治疗选择后细胞组成可能改变。",
+    "misconceptions": "不把CD19画成癌症专属；不称正常B细胞清除为脱靶；不暗示复发必发生或治疗无效；不把逃逸画成所有细胞被治疗主动教会；不量化缩瘤/毒性概率。",
+    "components": "运行环、条件响应、持续或失功分支、同CD19标记、不同细胞身份、可能群体选择、风险边界注释",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      140
+    ],
+    "relations_drawn": [
+      {
+        "id": "a.search_to_recognize",
+        "kind": "process",
+        "source": "a.search",
+        "target": "a.recognize",
+        "label": null
+      },
+      {
+        "id": "a.recognize_to_response",
+        "kind": "conditional",
+        "source": "a.recognize",
+        "target": "a.response",
+        "label": null
+      },
+      {
+        "id": "a.activation_to_expansion",
+        "kind": "conditional",
+        "source": "a.response",
+        "target": "a.expansion",
+        "label": null
+      },
+      {
+        "id": "a.loop",
+        "kind": "process",
+        "source": "a.expansion",
+        "target": "a.search",
+        "label": null
+      },
+      {
+        "id": "a.possible_fate",
+        "kind": "conditional",
+        "source": "a.expansion",
+        "target": "a.persistence",
+        "label": null
+      },
+      {
+        "id": "c.selection",
+        "kind": "conditional",
+        "source": "c.before",
+        "target": "c.after",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        3307
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        140.0000032212999
+      ],
+      "images": 0,
+      "vector_paths": 32,
+      "fonts": [
+        {
+          "name": "CIIJGX+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 20,
+      "images": 0,
+      "semantic_ids": 43,
+      "font_subset_glyphs": 98
+    }
+  },
+  "output_hashes": {
+    "png": "646e6e43878074ba5e4d1db241551f6425cc05af2236875fb689c2d3c4e3f448",
+    "pdf": "366ea0073c8af3643f598d852da654b8a4f30c557657213b8579898de799f7a9",
+    "svg": "1c67f16023df8de263613d39fbcbab769a2295969a615c3707e97edaa9dce159"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

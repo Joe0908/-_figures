@@ -1,0 +1,517 @@
+{
+  "id": "F08",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "8e8e2fbad0f3e06e38904550d3356f37a3d4e163a59e08f0e3d17d83b7629ea4",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F08_propagation_and_buffering.py",
+  "size_mm": [
+    170.0,
+    140.0
+  ],
+  "artist_count": 48,
+  "texts": [
+    {
+      "id": "F08.head.0",
+      "text": "DNA",
+      "size_pt": 10.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        14.253500000000003,
+        125.68489583333333,
+        21.7465,
+        130.31510416666669
+      ]
+    },
+    {
+      "id": "F08.head.1",
+      "text": "RNA",
+      "size_pt": 10.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        45.35933333333333,
+        125.68489583333333,
+        52.640666666666675,
+        130.31510416666669
+      ]
+    },
+    {
+      "id": "F08.head.2",
+      "text": "蛋白质及\n分子作用",
+      "size_pt": 10.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        75.54933333333334,
+        123.36979166666667,
+        90.45066666666668,
+        132.63020833333334
+      ]
+    },
+    {
+      "id": "F08.head.3",
+      "text": "细胞",
+      "size_pt": 10.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        112.27466666666669,
+        125.68489583333333,
+        119.72533333333334,
+        130.31510416666669
+      ]
+    },
+    {
+      "id": "F08.head.4",
+      "text": "组织与\n表现",
+      "size_pt": 10.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        142.412,
+        123.36979166666667,
+        153.58800000000002,
+        132.63020833333334
+      ]
+    },
+    {
+      "id": "F08.r0.n0.label",
+      "text": "序列改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        11.988666666666669,
+        104.12586805555554,
+        24.011333333333333,
+        107.87413194444446
+      ]
+    },
+    {
+      "id": "F08.r0.n1.label",
+      "text": "密码子变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        42.98866666666667,
+        104.12586805555554,
+        55.01133333333334,
+        107.87413194444446
+      ]
+    },
+    {
+      "id": "F08.r0.n2.label",
+      "text": "氨基酸未变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        75.48583333333333,
+        104.12586805555554,
+        90.51416666666667,
+        107.87413194444446
+      ]
+    },
+    {
+      "id": "F08.r1.n0.label",
+      "text": "序列改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        11.988666666666669,
+        79.12586805555556,
+        24.011333333333333,
+        82.87413194444444
+      ]
+    },
+    {
+      "id": "F08.r1.n1.label",
+      "text": "密码子变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        42.98866666666667,
+        79.12586805555556,
+        55.01133333333334,
+        82.87413194444444
+      ]
+    },
+    {
+      "id": "F08.r1.n2.label",
+      "text": "氨基酸变\n功能仍保留",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        75.48583333333333,
+        77.2517361111111,
+        90.51416666666667,
+        84.74826388888889
+      ]
+    },
+    {
+      "id": "F08.r2.n0.label",
+      "text": "序列改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        11.988666666666669,
+        54.12586805555555,
+        24.011333333333333,
+        57.874131944444436
+      ]
+    },
+    {
+      "id": "F08.r2.n1.label",
+      "text": "产物改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        42.98866666666667,
+        54.12586805555555,
+        55.01133333333334,
+        57.874131944444436
+      ]
+    },
+    {
+      "id": "F08.r2.n2.label",
+      "text": "作用改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        76.98866666666667,
+        54.12586805555555,
+        89.01133333333334,
+        57.874131944444436
+      ]
+    },
+    {
+      "id": "F08.r2.n3.label",
+      "text": "其他途径\n补偿",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        109.98866666666669,
+        52.25173611111111,
+        122.01133333333334,
+        59.74826388888889
+      ]
+    },
+    {
+      "id": "F08.r3.n0.label",
+      "text": "序列改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        11.988666666666669,
+        29.125868055555554,
+        24.011333333333333,
+        32.87413194444445
+      ]
+    },
+    {
+      "id": "F08.r3.n1.label",
+      "text": "产物改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        42.98866666666667,
+        29.125868055555554,
+        55.01133333333334,
+        32.87413194444445
+      ]
+    },
+    {
+      "id": "F08.r3.n2.label",
+      "text": "作用改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        76.98866666666667,
+        29.125868055555554,
+        89.01133333333334,
+        32.87413194444445
+      ]
+    },
+    {
+      "id": "F08.r3.n3.label",
+      "text": "功能改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        109.98866666666669,
+        29.125868055555554,
+        122.01133333333334,
+        32.87413194444445
+      ]
+    },
+    {
+      "id": "F08.r3.n4.label",
+      "text": "功能余量\n仍足够",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        141.9886666666667,
+        27.25173611111111,
+        154.01133333333334,
+        34.748263888888886
+      ]
+    },
+    {
+      "id": "F08.scope.note",
+      "text": "四行是独立示例。传播还取决于基因是否表达，以及氧、浓度、持续时间等条件。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000001,
+        13.125868055555554,
+        114.204,
+        16.874131944444446
+      ]
+    },
+    {
+      "id": "F08.scope.note2",
+      "text": "同义变化在此仅指氨基酸顺序不变；缓冲不等于 DNA 恢复。线宽不表示效应大小。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000001,
+        6.1258680555555545,
+        115.601,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "r0.e1",
+      "kind": "template",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "r0.e2",
+      "kind": "template",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "r1.e1",
+      "kind": "template",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "r1.e2",
+      "kind": "template",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "r2.e1",
+      "kind": "template",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "r2.e2",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "r2.e3",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "r3.e1",
+      "kind": "template",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "r3.e2",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "r3.e3",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "r3.e4",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F08",
+    "title": "DNA 变化在不同层次的传播与缓冲",
+    "source_paragraphs": "P0219–P0237 同义、错义、提前停止、移码、剪接可从不同处进入链；P0239–P0248 DNA→RNA→蛋白→相互作用→细胞→组织→表型，多个缓冲位置；P0252–P0260 条件及表达前提。",
+    "cognitive_task": "变化能否穿过各层，要看它改变了什么、是否被补偿，以及当时是否满足继续传播的条件。",
+    "layout_rationale": "170×140 mm；顶部五组覆盖七个层次，下方四条独立路径分别到达不同缓冲位置。各行等宽等高，通用条件与解释放在底注。",
+    "essential_objects": "七层骨架；RNA 变而氨基酸不变、氨基酸变而功能保留、细胞补偿、组织功能余量四个断点/缓冲出口。",
+    "relationships": "模板、物质过程、条件影响必须分型；“未继续到下一指定层”旁路；表达与环境条件作为侧向输入。",
+    "misconceptions": "不能一串相同实线画成必然；不能把同义变化说成绝无任何影响，只表示本例不改氨基酸；线宽不代表量化效应；缓冲不等同恢复DNA。",
+    "components": "层级标题、并行节点、模板/条件箭头、缓冲强调、双行底注",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      140
+    ],
+    "relations_drawn": [
+      {
+        "id": "r0.e1",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r0.e2",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r1.e1",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r1.e2",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r2.e1",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r2.e2",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r2.e3",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r3.e1",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r3.e2",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r3.e3",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r3.e4",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        3307
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        140.0000032212999
+      ],
+      "images": 0,
+      "vector_paths": 38,
+      "fonts": [
+        {
+          "name": "DSIBUO+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 27,
+      "images": 0,
+      "semantic_ids": 48,
+      "font_subset_glyphs": 97
+    }
+  },
+  "output_hashes": {
+    "png": "fa4e2aed5ceba675cecf4e3cbc99e880d140389d5029fb2bceca72a46535dc93",
+    "pdf": "97cfd8e898ced72db431f8246dfa3901a86b922b3200126a6c34c8f07a8e6841",
+    "svg": "67a7ab64559b6a34ccd232c9bfde6f48380ce1b4ec2dd8fc72490d44cce3c4be"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

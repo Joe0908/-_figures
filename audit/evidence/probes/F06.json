@@ -1,0 +1,328 @@
+{
+  "id": "F06",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "7d6cce895de4fce5881c122c0d79a908b784121d25e0b96b9eb15a2962f3cc81",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F06_translation.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 33,
+  "texts": [
+    {
+      "id": "F06.heading",
+      "text": "RNA 提供读取顺序，氨基酸来自独立原料",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        103.46440972222221,
+        79.95633333333333,
+        108.53559027777777
+      ]
+    },
+    {
+      "id": "F06.codon.0",
+      "text": "AUG",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        25.955513020833347,
+        41.46440972222222,
+        34.04448697916668,
+        46.53559027777778
+      ]
+    },
+    {
+      "id": "F06.codon.1",
+      "text": "GCU",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        59.88771354166668,
+        41.46440972222222,
+        68.11228645833336,
+        46.53559027777778
+      ]
+    },
+    {
+      "id": "F06.codon.2",
+      "text": "AAA",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        94.35338020833333,
+        41.46440972222222,
+        101.64661979166667,
+        46.53559027777778
+      ]
+    },
+    {
+      "id": "F06.codon.3",
+      "text": "GGC",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        127.91483333333336,
+        41.46440972222222,
+        136.08516666666668,
+        46.53559027777778
+      ]
+    },
+    {
+      "id": "F06.ribosome.label",
+      "text": "核糖体",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        59.98350000000002,
+        23.905381944444443,
+        70.01650000000002,
+        28.09461805555555
+      ]
+    },
+    {
+      "id": "F06.mrna.label",
+      "text": "mRNA",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        140.15283333333335,
+        27.90538194444445,
+        149.84716666666668,
+        32.09461805555556
+      ]
+    },
+    {
+      "id": "F06.trna.label",
+      "text": "tRNA",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        107.48633333333335,
+        63.12586805555556,
+        114.51366666666668,
+        66.87413194444444
+      ]
+    },
+    {
+      "id": "F06.trna.recognition",
+      "text": "识别密码子",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        110.48583333333335,
+        53.12586805555556,
+        125.51416666666668,
+        56.874131944444436
+      ]
+    },
+    {
+      "id": "F06.peptide.label",
+      "text": "正在增长的氨基酸链",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        28.950500000000016,
+        90.90538194444446,
+        59.049500000000016,
+        95.09461805555556
+      ]
+    },
+    {
+      "id": "F06.join.label",
+      "text": "连接",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        72.99433333333336,
+        85.12586805555556,
+        79.0056666666667,
+        88.87413194444446
+      ]
+    },
+    {
+      "id": "F06.raw.label",
+      "text": "独立的氨基酸原料",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        114.62266666666669,
+        83.90538194444444,
+        141.37733333333333,
+        88.09461805555556
+      ]
+    },
+    {
+      "id": "F06.carry.label",
+      "text": "由 tRNA 携带",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        95.3005,
+        96.12586805555556,
+        112.6995,
+        99.87413194444446
+      ]
+    },
+    {
+      "id": "F06.read.label",
+      "text": "沿 RNA 的读取方向",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        102.3635,
+        17.125868055555554,
+        127.6365,
+        20.874131944444446
+      ]
+    },
+    {
+      "id": "F06.scope.note",
+      "text": "核糖体按三个碱基一组读取；mRNA 不会变成氨基酸，肽链由氨基酸连接而成。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        7.125868055555555,
+        111.53699999999999,
+        10.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "recognition",
+      "kind": "template",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "join",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "carry",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "read.direction",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F06",
+    "title": "RNA 怎样指导氨基酸链的形成",
+    "source_paragraphs": "P0123–P0145 RNA 与氨基酸使用不同字母表，密码子三联读取；P0146–P0154 tRNA 识别并携带氨基酸，核糖体连接新链，RNA 仍是 RNA。",
+    "cognitive_task": "核糖体和 tRNA 读取密码子，用另外取得的氨基酸连接新链，RNA 本身不变成蛋白质。",
+    "layout_rationale": "底部横向mRNA与读取方向固定；中部核糖体围住tRNA识别和肽链连接处，顶部原料输入与增长链分开。",
+    "essential_objects": "原稿 AUG/GCU/AAA/GGC 示例或简化三联组、mRNA、抽象核糖体、tRNA 连接角色、独立氨基酸原料、增长链。",
+    "relationships": "密码子与携带者的识别对应；核糖体沿 RNA 的读取方向；氨基酸之间实际连接；RNA 模板保持存在。",
+    "misconceptions": "不把字母变形为珠子；不把密码子直接画成抓手；不画完整密码表；终止信号若出现不可连成终止氨基酸。",
+    "components": "RNA骨架、密码子文字、核糖体轮廓、tRNA折线、氨基酸圆点、过程/模板箭头",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "recognition",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "join",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "carry",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "read.direction",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 23,
+      "fonts": [
+        {
+          "name": "DISNGB+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 15,
+      "images": 0,
+      "semantic_ids": 33,
+      "font_subset_glyphs": 61
+    }
+  },
+  "output_hashes": {
+    "png": "aec2e54ecd62b0547a5ce80e75e1cd8865c7a50d8a1a1ca23a130aa71696f241",
+    "pdf": "bb1ac13ed5f0cbd7018e58f8a49bb68ab9576839df22fdb78a11202c64e4af32",
+    "svg": "ded888f88db38f05120bf8a650b7fc373996e7ddde1084d2a98d192a4fd995cd"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

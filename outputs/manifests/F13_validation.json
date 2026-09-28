@@ -1,0 +1,419 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F13",
+    "title": "从细胞行为到组织结构的空间反馈",
+    "source_paragraphs": "P0336–P0341 细胞身份不足以组成组织；邻居、基质、位置改变信号，行为再改变空间；P0340上皮例含连接、基质固定、补充/成熟；P0344桥接分子—细胞—组织。",
+    "cognitive_task": "细胞行为改造空间，新的位置、邻居与基质又改变下一轮行为，组织由这种往返持续形成和维护。",
+    "layout_rationale": "170×116 mm。左侧为三枚上皮细胞、邻居接触和基质带的空间示意；右侧以“位置与邻居—局部信号与已有状态—行为组—空间与基质改变”四节点顺时针回路表达持续反馈。两部分分别承担空间定位和机制解释，不用静态组织画面替代回路。",
+    "essential_objects": "上皮示意层、基质、邻居接触、局部信号、行为组（移动/黏附/增殖/清除/分泌）、更新后的空间关系。",
+    "relationships": "空间邻接；基质支撑与局部输入；行为到组织重新排列的过程；新环境到下一轮行为的反馈，非DNA反向改写。",
+    "misconceptions": "不把所有行为排成每个细胞必经顺序；不以漂亮静态细胞墙代替反馈；不画完整人体形态发生路线；示例非真实尺寸。",
+    "components": "三枚上皮轮廓与细胞核、接触短线、基质带、空间输入文字、四个反馈节点、三条影响边与一条行为过程边、行为非必经序列范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "location.signals",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "signals.behaviors",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "behaviors.space",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "space.location",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 30,
+    "text_count": 10,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F13.tissue.heading": [
+        6.0,
+        104.4644,
+        34.448,
+        109.5356
+      ],
+      "F13.tissue.cell.0": [
+        10.0,
+        72.0,
+        24.0,
+        94.0
+      ],
+      "F13.tissue.nucleus.0": [
+        14.5,
+        78.5,
+        19.5,
+        85.5
+      ],
+      "F13.tissue.attachment.0": [
+        17.0,
+        68.0,
+        17.0,
+        72.0
+      ],
+      "F13.tissue.cell.1": [
+        26.0,
+        72.0,
+        40.0,
+        94.0
+      ],
+      "F13.tissue.nucleus.1": [
+        30.5,
+        78.5,
+        35.5,
+        85.5
+      ],
+      "F13.tissue.attachment.1": [
+        33.0,
+        68.0,
+        33.0,
+        72.0
+      ],
+      "F13.tissue.cell.2": [
+        42.0,
+        72.0,
+        56.0,
+        94.0
+      ],
+      "F13.tissue.nucleus.2": [
+        46.5,
+        78.5,
+        51.5,
+        85.5
+      ],
+      "F13.tissue.attachment.2": [
+        49.0,
+        68.0,
+        49.0,
+        72.0
+      ],
+      "F13.tissue.contact.0": [
+        24.0,
+        84.0,
+        26.0,
+        84.0
+      ],
+      "F13.tissue.contact.1": [
+        40.0,
+        84.0,
+        42.0,
+        84.0
+      ],
+      "F13.tissue.matrix": [
+        8.0,
+        63.0,
+        58.0,
+        68.0
+      ],
+      "F13.tissue.matrix.label": [
+        25.0625,
+        53.0156,
+        40.9375,
+        56.9844
+      ],
+      "F13.tissue.neighbors": [
+        26.9887,
+        97.1259,
+        39.0113,
+        100.8741
+      ],
+      "F13.tissue.context": [
+        20.3,
+        31.0312,
+        45.7,
+        38.9688
+      ],
+      "F13.loop.heading": [
+        72.0,
+        104.4644,
+        108.576,
+        109.5356
+      ],
+      "F13.location.boundary": [
+        86.5,
+        80.0,
+        137.5,
+        98.0
+      ],
+      "F13.location.label": [
+        104.0625,
+        85.0312,
+        119.9375,
+        92.9688
+      ],
+      "F13.signals.boundary": [
+        133.0,
+        53.5,
+        163.0,
+        72.5
+      ],
+      "F13.signals.label": [
+        140.0625,
+        59.0312,
+        155.9375,
+        66.9688
+      ],
+      "F13.behaviors.boundary": [
+        80.5,
+        26.0,
+        143.5,
+        46.0
+      ],
+      "F13.behaviors.label": [
+        99.3,
+        32.0312,
+        124.7,
+        39.9688
+      ],
+      "F13.space.boundary": [
+        64.0,
+        53.5,
+        92.0,
+        72.5
+      ],
+      "F13.space.label": [
+        70.4858,
+        59.2517,
+        85.5142,
+        66.7483
+      ],
+      "F13.location.signals": [
+        137.0,
+        74.2918,
+        147.679,
+        84.0
+      ],
+      "F13.signals.behaviors": [
+        141.2329,
+        41.366,
+        148.0,
+        52.0
+      ],
+      "F13.behaviors.space": [
+        75.7115,
+        36.0,
+        79.0,
+        51.5736
+      ],
+      "F13.space.location": [
+        78.0,
+        74.0,
+        85.7593,
+        85.639
+      ],
+      "F13.scope.note": [
+        6.0,
+        6.1259,
+        117.2097,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2740
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 26,
+    "svg_text_count": 15,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F13.tissue.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F13.tissue.cell.0": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F13.tissue.nucleus.0": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F13.tissue.attachment.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F13.tissue.cell.1": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F13.tissue.nucleus.1": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F13.tissue.attachment.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F13.tissue.cell.2": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F13.tissue.nucleus.2": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F13.tissue.attachment.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F13.tissue.contact.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F13.tissue.contact.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F13.tissue.matrix": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F13.tissue.matrix.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F13.tissue.neighbors": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F13.tissue.context": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F13.loop.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F13.location.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F13.location.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F13.signals.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F13.signals.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F13.behaviors.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F13.behaviors.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F13.space.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F13.space.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F13.location.signals": {
+      "type": "FancyArrowPatch",
+      "role": "influence"
+    },
+    "F13.signals.behaviors": {
+      "type": "FancyArrowPatch",
+      "role": "influence"
+    },
+    "F13.behaviors.space": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F13.space.location": {
+      "type": "FancyArrowPatch",
+      "role": "influence"
+    },
+    "F13.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F13_spatial_feedback.py": "3165eaf74d7a9e38f9b4eef3c8678d7d52132cd8356613145985a7070b50755d",
+    "figure_specs/F13.json": "dcbe522197849f72824a6c3f1f1ef658e4e85e2d3307e1bef839005359ca9fd3",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F13_spatial_feedback.png",
+      "sha256": "df5f2abeb6297fbe00d29a49ac71e3283c07472f61f091748326464f51de5396"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F13_spatial_feedback.pdf",
+      "sha256": "7ad90ac0326aa228fc8b7a81fa30c0affafb7e962bf8c287af381b9da05f27c3"
+    },
+    "svg": {
+      "path": "outputs/svg/F13_spatial_feedback.svg",
+      "sha256": "36457755bed49b699e88e47fbe8f0ac9adfee54c9d0fd8a8edfbfeca8eb22fbd"
+    }
+  },
+  "adjacent_pdf_sha256": "7ad90ac0326aa228fc8b7a81fa30c0affafb7e962bf8c287af381b9da05f27c3",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

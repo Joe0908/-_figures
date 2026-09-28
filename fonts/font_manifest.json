@@ -1,0 +1,14 @@
+{
+  "filename": "NotoSansSC-Regular.ttf",
+  "size": 10596252,
+  "sha256": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10",
+  "family": "Noto Sans SC",
+  "subfamily": "Regular",
+  "full_name": "Noto Sans SC Regular",
+  "postscript_name": "NotoSansSC-Regular",
+  "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+  "static": true,
+  "weight": 400,
+  "embedding_fstype": 0,
+  "copyright": "© 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+}

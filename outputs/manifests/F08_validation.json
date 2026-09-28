@@ -1,0 +1,648 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F08",
+    "title": "DNA 变化在不同层次的传播与缓冲",
+    "source_paragraphs": "P0219–P0237 同义、错义、提前停止、移码、剪接可从不同处进入链；P0239–P0248 DNA→RNA→蛋白→相互作用→细胞→组织→表型，多个缓冲位置；P0252–P0260 条件及表达前提。",
+    "cognitive_task": "变化能否穿过各层，要看它改变了什么、是否被补偿，以及当时是否满足继续传播的条件。",
+    "layout_rationale": "170×140 mm；顶部五组覆盖七个层次，下方四条独立路径分别到达不同缓冲位置。各行等宽等高，通用条件与解释放在底注。",
+    "essential_objects": "七层骨架；RNA 变而氨基酸不变、氨基酸变而功能保留、细胞补偿、组织功能余量四个断点/缓冲出口。",
+    "relationships": "模板、物质过程、条件影响必须分型；“未继续到下一指定层”旁路；表达与环境条件作为侧向输入。",
+    "misconceptions": "不能一串相同实线画成必然；不能把同义变化说成绝无任何影响，只表示本例不改氨基酸；线宽不代表量化效应；缓冲不等同恢复DNA。",
+    "components": "层级标题、并行节点、模板/条件箭头、缓冲强调、双行底注",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      140
+    ],
+    "relations_drawn": [
+      {
+        "id": "r0.e1",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r0.e2",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r1.e1",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r1.e2",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r2.e1",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r2.e2",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r2.e3",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r3.e1",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r3.e2",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r3.e3",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "r3.e4",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    140.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 48,
+    "text_count": 22,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F08.head.0": [
+        14.2535,
+        125.6849,
+        21.7465,
+        130.3151
+      ],
+      "F08.head.1": [
+        45.3593,
+        125.6849,
+        52.6407,
+        130.3151
+      ],
+      "F08.head.2": [
+        75.5493,
+        123.3698,
+        90.4507,
+        132.6302
+      ],
+      "F08.head.3": [
+        112.2747,
+        125.6849,
+        119.7253,
+        130.3151
+      ],
+      "F08.head.4": [
+        142.412,
+        123.3698,
+        153.588,
+        132.6302
+      ],
+      "F08.r0.n0.boundary": [
+        6.0,
+        98.0,
+        30.0,
+        114.0
+      ],
+      "F08.r0.n0.label": [
+        11.9887,
+        104.1259,
+        24.0113,
+        107.8741
+      ],
+      "F08.r0.n1.boundary": [
+        37.0,
+        98.0,
+        61.0,
+        114.0
+      ],
+      "F08.r0.n1.label": [
+        42.9887,
+        104.1259,
+        55.0113,
+        107.8741
+      ],
+      "F08.r0.e1": [
+        31.0,
+        105.4003,
+        35.5661,
+        106.5997
+      ],
+      "F08.r0.n2.boundary": [
+        69.0,
+        98.0,
+        97.0,
+        114.0
+      ],
+      "F08.r0.n2.label": [
+        75.4858,
+        104.1259,
+        90.5142,
+        107.8741
+      ],
+      "F08.r0.e2": [
+        62.0,
+        105.4003,
+        67.5661,
+        106.5997
+      ],
+      "F08.r1.n0.boundary": [
+        6.0,
+        73.0,
+        30.0,
+        89.0
+      ],
+      "F08.r1.n0.label": [
+        11.9887,
+        79.1259,
+        24.0113,
+        82.8741
+      ],
+      "F08.r1.n1.boundary": [
+        37.0,
+        73.0,
+        61.0,
+        89.0
+      ],
+      "F08.r1.n1.label": [
+        42.9887,
+        79.1259,
+        55.0113,
+        82.8741
+      ],
+      "F08.r1.e1": [
+        31.0,
+        80.4003,
+        35.5661,
+        81.5997
+      ],
+      "F08.r1.n2.boundary": [
+        69.0,
+        73.0,
+        97.0,
+        89.0
+      ],
+      "F08.r1.n2.label": [
+        75.4858,
+        77.2517,
+        90.5142,
+        84.7483
+      ],
+      "F08.r1.e2": [
+        62.0,
+        80.4003,
+        67.5661,
+        81.5997
+      ],
+      "F08.r2.n0.boundary": [
+        6.0,
+        48.0,
+        30.0,
+        64.0
+      ],
+      "F08.r2.n0.label": [
+        11.9887,
+        54.1259,
+        24.0113,
+        57.8741
+      ],
+      "F08.r2.n1.boundary": [
+        37.0,
+        48.0,
+        61.0,
+        64.0
+      ],
+      "F08.r2.n1.label": [
+        42.9887,
+        54.1259,
+        55.0113,
+        57.8741
+      ],
+      "F08.r2.e1": [
+        31.0,
+        55.4003,
+        35.5661,
+        56.5997
+      ],
+      "F08.r2.n2.boundary": [
+        69.0,
+        48.0,
+        97.0,
+        64.0
+      ],
+      "F08.r2.n2.label": [
+        76.9887,
+        54.1259,
+        89.0113,
+        57.8741
+      ],
+      "F08.r2.e2": [
+        62.0,
+        55.4003,
+        67.5661,
+        56.5997
+      ],
+      "F08.r2.n3.boundary": [
+        104.0,
+        48.0,
+        128.0,
+        64.0
+      ],
+      "F08.r2.n3.label": [
+        109.9887,
+        52.2517,
+        122.0113,
+        59.7483
+      ],
+      "F08.r2.e3": [
+        98.0,
+        55.4003,
+        102.5661,
+        56.5997
+      ],
+      "F08.r3.n0.boundary": [
+        6.0,
+        23.0,
+        30.0,
+        39.0
+      ],
+      "F08.r3.n0.label": [
+        11.9887,
+        29.1259,
+        24.0113,
+        32.8741
+      ],
+      "F08.r3.n1.boundary": [
+        37.0,
+        23.0,
+        61.0,
+        39.0
+      ],
+      "F08.r3.n1.label": [
+        42.9887,
+        29.1259,
+        55.0113,
+        32.8741
+      ],
+      "F08.r3.e1": [
+        31.0,
+        30.4003,
+        35.5661,
+        31.5997
+      ],
+      "F08.r3.n2.boundary": [
+        69.0,
+        23.0,
+        97.0,
+        39.0
+      ],
+      "F08.r3.n2.label": [
+        76.9887,
+        29.1259,
+        89.0113,
+        32.8741
+      ],
+      "F08.r3.e2": [
+        62.0,
+        30.4003,
+        67.5661,
+        31.5997
+      ],
+      "F08.r3.n3.boundary": [
+        104.0,
+        23.0,
+        128.0,
+        39.0
+      ],
+      "F08.r3.n3.label": [
+        109.9887,
+        29.1259,
+        122.0113,
+        32.8741
+      ],
+      "F08.r3.e3": [
+        98.0,
+        30.4003,
+        102.5661,
+        31.5997
+      ],
+      "F08.r3.n4.boundary": [
+        136.0,
+        23.0,
+        160.0,
+        39.0
+      ],
+      "F08.r3.n4.label": [
+        141.9887,
+        27.2517,
+        154.0113,
+        34.7483
+      ],
+      "F08.r3.e4": [
+        129.0,
+        30.4003,
+        134.5661,
+        31.5997
+      ],
+      "F08.scope.note": [
+        6.0,
+        13.1259,
+        114.204,
+        16.8741
+      ],
+      "F08.scope.note2": [
+        6.0,
+        6.1259,
+        115.601,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      3307
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 38,
+    "svg_text_count": 27,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F08.head.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.head.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.head.2": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.head.3": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.head.4": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r0.n0.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r0.n0.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r0.n1.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r0.n1.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r0.e1": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F08.r0.n2.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r0.n2.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r0.e2": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F08.r1.n0.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r1.n0.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r1.n1.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r1.n1.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r1.e1": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F08.r1.n2.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r1.n2.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r1.e2": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F08.r2.n0.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r2.n0.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r2.n1.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r2.n1.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r2.e1": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F08.r2.n2.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r2.n2.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r2.e2": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F08.r2.n3.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r2.n3.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r2.e3": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F08.r3.n0.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r3.n0.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r3.n1.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r3.n1.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r3.e1": {
+      "type": "FancyArrowPatch",
+      "role": "template"
+    },
+    "F08.r3.n2.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r3.n2.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r3.e2": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F08.r3.n3.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r3.n3.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r3.e3": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F08.r3.n4.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F08.r3.n4.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.r3.e4": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F08.scope.note": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F08.scope.note2": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F08_propagation_and_buffering.py": "8e8e2fbad0f3e06e38904550d3356f37a3d4e163a59e08f0e3d17d83b7629ea4",
+    "figure_specs/F08.json": "969f842660b5b8bdbca9f95ec9226816354c7babade18a39f76816a24bcf6ed8",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F08_propagation_and_buffering.png",
+      "sha256": "fa4e2aed5ceba675cecf4e3cbc99e880d140389d5029fb2bceca72a46535dc93"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F08_propagation_and_buffering.pdf",
+      "sha256": "97cfd8e898ced72db431f8246dfa3901a86b922b3200126a6c34c8f07a8e6841"
+    },
+    "svg": {
+      "path": "outputs/svg/F08_propagation_and_buffering.svg",
+      "sha256": "67a7ab64559b6a34ccd232c9bfde6f48380ce1b4ec2dd8fc72490d44cce3c4be"
+    }
+  },
+  "adjacent_pdf_sha256": "97cfd8e898ced72db431f8246dfa3901a86b922b3200126a6c34c8f07a8e6841",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

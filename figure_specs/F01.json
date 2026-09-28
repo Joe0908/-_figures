@@ -1,0 +1,12 @@
+{
+  "id": "F01",
+  "title": "基因组 染色体 DNA 和基因的关系",
+  "source_paragraphs": "P0034–P0042：细胞、细胞核、染色体；染色体含长 DNA 与相关蛋白；HBB 是 DNA 上的区域；基因组是整套 DNA。",
+  "cognitive_task": "基因是 DNA 上的区域，染色体组织长 DNA，基因组统称一套 DNA 信息；它们不是四种互不相干的颗粒。",
+  "layout_rationale": "170×100 mm，两个panel：左侧细胞/核局部放大，右侧某条染色体的一段DNA及HBB区域；跨整套DNA的基因组括号独立于放大线；少量染色体为示意，不用条数声称23对。",
+  "essential_objects": "典型有核体细胞、细胞核、染色体集合、一条展开的染色体/DNA、同一链上标出的 HBB 区域、基因组集合括号。",
+  "relationships": "空间包含、整体集合、局部放大、区域隶属；基因组用覆盖整套 DNA 的括号表示，不再加一个包在细胞外的实体容器。",
+  "misconceptions": "不将 X 当常态染色体；不把基因画成附着珠子；不让基因组成为比细胞核更小的物体；“二十三对”与“一套二十三条”必须区分；明确非比例示意。",
+  "components": "visual_grammar.boundary、organised_dna、dna_region、bracket、zoom_frame、zoom_link、label、line，以及book_style统一参数。",
+  "quantitative": false
+}

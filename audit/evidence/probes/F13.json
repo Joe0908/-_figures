@@ -1,0 +1,263 @@
+{
+  "id": "F13",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "3165eaf74d7a9e38f9b4eef3c8678d7d52132cd8356613145985a7070b50755d",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F13_spatial_feedback.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 30,
+  "texts": [
+    {
+      "id": "F13.tissue.heading",
+      "text": "上皮与基质示意",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        104.46440972222221,
+        34.448000000000015,
+        109.53559027777777
+      ]
+    },
+    {
+      "id": "F13.tissue.matrix.label",
+      "text": "细胞外基质",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        25.062500000000014,
+        53.01562499999999,
+        40.937500000000014,
+        56.98437499999999
+      ]
+    },
+    {
+      "id": "F13.tissue.neighbors",
+      "text": "邻居接触",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        26.98866666666668,
+        97.12586805555554,
+        39.01133333333335,
+        100.87413194444443
+      ]
+    },
+    {
+      "id": "F13.tissue.context",
+      "text": "位置、邻居与基质\n也是细胞的输入",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        20.300000000000015,
+        31.031249999999996,
+        45.70000000000001,
+        38.96875
+      ]
+    },
+    {
+      "id": "F13.loop.heading",
+      "text": "空间与行为持续往返",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        72.00000000000001,
+        104.46440972222221,
+        108.57600000000004,
+        109.53559027777777
+      ]
+    },
+    {
+      "id": "F13.location.label",
+      "text": "位置与邻居\n基质条件",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        104.06250000000001,
+        85.03125,
+        119.93750000000001,
+        92.96875
+      ]
+    },
+    {
+      "id": "F13.signals.label",
+      "text": "局部信号\n与已有状态",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        140.0625,
+        59.03125,
+        155.9375,
+        66.96875
+      ]
+    },
+    {
+      "id": "F13.behaviors.label",
+      "text": "移动／黏附／增殖\n清除／分泌",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        99.30000000000003,
+        32.03125,
+        124.70000000000002,
+        39.96875
+      ]
+    },
+    {
+      "id": "F13.space.label",
+      "text": "空间与基质\n重新改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        70.48583333333336,
+        59.25173611111111,
+        85.51416666666668,
+        66.74826388888889
+      ]
+    },
+    {
+      "id": "F13.scope.note",
+      "text": "示意：行为是多种可能选择，不是每个细胞必经的步骤；空间关系也不是固定成品。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.1258680555555545,
+        117.20966666666666,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "location.signals",
+      "kind": "influence",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "signals.behaviors",
+      "kind": "influence",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "behaviors.space",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "space.location",
+      "kind": "influence",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F13",
+    "title": "从细胞行为到组织结构的空间反馈",
+    "source_paragraphs": "P0336–P0341 细胞身份不足以组成组织；邻居、基质、位置改变信号，行为再改变空间；P0340上皮例含连接、基质固定、补充/成熟；P0344桥接分子—细胞—组织。",
+    "cognitive_task": "细胞行为改造空间，新的位置、邻居与基质又改变下一轮行为，组织由这种往返持续形成和维护。",
+    "layout_rationale": "170×116 mm。左侧为三枚上皮细胞、邻居接触和基质带的空间示意；右侧以“位置与邻居—局部信号与已有状态—行为组—空间与基质改变”四节点顺时针回路表达持续反馈。两部分分别承担空间定位和机制解释，不用静态组织画面替代回路。",
+    "essential_objects": "上皮示意层、基质、邻居接触、局部信号、行为组（移动/黏附/增殖/清除/分泌）、更新后的空间关系。",
+    "relationships": "空间邻接；基质支撑与局部输入；行为到组织重新排列的过程；新环境到下一轮行为的反馈，非DNA反向改写。",
+    "misconceptions": "不把所有行为排成每个细胞必经顺序；不以漂亮静态细胞墙代替反馈；不画完整人体形态发生路线；示例非真实尺寸。",
+    "components": "三枚上皮轮廓与细胞核、接触短线、基质带、空间输入文字、四个反馈节点、三条影响边与一条行为过程边、行为非必经序列范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "location.signals",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "signals.behaviors",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "behaviors.space",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "space.location",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 26,
+      "fonts": [
+        {
+          "name": "EYPWAM+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 15,
+      "images": 0,
+      "semantic_ids": 30,
+      "font_subset_glyphs": 78
+    }
+  },
+  "output_hashes": {
+    "png": "df5f2abeb6297fbe00d29a49ac71e3283c07472f61f091748326464f51de5396",
+    "pdf": "7ad90ac0326aa228fc8b7a81fa30c0affafb7e962bf8c287af381b9da05f27c3",
+    "svg": "36457755bed49b699e88e47fbe8f0ac9adfee54c9d0fd8a8edfbfeca8eb22fbd"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

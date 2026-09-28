@@ -1,0 +1,304 @@
+{
+  "id": "F12",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "eacb83412a652724fee667153fa73d535f2b8b45f919059c9a92014c06ff491d",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F12_signal_response.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 25,
+  "texts": [
+    {
+      "id": "F12.outside.heading",
+      "text": "外部输入",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        102.4644097222222,
+        22.25600000000001,
+        107.53559027777777
+      ]
+    },
+    {
+      "id": "F12.cell.label",
+      "text": "细胞内",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        54.23750000000002,
+        85.015625,
+        63.76250000000002,
+        88.984375
+      ]
+    },
+    {
+      "id": "F12.input.label",
+      "text": "外部信号",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        14.650000000000013,
+        64.01562499999999,
+        27.350000000000012,
+        67.98437499999999
+      ]
+    },
+    {
+      "id": "F12.reception.label",
+      "text": "受体／\n感应分子",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        54.65000000000001,
+        62.03124999999999,
+        67.35000000000001,
+        69.96874999999999
+      ]
+    },
+    {
+      "id": "F12.existing.label",
+      "text": "已有蛋白\n状态改变",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        93.65,
+        62.03124999999999,
+        106.35000000000002,
+        69.96874999999999
+      ]
+    },
+    {
+      "id": "F12.fast.label",
+      "text": "较快：细胞\n形状或行为改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        134.4801666666667,
+        80.2517361111111,
+        155.51983333333337,
+        87.74826388888887
+      ]
+    },
+    {
+      "id": "F12.transcription.label",
+      "text": "较慢：影响\n转录因子与转录",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        88.48016666666668,
+        35.251736111111114,
+        109.51983333333335,
+        42.74826388888889
+      ]
+    },
+    {
+      "id": "F12.products.label",
+      "text": "RNA 与新蛋白\n后续行为改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        135.70783333333335,
+        35.251736111111114,
+        154.29216666666667,
+        42.74826388888889
+      ]
+    },
+    {
+      "id": "F12.conditions.label",
+      "text": "既有细胞状态＋信号持续时间",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        84.36250000000001,
+        102.01562499999999,
+        125.6375,
+        105.98437499999999
+      ]
+    },
+    {
+      "id": "F12.branch.meaning",
+      "text": "同一输入，可走不同时间路径",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        79.36250000000001,
+        16.015625,
+        120.63750000000002,
+        19.984375
+      ]
+    },
+    {
+      "id": "F12.scope.note",
+      "text": "示意：快慢取决于具体过程；并非所有反应都要先制造新的 RNA。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.1258680555555545,
+        93.71466666666667,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "input.reception",
+      "kind": "influence",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "reception.existing",
+      "kind": "influence",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "existing.fast",
+      "kind": "influence",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "existing.transcription",
+      "kind": "influence",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "transcription.products",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "conditions.response",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F12",
+    "title": "细胞怎样接收并回应外部信号",
+    "source_paragraphs": "P0318–P0325：邻居、激素、营养、氧气、基质输入；受体/感应分子先改已有蛋白；快速行为与较慢转录两条时间线；接收细胞与持续时间改变结果。",
+    "cognitive_task": "信号先经接收和已有分子状态变化，可快速改变行为，也可较慢地改变表达，结果取决于细胞原有状态。",
+    "layout_rationale": "170×116 mm。左侧外部输入跨入细胞边界，受体与已有蛋白状态居中；上方分支表示相对较快的既有蛋白作用，下方分支表示较慢的转录与新产物响应。顶部独立条件卡说明既有状态和信号持续时间；箭头不使用数值时间刻度。",
+    "essential_objects": "外部信号、受体/感应分子、已有蛋白状态、快速形状/移动反应、转录因子与RNA/新蛋白的慢分支、既有细胞状态。",
+    "relationships": "跨膜接收不是信号直接跳入DNA；一输入分成快慢路径；既有状态与信号时长作条件。",
+    "misconceptions": "不写所有响应固定几分钟；不把转录当每个反应必经步骤；不把不同输入都画成同一配体受体；不承诺相同信号同一结果。",
+    "components": "细胞区域边界、外部信号节点、受体／感应节点、已有蛋白状态枢纽、上／下响应分支、条件输入节点、影响与条件边、相对时间范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "input.reception",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "reception.existing",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "existing.fast",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "existing.transcription",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "transcription.products",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "conditions.response",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 21,
+      "fonts": [
+        {
+          "name": "CJCQQK+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 16,
+      "images": 0,
+      "semantic_ids": 25,
+      "font_subset_glyphs": 78
+    }
+  },
+  "output_hashes": {
+    "png": "01069ec53523bf1ecc47ff69d248a0c9c682f2ce7921ac5591578e6369fd0e38",
+    "pdf": "75205d0edc836e74f6b2773f00d033403cd0a6a921b3c6fb298d3fd7ec5d5f5c",
+    "svg": "eb636a72ab4899523cff7b5e0264033106d4cb53f3dac6d4bd461eec0ca70e97"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F24",
+    "title": "相似疾病表现可以来自不同路径",
+    "source_paragraphs": "P0831–P0860 EGFR路径与其他/未知路径汇合肺腺癌；P0862–P0876驱动/搭载；P0893标志物未必机制；P0903–P0937从重要状态到治疗入口。",
+    "cognitive_task": "相似组织表现可以由不同路径形成和维持，分子检测要辨认关键机制，不能把每个变化都当原因。",
+    "layout_rationale": "两条不同机制路径汇合肺腺癌组织表现，甲保留特定EGFR路径，乙保留其他/未知；下部独立的分子检测观察窗追问机制。",
+    "essential_objects": "甲的特定EGFR激活→异常生长信号；乙的其他可能/未明确路径；共享肺腺癌表现；分子观察端口。",
+    "relationships": "不同机制路径可汇合到相似结果；病名是组织分类；检测提供线索，未知路径保留空缺。",
+    "misconceptions": "不给乙补造具体驱动基因；不把未知等于无机制；不从同病反推同原因；不把有用标志物直接画成治疗靶点或致病箭头。",
+    "components": "汇合条件线、未知路径节点、疾病分类节点、紫色观察端口、因果边界说明",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "path.a.signal_propagation",
+        "kind": "process",
+        "source": "path.a.egfr",
+        "target": "path.a.signal",
+        "label": null
+      },
+      {
+        "id": "convergence.a",
+        "kind": "conditional",
+        "source": "path.a.signal",
+        "target": "disease.shared",
+        "label": null
+      },
+      {
+        "id": "convergence.b",
+        "kind": "conditional",
+        "source": "path.b.unknown",
+        "target": "disease.shared",
+        "label": null
+      },
+      {
+        "id": "measurement.port",
+        "kind": "observe",
+        "source": "path.b.unknown",
+        "target": "measurement.boundary",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 21,
+    "text_count": 12,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F24.title": [
+        6.0,
+        103.9644,
+        58.832,
+        109.0356
+      ],
+      "F24.patient.a": [
+        8.2432,
+        78.7951,
+        11.7568,
+        83.2049
+      ],
+      "F24.path.a.egfr.boundary": [
+        20.0,
+        72.0,
+        62.0,
+        90.0
+      ],
+      "F24.path.a.egfr.label": [
+        33.126,
+        76.8108,
+        48.874,
+        85.1892
+      ],
+      "F24.path.a.signal.boundary": [
+        72.0,
+        72.0,
+        110.0,
+        90.0
+      ],
+      "F24.path.a.signal.label": [
+        84.3113,
+        76.8108,
+        97.6887,
+        85.1892
+      ],
+      "F24.path.a.signal_propagation": [
+        62.0,
+        80.4003,
+        71.5661,
+        81.5997
+      ],
+      "F24.patient.b": [
+        8.2432,
+        46.7951,
+        11.7568,
+        51.2049
+      ],
+      "F24.path.b.unknown.boundary": [
+        20.0,
+        40.0,
+        74.0,
+        58.0
+      ],
+      "F24.path.b.unknown.label": [
+        35.2948,
+        44.8108,
+        58.7052,
+        53.1892
+      ],
+      "F24.disease.shared.boundary": [
+        123.0,
+        51.5,
+        163.0,
+        78.5
+      ],
+      "F24.disease.shared.label": [
+        132.967,
+        60.8108,
+        153.033,
+        69.1892
+      ],
+      "F24.convergence.a": [
+        110.0,
+        72.247,
+        122.6433,
+        81.0
+      ],
+      "F24.convergence.b": [
+        74.0,
+        49.0,
+        122.5733,
+        58.2948
+      ],
+      "F24.classification.label": [
+        135.0625,
+        89.0156,
+        150.9375,
+        92.9844
+      ],
+      "F24.unknown.boundary": [
+        71.7972,
+        34.1259,
+        100.2028,
+        37.8741
+      ],
+      "F24.measurement.boundary": [
+        6.0,
+        14.0,
+        164.0,
+        30.0
+      ],
+      "F24.measurement.question": [
+        48.4875,
+        22.0156,
+        121.5125,
+        25.9844
+      ],
+      "F24.measurement.caution": [
+        54.9433,
+        16.1259,
+        115.0567,
+        19.8741
+      ],
+      "F24.measurement.port": [
+        41.0,
+        30.0,
+        41.0,
+        40.0
+      ],
+      "F24.scope.note": [
+        6.0,
+        6.1259,
+        87.153,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2740
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 13,
+    "svg_text_count": 16,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F24.title": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F24.patient.a": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F24.path.a.egfr.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F24.path.a.egfr.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F24.path.a.signal.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F24.path.a.signal.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F24.path.a.signal_propagation": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F24.patient.b": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F24.path.b.unknown.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F24.path.b.unknown.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F24.disease.shared.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F24.disease.shared.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F24.convergence.a": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F24.convergence.b": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F24.classification.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F24.unknown.boundary": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F24.measurement.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F24.measurement.question": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F24.measurement.caution": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F24.measurement.port": {
+      "type": "FancyArrowPatch",
+      "role": "observe"
+    },
+    "F24.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F24_converging_disease_paths.py": "7a4ddcd87ecb6d2fef9785d2210ee01670cd6a580573a04c9ea3ab984c7a65e0",
+    "figure_specs/F24.json": "49ce238838cea2b4e998402f6c9283a78c16f13fd63362496efb219ac35cb596",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F24_converging_disease_paths.png",
+      "sha256": "0b1a1ec710bc7e1b5da13542d487f4aceba6fd563806921688464f988163a3f4"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F24_converging_disease_paths.pdf",
+      "sha256": "aa5442fd274ee7b1d6141e290df9f8c7506b77db1f9b62c9db22cbad7154b156"
+    },
+    "svg": {
+      "path": "outputs/svg/F24_converging_disease_paths.svg",
+      "sha256": "fbb24d76da784197943b34f5714e1625ef79c4b7aac8866a6b74d53c47748b48"
+    }
+  },
+  "adjacent_pdf_sha256": "aa5442fd274ee7b1d6141e290df9f8c7506b77db1f9b62c9db22cbad7154b156",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F17",
+    "title": "蛋白质数量与功能状态",
+    "source_paragraphs": "P0496–P0511 丰度相同但磷酸化、位置或结合伙伴不同，功能可变；P0514–P0525 RNA与蛋白不一致可指向翻译、降解、取样时间。",
+    "cognitive_task": "蛋白质的数量相同，修饰、位置与结合伙伴不同仍可能改变功能。",
+    "layout_rationale": "170×126 mm。三个等宽独立面板，每个上 A 下 B：磷酸化、细胞内位置、结合伙伴。各对主蛋白数保持一致；中间面板以细胞和细胞核嵌套边界定位。顶部说明总量相同，底部仅写“功能可能改变”，不添加未经支持的特定活性结果。",
+    "essential_objects": "相同数量蛋白、无/有磷酸化示意、胞质/核位置、无/有伙伴结合三个比较。",
+    "relationships": "总量相等；各对只改一个状态维度；功能变化用“可能”条件线，不能证明哪项具体活性。",
+    "misconceptions": "不把磷酸化普遍当激活；不把三个情景堆成一个蛋白必经阶段；相同图符数不能冒充测得分子计数。",
+    "components": "三个对照面板、每组 A/B 标签、等量主蛋白图符、含 P 的磷酸基标记、两组细胞／细胞核边界、游离／结合伙伴、可能结果和非计数范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 36,
+    "text_count": 19,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F17.common.heading": [
+        6.0,
+        114.4644,
+        62.896,
+        119.5356
+      ],
+      "F17.panel.0": [
+        6.0,
+        26.0,
+        54.0,
+        106.0
+      ],
+      "F17.panel.0.heading": [
+        24.7295,
+        99.7951,
+        35.2705,
+        104.2049
+      ],
+      "F17.panel.0.a": [
+        11.0898,
+        88.1259,
+        12.9102,
+        91.8741
+      ],
+      "F17.panel.0.b": [
+        11.0263,
+        55.1259,
+        12.9737,
+        58.8741
+      ],
+      "F17.panel.1": [
+        60.0,
+        26.0,
+        108.0,
+        106.0
+      ],
+      "F17.panel.1.heading": [
+        80.4863,
+        99.7951,
+        87.5137,
+        104.2049
+      ],
+      "F17.panel.1.a": [
+        65.0898,
+        88.1259,
+        66.9102,
+        91.8741
+      ],
+      "F17.panel.1.b": [
+        65.0263,
+        55.1259,
+        66.9737,
+        58.8741
+      ],
+      "F17.panel.2": [
+        114.0,
+        26.0,
+        162.0,
+        106.0
+      ],
+      "F17.panel.2.heading": [
+        130.9727,
+        99.7951,
+        145.0273,
+        104.2049
+      ],
+      "F17.panel.2.a": [
+        119.0898,
+        88.1259,
+        120.9102,
+        91.8741
+      ],
+      "F17.panel.2.b": [
+        119.0263,
+        55.1259,
+        120.9737,
+        58.8741
+      ],
+      "F17.phosphorylation.a": [
+        26.4,
+        79.4,
+        33.6,
+        86.6
+      ],
+      "F17.phosphorylation.b": [
+        26.4,
+        45.4,
+        33.6,
+        52.6
+      ],
+      "F17.phosphorylation.bond": [
+        32.76,
+        51.3,
+        33.7,
+        52.08
+      ],
+      "F17.phosphorylation.marker": [
+        33.0,
+        51.0,
+        39.0,
+        57.0
+      ],
+      "F17.phosphorylation.marker.label": [
+        35.0687,
+        52.1259,
+        36.9313,
+        55.8741
+      ],
+      "F17.phosphorylation.a.label": [
+        20.983,
+        69.1259,
+        39.017,
+        72.8741
+      ],
+      "F17.phosphorylation.b.label": [
+        20.983,
+        33.1259,
+        39.017,
+        36.8741
+      ],
+      "F17.location.a.cell": [
+        72.0,
+        71.5,
+        98.0,
+        94.5
+      ],
+      "F17.location.a.nucleus": [
+        85.0,
+        76.5,
+        95.0,
+        89.5
+      ],
+      "F17.location.b.cell": [
+        72.0,
+        37.5,
+        98.0,
+        60.5
+      ],
+      "F17.location.b.nucleus": [
+        85.0,
+        42.5,
+        95.0,
+        55.5
+      ],
+      "F17.location.a.protein": [
+        74.5,
+        80.5,
+        79.5,
+        85.5
+      ],
+      "F17.location.b.protein": [
+        87.5,
+        46.5,
+        92.5,
+        51.5
+      ],
+      "F17.location.a.label": [
+        76.4858,
+        66.1259,
+        91.5142,
+        69.8741
+      ],
+      "F17.location.b.label": [
+        76.4858,
+        32.1259,
+        91.5142,
+        35.8741
+      ],
+      "F17.binding.a.protein": [
+        127.4,
+        79.4,
+        134.6,
+        86.6
+      ],
+      "F17.binding.a.partner": [
+        149.0,
+        80.0,
+        155.0,
+        86.0
+      ],
+      "F17.binding.b.protein": [
+        132.4,
+        45.4,
+        139.6,
+        52.6
+      ],
+      "F17.binding.b.partner": [
+        139.5,
+        46.0,
+        145.5,
+        52.0
+      ],
+      "F17.binding.a.label": [
+        131.9887,
+        69.1259,
+        144.0113,
+        72.8741
+      ],
+      "F17.binding.b.label": [
+        130.4858,
+        33.1259,
+        145.5142,
+        36.8741
+      ],
+      "F17.result": [
+        74.967,
+        15.9054,
+        95.033,
+        20.0946
+      ],
+      "F17.scope.note": [
+        6.0,
+        6.1259,
+        93.1643,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2976
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 18,
+    "svg_text_count": 19,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F17.common.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.panel.0": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F17.panel.0.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.panel.0.a": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.panel.0.b": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.panel.1": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F17.panel.1.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.panel.1.a": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.panel.1.b": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.panel.2": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F17.panel.2.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.panel.2.a": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.panel.2.b": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.phosphorylation.a": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F17.phosphorylation.b": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F17.phosphorylation.bond": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F17.phosphorylation.marker": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F17.phosphorylation.marker.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.phosphorylation.a.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.phosphorylation.b.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.location.a.cell": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F17.location.a.nucleus": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F17.location.b.cell": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F17.location.b.nucleus": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F17.location.a.protein": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F17.location.b.protein": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F17.location.a.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.location.b.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.binding.a.protein": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F17.binding.a.partner": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F17.binding.b.protein": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F17.binding.b.partner": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F17.binding.a.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.binding.b.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.result": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F17.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F17_protein_states.py": "7a14f054421cc78d3b07d3d885423155da9cfb4be9f3f0c7352f2a085f4b197b",
+    "figure_specs/F17.json": "58bc54a2d4b5a4724ee552b6a04d44b07915d9f0994b9c90e9af8cf354493e93",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F17_protein_states.png",
+      "sha256": "f30a2fa79983444fc79b37b000d9db9528cac2b3f9cc5f783527d633f07fef26"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F17_protein_states.pdf",
+      "sha256": "bac6f3dd4f435d537f7cd74d6feff3b50ce38f42a377942e0d1f73bf699c43b8"
+    },
+    "svg": {
+      "path": "outputs/svg/F17_protein_states.svg",
+      "sha256": "e2328e97ff95843e5002de055774e2b4408045f77ae712440878f033508c634f"
+    }
+  },
+  "adjacent_pdf_sha256": "bac6f3dd4f435d537f7cd74d6feff3b50ce38f42a377942e0d1f73bf699c43b8",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

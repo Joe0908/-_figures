@@ -1,0 +1,902 @@
+{
+  "id": "F04",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "3de19c4ab30d99b46e328fc868cf98fa38baeb92644f89f5e2a72de01112cfed",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F04_recombination_and_gametes.py",
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "artist_count": 113,
+  "texts": [
+    {
+      "id": "F04.heading.6",
+      "text": "亲本的同源染色体",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        113.46440972222219,
+        38.51200000000001,
+        118.53559027777776
+      ]
+    },
+    {
+      "id": "F04.heading.68",
+      "text": "交换对应片段",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        68.00000000000003,
+        113.46440972222219,
+        92.38400000000001,
+        118.53559027777776
+      ]
+    },
+    {
+      "id": "F04.heading.127",
+      "text": "抽取一种配子",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        127.00000000000001,
+        113.46440972222219,
+        151.38400000000001,
+        118.53559027777776
+      ]
+    },
+    {
+      "id": "F04.parent.0",
+      "text": "父方示例",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        100.12586805555553,
+        18.02266666666668,
+        103.87413194444444
+      ]
+    },
+    {
+      "id": "F04.pair.0.a.origin.0",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        12.589833333333345,
+        91.87586805555554,
+        14.41016666666668,
+        95.62413194444444
+      ]
+    },
+    {
+      "id": "F04.pair.0.a.origin.1",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        19.589833333333345,
+        91.87586805555554,
+        21.41016666666668,
+        95.62413194444444
+      ]
+    },
+    {
+      "id": "F04.pair.0.a.origin.2",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        26.589833333333345,
+        91.87586805555554,
+        28.41016666666668,
+        95.62413194444444
+      ]
+    },
+    {
+      "id": "F04.pair.0.a.origin.3",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        33.589833333333345,
+        91.87586805555554,
+        35.410166666666676,
+        95.62413194444444
+      ]
+    },
+    {
+      "id": "F04.pair.0.b.origin.0",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        12.526333333333346,
+        83.87586805555556,
+        14.473666666666679,
+        87.62413194444443
+      ]
+    },
+    {
+      "id": "F04.pair.0.b.origin.1",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        19.526333333333348,
+        83.87586805555556,
+        21.47366666666668,
+        87.62413194444443
+      ]
+    },
+    {
+      "id": "F04.pair.0.b.origin.2",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        26.526333333333344,
+        83.87586805555556,
+        28.473666666666677,
+        87.62413194444443
+      ]
+    },
+    {
+      "id": "F04.pair.0.b.origin.3",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        33.52633333333334,
+        83.87586805555556,
+        35.47366666666668,
+        87.62413194444443
+      ]
+    },
+    {
+      "id": "F04.recombined.0.a.origin.0",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        75.58983333333336,
+        91.87586805555554,
+        77.4101666666667,
+        95.62413194444444
+      ]
+    },
+    {
+      "id": "F04.recombined.0.a.origin.1",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        82.58983333333336,
+        91.87586805555554,
+        84.41016666666668,
+        95.62413194444444
+      ]
+    },
+    {
+      "id": "F04.recombined.0.a.origin.2",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        89.52633333333335,
+        91.87586805555554,
+        91.47366666666669,
+        95.62413194444444
+      ]
+    },
+    {
+      "id": "F04.recombined.0.a.origin.3",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        96.52633333333334,
+        91.87586805555554,
+        98.47366666666667,
+        95.62413194444444
+      ]
+    },
+    {
+      "id": "F04.recombined.0.b.origin.0",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        75.52633333333335,
+        83.87586805555556,
+        77.47366666666669,
+        87.62413194444443
+      ]
+    },
+    {
+      "id": "F04.recombined.0.b.origin.1",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        82.52633333333335,
+        83.87586805555556,
+        84.47366666666669,
+        87.62413194444443
+      ]
+    },
+    {
+      "id": "F04.recombined.0.b.origin.2",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        89.58983333333335,
+        83.87586805555556,
+        91.41016666666668,
+        87.62413194444443
+      ]
+    },
+    {
+      "id": "F04.recombined.0.b.origin.3",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        96.58983333333335,
+        83.87586805555556,
+        98.41016666666667,
+        87.62413194444443
+      ]
+    },
+    {
+      "id": "F04.selected.0.origin.0",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        134.58983333333336,
+        89.87586805555553,
+        136.4101666666667,
+        93.62413194444444
+      ]
+    },
+    {
+      "id": "F04.selected.0.origin.1",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        141.58983333333333,
+        89.87586805555553,
+        143.4101666666667,
+        93.62413194444444
+      ]
+    },
+    {
+      "id": "F04.selected.0.origin.2",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        148.52633333333335,
+        89.87586805555553,
+        150.47366666666667,
+        93.62413194444444
+      ]
+    },
+    {
+      "id": "F04.selected.0.origin.3",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        155.52633333333335,
+        89.87586805555553,
+        157.4736666666667,
+        93.62413194444444
+      ]
+    },
+    {
+      "id": "F04.parent.1",
+      "text": "母方示例",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        63.12586805555555,
+        18.02266666666668,
+        66.87413194444443
+      ]
+    },
+    {
+      "id": "F04.pair.1.a.origin.0",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        12.589833333333345,
+        54.87586805555555,
+        14.41016666666668,
+        58.624131944444436
+      ]
+    },
+    {
+      "id": "F04.pair.1.a.origin.1",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        19.589833333333345,
+        54.87586805555555,
+        21.41016666666668,
+        58.624131944444436
+      ]
+    },
+    {
+      "id": "F04.pair.1.a.origin.2",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        26.589833333333345,
+        54.87586805555555,
+        28.41016666666668,
+        58.624131944444436
+      ]
+    },
+    {
+      "id": "F04.pair.1.a.origin.3",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        33.589833333333345,
+        54.87586805555555,
+        35.410166666666676,
+        58.624131944444436
+      ]
+    },
+    {
+      "id": "F04.pair.1.b.origin.0",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        12.526333333333346,
+        46.87586805555555,
+        14.473666666666679,
+        50.62413194444443
+      ]
+    },
+    {
+      "id": "F04.pair.1.b.origin.1",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        19.526333333333348,
+        46.87586805555555,
+        21.47366666666668,
+        50.62413194444443
+      ]
+    },
+    {
+      "id": "F04.pair.1.b.origin.2",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        26.526333333333344,
+        46.87586805555555,
+        28.473666666666677,
+        50.62413194444443
+      ]
+    },
+    {
+      "id": "F04.pair.1.b.origin.3",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        33.52633333333334,
+        46.87586805555555,
+        35.47366666666668,
+        50.62413194444443
+      ]
+    },
+    {
+      "id": "F04.recombined.1.a.origin.0",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        75.58983333333336,
+        54.87586805555555,
+        77.4101666666667,
+        58.624131944444436
+      ]
+    },
+    {
+      "id": "F04.recombined.1.a.origin.1",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        82.58983333333336,
+        54.87586805555555,
+        84.41016666666668,
+        58.624131944444436
+      ]
+    },
+    {
+      "id": "F04.recombined.1.a.origin.2",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        89.52633333333335,
+        54.87586805555555,
+        91.47366666666669,
+        58.624131944444436
+      ]
+    },
+    {
+      "id": "F04.recombined.1.a.origin.3",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        96.52633333333334,
+        54.87586805555555,
+        98.47366666666667,
+        58.624131944444436
+      ]
+    },
+    {
+      "id": "F04.recombined.1.b.origin.0",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        75.52633333333335,
+        46.87586805555555,
+        77.47366666666669,
+        50.62413194444443
+      ]
+    },
+    {
+      "id": "F04.recombined.1.b.origin.1",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        82.52633333333335,
+        46.87586805555555,
+        84.47366666666669,
+        50.62413194444443
+      ]
+    },
+    {
+      "id": "F04.recombined.1.b.origin.2",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        89.58983333333335,
+        46.87586805555555,
+        91.41016666666668,
+        50.62413194444443
+      ]
+    },
+    {
+      "id": "F04.recombined.1.b.origin.3",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        96.58983333333335,
+        46.87586805555555,
+        98.41016666666667,
+        50.62413194444443
+      ]
+    },
+    {
+      "id": "F04.selected.1.origin.0",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        134.52633333333335,
+        52.87586805555556,
+        136.47366666666667,
+        56.624131944444436
+      ]
+    },
+    {
+      "id": "F04.selected.1.origin.1",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        141.52633333333335,
+        52.87586805555556,
+        143.47366666666667,
+        56.624131944444436
+      ]
+    },
+    {
+      "id": "F04.selected.1.origin.2",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        148.58983333333336,
+        52.87586805555556,
+        150.4101666666667,
+        56.624131944444436
+      ]
+    },
+    {
+      "id": "F04.selected.1.origin.3",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        155.58983333333336,
+        52.87586805555556,
+        157.41016666666667,
+        56.624131944444436
+      ]
+    },
+    {
+      "id": "F04.sperm",
+      "text": "精子中的一份",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        136.983,
+        76.12586805555554,
+        155.01700000000002,
+        79.87413194444443
+      ]
+    },
+    {
+      "id": "F04.egg",
+      "text": "卵子中的一份",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        136.983,
+        39.12586805555554,
+        155.01700000000002,
+        42.87413194444444
+      ]
+    },
+    {
+      "id": "F04.zygote.p.origin.0",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        128.58983333333336,
+        21.875868055555546,
+        130.4101666666667,
+        25.624131944444436
+      ]
+    },
+    {
+      "id": "F04.zygote.p.origin.1",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        135.58983333333336,
+        21.875868055555546,
+        137.41016666666667,
+        25.624131944444436
+      ]
+    },
+    {
+      "id": "F04.zygote.p.origin.2",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        142.52633333333335,
+        21.875868055555546,
+        144.4736666666667,
+        25.624131944444436
+      ]
+    },
+    {
+      "id": "F04.zygote.p.origin.3",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        149.52633333333335,
+        21.875868055555546,
+        151.47366666666667,
+        25.624131944444436
+      ]
+    },
+    {
+      "id": "F04.zygote.m.origin.0",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        128.52633333333335,
+        15.875868055555552,
+        130.4736666666667,
+        19.624131944444443
+      ]
+    },
+    {
+      "id": "F04.zygote.m.origin.1",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        135.52633333333333,
+        15.875868055555552,
+        137.47366666666667,
+        19.624131944444443
+      ]
+    },
+    {
+      "id": "F04.zygote.m.origin.2",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        142.58983333333336,
+        15.875868055555552,
+        144.41016666666667,
+        19.624131944444443
+      ]
+    },
+    {
+      "id": "F04.zygote.m.origin.3",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        149.58983333333333,
+        15.875868055555552,
+        151.4101666666667,
+        19.624131944444443
+      ]
+    },
+    {
+      "id": "F04.zygote.label",
+      "text": "受精组合：来自双亲的两份",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        76.86800000000001,
+        28.90538194444444,
+        117.00000000000001,
+        33.09461805555555
+      ]
+    },
+    {
+      "id": "F04.scope.note",
+      "text": "A/B 区分每位亲本内部的同源来源；只画部分染色体与一种配子组合。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.125868055555554,
+        98.79466666666666,
+        9.874131944444443
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "exchange.0",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "gamete.0",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "exchange.1",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "gamete.1",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "combine.sperm",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "combine.egg",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F04",
+    "title": "染色体重组与配子组合",
+    "source_paragraphs": "P0095–P0098：成对染色体相应区域交换连续片段；配子获得一套重新组合版本；受精让父母两套相遇。P0101–P0103 组合不等于完整命运。",
+    "cognitive_task": "连续片段的重组、配子取样与受精，把传下来的染色体版本组合成新的组合。",
+    "layout_rationale": "父母两条示例通道分别展示同源片段交换与抽取一种配子，再组合为双亲两份；用连续分块保持片段来源可追踪。片段以A/B字母与颜色双重编码，便于灰度追踪。",
+    "essential_objects": "每位亲本的一对示例同源染色体、连续来源片段、每位亲本的一种配子示例、一枚精子与卵细胞的组合、受精后两套。",
+    "relationships": "对应区段交换、不同配子取样、两套汇合；示例只代表部分染色体，不冒充完整减数分裂图。",
+    "misconceptions": "不随机打散单个碱基；不混淆重组与新突变；不让配子仍携带普通体细胞两套；不暗示画出的几种是全部可能。",
+    "components": "染色体分段、过程箭头、平行通道、受精组合、片段来源字母",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [
+      {
+        "id": "exchange.0",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "gamete.0",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "exchange.1",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "gamete.1",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "combine.sperm",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "combine.egg",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2976
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        125.99999643961587
+      ],
+      "images": 0,
+      "vector_paths": 111,
+      "fonts": [
+        {
+          "name": "DULCCM+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 57,
+      "images": 0,
+      "semantic_ids": 113,
+      "font_subset_glyphs": 52
+    }
+  },
+  "output_hashes": {
+    "png": "200c6efda9f2cb981719f08c7dcf67722934249042446d3f300ac0c387d71880",
+    "pdf": "d6ecdb55cf818697359ed957fa9425e872179e08e9ace90661a856d7876977d1",
+    "svg": "3e2f7597e65e194b97f68a6b7b3ce5c51bea2f8b13f09a6fb4919e4151a710f8"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

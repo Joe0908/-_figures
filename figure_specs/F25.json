@@ -1,0 +1,12 @@
+{
+  "id": "F25",
+  "title": "生命链条上的不同治疗入口",
+  "source_paragraphs": "P0965–P0986 nusinersen改SMN2剪接；P0993–P1009 patisiran减少TTR RNA；P1011–P1025 osimertinib抑制特定异常EGFR功能；P1028–P1045 PKU管理苯丙氨酸输入、入口选择条件。",
+  "cognitive_task": "治疗可在能改变疾病过程的不同层进入，最初病因不是唯一入口，且每条入口都有递送、持续性与风险条件。",
+  "layout_rationale": "140毫米高的四个独立病例行共享DNA、RNA、蛋白作用、细胞和组织个体的横向导航；只展开本行局部机制，橙色入口直接指向RNA剪接、RNA减少、蛋白功能或系统输入。",
+  "essential_objects": "共享DNA/RNA/蛋白及作用/细胞/组织与个体横向定位；四行独立疾病情境；SMN2初始RNA剪接、TTR mRNA减少、异常EGFR功能抑制、苯丙氨酸输入管理四端口。",
+  "relationships": "四条橙色人为干预端口可位于各行侧边，分别进入对应层；端口不得与紫色观察窗混用。干预不代替后续机制，PKU输入箭头不可指向DNA或PAH修复。",
+  "misconceptions": "不把四种疾病叠成同一患者/同一治疗链；不把PKU画成去掉全部必需氨基酸；不把药名等于对所有病人有效；不把DNA/细胞后续入口画成已在本章完整论证。",
+  "components": "五组层级导航、原DNA保留轨、病例分隔、橙色干预端口、模板虚线、条件影响线、PKU输入节点",
+  "quantitative": false
+}

@@ -1,0 +1,563 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F29",
+    "title": "CAR T 进入身体后仍继续运行",
+    "source_paragraphs": "P1242–P1253人工受体识别CD19并接激活；P1254–P1273迁移、激活、杀伤、扩增、持续或失功；P1275–P1291正常B细胞在靶影响与毒性；P1293–P1306选择后肿瘤继续变化。",
+    "cognitive_task": "细胞治疗在体内继续识别、反应和变化，其作用、风险与可能逃逸都来自持续的细胞—环境互动。",
+    "layout_rationale": "上部为CAR-T迁移识别响应扩增与再搜索环；下方左右分别解释CD19的正常B细胞在靶影响及治疗后的可能群体变化。",
+    "essential_objects": "回输后的CAR-T、CD19阳性肿瘤细胞、正常B细胞、迁移/识别/激活/杀伤/扩增；低CD19或其他逃逸群、持续/失功分支；风险旁注。",
+    "relationships": "受体接触触发有条件响应；扩增与再搜索的循环；同靶正常细胞影响；治疗选择后细胞组成可能改变。",
+    "misconceptions": "不把CD19画成癌症专属；不称正常B细胞清除为脱靶；不暗示复发必发生或治疗无效；不把逃逸画成所有细胞被治疗主动教会；不量化缩瘤/毒性概率。",
+    "components": "运行环、条件响应、持续或失功分支、同CD19标记、不同细胞身份、可能群体选择、风险边界注释",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      140
+    ],
+    "relations_drawn": [
+      {
+        "id": "a.search_to_recognize",
+        "kind": "process",
+        "source": "a.search",
+        "target": "a.recognize",
+        "label": null
+      },
+      {
+        "id": "a.recognize_to_response",
+        "kind": "conditional",
+        "source": "a.recognize",
+        "target": "a.response",
+        "label": null
+      },
+      {
+        "id": "a.activation_to_expansion",
+        "kind": "conditional",
+        "source": "a.response",
+        "target": "a.expansion",
+        "label": null
+      },
+      {
+        "id": "a.loop",
+        "kind": "process",
+        "source": "a.expansion",
+        "target": "a.search",
+        "label": null
+      },
+      {
+        "id": "a.possible_fate",
+        "kind": "conditional",
+        "source": "a.expansion",
+        "target": "a.persistence",
+        "label": null
+      },
+      {
+        "id": "c.selection",
+        "kind": "conditional",
+        "source": "c.before",
+        "target": "c.after",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    140.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 43,
+    "text_count": 18,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F29.a.heading": [
+        6.0,
+        127.9644,
+        55.6305,
+        133.0356
+      ],
+      "F29.a.search.boundary": [
+        8.0,
+        110.5,
+        44.0,
+        123.5
+      ],
+      "F29.a.search.label": [
+        18.0625,
+        115.0156,
+        33.9375,
+        118.9844
+      ],
+      "F29.a.recognize.boundary": [
+        55.0,
+        110.5,
+        91.0,
+        123.5
+      ],
+      "F29.a.recognize.label": [
+        65.5917,
+        115.0156,
+        80.4083,
+        118.9844
+      ],
+      "F29.a.response.boundary": [
+        102.0,
+        110.5,
+        146.0,
+        123.5
+      ],
+      "F29.a.response.label": [
+        116.0625,
+        115.0156,
+        131.9375,
+        118.9844
+      ],
+      "F29.a.search_to_recognize": [
+        44.0,
+        116.4003,
+        54.5661,
+        117.5997
+      ],
+      "F29.a.recognize_to_response": [
+        91.0,
+        116.4003,
+        101.5661,
+        117.5997
+      ],
+      "F29.a.expansion.boundary": [
+        85.0,
+        85.5,
+        119.0,
+        98.5
+      ],
+      "F29.a.expansion.label": [
+        98.825,
+        90.0156,
+        105.175,
+        93.9844
+      ],
+      "F29.a.activation_to_expansion": [
+        109.2407,
+        98.861,
+        117.0,
+        110.5
+      ],
+      "F29.a.loop": [
+        26.2978,
+        90.3849,
+        85.0,
+        110.1845
+      ],
+      "F29.a.loop_label": [
+        40.9887,
+        83.1259,
+        53.0113,
+        86.8741
+      ],
+      "F29.a.persistence.boundary": [
+        128.5,
+        83.5,
+        163.5,
+        100.5
+      ],
+      "F29.a.persistence.label": [
+        136.983,
+        88.2517,
+        155.017,
+        95.7483
+      ],
+      "F29.a.possible_fate": [
+        119.0,
+        91.4003,
+        128.0661,
+        92.5997
+      ],
+      "F29.panel.separator": [
+        6.0,
+        79.0,
+        164.0,
+        79.0
+      ],
+      "F29.b.heading": [
+        6.0,
+        70.7951,
+        41.56,
+        75.2049
+      ],
+      "F29.b.tumor.cell": [
+        19.0,
+        44.0,
+        33.0,
+        58.0
+      ],
+      "F29.b.tumor.cd19_stalk": [
+        26.0,
+        58.0,
+        26.0,
+        61.0
+      ],
+      "F29.b.tumor.cd19_tip": [
+        24.0,
+        61.0,
+        28.0,
+        61.0
+      ],
+      "F29.b.tumor.identity": [
+        19.9887,
+        37.1259,
+        32.0113,
+        40.8741
+      ],
+      "F29.b.tumor.marker": [
+        22.3593,
+        64.1259,
+        29.6407,
+        67.8741
+      ],
+      "F29.b.normal.cell": [
+        58.0,
+        44.0,
+        72.0,
+        58.0
+      ],
+      "F29.b.normal.cd19_stalk": [
+        65.0,
+        58.0,
+        65.0,
+        61.0
+      ],
+      "F29.b.normal.cd19_tip": [
+        63.0,
+        61.0,
+        67.0,
+        61.0
+      ],
+      "F29.b.normal.identity": [
+        57.3377,
+        37.1259,
+        72.6623,
+        40.8741
+      ],
+      "F29.b.normal.marker": [
+        61.3593,
+        64.1259,
+        68.6407,
+        67.8741
+      ],
+      "F29.b.on_target": [
+        25.8178,
+        25.1259,
+        62.1822,
+        28.8741
+      ],
+      "F29.panel.vertical": [
+        87.0,
+        21.0,
+        87.0,
+        76.0
+      ],
+      "F29.c.heading": [
+        93.0,
+        70.7951,
+        121.448,
+        75.2049
+      ],
+      "F29.c.before.recognizable.0": [
+        100.0,
+        53.0,
+        106.0,
+        59.0
+      ],
+      "F29.c.before.recognizable.1": [
+        108.0,
+        53.0,
+        114.0,
+        59.0
+      ],
+      "F29.c.before.recognizable.2": [
+        104.0,
+        45.0,
+        110.0,
+        51.0
+      ],
+      "F29.c.before.escape": [
+        114.0,
+        45.0,
+        120.0,
+        51.0
+      ],
+      "F29.c.after.escape.0": [
+        142.0,
+        52.0,
+        148.0,
+        58.0
+      ],
+      "F29.c.after.escape.1": [
+        152.0,
+        45.0,
+        158.0,
+        51.0
+      ],
+      "F29.c.selection": [
+        123.0,
+        52.4003,
+        136.5661,
+        53.5997
+      ],
+      "F29.c.before_label": [
+        100.983,
+        36.1259,
+        119.017,
+        39.8741
+      ],
+      "F29.c.after_label": [
+        139.4802,
+        33.2517,
+        160.5198,
+        40.7483
+      ],
+      "F29.c.boundary": [
+        111.4688,
+        23.1259,
+        144.5312,
+        26.8741
+      ],
+      "F29.scope.note": [
+        6.0,
+        6.1259,
+        111.1983,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      3307
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 32,
+    "svg_text_count": 20,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F29.a.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.a.search.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F29.a.search.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.a.recognize.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F29.a.recognize.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.a.response.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F29.a.response.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.a.search_to_recognize": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F29.a.recognize_to_response": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F29.a.expansion.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F29.a.expansion.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.a.activation_to_expansion": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F29.a.loop": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F29.a.loop_label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.a.persistence.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F29.a.persistence.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.a.possible_fate": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F29.panel.separator": {
+      "type": "Line2D",
+      "role": "panel_separator"
+    },
+    "F29.b.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.b.tumor.cell": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F29.b.tumor.cd19_stalk": {
+      "type": "Line2D",
+      "role": "receptor"
+    },
+    "F29.b.tumor.cd19_tip": {
+      "type": "Line2D",
+      "role": "receptor"
+    },
+    "F29.b.tumor.identity": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.b.tumor.marker": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.b.normal.cell": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F29.b.normal.cd19_stalk": {
+      "type": "Line2D",
+      "role": "receptor"
+    },
+    "F29.b.normal.cd19_tip": {
+      "type": "Line2D",
+      "role": "receptor"
+    },
+    "F29.b.normal.identity": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.b.normal.marker": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.b.on_target": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.panel.vertical": {
+      "type": "Line2D",
+      "role": "panel_separator"
+    },
+    "F29.c.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.c.before.recognizable.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F29.c.before.recognizable.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F29.c.before.recognizable.2": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F29.c.before.escape": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F29.c.after.escape.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F29.c.after.escape.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F29.c.selection": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F29.c.before_label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.c.after_label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.c.boundary": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F29.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F29_cart_continues_in_body.py": "cf613cdbbc3181b748e01e3f457f640d7f750ef5f6ad9ad7e16c80f2ef785756",
+    "figure_specs/F29.json": "b7b87ed1aeb98b0397de9059087b68879e6195639d3bce49628e04b9186c6def",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F29_cart_continues_in_body.png",
+      "sha256": "646e6e43878074ba5e4d1db241551f6425cc05af2236875fb689c2d3c4e3f448"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F29_cart_continues_in_body.pdf",
+      "sha256": "366ea0073c8af3643f598d852da654b8a4f30c557657213b8579898de799f7a9"
+    },
+    "svg": {
+      "path": "outputs/svg/F29_cart_continues_in_body.svg",
+      "sha256": "1c67f16023df8de263613d39fbcbab769a2295969a615c3707e97edaa9dce159"
+    }
+  },
+  "adjacent_pdf_sha256": "366ea0073c8af3643f598d852da654b8a4f30c557657213b8579898de799f7a9",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

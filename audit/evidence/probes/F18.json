@@ -1,0 +1,345 @@
+{
+  "id": "F18",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "81568f935300d575e7507443680adaaaee20aa6a7e95ccfaa47c25f0250cdb6c",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F18_metabolic_flux.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 34,
+  "texts": [
+    {
+      "id": "F18.slower.heading",
+      "text": "较慢周转",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        35.872000000000014,
+        101.4644097222222,
+        52.128000000000014,
+        106.53559027777777
+      ]
+    },
+    {
+      "id": "F18.slower.production.label",
+      "text": "制造",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        40.82500000000002,
+        92.01562499999999,
+        47.17500000000002,
+        95.98437499999999
+      ]
+    },
+    {
+      "id": "F18.slower.input.label",
+      "text": "输入",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        8.825000000000012,
+        60.015625,
+        15.175000000000011,
+        63.984375
+      ]
+    },
+    {
+      "id": "F18.slower.output.label",
+      "text": "输出",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        72.82500000000002,
+        60.015625,
+        79.17500000000003,
+        63.984375
+      ]
+    },
+    {
+      "id": "F18.slower.consumption.label",
+      "text": "消耗",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        40.82500000000002,
+        29.015625,
+        47.17500000000002,
+        32.984375
+      ]
+    },
+    {
+      "id": "F18.faster.heading",
+      "text": "较快周转",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        115.87200000000001,
+        101.4644097222222,
+        132.12800000000001,
+        106.53559027777777
+      ]
+    },
+    {
+      "id": "F18.faster.production.label",
+      "text": "制造",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        120.82500000000002,
+        92.01562499999999,
+        127.17500000000003,
+        95.98437499999999
+      ]
+    },
+    {
+      "id": "F18.faster.input.label",
+      "text": "输入",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        88.825,
+        60.015625,
+        95.175,
+        63.984375
+      ]
+    },
+    {
+      "id": "F18.faster.output.label",
+      "text": "输出",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        152.82500000000002,
+        60.015625,
+        159.17500000000004,
+        63.984375
+      ]
+    },
+    {
+      "id": "F18.faster.consumption.label",
+      "text": "消耗",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        120.82500000000002,
+        29.015625,
+        127.17500000000003,
+        32.984375
+      ]
+    },
+    {
+      "id": "F18.equal_state",
+      "text": "同一时点：相同体积、相同浓度",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        61.58966666666669,
+        16.905381944444446,
+        108.41033333333334,
+        21.094618055555554
+      ]
+    },
+    {
+      "id": "F18.scope.note",
+      "text": "概念示意：箭头等宽，快慢由标签表示；没有浓度或流速的实测数值。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.1258680555555545,
+        99.17566666666666,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "slower.production",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "slower.input",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "slower.output",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "slower.consumption",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "faster.production",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "faster.input",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "faster.output",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "faster.consumption",
+      "kind": "process",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F18",
+    "title": "相同代谢物浓度与不同代谢流",
+    "source_paragraphs": "P0527–P0540 代谢物制造、消耗、输入、输出共同影响存量；乳酸增加不能单独证明制造加快；P0543–P0544 测得结果不等于产生过程。",
+    "cognitive_task": "一个时点的存量由多种流入流出过程共同决定，浓度相同不代表周转过程相同。",
+    "layout_rationale": "170×116 mm。左右两组使用同样体积的池和相同概念数量图符，制造在上、消耗在下、输入在左、输出在右。顶部标签分别表示较慢／较快周转，四向过程箭头保持等宽；底部明确相同体积、相同浓度和单时点比较。",
+    "essential_objects": "两个相同体积的代谢物池、相同概念存量、制造/输入/消耗/输出四口；低/高周转两条件。",
+    "relationships": "物质流向池内或池外；同一时点浓度相同；两种平衡流动情形的定性差别。",
+    "misconceptions": "不画带刻度的假浓度与流速数据；过程箭头保持等宽，以“较快/较慢”文字表达定性差别，不用线宽编码未经测量的强弱；不把存量恒定说成无反应；同浓度需相同体积示意。",
+    "components": "两个相同代谢池、各六枚定性小分子图符、八条等宽物质过程箭头、制造／输入／输出／消耗标签、较慢／较快周转标题、相同状态和无实测数值说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "slower.production",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "slower.input",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "slower.output",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "slower.consumption",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "faster.production",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "faster.input",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "faster.output",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "faster.consumption",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 31,
+      "fonts": [
+        {
+          "name": "BDWGYW+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 12,
+      "images": 0,
+      "semantic_ids": 34,
+      "font_subset_glyphs": 48
+    }
+  },
+  "output_hashes": {
+    "png": "810dd79411137b2176112114ddc24ab5958e1f9b18185aaca3c31bd76fd307aa",
+    "pdf": "c484f3a978f65d8f44dd00f05703f18c2963b80380a84307994f009bf0662055",
+    "svg": "57b1b7438bae2e293c2f8a05187756066137d51c635792d02dab7eafbbc15b52"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

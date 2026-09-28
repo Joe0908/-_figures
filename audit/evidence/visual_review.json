@@ -1,0 +1,307 @@
+{
+  "session": "/root/independent_audit",
+  "manifest_sha256": "24af06384cf6394d5b45aefda4e4f58f5c3ce4f3fc0bab1f411a47248dfdb7fd",
+  "figures": [
+    {
+      "id": "F01",
+      "file": "outputs/png/F01_genome_chromosome_dna_gene.png",
+      "sha256": "9d34a7d5d9b798ba9b60b44af4621fb070a7f1487149aa5a00980ac1cb9c164c",
+      "source_sha256": "dc45cbec3d00e84cc6e20df8e4c277592df36211afe1f87e278cee4f63a37742",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "核内DNA集合、染色体局部放大和HBB区域关系清楚；未引入实体“基因组外壳”，与已确认颜色版三格式完全一致。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F02",
+      "file": "outputs/png/F02_complementary_strands.png",
+      "sha256": "c7643d0d3f02d48637693d129cd471928c9bb17446737947cc4f72f6dd144d79",
+      "source_sha256": "66058968056b79cc2df29de27ff0bf3f9d5954bea9efec7dad3e989d72b35a92",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "A–T/C–G四组互补与5′/3′反向端点正确；对应线没有表达分子转化。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F03",
+      "file": "outputs/png/F03_old_and_new_strands.png",
+      "sha256": "a1c82dd1218272b3a8110e7d5584c02edc4d945e617a43cb804c435266832a66",
+      "source_sha256": "245ba918eaf153f1c24cdeac5e90aba21ff36d070cd0aeaac202ea8283c5ab93",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "旧链A/B连续保留，两个结果各一旧一新；新链实/虚编码与独立原料入口可辨，不冒充真实时空比例。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F04",
+      "file": "outputs/png/F04_recombination_and_gametes.png",
+      "sha256": "200c6efda9f2cb981719f08c7dcf67722934249042446d3f300ac0c387d71880",
+      "source_sha256": "3de19c4ab30d99b46e328fc868cf98fa38baeb92644f89f5e2a72de01112cfed",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "父母通道各交换连续片段、各抽取一份配子再合为两份；A/B文字与颜色双重追踪，底注明确各亲本内部来源。规格已与一种配子示例一致。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F05",
+      "file": "outputs/png/F05_transcription_and_splicing.png",
+      "sha256": "bf2bea7444101d5800bcb301828d76d957eeecd41203588f101eda1925e23ecb",
+      "source_sha256": "ddb6b0c7fd2a3cae567ec22123ef9535c84df721b0d34841017c89910baa5c43",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "DNA保留、RNA原料独立、1-2-4与1-3-4两种加工示例清楚；原料箭头已经避开“初始RNA”。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F06",
+      "file": "outputs/png/F06_translation.png",
+      "sha256": "aec2e54ecd62b0547a5ce80e75e1cd8865c7a50d8a1a1ca23a130aa71696f241",
+      "source_sha256": "7d6cce895de4fce5881c122c0d79a908b784121d25e0b96b9eb15a2962f3cc81",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "肽链各圆已连续相接；tRNA连着携带的氨基酸，连接发生在核糖体示意边界处，另有沿RNA读取方向；原料箭头不再穿过携带文字。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F07",
+      "file": "outputs/png/F07_sequence_structure_action.png",
+      "sha256": "d236f13a73874d16ed0591516a0d1f4c9a00c2c79a0663aa74e682a74953f573",
+      "source_sha256": "bd989a579a78e8238e59af1be84ef97bb758308fca825f713574a5a2443e9979",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "顺序、折叠/化学表面、作用伙伴与细胞作用有条件联系；未暗示任一改变必然失活；规格已删除不存在的局部放大框。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F08",
+      "file": "outputs/png/F08_propagation_and_buffering.png",
+      "sha256": "fa4e2aed5ceba675cecf4e3cbc99e880d140389d5029fb2bceca72a46535dc93",
+      "source_sha256": "8e8e2fbad0f3e06e38904550d3356f37a3d4e163a59e08f0e3d17d83b7629ea4",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "四条独立缓冲路径清楚；同义只限氨基酸顺序，条件与DNA未修复说明可读；规格已同步140mm高度及通用条件底注。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F09",
+      "file": "outputs/png/F09_genome_annotation_tracks.png",
+      "sha256": "436ea245cc7116d57f0bcdd69fdde24b3e0ab00edec87e5cbfa460f1090ff88f",
+      "source_sha256": "d4ab3aa0e24e9f83e76939ae443b44dd2f78b7ef350721fb67a59b91acd83df7",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "同一DNA上的多角度注释允许交叠；非编码与未知作用分开，长度/占比不按比例的限制明确。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F10",
+      "file": "outputs/png/F10_access_to_transcription.png",
+      "sha256": "164861c4d7a4ebb4b4ac7010e33f191bd090c914843d8ba0f138410dbf666212",
+      "source_sha256": "295435e0dc88d4edd173d2d8d7606744eebcc1c75fba4204f055be257d89a528",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "转录因子已通过短线与增强子接触，并有协作影响线到转录机器；模板箭头明确从DNA出发，RNA原料独立。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F11",
+      "file": "outputs/png/F11_cell_programs.png",
+      "sha256": "27c082e3ea32223403dcf67a779e01960611b0ff8104f0eadada4b1dee1f7e5a",
+      "source_sha256": "31b3adc0b4929c621867b32e435996f731e56b266248d161e3ad1e03d7256a00",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "相近DNA背景、不同调控和RNA/蛋白组合对应不同细胞工作；不删除未使用基因，不称一基因决定身份。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F12",
+      "file": "outputs/png/F12_signal_response.png",
+      "sha256": "01069ec53523bf1ecc47ff69d248a0c9c682f2ce7921ac5591578e6369fd0e38",
+      "source_sha256": "eacb83412a652724fee667153fa73d535f2b8b45f919059c9a92014c06ff491d",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "既有蛋白状态变化通向快慢两支；快速分支主语已明确为细胞形状或行为；既有状态/信号时间及非所有反应需新RNA的边界清楚。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F13",
+      "file": "outputs/png/F13_spatial_feedback.png",
+      "sha256": "df5f2abeb6297fbe00d29a49ac71e3283c07472f61f091748326464f51de5396",
+      "source_sha256": "3165eaf74d7a9e38f9b4eef3c8678d7d52132cd8356613145985a7070b50755d",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "三条附着短线已把上皮与基质相连；邻居、空间与行为反馈闭环清楚，行为不是所有细胞必经顺序。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F14",
+      "file": "outputs/png/F14_epigenetic_states.png",
+      "sha256": "440ab71314981c2984ca57451a290b82e221d55a3742d1035b95e6cb2a51508e",
+      "source_sha256": "e23117e3458fb225f32fd08bcb4e360c4cd9aa2ccd2a9e5a607f9b45e0af3f40",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "两行ATCGAC顺序相同，甲基附于C；局部状态不同与非通用关闭指令均表达清楚。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F15",
+      "file": "outputs/png/F15_regulatory_feedback.png",
+      "sha256": "298454a1a54984cd2032379b95914ae75ef28b85230acdf94d5f82d584c0f55b",
+      "source_sha256": "14ca4a5cfb1aa577b2dfc8b521870d43098282713d224e0396c4795e5ab58bc9",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "状态影响使用机会与调控活动塑造状态分开；历史输入及相关不等于因果明确。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F16",
+      "file": "outputs/png/F16_rna_landscapes.png",
+      "sha256": "25c2e31138ae8bc6d6abacc73c1f4eb4d5a3a558f058da8f035dd8fec893e29b",
+      "source_sha256": "8abc73d26f7be8e0feacc5f57f02ca6df4f68d94bc36b7f2ed971d9ed88f33e2",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "检出、定性数量、剪接版本与不变参照四行分开；RNA存量与版本不冒充即时转录速率。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F17",
+      "file": "outputs/png/F17_protein_states.png",
+      "sha256": "f30a2fa79983444fc79b37b000d9db9528cac2b3f9cc5f783527d633f07fef26",
+      "source_sha256": "7a14f054421cc78d3b07d3d885423155da9cfb4be9f3f0c7352f2a085f4b197b",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "磷酸基P与蛋白已有短键；位置、伙伴、磷酸化三组独立对照清楚；不把磷酸化普遍等同激活。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F18",
+      "file": "outputs/png/F18_metabolic_flux.png",
+      "sha256": "810dd79411137b2176112114ddc24ab5958e1f9b18185aaca3c31bd76fd307aa",
+      "source_sha256": "81568f935300d575e7507443680adaaaee20aa6a7e95ccfaa47c25f0250cdb6c",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "相同体积/浓度的池有制造、输入、消耗、输出四向；快慢由文字说明，不虚构线宽定量。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F19",
+      "file": "outputs/png/F19_five_windows.png",
+      "sha256": "951ef3fcd271f914749488b0caae54973d98a9dc38d8613788681176a8ff7c94",
+      "source_sha256": "29c226033b20963648d4ef631bd92980bc37b0bc7dfc6ab49f4319da68124528",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "五个观察窗以点线无箭头连接同一认知系统；RNA/小分子存量和不同检测窗口范围清楚。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F20",
+      "file": "outputs/png/F20_colorectal_observations.png",
+      "sha256": "027cbc241270ca55820e557dfe3554509555fffb796cd7e105ff9ed878708d4f",
+      "source_sha256": "4cf2b4840ff54a24a327abde173ef9b6bd05096dae690e19fe5d8f6286cc9baf",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "同人两组织、两列五行配对观察；无纵向演变箭头，跨层解释待检验；规格布局已同步。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F21",
+      "file": "outputs/png/F21_tissue_cell_space.png",
+      "sha256": "a56dc0ba748f9b22f9bb636be71a7dfb23a271999725b7e314d50be8ddb0e096",
+      "source_sha256": "5e01e0abca9bc920d704dc5bd932fcd0dc5ae34c653605979ab70638202e8a79",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "群体、单细胞和空间保留不同信息；没有升级阶梯，细胞汉字与空间位置补充颜色；空间分辨率和邻近不等通讯的限制明确。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F22",
+      "file": "outputs/png/F22_relative_absolute_risk.png",
+      "sha256": "b9cc81861ac224796efad4c57743e50baf1e5cc12685a6fceae1c79201d2b3ee",
+      "source_sha256": "20e3fa4fa4f1ee44e8d5376fad00a1644f1b3e4af54e0ff922aaad6e7d3bb1b8",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "四组各100点，实心分别1/2/10/20；相对风险均×2，绝对分别+1/+10个百分点；未来十年假设与非真实疾病数据注明。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F23",
+      "file": "outputs/png/F23_risk_future_possibilities.png",
+      "sha256": "389546406cc4123c747fa493639b25b057181f58ecb70c6573541fa398a355e0",
+      "source_sha256": "27d0af24f2ebe8fc549e34afeaa6cf36aed1cd86a5e50d4b9e944bbf51001e78",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "人群证据提供估计参照，个体未来为非比例条件分支；可更新估计、不等当前诊断或点名结局。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F24",
+      "file": "outputs/png/F24_converging_disease_paths.png",
+      "sha256": "0b1a1ec710bc7e1b5da13542d487f4aceba6fd563806921688464f988163a3f4",
+      "source_sha256": "7a4ddcd87ecb6d2fef9785d2210ee01670cd6a580573a04c9ea3ab984c7a65e0",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "特定EGFR路径与其他/未知路径汇合相似表现；未知不等无机制，检测不自动证明因果；未为乙补造驱动基因。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F25",
+      "file": "outputs/png/F25_treatment_entry_points.png",
+      "sha256": "02e8acd62418a5b4498566b164765ab8d758c4b9d613dddf3176826dd56de388",
+      "source_sha256": "5e810caa39e5db2b7ca391d9324fcd740bc780bf205e6e5419e88608883b37a1",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "四个独立病例分别为RNA剪接、RNA减少、蛋白功能抑制和输入管理；原DNA保留，特定EGFR与PKU非完全去除边界清楚。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F26",
+      "file": "outputs/png/F26_guide_and_execution_tools.png",
+      "sha256": "6599b9d90985560cbaeb9ae05fb04cbcde8016af7cc1c104f5b2d17377428a83",
+      "source_sha256": "47b998819caf2df0cf776f6dc4b5f762a3bdb103fb285e7efdc07e84fa2b55b1",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "定位模块与两种执行任务分开；切割后细胞修复、模板额外条件、碱基编辑限制明确，无技术设计或编辑率。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F27",
+      "file": "outputs/png/F27_kj_mechanism_and_observation.png",
+      "sha256": "3b0bcd5f94d52d8ca28e0871700514d245da518dae7709010756c4e983ff0809",
+      "source_sha256": "c6a8d67d3cf4827aaae391b25ee326b33c607599c56eb5aed664da7d07adbf35",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "拟实现机制和单人观察分区；2025早期报告与2026医院更新分开；没有虚构人体编辑率/直接分子测量，不把里程碑当治愈。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F28",
+      "file": "outputs/png/F28_edit_or_add_functional_copy.png",
+      "sha256": "53cc36d737213a7e1480026a2fc87d4e993a78c23af6da0f607e698f7a444ff4",
+      "source_sha256": "b33dacd2b1142cab8d176e51f74eecdadb3dac4034b566e38b81eeb2a6da698f",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "原位置修改与新增功能信息并列；新增路径保留原异常版本，未默认染色体整合；表达、存活目标细胞、持续性条件明确。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F29",
+      "file": "outputs/png/F29_cart_continues_in_body.png",
+      "sha256": "646e6e43878074ba5e4d1db241551f6425cc05af2236875fb689c2d3c4e3f448",
+      "source_sha256": "cf613cdbbc3181b748e01e3f457f640d7f750ef5f6ad9ad7e16c80f2ef785756",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "识别/激活/扩增与持续搜索清楚；正常B细胞影响属在靶，可能逃逸不等必然复发；毒性与示意数量限制存在。",
+      "unresolved_blocker": false
+    },
+    {
+      "id": "F30",
+      "file": "outputs/png/F30_six_gates_patient_benefit.png",
+      "sha256": "890f4ee565d26a5d52b883e5eeb5221a932965ce9a75d4671a531e3986f54b80",
+      "source_sha256": "d7dbaabb64d41dc7d9d4f28f0abd0ceb8d23a38241478c69148f1fc01d8c1929",
+      "actually_viewed": true,
+      "method": "最终冻结PNG完整单图经view_image实际打开审读；显示工具可能缩放，不作为实体打印验证。",
+      "finding": "六道门各有证据问题，细胞覆盖与组织阈值分开；时间和安全跨全程；连线仅阅读次序，无虚构百分比。",
+      "unresolved_blocker": false
+    }
+  ],
+  "count_actually_viewed": 30
+}

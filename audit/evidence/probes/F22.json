@@ -1,0 +1,224 @@
+{
+  "id": "F22",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "20e3fa4fa4f1ee44e8d5376fad00a1644f1b3e4af54e0ff922aaad6e7d3bb1b8",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F22_relative_absolute_risk.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 412,
+  "texts": [
+    {
+      "id": "F22.scope",
+      "text": "假设示例 · 未来十年 · 每组 100 人",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        103.96440972222221,
+        70.897,
+        109.03559027777777
+      ]
+    },
+    {
+      "id": "F22.comparison.0.risk.0",
+      "text": "1/100（1%）",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        14.360833333333348,
+        93.79513888888887,
+        35.739166666666684,
+        98.20486111111111
+      ]
+    },
+    {
+      "id": "F22.comparison.0.risk.1",
+      "text": "2/100（2%）",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        55.360833333333346,
+        93.79513888888887,
+        76.73916666666668,
+        98.20486111111111
+      ]
+    },
+    {
+      "id": "F22.comparison.0.relative",
+      "text": "相对风险 ×2",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        104.27366666666667,
+        80.46440972222223,
+        127.72633333333336,
+        85.53559027777777
+      ]
+    },
+    {
+      "id": "F22.comparison.0.absolute",
+      "text": "绝对增加 1 个百分点",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#A6633F",
+      "extent_mm": [
+        100.16733333333335,
+        68.79513888888889,
+        131.83266666666668,
+        73.2048611111111
+      ]
+    },
+    {
+      "id": "F22.comparison.1.risk.0",
+      "text": "10/100（10%）",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        12.413500000000017,
+        54.79513888888889,
+        37.68650000000002,
+        59.204861111111114
+      ]
+    },
+    {
+      "id": "F22.comparison.1.risk.1",
+      "text": "20/100（20%）",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        53.41350000000001,
+        54.79513888888889,
+        78.68650000000001,
+        59.204861111111114
+      ]
+    },
+    {
+      "id": "F22.comparison.1.relative",
+      "text": "相对风险 ×2",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        104.27366666666667,
+        41.46440972222222,
+        127.72633333333336,
+        46.53559027777778
+      ]
+    },
+    {
+      "id": "F22.comparison.1.absolute",
+      "text": "绝对增加 10 个百分点",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#A6633F",
+      "extent_mm": [
+        99.19366666666669,
+        29.795138888888886,
+        132.80633333333333,
+        34.20486111111111
+      ]
+    },
+    {
+      "id": "F22.scope.note",
+      "text": "实心点表示假设的患病人数；不是实际疾病数据，也不能点名某个人的结局。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.1258680555555545,
+        108.19266666666665,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [],
+  "spec": {
+    "id": "F22",
+    "title": "同样风险翻倍，不同绝对风险",
+    "source_paragraphs": "P0768–P0770风险需疾病、人群、时间；P0772–P0777明确假设：未来十年1/100→2/100，以及10%→20%；绝对增加1与10个百分点。",
+    "cognitive_task": "相对倍数相同不等于绝对变化相同，必须同时看基线、人群与观察期。",
+    "layout_rationale": "两行各两组严格100个等大的点，1/100到2/100与10/100到20/100共享图形分母和未来十年观察期；右侧分别写相对倍数与绝对百分点。",
+    "essential_objects": "两对同分母100人的概念网格或0–100%共轴条；1%与2%、10%与20%；均×2；+1和+10个百分点；“假设示例、未来十年”。",
+    "relationships": "同尺度比较、相对比率、绝对差值，三者各有标签。",
+    "misconceptions": "不把假设数当真实疾病研究；不截断坐标或换分母；不把百分点写成百分比增幅；不凭图形给林女士具体概率；图标人并非指定结局个体。",
+    "components": "固定100点网格、实心/空心双编码、相对倍数文本、绝对百分点文本、同分母括号",
+    "quantitative": true,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [],
+    "palette": "海青与铜",
+    "risk_examples": {
+      "hypothetical": true,
+      "period_years": 10,
+      "denominator": 100,
+      "pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          10,
+          20
+        ]
+      ],
+      "absolute_percentage_points": [
+        1,
+        10
+      ]
+    }
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 403,
+      "fonts": [
+        {
+          "name": "EQLMVY+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 10,
+      "images": 0,
+      "semantic_ids": 412,
+      "font_subset_glyphs": 53
+    }
+  },
+  "output_hashes": {
+    "png": "b9cc81861ac224796efad4c57743e50baf1e5cc12685a6fceae1c79201d2b3ee",
+    "pdf": "48e94ae4765b9e107f1ac939161a441dd2832fa703147db6ce8584adb99f4eb4",
+    "svg": "4a54831703a07ea28e98951b0acb6f31e983f61c4ffa9702779e72ddc9ac6ff3"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "F05",
+  "title": "DNA 被转录后产生不同 RNA 版本",
+  "source_paragraphs": "P0109–P0113 DNA 留在原处，以序列为参照合成新 RNA；P0114–P0116 初始 RNA 剪接，同一初始 RNA 可有不同成熟版本。",
+  "cognitive_task": "DNA 提供模板而保持存在，初始 RNA 经不同剪接可得到不同成熟 RNA 版本。",
+  "layout_rationale": "左侧保留DNA并以模板关系连接初始RNA、原料另行合成；右侧上下两个分支显示不同片段组合。",
+  "essential_objects": "持续存在的 DNA 区域、新合成 RNA、可保留/去除片段、两个示意成熟版本。",
+  "relationships": "DNA 对 RNA 的模板约束；RNA 的合成与片段加工；同一初始 RNA 的可选剪接路径。",
+  "misconceptions": "不画 DNA 材料变成 RNA；不让所有基因必定剪出两个版本；不增加原稿未指定的疾病外显子编号。",
+  "components": "双链、模板箭头、原料容器、片段条、分支过程箭头",
+  "quantitative": false
+}

@@ -1,0 +1,4229 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F22",
+    "title": "同样风险翻倍，不同绝对风险",
+    "source_paragraphs": "P0768–P0770风险需疾病、人群、时间；P0772–P0777明确假设：未来十年1/100→2/100，以及10%→20%；绝对增加1与10个百分点。",
+    "cognitive_task": "相对倍数相同不等于绝对变化相同，必须同时看基线、人群与观察期。",
+    "layout_rationale": "两行各两组严格100个等大的点，1/100到2/100与10/100到20/100共享图形分母和未来十年观察期；右侧分别写相对倍数与绝对百分点。",
+    "essential_objects": "两对同分母100人的概念网格或0–100%共轴条；1%与2%、10%与20%；均×2；+1和+10个百分点；“假设示例、未来十年”。",
+    "relationships": "同尺度比较、相对比率、绝对差值，三者各有标签。",
+    "misconceptions": "不把假设数当真实疾病研究；不截断坐标或换分母；不把百分点写成百分比增幅；不凭图形给林女士具体概率；图标人并非指定结局个体。",
+    "components": "固定100点网格、实心/空心双编码、相对倍数文本、绝对百分点文本、同分母括号",
+    "quantitative": true,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [],
+    "palette": "海青与铜",
+    "risk_examples": {
+      "hypothetical": true,
+      "period_years": 10,
+      "denominator": 100,
+      "pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          10,
+          20
+        ]
+      ],
+      "absolute_percentage_points": [
+        1,
+        10
+      ]
+    }
+  },
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 412,
+    "text_count": 10,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F22.scope": [
+        6.0,
+        103.9644,
+        70.897,
+        109.0356
+      ],
+      "F22.comparison.0.group.0.person.000": [
+        11.1,
+        88.2,
+        12.9,
+        90.0
+      ],
+      "F22.comparison.0.group.0.person.001": [
+        14.0,
+        88.2,
+        15.8,
+        90.0
+      ],
+      "F22.comparison.0.group.0.person.002": [
+        16.9,
+        88.2,
+        18.7,
+        90.0
+      ],
+      "F22.comparison.0.group.0.person.003": [
+        19.8,
+        88.2,
+        21.6,
+        90.0
+      ],
+      "F22.comparison.0.group.0.person.004": [
+        22.7,
+        88.2,
+        24.5,
+        90.0
+      ],
+      "F22.comparison.0.group.0.person.005": [
+        25.6,
+        88.2,
+        27.4,
+        90.0
+      ],
+      "F22.comparison.0.group.0.person.006": [
+        28.5,
+        88.2,
+        30.3,
+        90.0
+      ],
+      "F22.comparison.0.group.0.person.007": [
+        31.4,
+        88.2,
+        33.2,
+        90.0
+      ],
+      "F22.comparison.0.group.0.person.008": [
+        34.3,
+        88.2,
+        36.1,
+        90.0
+      ],
+      "F22.comparison.0.group.0.person.009": [
+        37.2,
+        88.2,
+        39.0,
+        90.0
+      ],
+      "F22.comparison.0.group.0.person.010": [
+        11.1,
+        85.3,
+        12.9,
+        87.1
+      ],
+      "F22.comparison.0.group.0.person.011": [
+        14.0,
+        85.3,
+        15.8,
+        87.1
+      ],
+      "F22.comparison.0.group.0.person.012": [
+        16.9,
+        85.3,
+        18.7,
+        87.1
+      ],
+      "F22.comparison.0.group.0.person.013": [
+        19.8,
+        85.3,
+        21.6,
+        87.1
+      ],
+      "F22.comparison.0.group.0.person.014": [
+        22.7,
+        85.3,
+        24.5,
+        87.1
+      ],
+      "F22.comparison.0.group.0.person.015": [
+        25.6,
+        85.3,
+        27.4,
+        87.1
+      ],
+      "F22.comparison.0.group.0.person.016": [
+        28.5,
+        85.3,
+        30.3,
+        87.1
+      ],
+      "F22.comparison.0.group.0.person.017": [
+        31.4,
+        85.3,
+        33.2,
+        87.1
+      ],
+      "F22.comparison.0.group.0.person.018": [
+        34.3,
+        85.3,
+        36.1,
+        87.1
+      ],
+      "F22.comparison.0.group.0.person.019": [
+        37.2,
+        85.3,
+        39.0,
+        87.1
+      ],
+      "F22.comparison.0.group.0.person.020": [
+        11.1,
+        82.4,
+        12.9,
+        84.2
+      ],
+      "F22.comparison.0.group.0.person.021": [
+        14.0,
+        82.4,
+        15.8,
+        84.2
+      ],
+      "F22.comparison.0.group.0.person.022": [
+        16.9,
+        82.4,
+        18.7,
+        84.2
+      ],
+      "F22.comparison.0.group.0.person.023": [
+        19.8,
+        82.4,
+        21.6,
+        84.2
+      ],
+      "F22.comparison.0.group.0.person.024": [
+        22.7,
+        82.4,
+        24.5,
+        84.2
+      ],
+      "F22.comparison.0.group.0.person.025": [
+        25.6,
+        82.4,
+        27.4,
+        84.2
+      ],
+      "F22.comparison.0.group.0.person.026": [
+        28.5,
+        82.4,
+        30.3,
+        84.2
+      ],
+      "F22.comparison.0.group.0.person.027": [
+        31.4,
+        82.4,
+        33.2,
+        84.2
+      ],
+      "F22.comparison.0.group.0.person.028": [
+        34.3,
+        82.4,
+        36.1,
+        84.2
+      ],
+      "F22.comparison.0.group.0.person.029": [
+        37.2,
+        82.4,
+        39.0,
+        84.2
+      ],
+      "F22.comparison.0.group.0.person.030": [
+        11.1,
+        79.5,
+        12.9,
+        81.3
+      ],
+      "F22.comparison.0.group.0.person.031": [
+        14.0,
+        79.5,
+        15.8,
+        81.3
+      ],
+      "F22.comparison.0.group.0.person.032": [
+        16.9,
+        79.5,
+        18.7,
+        81.3
+      ],
+      "F22.comparison.0.group.0.person.033": [
+        19.8,
+        79.5,
+        21.6,
+        81.3
+      ],
+      "F22.comparison.0.group.0.person.034": [
+        22.7,
+        79.5,
+        24.5,
+        81.3
+      ],
+      "F22.comparison.0.group.0.person.035": [
+        25.6,
+        79.5,
+        27.4,
+        81.3
+      ],
+      "F22.comparison.0.group.0.person.036": [
+        28.5,
+        79.5,
+        30.3,
+        81.3
+      ],
+      "F22.comparison.0.group.0.person.037": [
+        31.4,
+        79.5,
+        33.2,
+        81.3
+      ],
+      "F22.comparison.0.group.0.person.038": [
+        34.3,
+        79.5,
+        36.1,
+        81.3
+      ],
+      "F22.comparison.0.group.0.person.039": [
+        37.2,
+        79.5,
+        39.0,
+        81.3
+      ],
+      "F22.comparison.0.group.0.person.040": [
+        11.1,
+        76.6,
+        12.9,
+        78.4
+      ],
+      "F22.comparison.0.group.0.person.041": [
+        14.0,
+        76.6,
+        15.8,
+        78.4
+      ],
+      "F22.comparison.0.group.0.person.042": [
+        16.9,
+        76.6,
+        18.7,
+        78.4
+      ],
+      "F22.comparison.0.group.0.person.043": [
+        19.8,
+        76.6,
+        21.6,
+        78.4
+      ],
+      "F22.comparison.0.group.0.person.044": [
+        22.7,
+        76.6,
+        24.5,
+        78.4
+      ],
+      "F22.comparison.0.group.0.person.045": [
+        25.6,
+        76.6,
+        27.4,
+        78.4
+      ],
+      "F22.comparison.0.group.0.person.046": [
+        28.5,
+        76.6,
+        30.3,
+        78.4
+      ],
+      "F22.comparison.0.group.0.person.047": [
+        31.4,
+        76.6,
+        33.2,
+        78.4
+      ],
+      "F22.comparison.0.group.0.person.048": [
+        34.3,
+        76.6,
+        36.1,
+        78.4
+      ],
+      "F22.comparison.0.group.0.person.049": [
+        37.2,
+        76.6,
+        39.0,
+        78.4
+      ],
+      "F22.comparison.0.group.0.person.050": [
+        11.1,
+        73.7,
+        12.9,
+        75.5
+      ],
+      "F22.comparison.0.group.0.person.051": [
+        14.0,
+        73.7,
+        15.8,
+        75.5
+      ],
+      "F22.comparison.0.group.0.person.052": [
+        16.9,
+        73.7,
+        18.7,
+        75.5
+      ],
+      "F22.comparison.0.group.0.person.053": [
+        19.8,
+        73.7,
+        21.6,
+        75.5
+      ],
+      "F22.comparison.0.group.0.person.054": [
+        22.7,
+        73.7,
+        24.5,
+        75.5
+      ],
+      "F22.comparison.0.group.0.person.055": [
+        25.6,
+        73.7,
+        27.4,
+        75.5
+      ],
+      "F22.comparison.0.group.0.person.056": [
+        28.5,
+        73.7,
+        30.3,
+        75.5
+      ],
+      "F22.comparison.0.group.0.person.057": [
+        31.4,
+        73.7,
+        33.2,
+        75.5
+      ],
+      "F22.comparison.0.group.0.person.058": [
+        34.3,
+        73.7,
+        36.1,
+        75.5
+      ],
+      "F22.comparison.0.group.0.person.059": [
+        37.2,
+        73.7,
+        39.0,
+        75.5
+      ],
+      "F22.comparison.0.group.0.person.060": [
+        11.1,
+        70.8,
+        12.9,
+        72.6
+      ],
+      "F22.comparison.0.group.0.person.061": [
+        14.0,
+        70.8,
+        15.8,
+        72.6
+      ],
+      "F22.comparison.0.group.0.person.062": [
+        16.9,
+        70.8,
+        18.7,
+        72.6
+      ],
+      "F22.comparison.0.group.0.person.063": [
+        19.8,
+        70.8,
+        21.6,
+        72.6
+      ],
+      "F22.comparison.0.group.0.person.064": [
+        22.7,
+        70.8,
+        24.5,
+        72.6
+      ],
+      "F22.comparison.0.group.0.person.065": [
+        25.6,
+        70.8,
+        27.4,
+        72.6
+      ],
+      "F22.comparison.0.group.0.person.066": [
+        28.5,
+        70.8,
+        30.3,
+        72.6
+      ],
+      "F22.comparison.0.group.0.person.067": [
+        31.4,
+        70.8,
+        33.2,
+        72.6
+      ],
+      "F22.comparison.0.group.0.person.068": [
+        34.3,
+        70.8,
+        36.1,
+        72.6
+      ],
+      "F22.comparison.0.group.0.person.069": [
+        37.2,
+        70.8,
+        39.0,
+        72.6
+      ],
+      "F22.comparison.0.group.0.person.070": [
+        11.1,
+        67.9,
+        12.9,
+        69.7
+      ],
+      "F22.comparison.0.group.0.person.071": [
+        14.0,
+        67.9,
+        15.8,
+        69.7
+      ],
+      "F22.comparison.0.group.0.person.072": [
+        16.9,
+        67.9,
+        18.7,
+        69.7
+      ],
+      "F22.comparison.0.group.0.person.073": [
+        19.8,
+        67.9,
+        21.6,
+        69.7
+      ],
+      "F22.comparison.0.group.0.person.074": [
+        22.7,
+        67.9,
+        24.5,
+        69.7
+      ],
+      "F22.comparison.0.group.0.person.075": [
+        25.6,
+        67.9,
+        27.4,
+        69.7
+      ],
+      "F22.comparison.0.group.0.person.076": [
+        28.5,
+        67.9,
+        30.3,
+        69.7
+      ],
+      "F22.comparison.0.group.0.person.077": [
+        31.4,
+        67.9,
+        33.2,
+        69.7
+      ],
+      "F22.comparison.0.group.0.person.078": [
+        34.3,
+        67.9,
+        36.1,
+        69.7
+      ],
+      "F22.comparison.0.group.0.person.079": [
+        37.2,
+        67.9,
+        39.0,
+        69.7
+      ],
+      "F22.comparison.0.group.0.person.080": [
+        11.1,
+        65.0,
+        12.9,
+        66.8
+      ],
+      "F22.comparison.0.group.0.person.081": [
+        14.0,
+        65.0,
+        15.8,
+        66.8
+      ],
+      "F22.comparison.0.group.0.person.082": [
+        16.9,
+        65.0,
+        18.7,
+        66.8
+      ],
+      "F22.comparison.0.group.0.person.083": [
+        19.8,
+        65.0,
+        21.6,
+        66.8
+      ],
+      "F22.comparison.0.group.0.person.084": [
+        22.7,
+        65.0,
+        24.5,
+        66.8
+      ],
+      "F22.comparison.0.group.0.person.085": [
+        25.6,
+        65.0,
+        27.4,
+        66.8
+      ],
+      "F22.comparison.0.group.0.person.086": [
+        28.5,
+        65.0,
+        30.3,
+        66.8
+      ],
+      "F22.comparison.0.group.0.person.087": [
+        31.4,
+        65.0,
+        33.2,
+        66.8
+      ],
+      "F22.comparison.0.group.0.person.088": [
+        34.3,
+        65.0,
+        36.1,
+        66.8
+      ],
+      "F22.comparison.0.group.0.person.089": [
+        37.2,
+        65.0,
+        39.0,
+        66.8
+      ],
+      "F22.comparison.0.group.0.person.090": [
+        11.1,
+        62.1,
+        12.9,
+        63.9
+      ],
+      "F22.comparison.0.group.0.person.091": [
+        14.0,
+        62.1,
+        15.8,
+        63.9
+      ],
+      "F22.comparison.0.group.0.person.092": [
+        16.9,
+        62.1,
+        18.7,
+        63.9
+      ],
+      "F22.comparison.0.group.0.person.093": [
+        19.8,
+        62.1,
+        21.6,
+        63.9
+      ],
+      "F22.comparison.0.group.0.person.094": [
+        22.7,
+        62.1,
+        24.5,
+        63.9
+      ],
+      "F22.comparison.0.group.0.person.095": [
+        25.6,
+        62.1,
+        27.4,
+        63.9
+      ],
+      "F22.comparison.0.group.0.person.096": [
+        28.5,
+        62.1,
+        30.3,
+        63.9
+      ],
+      "F22.comparison.0.group.0.person.097": [
+        31.4,
+        62.1,
+        33.2,
+        63.9
+      ],
+      "F22.comparison.0.group.0.person.098": [
+        34.3,
+        62.1,
+        36.1,
+        63.9
+      ],
+      "F22.comparison.0.group.0.person.099": [
+        37.2,
+        62.1,
+        39.0,
+        63.9
+      ],
+      "F22.comparison.0.risk.0": [
+        14.3608,
+        93.7951,
+        35.7392,
+        98.2049
+      ],
+      "F22.comparison.0.group.1.person.000": [
+        52.1,
+        88.2,
+        53.9,
+        90.0
+      ],
+      "F22.comparison.0.group.1.person.001": [
+        55.0,
+        88.2,
+        56.8,
+        90.0
+      ],
+      "F22.comparison.0.group.1.person.002": [
+        57.9,
+        88.2,
+        59.7,
+        90.0
+      ],
+      "F22.comparison.0.group.1.person.003": [
+        60.8,
+        88.2,
+        62.6,
+        90.0
+      ],
+      "F22.comparison.0.group.1.person.004": [
+        63.7,
+        88.2,
+        65.5,
+        90.0
+      ],
+      "F22.comparison.0.group.1.person.005": [
+        66.6,
+        88.2,
+        68.4,
+        90.0
+      ],
+      "F22.comparison.0.group.1.person.006": [
+        69.5,
+        88.2,
+        71.3,
+        90.0
+      ],
+      "F22.comparison.0.group.1.person.007": [
+        72.4,
+        88.2,
+        74.2,
+        90.0
+      ],
+      "F22.comparison.0.group.1.person.008": [
+        75.3,
+        88.2,
+        77.1,
+        90.0
+      ],
+      "F22.comparison.0.group.1.person.009": [
+        78.2,
+        88.2,
+        80.0,
+        90.0
+      ],
+      "F22.comparison.0.group.1.person.010": [
+        52.1,
+        85.3,
+        53.9,
+        87.1
+      ],
+      "F22.comparison.0.group.1.person.011": [
+        55.0,
+        85.3,
+        56.8,
+        87.1
+      ],
+      "F22.comparison.0.group.1.person.012": [
+        57.9,
+        85.3,
+        59.7,
+        87.1
+      ],
+      "F22.comparison.0.group.1.person.013": [
+        60.8,
+        85.3,
+        62.6,
+        87.1
+      ],
+      "F22.comparison.0.group.1.person.014": [
+        63.7,
+        85.3,
+        65.5,
+        87.1
+      ],
+      "F22.comparison.0.group.1.person.015": [
+        66.6,
+        85.3,
+        68.4,
+        87.1
+      ],
+      "F22.comparison.0.group.1.person.016": [
+        69.5,
+        85.3,
+        71.3,
+        87.1
+      ],
+      "F22.comparison.0.group.1.person.017": [
+        72.4,
+        85.3,
+        74.2,
+        87.1
+      ],
+      "F22.comparison.0.group.1.person.018": [
+        75.3,
+        85.3,
+        77.1,
+        87.1
+      ],
+      "F22.comparison.0.group.1.person.019": [
+        78.2,
+        85.3,
+        80.0,
+        87.1
+      ],
+      "F22.comparison.0.group.1.person.020": [
+        52.1,
+        82.4,
+        53.9,
+        84.2
+      ],
+      "F22.comparison.0.group.1.person.021": [
+        55.0,
+        82.4,
+        56.8,
+        84.2
+      ],
+      "F22.comparison.0.group.1.person.022": [
+        57.9,
+        82.4,
+        59.7,
+        84.2
+      ],
+      "F22.comparison.0.group.1.person.023": [
+        60.8,
+        82.4,
+        62.6,
+        84.2
+      ],
+      "F22.comparison.0.group.1.person.024": [
+        63.7,
+        82.4,
+        65.5,
+        84.2
+      ],
+      "F22.comparison.0.group.1.person.025": [
+        66.6,
+        82.4,
+        68.4,
+        84.2
+      ],
+      "F22.comparison.0.group.1.person.026": [
+        69.5,
+        82.4,
+        71.3,
+        84.2
+      ],
+      "F22.comparison.0.group.1.person.027": [
+        72.4,
+        82.4,
+        74.2,
+        84.2
+      ],
+      "F22.comparison.0.group.1.person.028": [
+        75.3,
+        82.4,
+        77.1,
+        84.2
+      ],
+      "F22.comparison.0.group.1.person.029": [
+        78.2,
+        82.4,
+        80.0,
+        84.2
+      ],
+      "F22.comparison.0.group.1.person.030": [
+        52.1,
+        79.5,
+        53.9,
+        81.3
+      ],
+      "F22.comparison.0.group.1.person.031": [
+        55.0,
+        79.5,
+        56.8,
+        81.3
+      ],
+      "F22.comparison.0.group.1.person.032": [
+        57.9,
+        79.5,
+        59.7,
+        81.3
+      ],
+      "F22.comparison.0.group.1.person.033": [
+        60.8,
+        79.5,
+        62.6,
+        81.3
+      ],
+      "F22.comparison.0.group.1.person.034": [
+        63.7,
+        79.5,
+        65.5,
+        81.3
+      ],
+      "F22.comparison.0.group.1.person.035": [
+        66.6,
+        79.5,
+        68.4,
+        81.3
+      ],
+      "F22.comparison.0.group.1.person.036": [
+        69.5,
+        79.5,
+        71.3,
+        81.3
+      ],
+      "F22.comparison.0.group.1.person.037": [
+        72.4,
+        79.5,
+        74.2,
+        81.3
+      ],
+      "F22.comparison.0.group.1.person.038": [
+        75.3,
+        79.5,
+        77.1,
+        81.3
+      ],
+      "F22.comparison.0.group.1.person.039": [
+        78.2,
+        79.5,
+        80.0,
+        81.3
+      ],
+      "F22.comparison.0.group.1.person.040": [
+        52.1,
+        76.6,
+        53.9,
+        78.4
+      ],
+      "F22.comparison.0.group.1.person.041": [
+        55.0,
+        76.6,
+        56.8,
+        78.4
+      ],
+      "F22.comparison.0.group.1.person.042": [
+        57.9,
+        76.6,
+        59.7,
+        78.4
+      ],
+      "F22.comparison.0.group.1.person.043": [
+        60.8,
+        76.6,
+        62.6,
+        78.4
+      ],
+      "F22.comparison.0.group.1.person.044": [
+        63.7,
+        76.6,
+        65.5,
+        78.4
+      ],
+      "F22.comparison.0.group.1.person.045": [
+        66.6,
+        76.6,
+        68.4,
+        78.4
+      ],
+      "F22.comparison.0.group.1.person.046": [
+        69.5,
+        76.6,
+        71.3,
+        78.4
+      ],
+      "F22.comparison.0.group.1.person.047": [
+        72.4,
+        76.6,
+        74.2,
+        78.4
+      ],
+      "F22.comparison.0.group.1.person.048": [
+        75.3,
+        76.6,
+        77.1,
+        78.4
+      ],
+      "F22.comparison.0.group.1.person.049": [
+        78.2,
+        76.6,
+        80.0,
+        78.4
+      ],
+      "F22.comparison.0.group.1.person.050": [
+        52.1,
+        73.7,
+        53.9,
+        75.5
+      ],
+      "F22.comparison.0.group.1.person.051": [
+        55.0,
+        73.7,
+        56.8,
+        75.5
+      ],
+      "F22.comparison.0.group.1.person.052": [
+        57.9,
+        73.7,
+        59.7,
+        75.5
+      ],
+      "F22.comparison.0.group.1.person.053": [
+        60.8,
+        73.7,
+        62.6,
+        75.5
+      ],
+      "F22.comparison.0.group.1.person.054": [
+        63.7,
+        73.7,
+        65.5,
+        75.5
+      ],
+      "F22.comparison.0.group.1.person.055": [
+        66.6,
+        73.7,
+        68.4,
+        75.5
+      ],
+      "F22.comparison.0.group.1.person.056": [
+        69.5,
+        73.7,
+        71.3,
+        75.5
+      ],
+      "F22.comparison.0.group.1.person.057": [
+        72.4,
+        73.7,
+        74.2,
+        75.5
+      ],
+      "F22.comparison.0.group.1.person.058": [
+        75.3,
+        73.7,
+        77.1,
+        75.5
+      ],
+      "F22.comparison.0.group.1.person.059": [
+        78.2,
+        73.7,
+        80.0,
+        75.5
+      ],
+      "F22.comparison.0.group.1.person.060": [
+        52.1,
+        70.8,
+        53.9,
+        72.6
+      ],
+      "F22.comparison.0.group.1.person.061": [
+        55.0,
+        70.8,
+        56.8,
+        72.6
+      ],
+      "F22.comparison.0.group.1.person.062": [
+        57.9,
+        70.8,
+        59.7,
+        72.6
+      ],
+      "F22.comparison.0.group.1.person.063": [
+        60.8,
+        70.8,
+        62.6,
+        72.6
+      ],
+      "F22.comparison.0.group.1.person.064": [
+        63.7,
+        70.8,
+        65.5,
+        72.6
+      ],
+      "F22.comparison.0.group.1.person.065": [
+        66.6,
+        70.8,
+        68.4,
+        72.6
+      ],
+      "F22.comparison.0.group.1.person.066": [
+        69.5,
+        70.8,
+        71.3,
+        72.6
+      ],
+      "F22.comparison.0.group.1.person.067": [
+        72.4,
+        70.8,
+        74.2,
+        72.6
+      ],
+      "F22.comparison.0.group.1.person.068": [
+        75.3,
+        70.8,
+        77.1,
+        72.6
+      ],
+      "F22.comparison.0.group.1.person.069": [
+        78.2,
+        70.8,
+        80.0,
+        72.6
+      ],
+      "F22.comparison.0.group.1.person.070": [
+        52.1,
+        67.9,
+        53.9,
+        69.7
+      ],
+      "F22.comparison.0.group.1.person.071": [
+        55.0,
+        67.9,
+        56.8,
+        69.7
+      ],
+      "F22.comparison.0.group.1.person.072": [
+        57.9,
+        67.9,
+        59.7,
+        69.7
+      ],
+      "F22.comparison.0.group.1.person.073": [
+        60.8,
+        67.9,
+        62.6,
+        69.7
+      ],
+      "F22.comparison.0.group.1.person.074": [
+        63.7,
+        67.9,
+        65.5,
+        69.7
+      ],
+      "F22.comparison.0.group.1.person.075": [
+        66.6,
+        67.9,
+        68.4,
+        69.7
+      ],
+      "F22.comparison.0.group.1.person.076": [
+        69.5,
+        67.9,
+        71.3,
+        69.7
+      ],
+      "F22.comparison.0.group.1.person.077": [
+        72.4,
+        67.9,
+        74.2,
+        69.7
+      ],
+      "F22.comparison.0.group.1.person.078": [
+        75.3,
+        67.9,
+        77.1,
+        69.7
+      ],
+      "F22.comparison.0.group.1.person.079": [
+        78.2,
+        67.9,
+        80.0,
+        69.7
+      ],
+      "F22.comparison.0.group.1.person.080": [
+        52.1,
+        65.0,
+        53.9,
+        66.8
+      ],
+      "F22.comparison.0.group.1.person.081": [
+        55.0,
+        65.0,
+        56.8,
+        66.8
+      ],
+      "F22.comparison.0.group.1.person.082": [
+        57.9,
+        65.0,
+        59.7,
+        66.8
+      ],
+      "F22.comparison.0.group.1.person.083": [
+        60.8,
+        65.0,
+        62.6,
+        66.8
+      ],
+      "F22.comparison.0.group.1.person.084": [
+        63.7,
+        65.0,
+        65.5,
+        66.8
+      ],
+      "F22.comparison.0.group.1.person.085": [
+        66.6,
+        65.0,
+        68.4,
+        66.8
+      ],
+      "F22.comparison.0.group.1.person.086": [
+        69.5,
+        65.0,
+        71.3,
+        66.8
+      ],
+      "F22.comparison.0.group.1.person.087": [
+        72.4,
+        65.0,
+        74.2,
+        66.8
+      ],
+      "F22.comparison.0.group.1.person.088": [
+        75.3,
+        65.0,
+        77.1,
+        66.8
+      ],
+      "F22.comparison.0.group.1.person.089": [
+        78.2,
+        65.0,
+        80.0,
+        66.8
+      ],
+      "F22.comparison.0.group.1.person.090": [
+        52.1,
+        62.1,
+        53.9,
+        63.9
+      ],
+      "F22.comparison.0.group.1.person.091": [
+        55.0,
+        62.1,
+        56.8,
+        63.9
+      ],
+      "F22.comparison.0.group.1.person.092": [
+        57.9,
+        62.1,
+        59.7,
+        63.9
+      ],
+      "F22.comparison.0.group.1.person.093": [
+        60.8,
+        62.1,
+        62.6,
+        63.9
+      ],
+      "F22.comparison.0.group.1.person.094": [
+        63.7,
+        62.1,
+        65.5,
+        63.9
+      ],
+      "F22.comparison.0.group.1.person.095": [
+        66.6,
+        62.1,
+        68.4,
+        63.9
+      ],
+      "F22.comparison.0.group.1.person.096": [
+        69.5,
+        62.1,
+        71.3,
+        63.9
+      ],
+      "F22.comparison.0.group.1.person.097": [
+        72.4,
+        62.1,
+        74.2,
+        63.9
+      ],
+      "F22.comparison.0.group.1.person.098": [
+        75.3,
+        62.1,
+        77.1,
+        63.9
+      ],
+      "F22.comparison.0.group.1.person.099": [
+        78.2,
+        62.1,
+        80.0,
+        63.9
+      ],
+      "F22.comparison.0.risk.1": [
+        55.3608,
+        93.7951,
+        76.7392,
+        98.2049
+      ],
+      "F22.comparison.0.relative": [
+        104.2737,
+        80.4644,
+        127.7263,
+        85.5356
+      ],
+      "F22.comparison.0.absolute": [
+        100.1673,
+        68.7951,
+        131.8327,
+        73.2049
+      ],
+      "F22.comparison.0.shared_denominator": [
+        11.0,
+        60.0,
+        80.0,
+        61.5
+      ],
+      "F22.comparison.1.group.0.person.000": [
+        11.1,
+        49.2,
+        12.9,
+        51.0
+      ],
+      "F22.comparison.1.group.0.person.001": [
+        14.0,
+        49.2,
+        15.8,
+        51.0
+      ],
+      "F22.comparison.1.group.0.person.002": [
+        16.9,
+        49.2,
+        18.7,
+        51.0
+      ],
+      "F22.comparison.1.group.0.person.003": [
+        19.8,
+        49.2,
+        21.6,
+        51.0
+      ],
+      "F22.comparison.1.group.0.person.004": [
+        22.7,
+        49.2,
+        24.5,
+        51.0
+      ],
+      "F22.comparison.1.group.0.person.005": [
+        25.6,
+        49.2,
+        27.4,
+        51.0
+      ],
+      "F22.comparison.1.group.0.person.006": [
+        28.5,
+        49.2,
+        30.3,
+        51.0
+      ],
+      "F22.comparison.1.group.0.person.007": [
+        31.4,
+        49.2,
+        33.2,
+        51.0
+      ],
+      "F22.comparison.1.group.0.person.008": [
+        34.3,
+        49.2,
+        36.1,
+        51.0
+      ],
+      "F22.comparison.1.group.0.person.009": [
+        37.2,
+        49.2,
+        39.0,
+        51.0
+      ],
+      "F22.comparison.1.group.0.person.010": [
+        11.1,
+        46.3,
+        12.9,
+        48.1
+      ],
+      "F22.comparison.1.group.0.person.011": [
+        14.0,
+        46.3,
+        15.8,
+        48.1
+      ],
+      "F22.comparison.1.group.0.person.012": [
+        16.9,
+        46.3,
+        18.7,
+        48.1
+      ],
+      "F22.comparison.1.group.0.person.013": [
+        19.8,
+        46.3,
+        21.6,
+        48.1
+      ],
+      "F22.comparison.1.group.0.person.014": [
+        22.7,
+        46.3,
+        24.5,
+        48.1
+      ],
+      "F22.comparison.1.group.0.person.015": [
+        25.6,
+        46.3,
+        27.4,
+        48.1
+      ],
+      "F22.comparison.1.group.0.person.016": [
+        28.5,
+        46.3,
+        30.3,
+        48.1
+      ],
+      "F22.comparison.1.group.0.person.017": [
+        31.4,
+        46.3,
+        33.2,
+        48.1
+      ],
+      "F22.comparison.1.group.0.person.018": [
+        34.3,
+        46.3,
+        36.1,
+        48.1
+      ],
+      "F22.comparison.1.group.0.person.019": [
+        37.2,
+        46.3,
+        39.0,
+        48.1
+      ],
+      "F22.comparison.1.group.0.person.020": [
+        11.1,
+        43.4,
+        12.9,
+        45.2
+      ],
+      "F22.comparison.1.group.0.person.021": [
+        14.0,
+        43.4,
+        15.8,
+        45.2
+      ],
+      "F22.comparison.1.group.0.person.022": [
+        16.9,
+        43.4,
+        18.7,
+        45.2
+      ],
+      "F22.comparison.1.group.0.person.023": [
+        19.8,
+        43.4,
+        21.6,
+        45.2
+      ],
+      "F22.comparison.1.group.0.person.024": [
+        22.7,
+        43.4,
+        24.5,
+        45.2
+      ],
+      "F22.comparison.1.group.0.person.025": [
+        25.6,
+        43.4,
+        27.4,
+        45.2
+      ],
+      "F22.comparison.1.group.0.person.026": [
+        28.5,
+        43.4,
+        30.3,
+        45.2
+      ],
+      "F22.comparison.1.group.0.person.027": [
+        31.4,
+        43.4,
+        33.2,
+        45.2
+      ],
+      "F22.comparison.1.group.0.person.028": [
+        34.3,
+        43.4,
+        36.1,
+        45.2
+      ],
+      "F22.comparison.1.group.0.person.029": [
+        37.2,
+        43.4,
+        39.0,
+        45.2
+      ],
+      "F22.comparison.1.group.0.person.030": [
+        11.1,
+        40.5,
+        12.9,
+        42.3
+      ],
+      "F22.comparison.1.group.0.person.031": [
+        14.0,
+        40.5,
+        15.8,
+        42.3
+      ],
+      "F22.comparison.1.group.0.person.032": [
+        16.9,
+        40.5,
+        18.7,
+        42.3
+      ],
+      "F22.comparison.1.group.0.person.033": [
+        19.8,
+        40.5,
+        21.6,
+        42.3
+      ],
+      "F22.comparison.1.group.0.person.034": [
+        22.7,
+        40.5,
+        24.5,
+        42.3
+      ],
+      "F22.comparison.1.group.0.person.035": [
+        25.6,
+        40.5,
+        27.4,
+        42.3
+      ],
+      "F22.comparison.1.group.0.person.036": [
+        28.5,
+        40.5,
+        30.3,
+        42.3
+      ],
+      "F22.comparison.1.group.0.person.037": [
+        31.4,
+        40.5,
+        33.2,
+        42.3
+      ],
+      "F22.comparison.1.group.0.person.038": [
+        34.3,
+        40.5,
+        36.1,
+        42.3
+      ],
+      "F22.comparison.1.group.0.person.039": [
+        37.2,
+        40.5,
+        39.0,
+        42.3
+      ],
+      "F22.comparison.1.group.0.person.040": [
+        11.1,
+        37.6,
+        12.9,
+        39.4
+      ],
+      "F22.comparison.1.group.0.person.041": [
+        14.0,
+        37.6,
+        15.8,
+        39.4
+      ],
+      "F22.comparison.1.group.0.person.042": [
+        16.9,
+        37.6,
+        18.7,
+        39.4
+      ],
+      "F22.comparison.1.group.0.person.043": [
+        19.8,
+        37.6,
+        21.6,
+        39.4
+      ],
+      "F22.comparison.1.group.0.person.044": [
+        22.7,
+        37.6,
+        24.5,
+        39.4
+      ],
+      "F22.comparison.1.group.0.person.045": [
+        25.6,
+        37.6,
+        27.4,
+        39.4
+      ],
+      "F22.comparison.1.group.0.person.046": [
+        28.5,
+        37.6,
+        30.3,
+        39.4
+      ],
+      "F22.comparison.1.group.0.person.047": [
+        31.4,
+        37.6,
+        33.2,
+        39.4
+      ],
+      "F22.comparison.1.group.0.person.048": [
+        34.3,
+        37.6,
+        36.1,
+        39.4
+      ],
+      "F22.comparison.1.group.0.person.049": [
+        37.2,
+        37.6,
+        39.0,
+        39.4
+      ],
+      "F22.comparison.1.group.0.person.050": [
+        11.1,
+        34.7,
+        12.9,
+        36.5
+      ],
+      "F22.comparison.1.group.0.person.051": [
+        14.0,
+        34.7,
+        15.8,
+        36.5
+      ],
+      "F22.comparison.1.group.0.person.052": [
+        16.9,
+        34.7,
+        18.7,
+        36.5
+      ],
+      "F22.comparison.1.group.0.person.053": [
+        19.8,
+        34.7,
+        21.6,
+        36.5
+      ],
+      "F22.comparison.1.group.0.person.054": [
+        22.7,
+        34.7,
+        24.5,
+        36.5
+      ],
+      "F22.comparison.1.group.0.person.055": [
+        25.6,
+        34.7,
+        27.4,
+        36.5
+      ],
+      "F22.comparison.1.group.0.person.056": [
+        28.5,
+        34.7,
+        30.3,
+        36.5
+      ],
+      "F22.comparison.1.group.0.person.057": [
+        31.4,
+        34.7,
+        33.2,
+        36.5
+      ],
+      "F22.comparison.1.group.0.person.058": [
+        34.3,
+        34.7,
+        36.1,
+        36.5
+      ],
+      "F22.comparison.1.group.0.person.059": [
+        37.2,
+        34.7,
+        39.0,
+        36.5
+      ],
+      "F22.comparison.1.group.0.person.060": [
+        11.1,
+        31.8,
+        12.9,
+        33.6
+      ],
+      "F22.comparison.1.group.0.person.061": [
+        14.0,
+        31.8,
+        15.8,
+        33.6
+      ],
+      "F22.comparison.1.group.0.person.062": [
+        16.9,
+        31.8,
+        18.7,
+        33.6
+      ],
+      "F22.comparison.1.group.0.person.063": [
+        19.8,
+        31.8,
+        21.6,
+        33.6
+      ],
+      "F22.comparison.1.group.0.person.064": [
+        22.7,
+        31.8,
+        24.5,
+        33.6
+      ],
+      "F22.comparison.1.group.0.person.065": [
+        25.6,
+        31.8,
+        27.4,
+        33.6
+      ],
+      "F22.comparison.1.group.0.person.066": [
+        28.5,
+        31.8,
+        30.3,
+        33.6
+      ],
+      "F22.comparison.1.group.0.person.067": [
+        31.4,
+        31.8,
+        33.2,
+        33.6
+      ],
+      "F22.comparison.1.group.0.person.068": [
+        34.3,
+        31.8,
+        36.1,
+        33.6
+      ],
+      "F22.comparison.1.group.0.person.069": [
+        37.2,
+        31.8,
+        39.0,
+        33.6
+      ],
+      "F22.comparison.1.group.0.person.070": [
+        11.1,
+        28.9,
+        12.9,
+        30.7
+      ],
+      "F22.comparison.1.group.0.person.071": [
+        14.0,
+        28.9,
+        15.8,
+        30.7
+      ],
+      "F22.comparison.1.group.0.person.072": [
+        16.9,
+        28.9,
+        18.7,
+        30.7
+      ],
+      "F22.comparison.1.group.0.person.073": [
+        19.8,
+        28.9,
+        21.6,
+        30.7
+      ],
+      "F22.comparison.1.group.0.person.074": [
+        22.7,
+        28.9,
+        24.5,
+        30.7
+      ],
+      "F22.comparison.1.group.0.person.075": [
+        25.6,
+        28.9,
+        27.4,
+        30.7
+      ],
+      "F22.comparison.1.group.0.person.076": [
+        28.5,
+        28.9,
+        30.3,
+        30.7
+      ],
+      "F22.comparison.1.group.0.person.077": [
+        31.4,
+        28.9,
+        33.2,
+        30.7
+      ],
+      "F22.comparison.1.group.0.person.078": [
+        34.3,
+        28.9,
+        36.1,
+        30.7
+      ],
+      "F22.comparison.1.group.0.person.079": [
+        37.2,
+        28.9,
+        39.0,
+        30.7
+      ],
+      "F22.comparison.1.group.0.person.080": [
+        11.1,
+        26.0,
+        12.9,
+        27.8
+      ],
+      "F22.comparison.1.group.0.person.081": [
+        14.0,
+        26.0,
+        15.8,
+        27.8
+      ],
+      "F22.comparison.1.group.0.person.082": [
+        16.9,
+        26.0,
+        18.7,
+        27.8
+      ],
+      "F22.comparison.1.group.0.person.083": [
+        19.8,
+        26.0,
+        21.6,
+        27.8
+      ],
+      "F22.comparison.1.group.0.person.084": [
+        22.7,
+        26.0,
+        24.5,
+        27.8
+      ],
+      "F22.comparison.1.group.0.person.085": [
+        25.6,
+        26.0,
+        27.4,
+        27.8
+      ],
+      "F22.comparison.1.group.0.person.086": [
+        28.5,
+        26.0,
+        30.3,
+        27.8
+      ],
+      "F22.comparison.1.group.0.person.087": [
+        31.4,
+        26.0,
+        33.2,
+        27.8
+      ],
+      "F22.comparison.1.group.0.person.088": [
+        34.3,
+        26.0,
+        36.1,
+        27.8
+      ],
+      "F22.comparison.1.group.0.person.089": [
+        37.2,
+        26.0,
+        39.0,
+        27.8
+      ],
+      "F22.comparison.1.group.0.person.090": [
+        11.1,
+        23.1,
+        12.9,
+        24.9
+      ],
+      "F22.comparison.1.group.0.person.091": [
+        14.0,
+        23.1,
+        15.8,
+        24.9
+      ],
+      "F22.comparison.1.group.0.person.092": [
+        16.9,
+        23.1,
+        18.7,
+        24.9
+      ],
+      "F22.comparison.1.group.0.person.093": [
+        19.8,
+        23.1,
+        21.6,
+        24.9
+      ],
+      "F22.comparison.1.group.0.person.094": [
+        22.7,
+        23.1,
+        24.5,
+        24.9
+      ],
+      "F22.comparison.1.group.0.person.095": [
+        25.6,
+        23.1,
+        27.4,
+        24.9
+      ],
+      "F22.comparison.1.group.0.person.096": [
+        28.5,
+        23.1,
+        30.3,
+        24.9
+      ],
+      "F22.comparison.1.group.0.person.097": [
+        31.4,
+        23.1,
+        33.2,
+        24.9
+      ],
+      "F22.comparison.1.group.0.person.098": [
+        34.3,
+        23.1,
+        36.1,
+        24.9
+      ],
+      "F22.comparison.1.group.0.person.099": [
+        37.2,
+        23.1,
+        39.0,
+        24.9
+      ],
+      "F22.comparison.1.risk.0": [
+        12.4135,
+        54.7951,
+        37.6865,
+        59.2049
+      ],
+      "F22.comparison.1.group.1.person.000": [
+        52.1,
+        49.2,
+        53.9,
+        51.0
+      ],
+      "F22.comparison.1.group.1.person.001": [
+        55.0,
+        49.2,
+        56.8,
+        51.0
+      ],
+      "F22.comparison.1.group.1.person.002": [
+        57.9,
+        49.2,
+        59.7,
+        51.0
+      ],
+      "F22.comparison.1.group.1.person.003": [
+        60.8,
+        49.2,
+        62.6,
+        51.0
+      ],
+      "F22.comparison.1.group.1.person.004": [
+        63.7,
+        49.2,
+        65.5,
+        51.0
+      ],
+      "F22.comparison.1.group.1.person.005": [
+        66.6,
+        49.2,
+        68.4,
+        51.0
+      ],
+      "F22.comparison.1.group.1.person.006": [
+        69.5,
+        49.2,
+        71.3,
+        51.0
+      ],
+      "F22.comparison.1.group.1.person.007": [
+        72.4,
+        49.2,
+        74.2,
+        51.0
+      ],
+      "F22.comparison.1.group.1.person.008": [
+        75.3,
+        49.2,
+        77.1,
+        51.0
+      ],
+      "F22.comparison.1.group.1.person.009": [
+        78.2,
+        49.2,
+        80.0,
+        51.0
+      ],
+      "F22.comparison.1.group.1.person.010": [
+        52.1,
+        46.3,
+        53.9,
+        48.1
+      ],
+      "F22.comparison.1.group.1.person.011": [
+        55.0,
+        46.3,
+        56.8,
+        48.1
+      ],
+      "F22.comparison.1.group.1.person.012": [
+        57.9,
+        46.3,
+        59.7,
+        48.1
+      ],
+      "F22.comparison.1.group.1.person.013": [
+        60.8,
+        46.3,
+        62.6,
+        48.1
+      ],
+      "F22.comparison.1.group.1.person.014": [
+        63.7,
+        46.3,
+        65.5,
+        48.1
+      ],
+      "F22.comparison.1.group.1.person.015": [
+        66.6,
+        46.3,
+        68.4,
+        48.1
+      ],
+      "F22.comparison.1.group.1.person.016": [
+        69.5,
+        46.3,
+        71.3,
+        48.1
+      ],
+      "F22.comparison.1.group.1.person.017": [
+        72.4,
+        46.3,
+        74.2,
+        48.1
+      ],
+      "F22.comparison.1.group.1.person.018": [
+        75.3,
+        46.3,
+        77.1,
+        48.1
+      ],
+      "F22.comparison.1.group.1.person.019": [
+        78.2,
+        46.3,
+        80.0,
+        48.1
+      ],
+      "F22.comparison.1.group.1.person.020": [
+        52.1,
+        43.4,
+        53.9,
+        45.2
+      ],
+      "F22.comparison.1.group.1.person.021": [
+        55.0,
+        43.4,
+        56.8,
+        45.2
+      ],
+      "F22.comparison.1.group.1.person.022": [
+        57.9,
+        43.4,
+        59.7,
+        45.2
+      ],
+      "F22.comparison.1.group.1.person.023": [
+        60.8,
+        43.4,
+        62.6,
+        45.2
+      ],
+      "F22.comparison.1.group.1.person.024": [
+        63.7,
+        43.4,
+        65.5,
+        45.2
+      ],
+      "F22.comparison.1.group.1.person.025": [
+        66.6,
+        43.4,
+        68.4,
+        45.2
+      ],
+      "F22.comparison.1.group.1.person.026": [
+        69.5,
+        43.4,
+        71.3,
+        45.2
+      ],
+      "F22.comparison.1.group.1.person.027": [
+        72.4,
+        43.4,
+        74.2,
+        45.2
+      ],
+      "F22.comparison.1.group.1.person.028": [
+        75.3,
+        43.4,
+        77.1,
+        45.2
+      ],
+      "F22.comparison.1.group.1.person.029": [
+        78.2,
+        43.4,
+        80.0,
+        45.2
+      ],
+      "F22.comparison.1.group.1.person.030": [
+        52.1,
+        40.5,
+        53.9,
+        42.3
+      ],
+      "F22.comparison.1.group.1.person.031": [
+        55.0,
+        40.5,
+        56.8,
+        42.3
+      ],
+      "F22.comparison.1.group.1.person.032": [
+        57.9,
+        40.5,
+        59.7,
+        42.3
+      ],
+      "F22.comparison.1.group.1.person.033": [
+        60.8,
+        40.5,
+        62.6,
+        42.3
+      ],
+      "F22.comparison.1.group.1.person.034": [
+        63.7,
+        40.5,
+        65.5,
+        42.3
+      ],
+      "F22.comparison.1.group.1.person.035": [
+        66.6,
+        40.5,
+        68.4,
+        42.3
+      ],
+      "F22.comparison.1.group.1.person.036": [
+        69.5,
+        40.5,
+        71.3,
+        42.3
+      ],
+      "F22.comparison.1.group.1.person.037": [
+        72.4,
+        40.5,
+        74.2,
+        42.3
+      ],
+      "F22.comparison.1.group.1.person.038": [
+        75.3,
+        40.5,
+        77.1,
+        42.3
+      ],
+      "F22.comparison.1.group.1.person.039": [
+        78.2,
+        40.5,
+        80.0,
+        42.3
+      ],
+      "F22.comparison.1.group.1.person.040": [
+        52.1,
+        37.6,
+        53.9,
+        39.4
+      ],
+      "F22.comparison.1.group.1.person.041": [
+        55.0,
+        37.6,
+        56.8,
+        39.4
+      ],
+      "F22.comparison.1.group.1.person.042": [
+        57.9,
+        37.6,
+        59.7,
+        39.4
+      ],
+      "F22.comparison.1.group.1.person.043": [
+        60.8,
+        37.6,
+        62.6,
+        39.4
+      ],
+      "F22.comparison.1.group.1.person.044": [
+        63.7,
+        37.6,
+        65.5,
+        39.4
+      ],
+      "F22.comparison.1.group.1.person.045": [
+        66.6,
+        37.6,
+        68.4,
+        39.4
+      ],
+      "F22.comparison.1.group.1.person.046": [
+        69.5,
+        37.6,
+        71.3,
+        39.4
+      ],
+      "F22.comparison.1.group.1.person.047": [
+        72.4,
+        37.6,
+        74.2,
+        39.4
+      ],
+      "F22.comparison.1.group.1.person.048": [
+        75.3,
+        37.6,
+        77.1,
+        39.4
+      ],
+      "F22.comparison.1.group.1.person.049": [
+        78.2,
+        37.6,
+        80.0,
+        39.4
+      ],
+      "F22.comparison.1.group.1.person.050": [
+        52.1,
+        34.7,
+        53.9,
+        36.5
+      ],
+      "F22.comparison.1.group.1.person.051": [
+        55.0,
+        34.7,
+        56.8,
+        36.5
+      ],
+      "F22.comparison.1.group.1.person.052": [
+        57.9,
+        34.7,
+        59.7,
+        36.5
+      ],
+      "F22.comparison.1.group.1.person.053": [
+        60.8,
+        34.7,
+        62.6,
+        36.5
+      ],
+      "F22.comparison.1.group.1.person.054": [
+        63.7,
+        34.7,
+        65.5,
+        36.5
+      ],
+      "F22.comparison.1.group.1.person.055": [
+        66.6,
+        34.7,
+        68.4,
+        36.5
+      ],
+      "F22.comparison.1.group.1.person.056": [
+        69.5,
+        34.7,
+        71.3,
+        36.5
+      ],
+      "F22.comparison.1.group.1.person.057": [
+        72.4,
+        34.7,
+        74.2,
+        36.5
+      ],
+      "F22.comparison.1.group.1.person.058": [
+        75.3,
+        34.7,
+        77.1,
+        36.5
+      ],
+      "F22.comparison.1.group.1.person.059": [
+        78.2,
+        34.7,
+        80.0,
+        36.5
+      ],
+      "F22.comparison.1.group.1.person.060": [
+        52.1,
+        31.8,
+        53.9,
+        33.6
+      ],
+      "F22.comparison.1.group.1.person.061": [
+        55.0,
+        31.8,
+        56.8,
+        33.6
+      ],
+      "F22.comparison.1.group.1.person.062": [
+        57.9,
+        31.8,
+        59.7,
+        33.6
+      ],
+      "F22.comparison.1.group.1.person.063": [
+        60.8,
+        31.8,
+        62.6,
+        33.6
+      ],
+      "F22.comparison.1.group.1.person.064": [
+        63.7,
+        31.8,
+        65.5,
+        33.6
+      ],
+      "F22.comparison.1.group.1.person.065": [
+        66.6,
+        31.8,
+        68.4,
+        33.6
+      ],
+      "F22.comparison.1.group.1.person.066": [
+        69.5,
+        31.8,
+        71.3,
+        33.6
+      ],
+      "F22.comparison.1.group.1.person.067": [
+        72.4,
+        31.8,
+        74.2,
+        33.6
+      ],
+      "F22.comparison.1.group.1.person.068": [
+        75.3,
+        31.8,
+        77.1,
+        33.6
+      ],
+      "F22.comparison.1.group.1.person.069": [
+        78.2,
+        31.8,
+        80.0,
+        33.6
+      ],
+      "F22.comparison.1.group.1.person.070": [
+        52.1,
+        28.9,
+        53.9,
+        30.7
+      ],
+      "F22.comparison.1.group.1.person.071": [
+        55.0,
+        28.9,
+        56.8,
+        30.7
+      ],
+      "F22.comparison.1.group.1.person.072": [
+        57.9,
+        28.9,
+        59.7,
+        30.7
+      ],
+      "F22.comparison.1.group.1.person.073": [
+        60.8,
+        28.9,
+        62.6,
+        30.7
+      ],
+      "F22.comparison.1.group.1.person.074": [
+        63.7,
+        28.9,
+        65.5,
+        30.7
+      ],
+      "F22.comparison.1.group.1.person.075": [
+        66.6,
+        28.9,
+        68.4,
+        30.7
+      ],
+      "F22.comparison.1.group.1.person.076": [
+        69.5,
+        28.9,
+        71.3,
+        30.7
+      ],
+      "F22.comparison.1.group.1.person.077": [
+        72.4,
+        28.9,
+        74.2,
+        30.7
+      ],
+      "F22.comparison.1.group.1.person.078": [
+        75.3,
+        28.9,
+        77.1,
+        30.7
+      ],
+      "F22.comparison.1.group.1.person.079": [
+        78.2,
+        28.9,
+        80.0,
+        30.7
+      ],
+      "F22.comparison.1.group.1.person.080": [
+        52.1,
+        26.0,
+        53.9,
+        27.8
+      ],
+      "F22.comparison.1.group.1.person.081": [
+        55.0,
+        26.0,
+        56.8,
+        27.8
+      ],
+      "F22.comparison.1.group.1.person.082": [
+        57.9,
+        26.0,
+        59.7,
+        27.8
+      ],
+      "F22.comparison.1.group.1.person.083": [
+        60.8,
+        26.0,
+        62.6,
+        27.8
+      ],
+      "F22.comparison.1.group.1.person.084": [
+        63.7,
+        26.0,
+        65.5,
+        27.8
+      ],
+      "F22.comparison.1.group.1.person.085": [
+        66.6,
+        26.0,
+        68.4,
+        27.8
+      ],
+      "F22.comparison.1.group.1.person.086": [
+        69.5,
+        26.0,
+        71.3,
+        27.8
+      ],
+      "F22.comparison.1.group.1.person.087": [
+        72.4,
+        26.0,
+        74.2,
+        27.8
+      ],
+      "F22.comparison.1.group.1.person.088": [
+        75.3,
+        26.0,
+        77.1,
+        27.8
+      ],
+      "F22.comparison.1.group.1.person.089": [
+        78.2,
+        26.0,
+        80.0,
+        27.8
+      ],
+      "F22.comparison.1.group.1.person.090": [
+        52.1,
+        23.1,
+        53.9,
+        24.9
+      ],
+      "F22.comparison.1.group.1.person.091": [
+        55.0,
+        23.1,
+        56.8,
+        24.9
+      ],
+      "F22.comparison.1.group.1.person.092": [
+        57.9,
+        23.1,
+        59.7,
+        24.9
+      ],
+      "F22.comparison.1.group.1.person.093": [
+        60.8,
+        23.1,
+        62.6,
+        24.9
+      ],
+      "F22.comparison.1.group.1.person.094": [
+        63.7,
+        23.1,
+        65.5,
+        24.9
+      ],
+      "F22.comparison.1.group.1.person.095": [
+        66.6,
+        23.1,
+        68.4,
+        24.9
+      ],
+      "F22.comparison.1.group.1.person.096": [
+        69.5,
+        23.1,
+        71.3,
+        24.9
+      ],
+      "F22.comparison.1.group.1.person.097": [
+        72.4,
+        23.1,
+        74.2,
+        24.9
+      ],
+      "F22.comparison.1.group.1.person.098": [
+        75.3,
+        23.1,
+        77.1,
+        24.9
+      ],
+      "F22.comparison.1.group.1.person.099": [
+        78.2,
+        23.1,
+        80.0,
+        24.9
+      ],
+      "F22.comparison.1.risk.1": [
+        53.4135,
+        54.7951,
+        78.6865,
+        59.2049
+      ],
+      "F22.comparison.1.relative": [
+        104.2737,
+        41.4644,
+        127.7263,
+        46.5356
+      ],
+      "F22.comparison.1.absolute": [
+        99.1937,
+        29.7951,
+        132.8063,
+        34.2049
+      ],
+      "F22.comparison.1.shared_denominator": [
+        11.0,
+        21.0,
+        80.0,
+        22.5
+      ],
+      "F22.scope.note": [
+        6.0,
+        6.1259,
+        108.1927,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2740
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 403,
+    "svg_text_count": 10,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F22.scope": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F22.comparison.0.group.0.person.000": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.001": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.002": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.003": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.004": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.005": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.006": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.007": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.008": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.009": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.010": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.011": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.012": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.013": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.014": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.015": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.016": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.017": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.018": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.019": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.020": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.021": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.022": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.023": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.024": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.025": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.026": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.027": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.028": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.029": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.030": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.031": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.032": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.033": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.034": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.035": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.036": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.037": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.038": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.039": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.040": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.041": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.042": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.043": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.044": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.045": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.046": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.047": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.048": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.049": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.050": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.051": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.052": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.053": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.054": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.055": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.056": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.057": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.058": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.059": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.060": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.061": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.062": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.063": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.064": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.065": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.066": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.067": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.068": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.069": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.070": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.071": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.072": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.073": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.074": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.075": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.076": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.077": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.078": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.079": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.080": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.081": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.082": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.083": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.084": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.085": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.086": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.087": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.088": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.089": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.090": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.091": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.092": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.093": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.094": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.095": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.096": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.097": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.098": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.0.person.099": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.risk.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F22.comparison.0.group.1.person.000": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.001": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.002": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.003": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.004": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.005": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.006": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.007": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.008": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.009": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.010": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.011": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.012": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.013": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.014": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.015": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.016": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.017": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.018": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.019": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.020": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.021": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.022": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.023": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.024": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.025": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.026": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.027": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.028": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.029": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.030": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.031": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.032": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.033": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.034": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.035": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.036": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.037": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.038": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.039": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.040": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.041": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.042": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.043": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.044": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.045": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.046": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.047": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.048": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.049": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.050": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.051": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.052": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.053": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.054": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.055": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.056": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.057": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.058": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.059": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.060": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.061": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.062": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.063": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.064": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.065": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.066": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.067": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.068": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.069": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.070": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.071": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.072": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.073": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.074": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.075": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.076": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.077": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.078": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.079": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.080": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.081": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.082": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.083": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.084": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.085": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.086": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.087": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.088": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.089": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.090": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.091": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.092": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.093": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.094": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.095": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.096": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.097": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.098": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.group.1.person.099": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.0.risk.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F22.comparison.0.relative": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F22.comparison.0.absolute": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F22.comparison.0.shared_denominator": {
+      "type": "Line2D",
+      "role": "set_or_region"
+    },
+    "F22.comparison.1.group.0.person.000": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.001": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.002": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.003": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.004": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.005": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.006": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.007": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.008": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.009": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.010": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.011": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.012": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.013": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.014": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.015": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.016": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.017": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.018": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.019": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.020": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.021": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.022": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.023": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.024": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.025": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.026": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.027": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.028": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.029": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.030": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.031": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.032": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.033": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.034": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.035": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.036": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.037": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.038": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.039": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.040": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.041": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.042": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.043": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.044": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.045": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.046": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.047": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.048": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.049": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.050": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.051": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.052": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.053": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.054": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.055": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.056": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.057": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.058": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.059": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.060": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.061": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.062": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.063": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.064": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.065": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.066": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.067": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.068": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.069": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.070": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.071": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.072": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.073": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.074": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.075": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.076": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.077": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.078": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.079": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.080": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.081": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.082": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.083": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.084": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.085": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.086": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.087": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.088": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.089": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.090": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.091": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.092": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.093": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.094": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.095": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.096": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.097": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.098": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.0.person.099": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.risk.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F22.comparison.1.group.1.person.000": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.001": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.002": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.003": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.004": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.005": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.006": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.007": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.008": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.009": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.010": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.011": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.012": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.013": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.014": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.015": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.016": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.017": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.018": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.019": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.020": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.021": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.022": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.023": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.024": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.025": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.026": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.027": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.028": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.029": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.030": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.031": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.032": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.033": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.034": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.035": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.036": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.037": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.038": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.039": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.040": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.041": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.042": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.043": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.044": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.045": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.046": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.047": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.048": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.049": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.050": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.051": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.052": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.053": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.054": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.055": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.056": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.057": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.058": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.059": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.060": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.061": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.062": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.063": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.064": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.065": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.066": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.067": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.068": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.069": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.070": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.071": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.072": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.073": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.074": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.075": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.076": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.077": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.078": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.079": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.080": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.081": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.082": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.083": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.084": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.085": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.086": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.087": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.088": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.089": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.090": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.091": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.092": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.093": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.094": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.095": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.096": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.097": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.098": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.group.1.person.099": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F22.comparison.1.risk.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F22.comparison.1.relative": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F22.comparison.1.absolute": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F22.comparison.1.shared_denominator": {
+      "type": "Line2D",
+      "role": "set_or_region"
+    },
+    "F22.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F22_relative_absolute_risk.py": "20e3fa4fa4f1ee44e8d5376fad00a1644f1b3e4af54e0ff922aaad6e7d3bb1b8",
+    "figure_specs/F22.json": "158703b02d31d1bd76a398ac54161aa7fb11396c44a694d3ef9cbd41b6c8c573",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F22_relative_absolute_risk.png",
+      "sha256": "b9cc81861ac224796efad4c57743e50baf1e5cc12685a6fceae1c79201d2b3ee"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F22_relative_absolute_risk.pdf",
+      "sha256": "48e94ae4765b9e107f1ac939161a441dd2832fa703147db6ce8584adb99f4eb4"
+    },
+    "svg": {
+      "path": "outputs/svg/F22_relative_absolute_risk.svg",
+      "sha256": "4a54831703a07ea28e98951b0acb6f31e983f61c4ffa9702779e72ddc9ac6ff3"
+    }
+  },
+  "adjacent_pdf_sha256": "48e94ae4765b9e107f1ac939161a441dd2832fa703147db6ce8584adb99f4eb4",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

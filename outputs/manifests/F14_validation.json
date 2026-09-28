@@ -1,0 +1,935 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F14",
+    "title": "相同 DNA 的不同表观状态",
+    "source_paragraphs": "P0366–P0372 相同序列可有不同化学状态、核小体位置和蛋白环境；P0374–P0383 C甲基化仍是C，改变局部环境与被使用机会。",
+    "cognitive_task": "同一DNA序列可以处于不同化学和染色质状态，从而拥有不同的分子接触机会。",
+    "layout_rationale": "170×116 mm。上下两行在相同位置展示 A T C G A C 序列，状态 B 的同一 C 上附加甲基标记；右侧局部染色质曲线及周边蛋白表现不同环境。连接采用无箭头的虚线观察／放大关系，序列相同另以底部文字确认，不将甲基化等同于关闭。",
+    "essential_objects": "两份完全相同的示意DNA序列、同位置的C、甲基小标、不同包装/接触机会；少量核小体和周边蛋白示意。",
+    "relationships": "两序列相等；修饰附加而非碱基替换；状态影响可接近/接触机会。",
+    "misconceptions": "不画C变成另一字母；不把甲基化普遍等于关闭；不将一处标记单独画成固定命令；正文P0366章节回指有歧义，不照搬错误章号。",
+    "components": "两组相同 DNA 梯形骨架与六字母序列、状态 A/B 标签、一枚甲基圆点与键线、局部染色质曲线、周边蛋白图符、两条无箭头放大线、序列身份与作用范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "state_a.same_material",
+        "kind": "zoom",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "state_b.same_material",
+        "kind": "zoom",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 83,
+    "text_count": 20,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F14.sequence.heading": [
+        22.0,
+        103.4644,
+        46.384,
+        108.5356
+      ],
+      "F14.state.heading": [
+        108.0,
+        103.4644,
+        132.384,
+        108.5356
+      ],
+      "F14.state_a.dna.upper": [
+        22.0,
+        78.0,
+        94.0,
+        78.0
+      ],
+      "F14.state_a.dna.lower": [
+        22.0,
+        74.0,
+        94.0,
+        74.0
+      ],
+      "F14.state_a.dna.pair.0": [
+        24.0,
+        74.0,
+        24.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.1": [
+        27.0,
+        74.0,
+        27.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.2": [
+        30.0,
+        74.0,
+        30.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.3": [
+        33.0,
+        74.0,
+        33.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.4": [
+        36.0,
+        74.0,
+        36.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.5": [
+        39.0,
+        74.0,
+        39.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.6": [
+        42.0,
+        74.0,
+        42.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.7": [
+        45.0,
+        74.0,
+        45.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.8": [
+        48.0,
+        74.0,
+        48.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.9": [
+        51.0,
+        74.0,
+        51.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.10": [
+        54.0,
+        74.0,
+        54.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.11": [
+        57.0,
+        74.0,
+        57.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.12": [
+        60.0,
+        74.0,
+        60.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.13": [
+        63.0,
+        74.0,
+        63.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.14": [
+        66.0,
+        74.0,
+        66.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.15": [
+        69.0,
+        74.0,
+        69.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.16": [
+        72.0,
+        74.0,
+        72.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.17": [
+        75.0,
+        74.0,
+        75.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.18": [
+        78.0,
+        74.0,
+        78.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.19": [
+        81.0,
+        74.0,
+        81.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.20": [
+        84.0,
+        74.0,
+        84.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.21": [
+        87.0,
+        74.0,
+        87.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.22": [
+        90.0,
+        74.0,
+        90.0,
+        78.0
+      ],
+      "F14.state_a.dna.pair.23": [
+        93.0,
+        74.0,
+        93.0,
+        78.0
+      ],
+      "F14.state_a.base.0": [
+        26.9628,
+        81.9054,
+        29.0372,
+        86.0946
+      ],
+      "F14.state_a.base.1": [
+        39.0052,
+        81.9054,
+        40.9948,
+        86.0946
+      ],
+      "F14.state_a.base.2": [
+        50.9205,
+        81.9054,
+        53.0795,
+        86.0946
+      ],
+      "F14.state_a.base.3": [
+        62.8358,
+        81.9054,
+        65.1642,
+        86.0946
+      ],
+      "F14.state_a.base.4": [
+        74.9628,
+        81.9054,
+        77.0372,
+        86.0946
+      ],
+      "F14.state_a.base.5": [
+        86.9205,
+        81.9054,
+        89.0795,
+        86.0946
+      ],
+      "F14.state_a.name": [
+        8.5127,
+        82.0156,
+        17.4873,
+        85.9844
+      ],
+      "F14.state_a.chromatin": [
+        110.0,
+        75.0001,
+        154.0,
+        80.9999
+      ],
+      "F14.state_a.protein.0": [
+        118.0,
+        76.0,
+        122.0,
+        80.0
+      ],
+      "F14.state_a.protein.1": [
+        138.0,
+        76.0,
+        142.0,
+        80.0
+      ],
+      "F14.state_a.same_material": [
+        97.0,
+        77.0,
+        106.0,
+        77.0
+      ],
+      "F14.state_b.dna.upper": [
+        22.0,
+        40.0,
+        94.0,
+        40.0
+      ],
+      "F14.state_b.dna.lower": [
+        22.0,
+        36.0,
+        94.0,
+        36.0
+      ],
+      "F14.state_b.dna.pair.0": [
+        24.0,
+        36.0,
+        24.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.1": [
+        27.0,
+        36.0,
+        27.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.2": [
+        30.0,
+        36.0,
+        30.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.3": [
+        33.0,
+        36.0,
+        33.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.4": [
+        36.0,
+        36.0,
+        36.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.5": [
+        39.0,
+        36.0,
+        39.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.6": [
+        42.0,
+        36.0,
+        42.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.7": [
+        45.0,
+        36.0,
+        45.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.8": [
+        48.0,
+        36.0,
+        48.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.9": [
+        51.0,
+        36.0,
+        51.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.10": [
+        54.0,
+        36.0,
+        54.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.11": [
+        57.0,
+        36.0,
+        57.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.12": [
+        60.0,
+        36.0,
+        60.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.13": [
+        63.0,
+        36.0,
+        63.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.14": [
+        66.0,
+        36.0,
+        66.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.15": [
+        69.0,
+        36.0,
+        69.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.16": [
+        72.0,
+        36.0,
+        72.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.17": [
+        75.0,
+        36.0,
+        75.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.18": [
+        78.0,
+        36.0,
+        78.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.19": [
+        81.0,
+        36.0,
+        81.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.20": [
+        84.0,
+        36.0,
+        84.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.21": [
+        87.0,
+        36.0,
+        87.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.22": [
+        90.0,
+        36.0,
+        90.0,
+        40.0
+      ],
+      "F14.state_b.dna.pair.23": [
+        93.0,
+        36.0,
+        93.0,
+        40.0
+      ],
+      "F14.state_b.base.0": [
+        26.9628,
+        43.9054,
+        29.0372,
+        48.0946
+      ],
+      "F14.state_b.base.1": [
+        39.0052,
+        43.9054,
+        40.9948,
+        48.0946
+      ],
+      "F14.state_b.base.2": [
+        50.9205,
+        43.9054,
+        53.0795,
+        48.0946
+      ],
+      "F14.state_b.base.3": [
+        62.8358,
+        43.9054,
+        65.1642,
+        48.0946
+      ],
+      "F14.state_b.base.4": [
+        74.9628,
+        43.9054,
+        77.0372,
+        48.0946
+      ],
+      "F14.state_b.base.5": [
+        86.9205,
+        43.9054,
+        89.0795,
+        48.0946
+      ],
+      "F14.state_b.name": [
+        8.428,
+        44.0156,
+        17.572,
+        47.9844
+      ],
+      "F14.state_b.methyl": [
+        50.4,
+        56.4,
+        53.6,
+        59.6
+      ],
+      "F14.state_b.methyl.bond": [
+        52.0,
+        49.0,
+        52.0,
+        56.3
+      ],
+      "F14.state_b.methyl.label": [
+        62.9943,
+        56.1259,
+        69.0057,
+        59.8741
+      ],
+      "F14.state_b.chromatin": [
+        110.0,
+        35.0002,
+        154.0,
+        44.9998
+      ],
+      "F14.state_b.protein.0": [
+        116.0,
+        38.0,
+        120.0,
+        42.0
+      ],
+      "F14.state_b.protein.1": [
+        135.0,
+        38.0,
+        139.0,
+        42.0
+      ],
+      "F14.state_b.protein.2": [
+        147.0,
+        38.0,
+        151.0,
+        42.0
+      ],
+      "F14.state_b.same_material": [
+        97.0,
+        39.0,
+        106.0,
+        39.0
+      ],
+      "F14.sequence.identity": [
+        44.5643,
+        22.0156,
+        73.4357,
+        25.9844
+      ],
+      "F14.environment.label": [
+        122.983,
+        20.2517,
+        141.017,
+        27.7483
+      ],
+      "F14.scope.note": [
+        6.0,
+        6.1259,
+        96.0007,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2740
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 64,
+    "svg_text_count": 21,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F14.sequence.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_a.dna.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.11": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.12": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.13": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.14": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.15": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.16": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.17": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.18": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.19": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.20": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.21": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.22": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.dna.pair.23": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.base.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_a.base.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_a.base.2": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_a.base.3": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_a.base.4": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_a.base.5": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_a.name": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_a.chromatin": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_a.protein.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F14.state_a.protein.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F14.state_a.same_material": {
+      "type": "FancyArrowPatch",
+      "role": "zoom"
+    },
+    "F14.state_b.dna.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.11": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.12": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.13": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.14": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.15": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.16": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.17": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.18": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.19": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.20": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.21": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.22": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.dna.pair.23": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.base.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_b.base.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_b.base.2": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_b.base.3": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_b.base.4": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_b.base.5": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_b.name": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_b.methyl": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F14.state_b.methyl.bond": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.methyl.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.state_b.chromatin": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F14.state_b.protein.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F14.state_b.protein.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F14.state_b.protein.2": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F14.state_b.same_material": {
+      "type": "FancyArrowPatch",
+      "role": "zoom"
+    },
+    "F14.sequence.identity": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.environment.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F14.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F14_epigenetic_states.py": "e23117e3458fb225f32fd08bcb4e360c4cd9aa2ccd2a9e5a607f9b45e0af3f40",
+    "figure_specs/F14.json": "2b7a56a6414562aae25b7e2a1180a38bbb14fa7cf834a6b6dae01ef523fef1f2",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F14_epigenetic_states.png",
+      "sha256": "440ab71314981c2984ca57451a290b82e221d55a3742d1035b95e6cb2a51508e"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F14_epigenetic_states.pdf",
+      "sha256": "cc24a1dbd6476496ce661aa91d657ad38116243912a76cdd72495e575147f5a0"
+    },
+    "svg": {
+      "path": "outputs/svg/F14_epigenetic_states.svg",
+      "sha256": "4d2b0f92564ee72ee39e73a17f3dd32f6ee3a432abdd002a7b1f77a09649b03d"
+    }
+  },
+  "adjacent_pdf_sha256": "cc24a1dbd6476496ce661aa91d657ad38116243912a76cdd72495e575147f5a0",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

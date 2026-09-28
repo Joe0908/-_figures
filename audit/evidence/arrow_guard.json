@@ -1,0 +1,38 @@
+{
+  "source_sha256": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+  "tests": [
+    {
+      "name": "real_crossing",
+      "raw_path_crosses_text": true,
+      "passed": false,
+      "errors": [
+        {
+          "kind": "stroke_crosses_text",
+          "ids": [
+            "real_crossing.edge",
+            "real_crossing.text"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "clear_arrow",
+      "raw_path_crosses_text": false,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "dummy_origin",
+      "raw_path_crosses_text": true,
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "true_crossing_rejected": true,
+    "ordinary_arrow_accepted": true,
+    "dummy_regression_exercised": true,
+    "dummy_origin_false_crossing_removed": true
+  },
+  "passed": true
+}

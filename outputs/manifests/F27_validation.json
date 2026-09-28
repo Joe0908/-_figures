@@ -1,0 +1,576 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F27",
+    "title": "KJ 的分子修复与临床观察",
+    "source_paragraphs": "P1108–P1114 CPS1缺乏与氮处理；P1119–P1124设计、实验测试与脂质纳米颗粒递送；P1125早期单人报告；P1126后续医院更新；P1127–P1131明确不能写成确定治愈。",
+    "cognitive_task": "个体化编辑把分子设计推进到人体，但单人早期观察与后续更新仍需同长期安全和持续获益分开判断。",
+    "layout_rationale": "140毫米高的三个清晰层：设计验证递送；以拟实现文字和条件线表示作用目标；分别标注2025早期报告和2026医院更新的单人观察卡。",
+    "essential_objects": "CPS1变异/提前停止、个体化编辑器、实验验证、脂质纳米颗粒、肝细胞；拟恢复CPS1/氮处理链；分开的早期报告与一周年更新观察卡。",
+    "relationships": "设计与递送的过程；分子改写到功能为待验证跨层联系；临床卡为观察，不是自动因果证明；不同时间信息清楚分层。",
+    "misconceptions": "不添加编辑率、氨浓度、剂量、样本图或数值曲线；不把“未报告严重治疗相关事件”写成无风险；不写已治愈；不把医院更新当对每一机制箭头的测量证明。",
+    "components": "设计节点、过程线、目标DNA、条件机制链、紫色临床观察卡、年份标记、长期未定边界",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      140
+    ],
+    "relations_drawn": [
+      {
+        "id": "design.step.0",
+        "kind": "process",
+        "source": "variant",
+        "target": "editor",
+        "label": null
+      },
+      {
+        "id": "design.step.1",
+        "kind": "process",
+        "source": "editor",
+        "target": "test",
+        "label": null
+      },
+      {
+        "id": "design.step.2",
+        "kind": "process",
+        "source": "test",
+        "target": "delivery",
+        "label": null
+      },
+      {
+        "id": "mechanism.sequence_to_protein",
+        "kind": "conditional",
+        "source": "mechanism.sequence",
+        "target": "mechanism.cps1",
+        "label": null
+      },
+      {
+        "id": "mechanism.protein_to_function",
+        "kind": "conditional",
+        "source": "mechanism.cps1",
+        "target": "mechanism.function",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    140.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 45,
+    "text_count": 17,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F27.design.heading": [
+        6.0,
+        127.9644,
+        38.512,
+        133.0356
+      ],
+      "F27.design.variant.boundary": [
+        7.0,
+        104.0,
+        41.0,
+        122.0
+      ],
+      "F27.design.variant.label": [
+        17.057,
+        109.2517,
+        30.943,
+        116.7483
+      ],
+      "F27.design.editor.boundary": [
+        48.0,
+        104.0,
+        80.0,
+        122.0
+      ],
+      "F27.design.editor.label": [
+        59.4915,
+        109.2517,
+        68.5085,
+        116.7483
+      ],
+      "F27.design.test.boundary": [
+        88.0,
+        104.0,
+        120.0,
+        122.0
+      ],
+      "F27.design.test.label": [
+        97.9887,
+        109.2517,
+        110.0113,
+        116.7483
+      ],
+      "F27.design.delivery.boundary": [
+        126.5,
+        104.0,
+        163.5,
+        122.0
+      ],
+      "F27.design.delivery.label": [
+        135.983,
+        109.2517,
+        154.017,
+        116.7483
+      ],
+      "F27.design.step.0": [
+        41.0,
+        112.4003,
+        47.5661,
+        113.5997
+      ],
+      "F27.design.step.1": [
+        80.0,
+        112.4003,
+        87.5661,
+        113.5997
+      ],
+      "F27.design.step.2": [
+        120.0,
+        112.4003,
+        126.0661,
+        113.5997
+      ],
+      "F27.mechanism.heading": [
+        6.0,
+        95.9054,
+        56.165,
+        100.0946
+      ],
+      "F27.mechanism.sequence.region": [
+        31.0,
+        82.4,
+        37.0,
+        87.6
+      ],
+      "F27.mechanism.sequence.upper": [
+        15.0,
+        87.0,
+        51.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.lower": [
+        15.0,
+        83.0,
+        51.0,
+        83.0
+      ],
+      "F27.mechanism.sequence.pair.0": [
+        17.0,
+        83.0,
+        17.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.pair.1": [
+        20.0,
+        83.0,
+        20.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.pair.2": [
+        23.0,
+        83.0,
+        23.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.pair.3": [
+        26.0,
+        83.0,
+        26.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.pair.4": [
+        29.0,
+        83.0,
+        29.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.pair.5": [
+        32.0,
+        83.0,
+        32.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.pair.6": [
+        35.0,
+        83.0,
+        35.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.pair.7": [
+        38.0,
+        83.0,
+        38.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.pair.8": [
+        41.0,
+        83.0,
+        41.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.pair.9": [
+        44.0,
+        83.0,
+        44.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.pair.10": [
+        47.0,
+        83.0,
+        47.0,
+        87.0
+      ],
+      "F27.mechanism.sequence.pair.11": [
+        50.0,
+        83.0,
+        50.0,
+        87.0
+      ],
+      "F27.mechanism.sequence_label": [
+        23.983,
+        74.1259,
+        42.017,
+        77.8741
+      ],
+      "F27.mechanism.cps1.boundary": [
+        63.0,
+        78.0,
+        111.0,
+        92.0
+      ],
+      "F27.mechanism.cps1.label": [
+        74.8937,
+        83.0156,
+        99.1063,
+        86.9844
+      ],
+      "F27.mechanism.function.boundary": [
+        126.5,
+        76.5,
+        163.5,
+        93.5
+      ],
+      "F27.mechanism.function.label": [
+        137.0625,
+        81.0312,
+        152.9375,
+        88.9688
+      ],
+      "F27.mechanism.sequence_to_protein": [
+        52.0,
+        84.4003,
+        62.5661,
+        85.5997
+      ],
+      "F27.mechanism.protein_to_function": [
+        111.0,
+        84.4003,
+        126.0661,
+        85.5997
+      ],
+      "F27.observation.heading": [
+        6.0,
+        62.4644,
+        54.768,
+        67.5356
+      ],
+      "F27.observation.card.0": [
+        6.0,
+        21.0,
+        82.0,
+        58.0
+      ],
+      "F27.observation.card.1": [
+        88.0,
+        21.0,
+        164.0,
+        58.0
+      ],
+      "F27.early.date": [
+        11.0,
+        49.9054,
+        42.623,
+        54.0946
+      ],
+      "F27.early.observed": [
+        24.4632,
+        32.3776,
+        63.5368,
+        43.6224
+      ],
+      "F27.early.boundary": [
+        30.4745,
+        23.1259,
+        57.5255,
+        26.8741
+      ],
+      "F27.later.date": [
+        93.0,
+        49.9054,
+        127.9673,
+        54.0946
+      ],
+      "F27.later.observed": [
+        109.4688,
+        35.2517,
+        142.5312,
+        42.7483
+      ],
+      "F27.later.boundary": [
+        107.966,
+        23.1259,
+        144.034,
+        26.8741
+      ],
+      "F27.scope.note": [
+        6.0,
+        6.1259,
+        105.187,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      3307
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 35,
+    "svg_text_count": 25,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F27.design.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.design.variant.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F27.design.variant.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.design.editor.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F27.design.editor.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.design.test.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F27.design.test.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.design.delivery.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F27.design.delivery.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.design.step.0": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F27.design.step.1": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F27.design.step.2": {
+      "type": "FancyArrowPatch",
+      "role": "process"
+    },
+    "F27.mechanism.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.mechanism.sequence.region": {
+      "type": "FancyBboxPatch",
+      "role": "region_fill"
+    },
+    "F27.mechanism.sequence.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence.pair.11": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F27.mechanism.sequence_label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.mechanism.cps1.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F27.mechanism.cps1.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.mechanism.function.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F27.mechanism.function.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.mechanism.sequence_to_protein": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F27.mechanism.protein_to_function": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F27.observation.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.observation.card.0": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F27.observation.card.1": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F27.early.date": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.early.observed": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.early.boundary": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.later.date": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.later.observed": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.later.boundary": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F27.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F27_kj_mechanism_and_observation.py": "c6a8d67d3cf4827aaae391b25ee326b33c607599c56eb5aed664da7d07adbf35",
+    "figure_specs/F27.json": "7b7bed702d7a968fcb2955c2a341ddc2e541432e989d03490134c43941119594",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F27_kj_mechanism_and_observation.png",
+      "sha256": "3b0bcd5f94d52d8ca28e0871700514d245da518dae7709010756c4e983ff0809"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F27_kj_mechanism_and_observation.pdf",
+      "sha256": "3700a6b6c897eb833f1160a9d63e8202a03fd9dbebdf095c4940c6eddc08a2e5"
+    },
+    "svg": {
+      "path": "outputs/svg/F27_kj_mechanism_and_observation.svg",
+      "sha256": "c203f1fdada93c7a800ac2d8f83721fb0c2016bf3b1ec5ac5dbdad3a7c6f0285"
+    }
+  },
+  "adjacent_pdf_sha256": "3700a6b6c897eb833f1160a9d63e8202a03fd9dbebdf095c4940c6eddc08a2e5",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

@@ -1,0 +1,740 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F09",
+    "title": "人的基因组不只有蛋白质编码序列",
+    "source_paragraphs": "P0264–P0267 基因数不能直接解释复杂性；P0270–P0272 编码序列只占很小部分，其他区域包括基因内非最终编码部分、重复、非编码RNA、调控/结构及未明区域。",
+    "cognitive_task": "蛋白质编码只是基因组的一部分，许多其他序列影响信息使用、结构或尚待理解。",
+    "layout_rationale": "同一DNA条下方配置六种平行注释轨道；重叠区间表示注释可以交叠，明确所有长度和比例为示意。",
+    "essential_objects": "同一 DNA 长带、编码区域小段、非编码 RNA 区域、调控区域、重复/其他区域、作用尚未明确标识。",
+    "relationships": "区域都属于 DNA；功能注释可能重叠，不把不同标签强行变成互斥的百分比分区。",
+    "misconceptions": "不画无依据精确比例饼图；不把非编码全称垃圾或全称有用；不让基因等于蛋白质编码段；示意长度不表示实际比例。",
+    "components": "DNA双链、注释基线、功能区段、非比例说明",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 65,
+    "text_count": 9,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F09.heading": [
+        6.0,
+        113.4644,
+        67.976,
+        118.5356
+      ],
+      "F09.dna.upper": [
+        49.0,
+        100.0,
+        159.0,
+        100.0
+      ],
+      "F09.dna.lower": [
+        49.0,
+        96.0,
+        159.0,
+        96.0
+      ],
+      "F09.dna.pair.0": [
+        51.0,
+        96.0,
+        51.0,
+        100.0
+      ],
+      "F09.dna.pair.1": [
+        54.0,
+        96.0,
+        54.0,
+        100.0
+      ],
+      "F09.dna.pair.2": [
+        57.0,
+        96.0,
+        57.0,
+        100.0
+      ],
+      "F09.dna.pair.3": [
+        60.0,
+        96.0,
+        60.0,
+        100.0
+      ],
+      "F09.dna.pair.4": [
+        63.0,
+        96.0,
+        63.0,
+        100.0
+      ],
+      "F09.dna.pair.5": [
+        66.0,
+        96.0,
+        66.0,
+        100.0
+      ],
+      "F09.dna.pair.6": [
+        69.0,
+        96.0,
+        69.0,
+        100.0
+      ],
+      "F09.dna.pair.7": [
+        72.0,
+        96.0,
+        72.0,
+        100.0
+      ],
+      "F09.dna.pair.8": [
+        75.0,
+        96.0,
+        75.0,
+        100.0
+      ],
+      "F09.dna.pair.9": [
+        78.0,
+        96.0,
+        78.0,
+        100.0
+      ],
+      "F09.dna.pair.10": [
+        81.0,
+        96.0,
+        81.0,
+        100.0
+      ],
+      "F09.dna.pair.11": [
+        84.0,
+        96.0,
+        84.0,
+        100.0
+      ],
+      "F09.dna.pair.12": [
+        87.0,
+        96.0,
+        87.0,
+        100.0
+      ],
+      "F09.dna.pair.13": [
+        90.0,
+        96.0,
+        90.0,
+        100.0
+      ],
+      "F09.dna.pair.14": [
+        93.0,
+        96.0,
+        93.0,
+        100.0
+      ],
+      "F09.dna.pair.15": [
+        96.0,
+        96.0,
+        96.0,
+        100.0
+      ],
+      "F09.dna.pair.16": [
+        99.0,
+        96.0,
+        99.0,
+        100.0
+      ],
+      "F09.dna.pair.17": [
+        102.0,
+        96.0,
+        102.0,
+        100.0
+      ],
+      "F09.dna.pair.18": [
+        105.0,
+        96.0,
+        105.0,
+        100.0
+      ],
+      "F09.dna.pair.19": [
+        108.0,
+        96.0,
+        108.0,
+        100.0
+      ],
+      "F09.dna.pair.20": [
+        111.0,
+        96.0,
+        111.0,
+        100.0
+      ],
+      "F09.dna.pair.21": [
+        114.0,
+        96.0,
+        114.0,
+        100.0
+      ],
+      "F09.dna.pair.22": [
+        117.0,
+        96.0,
+        117.0,
+        100.0
+      ],
+      "F09.dna.pair.23": [
+        120.0,
+        96.0,
+        120.0,
+        100.0
+      ],
+      "F09.dna.pair.24": [
+        123.0,
+        96.0,
+        123.0,
+        100.0
+      ],
+      "F09.dna.pair.25": [
+        126.0,
+        96.0,
+        126.0,
+        100.0
+      ],
+      "F09.dna.pair.26": [
+        129.0,
+        96.0,
+        129.0,
+        100.0
+      ],
+      "F09.dna.pair.27": [
+        132.0,
+        96.0,
+        132.0,
+        100.0
+      ],
+      "F09.dna.pair.28": [
+        135.0,
+        96.0,
+        135.0,
+        100.0
+      ],
+      "F09.dna.pair.29": [
+        138.0,
+        96.0,
+        138.0,
+        100.0
+      ],
+      "F09.dna.pair.30": [
+        141.0,
+        96.0,
+        141.0,
+        100.0
+      ],
+      "F09.dna.pair.31": [
+        144.0,
+        96.0,
+        144.0,
+        100.0
+      ],
+      "F09.dna.pair.32": [
+        147.0,
+        96.0,
+        147.0,
+        100.0
+      ],
+      "F09.dna.pair.33": [
+        150.0,
+        96.0,
+        150.0,
+        100.0
+      ],
+      "F09.dna.pair.34": [
+        153.0,
+        96.0,
+        153.0,
+        100.0
+      ],
+      "F09.dna.pair.35": [
+        156.0,
+        96.0,
+        156.0,
+        100.0
+      ],
+      "F09.track.label.0": [
+        6.0,
+        82.6259,
+        21.0283,
+        86.3741
+      ],
+      "F09.track.baseline.0": [
+        49.0,
+        84.5,
+        159.0,
+        84.5
+      ],
+      "F09.track.region.0.0": [
+        68.0,
+        82.0,
+        77.0,
+        87.0
+      ],
+      "F09.track.region.0.1": [
+        100.0,
+        82.0,
+        110.0,
+        87.0
+      ],
+      "F09.track.label.1": [
+        6.0,
+        71.6259,
+        27.0397,
+        75.3741
+      ],
+      "F09.track.baseline.1": [
+        49.0,
+        73.5,
+        159.0,
+        73.5
+      ],
+      "F09.track.region.1.0": [
+        55.0,
+        71.0,
+        68.0,
+        76.0
+      ],
+      "F09.track.region.1.1": [
+        77.0,
+        71.0,
+        100.0,
+        76.0
+      ],
+      "F09.track.region.1.2": [
+        110.0,
+        71.0,
+        121.0,
+        76.0
+      ],
+      "F09.track.label.2": [
+        6.0,
+        60.6259,
+        21.5787,
+        64.3741
+      ],
+      "F09.track.baseline.2": [
+        49.0,
+        62.5,
+        159.0,
+        62.5
+      ],
+      "F09.track.region.2.0": [
+        130.0,
+        60.0,
+        154.0,
+        65.0
+      ],
+      "F09.track.label.3": [
+        6.0,
+        49.6259,
+        18.0227,
+        53.3741
+      ],
+      "F09.track.baseline.3": [
+        49.0,
+        51.5,
+        159.0,
+        51.5
+      ],
+      "F09.track.region.3.0": [
+        52.0,
+        49.0,
+        67.0,
+        54.0
+      ],
+      "F09.track.region.3.1": [
+        114.0,
+        49.0,
+        128.0,
+        54.0
+      ],
+      "F09.track.label.4": [
+        6.0,
+        38.6259,
+        21.0283,
+        42.3741
+      ],
+      "F09.track.baseline.4": [
+        49.0,
+        40.5,
+        159.0,
+        40.5
+      ],
+      "F09.track.region.4.0": [
+        87.0,
+        38.0,
+        101.0,
+        43.0
+      ],
+      "F09.track.region.4.1": [
+        133.0,
+        38.0,
+        154.0,
+        43.0
+      ],
+      "F09.track.label.5": [
+        6.0,
+        27.6259,
+        24.034,
+        31.3741
+      ],
+      "F09.track.baseline.5": [
+        49.0,
+        29.5,
+        159.0,
+        29.5
+      ],
+      "F09.track.region.5.0": [
+        72.0,
+        27.0,
+        86.0,
+        32.0
+      ],
+      "F09.track.region.5.1": [
+        120.0,
+        27.0,
+        131.0,
+        32.0
+      ],
+      "F09.meaning": [
+        38.4122,
+        16.1259,
+        131.5878,
+        19.8741
+      ],
+      "F09.scope.note": [
+        6.0,
+        6.1259,
+        99.1757,
+        9.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2976
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 69,
+    "svg_text_count": 9,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F09.heading": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F09.dna.upper": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.lower": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.6": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.7": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.8": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.9": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.10": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.11": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.12": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.13": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.14": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.15": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.16": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.17": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.18": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.19": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.20": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.21": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.22": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.23": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.24": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.25": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.26": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.27": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.28": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.29": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.30": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.31": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.32": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.33": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.34": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.dna.pair.35": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.track.label.0": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F09.track.baseline.0": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.track.region.0.0": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.track.region.0.1": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.track.label.1": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F09.track.baseline.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.track.region.1.0": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.track.region.1.1": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.track.region.1.2": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.track.label.2": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F09.track.baseline.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.track.region.2.0": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.track.label.3": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F09.track.baseline.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.track.region.3.0": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.track.region.3.1": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.track.label.4": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F09.track.baseline.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.track.region.4.0": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.track.region.4.1": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.track.label.5": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F09.track.baseline.5": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F09.track.region.5.0": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.track.region.5.1": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F09.meaning": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F09.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F09_genome_annotation_tracks.py": "d4ab3aa0e24e9f83e76939ae443b44dd2f78b7ef350721fb67a59b91acd83df7",
+    "figure_specs/F09.json": "1c96a8a33b30b19aa9b75fa21f7cd5c9b1c809d9ffa2f32555ff5a0c45ce6867",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F09_genome_annotation_tracks.png",
+      "sha256": "436ea245cc7116d57f0bcdd69fdde24b3e0ab00edec87e5cbfa460f1090ff88f"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F09_genome_annotation_tracks.pdf",
+      "sha256": "fa00ad4af4c57d6eeebe249b70c16dcf27cf6c0b81f2648fa0797a17cd017e0c"
+    },
+    "svg": {
+      "path": "outputs/svg/F09_genome_annotation_tracks.svg",
+      "sha256": "714799811450563645131feb2dba922282280495b350878ef04928c96c751cc2"
+    }
+  },
+  "adjacent_pdf_sha256": "fa00ad4af4c57d6eeebe249b70c16dcf27cf6c0b81f2648fa0797a17cd017e0c",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "id": "F17",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "7a14f054421cc78d3b07d3d885423155da9cfb4be9f3f0c7352f2a085f4b197b",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F17_protein_states.py",
+  "size_mm": [
+    170.0,
+    126.0
+  ],
+  "artist_count": 36,
+  "texts": [
+    {
+      "id": "F17.common.heading",
+      "text": "蛋白质总量相同，状态可以不同",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        114.4644097222222,
+        62.896000000000015,
+        119.53559027777776
+      ]
+    },
+    {
+      "id": "F17.panel.0.heading",
+      "text": "磷酸化",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        24.729500000000012,
+        99.79513888888887,
+        35.27050000000001,
+        104.2048611111111
+      ]
+    },
+    {
+      "id": "F17.panel.0.a",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        11.089833333333345,
+        88.12586805555553,
+        12.910166666666678,
+        91.87413194444443
+      ]
+    },
+    {
+      "id": "F17.panel.0.b",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        11.026333333333346,
+        55.12586805555555,
+        12.973666666666679,
+        58.874131944444436
+      ]
+    },
+    {
+      "id": "F17.panel.1.heading",
+      "text": "位置",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        80.48633333333335,
+        99.79513888888887,
+        87.5136666666667,
+        104.2048611111111
+      ]
+    },
+    {
+      "id": "F17.panel.1.a",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        65.08983333333335,
+        88.12586805555553,
+        66.91016666666668,
+        91.87413194444443
+      ]
+    },
+    {
+      "id": "F17.panel.1.b",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        65.02633333333335,
+        55.12586805555555,
+        66.97366666666669,
+        58.874131944444436
+      ]
+    },
+    {
+      "id": "F17.panel.2.heading",
+      "text": "结合伙伴",
+      "size_pt": 10.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        130.97266666666667,
+        99.79513888888887,
+        145.02733333333333,
+        104.2048611111111
+      ]
+    },
+    {
+      "id": "F17.panel.2.a",
+      "text": "A",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        119.08983333333333,
+        88.12586805555553,
+        120.91016666666668,
+        91.87413194444443
+      ]
+    },
+    {
+      "id": "F17.panel.2.b",
+      "text": "B",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        119.02633333333334,
+        55.12586805555555,
+        120.97366666666667,
+        58.874131944444436
+      ]
+    },
+    {
+      "id": "F17.phosphorylation.marker.label",
+      "text": "P",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#A6633F",
+      "extent_mm": [
+        35.06866666666668,
+        52.12586805555556,
+        36.93133333333334,
+        55.87413194444443
+      ]
+    },
+    {
+      "id": "F17.phosphorylation.a.label",
+      "text": "未加该磷酸基",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        20.98300000000001,
+        69.12586805555554,
+        39.01700000000001,
+        72.87413194444443
+      ]
+    },
+    {
+      "id": "F17.phosphorylation.b.label",
+      "text": "加上该磷酸基",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        20.98300000000001,
+        33.12586805555555,
+        39.01700000000001,
+        36.874131944444436
+      ]
+    },
+    {
+      "id": "F17.location.a.label",
+      "text": "位于细胞质",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        76.48583333333336,
+        66.12586805555554,
+        91.5141666666667,
+        69.87413194444443
+      ]
+    },
+    {
+      "id": "F17.location.b.label",
+      "text": "位于细胞核",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        76.48583333333336,
+        32.12586805555555,
+        91.5141666666667,
+        35.874131944444436
+      ]
+    },
+    {
+      "id": "F17.binding.a.label",
+      "text": "尚未结合",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        131.98866666666666,
+        69.12586805555554,
+        144.01133333333334,
+        72.87413194444443
+      ]
+    },
+    {
+      "id": "F17.binding.b.label",
+      "text": "与伙伴结合",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        130.48583333333335,
+        33.12586805555555,
+        145.51416666666668,
+        36.874131944444436
+      ]
+    },
+    {
+      "id": "F17.result",
+      "text": "功能可能改变",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#A6633F",
+      "extent_mm": [
+        74.96700000000001,
+        15.905381944444443,
+        95.03300000000002,
+        20.09461805555555
+      ]
+    },
+    {
+      "id": "F17.scope.note",
+      "text": "三组是独立比较；图符不是实测数量，磷酸化也不普遍等于激活。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.125868055555554,
+        93.16433333333333,
+        9.874131944444443
+      ]
+    }
+  ],
+  "relations": [],
+  "spec": {
+    "id": "F17",
+    "title": "蛋白质数量与功能状态",
+    "source_paragraphs": "P0496–P0511 丰度相同但磷酸化、位置或结合伙伴不同，功能可变；P0514–P0525 RNA与蛋白不一致可指向翻译、降解、取样时间。",
+    "cognitive_task": "蛋白质的数量相同，修饰、位置与结合伙伴不同仍可能改变功能。",
+    "layout_rationale": "170×126 mm。三个等宽独立面板，每个上 A 下 B：磷酸化、细胞内位置、结合伙伴。各对主蛋白数保持一致；中间面板以细胞和细胞核嵌套边界定位。顶部说明总量相同，底部仅写“功能可能改变”，不添加未经支持的特定活性结果。",
+    "essential_objects": "相同数量蛋白、无/有磷酸化示意、胞质/核位置、无/有伙伴结合三个比较。",
+    "relationships": "总量相等；各对只改一个状态维度；功能变化用“可能”条件线，不能证明哪项具体活性。",
+    "misconceptions": "不把磷酸化普遍当激活；不把三个情景堆成一个蛋白必经阶段；相同图符数不能冒充测得分子计数。",
+    "components": "三个对照面板、每组 A/B 标签、等量主蛋白图符、含 P 的磷酸基标记、两组细胞／细胞核边界、游离／结合伙伴、可能结果和非计数范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      126
+    ],
+    "relations_drawn": [],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2976
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        125.99999643961587
+      ],
+      "images": 0,
+      "vector_paths": 18,
+      "fonts": [
+        {
+          "name": "FDDDRM+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 19,
+      "images": 0,
+      "semantic_ids": 36,
+      "font_subset_glyphs": 60
+    }
+  },
+  "output_hashes": {
+    "png": "f30a2fa79983444fc79b37b000d9db9528cac2b3f9cc5f783527d633f07fef26",
+    "pdf": "bac6f3dd4f435d537f7cd74d6feff3b50ce38f42a377942e0d1f73bf699c43b8",
+    "svg": "e2328e97ff95843e5002de055774e2b4408045f77ae712440878f033508c634f"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

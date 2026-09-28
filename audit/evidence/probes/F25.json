@@ -1,0 +1,645 @@
+{
+  "id": "F25",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "5e810caa39e5db2b7ca391d9324fcd740bc780bf205e6e5419e88608883b37a1",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F25_treatment_entry_points.py",
+  "size_mm": [
+    170.0,
+    140.0
+  ],
+  "artist_count": 64,
+  "texts": [
+    {
+      "id": "F25.navigation.dna",
+      "text": "DNA",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        31.97316666666667,
+        129.62586805555554,
+        38.026833333333336,
+        133.37413194444443
+      ]
+    },
+    {
+      "id": "F25.navigation.rna",
+      "text": "RNA",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        62.05783333333334,
+        129.62586805555554,
+        67.94216666666668,
+        133.37413194444443
+      ]
+    },
+    {
+      "id": "F25.navigation.protein",
+      "text": "蛋白及作用",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        94.48583333333335,
+        129.62586805555554,
+        109.51416666666668,
+        133.37413194444443
+      ]
+    },
+    {
+      "id": "F25.navigation.cell",
+      "text": "细胞",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        129.99433333333334,
+        129.62586805555554,
+        136.00566666666668,
+        133.37413194444443
+      ]
+    },
+    {
+      "id": "F25.navigation.organism",
+      "text": "组织与个体",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        146.48583333333335,
+        129.62586805555554,
+        161.51416666666668,
+        133.37413194444443
+      ]
+    },
+    {
+      "id": "F25.sma.case",
+      "text": "SMA",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        110.90538194444444,
+        12.773333333333335,
+        115.09461805555554
+      ]
+    },
+    {
+      "id": "F25.sma.drug",
+      "text": "nusinersen",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        104.12586805555554,
+        21.599833333333336,
+        107.87413194444446
+      ]
+    },
+    {
+      "id": "F25.sma.dna.caption",
+      "text": "原序列保留",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        27.485833333333343,
+        106.12586805555556,
+        42.51416666666667,
+        109.87413194444446
+      ]
+    },
+    {
+      "id": "F25.sma.rna.label",
+      "text": "SMN2 剪接\n保留外显子7",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        56.66033333333334,
+        108.2517361111111,
+        73.33966666666667,
+        115.74826388888887
+      ]
+    },
+    {
+      "id": "F25.sma.protein.label",
+      "text": "完整 SMN\n增加",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        95.45950000000002,
+        108.2517361111111,
+        108.54050000000002,
+        115.74826388888887
+      ]
+    },
+    {
+      "id": "F25.sma.downstream.label",
+      "text": "神经系统\n功能目标",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        139.9886666666667,
+        108.2517361111111,
+        152.01133333333334,
+        115.74826388888887
+      ]
+    },
+    {
+      "id": "F25.sma.intervention.verb",
+      "text": "调整剪接",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#A6633F",
+      "extent_mm": [
+        58.65000000000002,
+        123.015625,
+        71.35000000000002,
+        126.984375
+      ]
+    },
+    {
+      "id": "F25.ttr.case",
+      "text": "遗传性 TTR\n淀粉样变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        80.2517361111111,
+        21.155333333333335,
+        87.74826388888887
+      ]
+    },
+    {
+      "id": "F25.ttr.drug",
+      "text": "patisiran",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        72.12586805555556,
+        18.332890625,
+        75.87413194444443
+      ]
+    },
+    {
+      "id": "F25.ttr.dna.caption",
+      "text": "原序列保留",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        27.485833333333343,
+        76.12586805555556,
+        42.51416666666667,
+        79.87413194444444
+      ]
+    },
+    {
+      "id": "F25.ttr.rna.label",
+      "text": "TTR mRNA\n降解增加",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        57.591666666666676,
+        78.2517361111111,
+        72.40833333333335,
+        85.74826388888889
+      ]
+    },
+    {
+      "id": "F25.ttr.protein.label",
+      "text": "TTR 产生\n减少",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        95.92516666666668,
+        78.2517361111111,
+        108.07483333333334,
+        85.74826388888889
+      ]
+    },
+    {
+      "id": "F25.ttr.downstream.label",
+      "text": "异常沉积\n相关过程",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        139.9886666666667,
+        78.2517361111111,
+        152.01133333333334,
+        85.74826388888889
+      ]
+    },
+    {
+      "id": "F25.ttr.intervention.verb",
+      "text": "减少 RNA",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#A6633F",
+      "extent_mm": [
+        58.33250000000001,
+        93.015625,
+        71.6675,
+        96.984375
+      ]
+    },
+    {
+      "id": "F25.egfr.case",
+      "text": "特定 EGFR\n改变的肺癌",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        50.25173611111111,
+        21.028333333333336,
+        57.74826388888889
+      ]
+    },
+    {
+      "id": "F25.egfr.drug",
+      "text": "osimertinib",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        42.12586805555556,
+        22.283119791666667,
+        45.87413194444444
+      ]
+    },
+    {
+      "id": "F25.egfr.dna.caption",
+      "text": "原序列保留",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        27.485833333333343,
+        46.12586805555556,
+        42.51416666666667,
+        49.874131944444436
+      ]
+    },
+    {
+      "id": "F25.egfr.rna",
+      "text": "仍可产生",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        58.98866666666668,
+        50.12586805555556,
+        71.01133333333334,
+        53.87413194444443
+      ]
+    },
+    {
+      "id": "F25.egfr.protein.label",
+      "text": "异常 EGFR\n功能受抑",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        94.9726666666667,
+        48.2517361111111,
+        109.02733333333335,
+        55.748263888888886
+      ]
+    },
+    {
+      "id": "F25.egfr.downstream.label",
+      "text": "生长行为\n可能改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        139.9886666666667,
+        48.2517361111111,
+        152.01133333333334,
+        55.748263888888886
+      ]
+    },
+    {
+      "id": "F25.egfr.intervention.verb",
+      "text": "抑制功能",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#A6633F",
+      "extent_mm": [
+        95.65000000000002,
+        63.01562500000001,
+        108.35000000000002,
+        66.984375
+      ]
+    },
+    {
+      "id": "F25.pku.case",
+      "text": "PKU",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        21.905381944444446,
+        12.670807291666668,
+        26.094618055555554
+      ]
+    },
+    {
+      "id": "F25.pku.management",
+      "text": "营养管理",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000001,
+        15.125868055555554,
+        18.022666666666666,
+        18.874131944444443
+      ]
+    },
+    {
+      "id": "F25.pku.dna.caption",
+      "text": "原序列保留",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        27.485833333333343,
+        16.125868055555557,
+        42.51416666666667,
+        19.874131944444443
+      ]
+    },
+    {
+      "id": "F25.pku.rna",
+      "text": "未改写",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        60.49150000000001,
+        20.125868055555554,
+        69.50850000000001,
+        23.87413194444445
+      ]
+    },
+    {
+      "id": "F25.pku.pah.label",
+      "text": "PAH 功能\n仍不足",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        95.80180468750001,
+        18.25173611111111,
+        108.19819531250002,
+        25.748263888888893
+      ]
+    },
+    {
+      "id": "F25.pku.input.label",
+      "text": "苯丙氨酸\n输入受控",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        139.9886666666667,
+        18.25173611111111,
+        152.01133333333334,
+        25.748263888888893
+      ]
+    },
+    {
+      "id": "F25.pku.intervention.verb",
+      "text": "管理系统输入",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#A6633F",
+      "extent_mm": [
+        136.47500000000002,
+        33.015625,
+        155.52500000000003,
+        36.984375
+      ]
+    },
+    {
+      "id": "F25.scope.note",
+      "text": "四个独立病例；入口取决于递送、持续性与风险。PKU 管理输入，并非完全去除。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000001,
+        6.1258680555555545,
+        114.78476041666666,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "sma.intervention.port",
+      "kind": "intervention",
+      "source": "sma.intervention.treatment",
+      "target": "sma.intervention.target",
+      "label": null
+    },
+    {
+      "id": "sma.template",
+      "kind": "template",
+      "source": "sma.rna",
+      "target": "sma.protein",
+      "label": null
+    },
+    {
+      "id": "sma.downstream_effect",
+      "kind": "conditional",
+      "source": "sma.protein",
+      "target": "sma.downstream",
+      "label": null
+    },
+    {
+      "id": "ttr.intervention.port",
+      "kind": "intervention",
+      "source": "ttr.intervention.treatment",
+      "target": "ttr.intervention.target",
+      "label": null
+    },
+    {
+      "id": "ttr.template",
+      "kind": "template",
+      "source": "ttr.rna",
+      "target": "ttr.protein",
+      "label": null
+    },
+    {
+      "id": "ttr.downstream_effect",
+      "kind": "conditional",
+      "source": "ttr.protein",
+      "target": "ttr.downstream",
+      "label": null
+    },
+    {
+      "id": "egfr.intervention.port",
+      "kind": "intervention",
+      "source": "egfr.intervention.treatment",
+      "target": "egfr.intervention.target",
+      "label": null
+    },
+    {
+      "id": "egfr.downstream_effect",
+      "kind": "conditional",
+      "source": "egfr.protein",
+      "target": "egfr.downstream",
+      "label": null
+    },
+    {
+      "id": "pku.intervention.port",
+      "kind": "intervention",
+      "source": "pku.intervention.treatment",
+      "target": "pku.intervention.target",
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F25",
+    "title": "生命链条上的不同治疗入口",
+    "source_paragraphs": "P0965–P0986 nusinersen改SMN2剪接；P0993–P1009 patisiran减少TTR RNA；P1011–P1025 osimertinib抑制特定异常EGFR功能；P1028–P1045 PKU管理苯丙氨酸输入、入口选择条件。",
+    "cognitive_task": "治疗可在能改变疾病过程的不同层进入，最初病因不是唯一入口，且每条入口都有递送、持续性与风险条件。",
+    "layout_rationale": "140毫米高的四个独立病例行共享DNA、RNA、蛋白作用、细胞和组织个体的横向导航；只展开本行局部机制，橙色入口直接指向RNA剪接、RNA减少、蛋白功能或系统输入。",
+    "essential_objects": "共享DNA/RNA/蛋白及作用/细胞/组织与个体横向定位；四行独立疾病情境；SMN2初始RNA剪接、TTR mRNA减少、异常EGFR功能抑制、苯丙氨酸输入管理四端口。",
+    "relationships": "四条橙色人为干预端口可位于各行侧边，分别进入对应层；端口不得与紫色观察窗混用。干预不代替后续机制，PKU输入箭头不可指向DNA或PAH修复。",
+    "misconceptions": "不把四种疾病叠成同一患者/同一治疗链；不把PKU画成去掉全部必需氨基酸；不把药名等于对所有病人有效；不把DNA/细胞后续入口画成已在本章完整论证。",
+    "components": "五组层级导航、原DNA保留轨、病例分隔、橙色干预端口、模板虚线、条件影响线、PKU输入节点",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      140
+    ],
+    "relations_drawn": [
+      {
+        "id": "sma.intervention.port",
+        "kind": "intervention",
+        "source": "sma.intervention.treatment",
+        "target": "sma.intervention.target",
+        "label": null
+      },
+      {
+        "id": "sma.template",
+        "kind": "template",
+        "source": "sma.rna",
+        "target": "sma.protein",
+        "label": null
+      },
+      {
+        "id": "sma.downstream_effect",
+        "kind": "conditional",
+        "source": "sma.protein",
+        "target": "sma.downstream",
+        "label": null
+      },
+      {
+        "id": "ttr.intervention.port",
+        "kind": "intervention",
+        "source": "ttr.intervention.treatment",
+        "target": "ttr.intervention.target",
+        "label": null
+      },
+      {
+        "id": "ttr.template",
+        "kind": "template",
+        "source": "ttr.rna",
+        "target": "ttr.protein",
+        "label": null
+      },
+      {
+        "id": "ttr.downstream_effect",
+        "kind": "conditional",
+        "source": "ttr.protein",
+        "target": "ttr.downstream",
+        "label": null
+      },
+      {
+        "id": "egfr.intervention.port",
+        "kind": "intervention",
+        "source": "egfr.intervention.treatment",
+        "target": "egfr.intervention.target",
+        "label": null
+      },
+      {
+        "id": "egfr.downstream_effect",
+        "kind": "conditional",
+        "source": "egfr.protein",
+        "target": "egfr.downstream",
+        "label": null
+      },
+      {
+        "id": "pku.intervention.port",
+        "kind": "intervention",
+        "source": "pku.intervention.treatment",
+        "target": "pku.intervention.target",
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        3307
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        140.0000032212999
+      ],
+      "images": 0,
+      "vector_paths": 40,
+      "fonts": [
+        {
+          "name": "EMDLYG+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 46,
+      "images": 0,
+      "semantic_ids": 64,
+      "font_subset_glyphs": 138
+    }
+  },
+  "output_hashes": {
+    "png": "02e8acd62418a5b4498566b164765ab8d758c4b9d613dddf3176826dd56de388",
+    "pdf": "88d9df8932f1fd8b608a409f8f9f25f40187f6bd12504defe314766cccdecfa1",
+    "svg": "4e8c0701e580f548f27b7c6c782c2f9fe3e4fa57f45bd854f05d386cb4ad2b37"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

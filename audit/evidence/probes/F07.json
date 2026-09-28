@@ -1,0 +1,236 @@
+{
+  "id": "F07",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "bd989a579a78e8238e59af1be84ef97bb758308fca825f713574a5a2443e9979",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F07_sequence_structure_action.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 26,
+  "texts": [
+    {
+      "id": "F07.heading.6",
+      "text": "氨基酸顺序",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        6.000000000000011,
+        103.46440972222221,
+        26.32000000000001,
+        108.53559027777777
+      ]
+    },
+    {
+      "id": "F07.heading.66",
+      "text": "折叠与表面性质",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        66.00000000000001,
+        103.46440972222221,
+        94.44800000000001,
+        108.53559027777777
+      ]
+    },
+    {
+      "id": "F07.heading.128",
+      "text": "接触与作用",
+      "size_pt": 11.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        128.0,
+        103.46440972222221,
+        148.32000000000002,
+        108.53559027777777
+      ]
+    },
+    {
+      "id": "F07.change.label",
+      "text": "某一位置改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        16.98300000000001,
+        60.125868055555564,
+        35.01700000000001,
+        63.87413194444444
+      ]
+    },
+    {
+      "id": "F07.surface.label",
+      "text": "接触面与化学性质",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        70.97733333333336,
+        53.12586805555556,
+        95.0226666666667,
+        56.874131944444436
+      ]
+    },
+    {
+      "id": "F07.partner.label",
+      "text": "作用伙伴",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        136.31133333333332,
+        74.90538194444444,
+        149.68866666666668,
+        79.09461805555556
+      ]
+    },
+    {
+      "id": "F07.action.label",
+      "text": "细胞过程改变",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        132.983,
+        41.12586805555555,
+        151.017,
+        44.87413194444444
+      ]
+    },
+    {
+      "id": "F07.condition",
+      "text": "位置、折叠与接触条件共同影响结果",
+      "size_pt": 9.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        56.245333333333356,
+        25.905381944444446,
+        109.75466666666671,
+        30.094618055555554
+      ]
+    },
+    {
+      "id": "F07.scope.note",
+      "text": "一个氨基酸变化可能保留原有作用，也可能改变关键接触；示意不表示必然失活。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        7.125868055555555,
+        114.204,
+        10.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "folding",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "effect",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "action.link",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F07",
+    "title": "氨基酸顺序怎样影响蛋白质作用",
+    "source_paragraphs": "P0158–P0177：氨基酸性质影响折叠，表面形状与化学性质影响接触；顺序变化可能无影响，也可能改变关键接触。图后 P0181–P0188 才展开 HbS 多尺度实例。",
+    "cognitive_task": "顺序通过结构与表面性质影响分子接触，接触才让蛋白质参与细胞工作。",
+    "layout_rationale": "三个横向区分别展示链顺序、折叠及接触面、作用伙伴与细胞过程；条件箭头表达可能的影响，不设无依据定量。",
+    "essential_objects": "氨基酸链、简化折叠结构、局部接触表面、伙伴分子、细胞作用结果；顺序/结构/接触三层标签。",
+    "relationships": "链发生折叠的过程；顺序对可能结构的影响；形状和化学性质限制接触；接触改变作用。",
+    "misconceptions": "不把结构只画成钥匙形状而抹去化学性质；不把任一氨基酸改变等同失活；不在图题位置抢先塞入整条镰状病临床链。",
+    "components": "氨基酸链、抽象折叠线、接触点、伙伴容器、条件箭头",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "folding",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "effect",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "action.link",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 21,
+      "fonts": [
+        {
+          "name": "EHFUKF+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 9,
+      "images": 0,
+      "semantic_ids": 26,
+      "font_subset_glyphs": 59
+    }
+  },
+  "output_hashes": {
+    "png": "d236f13a73874d16ed0591516a0d1f4c9a00c2c79a0663aa74e682a74953f573",
+    "pdf": "83fec2129584c0e4d895f3e2e21160e8cde0be098c2ec0f3461f6aeb0bc8a5c3",
+    "svg": "5b73aa2ce31bdedf6a2bf293c1751d3e2a7c49dded7d5d6bf109dd85dbacef3b"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

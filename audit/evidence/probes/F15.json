@@ -1,0 +1,265 @@
+{
+  "id": "F15",
+  "passed": true,
+  "errors": [],
+  "source_sha256": "14ca4a5cfb1aa577b2dfc8b521870d43098282713d224e0396c4795e5ab58bc9",
+  "source": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/figures/F15_regulatory_feedback.py",
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "artist_count": 19,
+  "texts": [
+    {
+      "id": "F15.context.label",
+      "text": "外部信号与历史",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        73.88750000000002,
+        101.015625,
+        96.11250000000001,
+        104.98437500000001
+      ]
+    },
+    {
+      "id": "F15.state.label",
+      "text": "染色质状态\n修饰与核小体组织",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        19.300000000000015,
+        71.03125,
+        44.70000000000002,
+        78.96875
+      ]
+    },
+    {
+      "id": "F15.access.label",
+      "text": "分子接触机会\n调控蛋白组合",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        75.47500000000001,
+        71.03125,
+        94.52500000000002,
+        78.96875
+      ]
+    },
+    {
+      "id": "F15.transcription.label",
+      "text": "启动子／增强子协作\n与转录",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        123.71250000000002,
+        71.03125,
+        152.28750000000002,
+        78.96875
+      ]
+    },
+    {
+      "id": "F15.remodeling.label",
+      "text": "相关蛋白识别／招募\n局部状态被重新塑造",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#26353E",
+      "extent_mm": [
+        70.71250000000002,
+        33.03125,
+        99.28750000000001,
+        40.96875
+      ]
+    },
+    {
+      "id": "F15.forward.label",
+      "text": "状态影响基因的使用机会",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        68.46883333333335,
+        86.12586805555556,
+        101.53116666666668,
+        89.87413194444446
+      ]
+    },
+    {
+      "id": "F15.return.label",
+      "text": "调控活动反过来塑造状态",
+      "size_pt": 9.0,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        67.53750000000001,
+        18.015625,
+        102.46250000000002,
+        21.984375
+      ]
+    },
+    {
+      "id": "F15.scope.note",
+      "text": "两条方向代表不同机制；修饰与高表达同时出现，尚不足以证明因果。",
+      "size_pt": 8.5,
+      "font": "/Volumes/KINGSTON/太初工作区/01_进行中/运行生命科学图系统_20260928/phase3_production/Running_Life_Figures/fonts/NotoSansSC-Regular.ttf",
+      "color": "#677278",
+      "extent_mm": [
+        6.000000000000011,
+        6.1258680555555545,
+        99.17566666666666,
+        9.874131944444445
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "state.access",
+      "kind": "influence",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "access.transcription",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "context.state",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "context.regulation",
+      "kind": "conditional",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "activity.remodeling",
+      "kind": "influence",
+      "source": null,
+      "target": null,
+      "label": null
+    },
+    {
+      "id": "remodeling.state",
+      "kind": "influence",
+      "source": null,
+      "target": null,
+      "label": null
+    }
+  ],
+  "spec": {
+    "id": "F15",
+    "title": "基因调控与表观状态相互影响",
+    "source_paragraphs": "P0387–P0400 修饰关联、添加/移除/识别；P0403–P0418 表观状态影响调控，转录因子及转录反向塑造状态；P0422–P0449历史和互相支持网络。",
+    "cognitive_task": "表观状态与基因调控彼此塑造，稳定身份来自动态网络，不是一枚标记的独立命令。",
+    "layout_rationale": "170×116 mm。上部三节点从染色质状态经分子接触与调控组合指向启动子／增强子协作及转录；下部单列“相关蛋白识别／招募、局部重塑”节点形成独立返回路径。顶部外部信号与历史分别影响状态和调控活动，两个方向用各自机制说明，不用一根双向箭头代替。",
+    "essential_objects": "染色质/化学状态、转录因子及相关蛋白、启动子/增强子协作、转录、局部状态重塑；外部信号/历史作旁注。",
+    "relationships": "状态→接触/使用机会；调控蛋白/活动→状态塑造；两条有标签的方向边构成反馈，关联观察另作无向对应。",
+    "misconceptions": "不以一根无标签双箭头代替两机制；不说某修饰必定导致表达；P0398“写入器识别”与P0397读取器定义潜在冲突，此图中性写“相关蛋白识别/招募”，不擅改正文或画实争议角色。",
+    "components": "三个前向调控节点、局部重塑节点、顶部情境节点、前向影响／条件边、两条返回影响边、上下方向说明、关联不足以证明因果的范围说明。",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "state.access",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "access.transcription",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "context.state",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "context.regulation",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "activity.remodeling",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "remodeling.state",
+        "kind": "influence",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "exports": {
+    "png": {
+      "pixels": [
+        4015,
+        2740
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "pdf": {
+      "pages": 1,
+      "size_mm": [
+        170.00000237358938,
+        116.00000389946831
+      ],
+      "images": 0,
+      "vector_paths": 18,
+      "fonts": [
+        {
+          "name": "RUUHVV+NotoSansSC-Regular",
+          "type": "Type0",
+          "embedded": true
+        }
+      ]
+    },
+    "svg": {
+      "native_text_count": 12,
+      "images": 0,
+      "semantic_ids": 19,
+      "font_subset_glyphs": 85
+    }
+  },
+  "output_hashes": {
+    "png": "298454a1a54984cd2032379b95914ae75ef28b85230acdf94d5f82d584c0f55b",
+    "pdf": "8e3cf4ead679f8cf44533eb57d70f2468d1aaffdf91471a4276ae228a6d203b5",
+    "svg": "90a87583a33e1a3601e44637f3c7694abd2c8f23c2d93ffaa7e055a35b64f4f1"
+  },
+  "notes": [
+    "Native objects and files inspected independently; does not replace actual visual/scientific audit."
+  ]
+}

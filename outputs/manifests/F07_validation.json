@@ -1,0 +1,372 @@
+{
+  "version": "book-figures-v1.0",
+  "figure": {
+    "id": "F07",
+    "title": "氨基酸顺序怎样影响蛋白质作用",
+    "source_paragraphs": "P0158–P0177：氨基酸性质影响折叠，表面形状与化学性质影响接触；顺序变化可能无影响，也可能改变关键接触。图后 P0181–P0188 才展开 HbS 多尺度实例。",
+    "cognitive_task": "顺序通过结构与表面性质影响分子接触，接触才让蛋白质参与细胞工作。",
+    "layout_rationale": "三个横向区分别展示链顺序、折叠及接触面、作用伙伴与细胞过程；条件箭头表达可能的影响，不设无依据定量。",
+    "essential_objects": "氨基酸链、简化折叠结构、局部接触表面、伙伴分子、细胞作用结果；顺序/结构/接触三层标签。",
+    "relationships": "链发生折叠的过程；顺序对可能结构的影响；形状和化学性质限制接触；接触改变作用。",
+    "misconceptions": "不把结构只画成钥匙形状而抹去化学性质；不把任一氨基酸改变等同失活；不在图题位置抢先塞入整条镰状病临床链。",
+    "components": "氨基酸链、抽象折叠线、接触点、伙伴容器、条件箭头",
+    "quantitative": false,
+    "size_mm": [
+      170,
+      116
+    ],
+    "relations_drawn": [
+      {
+        "id": "folding",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "effect",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "action.link",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "palette": "海青与铜"
+  },
+  "size_mm": [
+    170.0,
+    115.99999999999999
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 26,
+    "text_count": 9,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F07.heading.6": [
+        6.0,
+        103.4644,
+        26.32,
+        108.5356
+      ],
+      "F07.heading.66": [
+        66.0,
+        103.4644,
+        94.448,
+        108.5356
+      ],
+      "F07.heading.128": [
+        128.0,
+        103.4644,
+        148.32,
+        108.5356
+      ],
+      "F07.sequence.aa.0": [
+        9.4,
+        73.4,
+        14.6,
+        78.6
+      ],
+      "F07.sequence.join.1": [
+        12.0,
+        76.0,
+        19.0,
+        78.0
+      ],
+      "F07.sequence.aa.1": [
+        16.4,
+        75.4,
+        21.6,
+        80.6
+      ],
+      "F07.sequence.join.2": [
+        19.0,
+        75.0,
+        26.0,
+        78.0
+      ],
+      "F07.sequence.aa.2": [
+        23.4,
+        72.4,
+        28.6,
+        77.6
+      ],
+      "F07.sequence.join.3": [
+        26.0,
+        75.0,
+        33.0,
+        78.0
+      ],
+      "F07.sequence.aa.3": [
+        30.4,
+        75.4,
+        35.6,
+        80.6
+      ],
+      "F07.sequence.join.4": [
+        33.0,
+        76.0,
+        40.0,
+        78.0
+      ],
+      "F07.sequence.aa.4": [
+        37.4,
+        73.4,
+        42.6,
+        78.6
+      ],
+      "F07.change.label": [
+        16.983,
+        60.1259,
+        35.017,
+        63.8741
+      ],
+      "F07.folding": [
+        46.0,
+        75.4003,
+        63.5661,
+        76.5997
+      ],
+      "F07.folded": [
+        68.0,
+        67.0,
+        96.0,
+        90.0
+      ],
+      "F07.surface": [
+        91.3,
+        76.3,
+        96.7,
+        81.7
+      ],
+      "F07.surface.label": [
+        70.9773,
+        53.1259,
+        95.0227,
+        56.8741
+      ],
+      "F07.effect": [
+        103.0,
+        75.4003,
+        118.5661,
+        76.5997
+      ],
+      "F07.partner": [
+        128.0,
+        65.0,
+        158.0,
+        89.0
+      ],
+      "F07.partner.label": [
+        136.3113,
+        74.9054,
+        149.6887,
+        79.0946
+      ],
+      "F07.contact": [
+        123.3,
+        76.3,
+        128.7,
+        81.7
+      ],
+      "F07.action.boundary": [
+        122.5,
+        37.0,
+        161.5,
+        49.0
+      ],
+      "F07.action.label": [
+        132.983,
+        41.1259,
+        151.017,
+        44.8741
+      ],
+      "F07.action.link": [
+        142.4003,
+        51.4339,
+        143.5997,
+        63.0
+      ],
+      "F07.condition": [
+        56.2453,
+        25.9054,
+        109.7547,
+        30.0946
+      ],
+      "F07.scope.note": [
+        6.0,
+        7.1259,
+        114.204,
+        10.8741
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "exports": {
+    "passed": true,
+    "png_pixels": [
+      4015,
+      2740
+    ],
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 21,
+    "svg_text_count": 9,
+    "fonts_embedded": true
+  },
+  "artists": {
+    "F07.heading.6": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F07.heading.66": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F07.heading.128": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F07.sequence.aa.0": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F07.sequence.join.1": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F07.sequence.aa.1": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F07.sequence.join.2": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F07.sequence.aa.2": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F07.sequence.join.3": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F07.sequence.aa.3": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F07.sequence.join.4": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F07.sequence.aa.4": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F07.change.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F07.folding": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F07.folded": {
+      "type": "Line2D",
+      "role": "structure"
+    },
+    "F07.surface": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F07.surface.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F07.effect": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F07.partner": {
+      "type": "Ellipse",
+      "role": "containment"
+    },
+    "F07.partner.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F07.contact": {
+      "type": "Ellipse",
+      "role": "object"
+    },
+    "F07.action.boundary": {
+      "type": "FancyBboxPatch",
+      "role": "boundary"
+    },
+    "F07.action.label": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F07.action.link": {
+      "type": "FancyArrowPatch",
+      "role": "conditional"
+    },
+    "F07.condition": {
+      "type": "Text",
+      "role": "text"
+    },
+    "F07.scope.note": {
+      "type": "Text",
+      "role": "text"
+    }
+  },
+  "source_hashes": {
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "build_all.py": "07bc235fde518e1c64fc6c9d2fdbc847a46d2f14d67e631076bfb444ac22b55d",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "visual_grammar.py": "089ab3c5677d99905fd4e186a6248cc1f6aa99b02ed0009ca49dd17e37705326",
+    "figures/F07_sequence_structure_action.py": "bd989a579a78e8238e59af1be84ef97bb758308fca825f713574a5a2443e9979",
+    "figure_specs/F07.json": "57f46e53ef3e9ce357297d861924a0eeb9cc38ebad2be6b8f10929794bfdbfce",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F07_sequence_structure_action.png",
+      "sha256": "d236f13a73874d16ed0591516a0d1f4c9a00c2c79a0663aa74e682a74953f573"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F07_sequence_structure_action.pdf",
+      "sha256": "83fec2129584c0e4d895f3e2e21160e8cde0be098c2ec0f3461f6aeb0bc8a5c3"
+    },
+    "svg": {
+      "path": "outputs/svg/F07_sequence_structure_action.svg",
+      "sha256": "5b73aa2ce31bdedf6a2bf293c1751d3e2a7c49dded7d5d6bf109dd85dbacef3b"
+    }
+  },
+  "adjacent_pdf_sha256": "83fec2129584c0e4d895f3e2e21160e8cde0be098c2ec0f3461f6aeb0bc8a5c3",
+  "not_verified": [
+    "Physical print/CMYK proof",
+    "Real reader study",
+    "Tavotto application round-trip"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "F02",
+  "title": "互补双链为复制提供参照",
+  "source_paragraphs": "P0053–P0057 序列差异；P0073–P0074 两条反向链、A–T/C–G 配对、互补记录可提供复制参照。",
+  "cognitive_task": "两条 DNA 链保存互补信息，特定配对让已有序列能够成为新链合成的参照。",
+  "layout_rationale": "上下平行双链展示反向端点和四组配对；短对应线不使用转化箭头。底部括注提炼已有序列提供参照。",
+  "essential_objects": "两条相反方向的 DNA 链、示例 A C G T 与对应 T G C A、骨架、碱基配对位置。",
+  "relationships": "A 对 T、C 对 G 的横向配对；两条链的方向相反；由已知链可推定互补位置，不能画作分子转化。",
+  "misconceptions": "不把两条链称作父母各一份；不把序列上下对齐误画成同向链；不在此图声称 DNA 自行复制。",
+  "components": "DNA骨架、单碱基文字、非因果配对线、集合括号、方向端点",
+  "quantitative": false
+}
