@@ -1,0 +1,423 @@
+{
+  "figure": {
+    "id": "F13",
+    "title": "调控可能性怎样成为不同的细胞身份",
+    "cognitive_task": "收束 sequence、grammar、context、output 四层关系",
+    "size_mm": [
+      170,
+      195
+    ],
+    "palette": "海青与铜",
+    "relations_drawn": [
+      {
+        "id": "to.possibilities",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "neuron.context.link",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "neuron.context.to.output",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "neuron.to.products",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "neuron.to.function",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.context.link",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.context.to.output",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.to.products",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.to.function",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "source_document": "运行生命_第四章_最终精修版(3).docx"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 47,
+    "text_count": 18,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F13.title": [
+        7.0,
+        180.9308,
+        104.3825,
+        187.0692
+      ],
+      "F13.genome": [
+        69.6489,
+        164.3859,
+        100.3511,
+        169.6141
+      ],
+      "F13.same.dna.upper": [
+        62.0,
+        158.0,
+        108.0,
+        158.0
+      ],
+      "F13.same.dna.lower": [
+        62.0,
+        155.0,
+        108.0,
+        155.0
+      ],
+      "F13.same.dna.pair.0": [
+        64.0,
+        155.0,
+        64.0,
+        158.0
+      ],
+      "F13.same.dna.pair.1": [
+        67.0,
+        155.0,
+        67.0,
+        158.0
+      ],
+      "F13.same.dna.pair.2": [
+        70.0,
+        155.0,
+        70.0,
+        158.0
+      ],
+      "F13.same.dna.pair.3": [
+        73.0,
+        155.0,
+        73.0,
+        158.0
+      ],
+      "F13.same.dna.pair.4": [
+        76.0,
+        155.0,
+        76.0,
+        158.0
+      ],
+      "F13.same.dna.pair.5": [
+        79.0,
+        155.0,
+        79.0,
+        158.0
+      ],
+      "F13.same.dna.pair.6": [
+        82.0,
+        155.0,
+        82.0,
+        158.0
+      ],
+      "F13.same.dna.pair.7": [
+        85.0,
+        155.0,
+        85.0,
+        158.0
+      ],
+      "F13.same.dna.pair.8": [
+        88.0,
+        155.0,
+        88.0,
+        158.0
+      ],
+      "F13.same.dna.pair.9": [
+        91.0,
+        155.0,
+        91.0,
+        158.0
+      ],
+      "F13.same.dna.pair.10": [
+        94.0,
+        155.0,
+        94.0,
+        158.0
+      ],
+      "F13.same.dna.pair.11": [
+        97.0,
+        155.0,
+        97.0,
+        158.0
+      ],
+      "F13.same.dna.pair.12": [
+        100.0,
+        155.0,
+        100.0,
+        158.0
+      ],
+      "F13.same.dna.pair.13": [
+        103.0,
+        155.0,
+        103.0,
+        158.0
+      ],
+      "F13.same.dna.pair.14": [
+        106.0,
+        155.0,
+        106.0,
+        158.0
+      ],
+      "F13.to.possibilities": [
+        85.0,
+        143.0,
+        85.0,
+        150.0
+      ],
+      "F13.possibilities.boundary": [
+        10.0,
+        124.0,
+        160.0,
+        140.0
+      ],
+      "F13.possibilities.label": [
+        45.4739,
+        129.3859,
+        124.5261,
+        134.6141
+      ],
+      "F13.possibilities.scope": [
+        73.0938,
+        113.5341,
+        96.9062,
+        118.4659
+      ],
+      "F13.neuron.context.link": [
+        43.0,
+        103.0,
+        43.0,
+        109.0
+      ],
+      "F13.neuron.context": [
+        7.0,
+        69.0,
+        79.0,
+        101.0
+      ],
+      "F13.neuron.context.heading": [
+        27.6489,
+        91.3859,
+        58.3511,
+        96.6141
+      ],
+      "F13.neuron.context.questions": [
+        14.6631,
+        81.5341,
+        71.3369,
+        86.4659
+      ],
+      "F13.neuron.context.inputs": [
+        14.425,
+        72.5341,
+        71.575,
+        77.4659
+      ],
+      "F13.neuron.context.to.output": [
+        42.4003,
+        60.4339,
+        43.5997,
+        68.0
+      ],
+      "F13.neuron.expression": [
+        19.9733,
+        51.3859,
+        66.0267,
+        56.6141
+      ],
+      "F13.neuron.to.products": [
+        42.4003,
+        42.4339,
+        43.5997,
+        49.0
+      ],
+      "F13.neuron.products": [
+        19.1108,
+        33.5341,
+        66.8892,
+        38.4659
+      ],
+      "F13.neuron.to.function": [
+        42.4003,
+        23.4339,
+        43.5997,
+        30.0
+      ],
+      "F13.neuron.identity": [
+        35.3244,
+        14.3859,
+        50.6756,
+        19.6141
+      ],
+      "F13.neuron.function": [
+        26.3313,
+        7.5341,
+        59.6688,
+        12.4659
+      ],
+      "F13.skin.context.link": [
+        127.0,
+        103.0,
+        127.0,
+        109.0
+      ],
+      "F13.skin.context": [
+        91.0,
+        69.0,
+        163.0,
+        101.0
+      ],
+      "F13.skin.context.heading": [
+        109.0904,
+        91.3859,
+        144.9096,
+        96.6141
+      ],
+      "F13.skin.context.questions": [
+        98.6631,
+        81.5341,
+        155.3369,
+        86.4659
+      ],
+      "F13.skin.context.inputs": [
+        98.425,
+        72.5341,
+        155.575,
+        77.4659
+      ],
+      "F13.skin.context.to.output": [
+        126.4003,
+        60.4339,
+        127.5997,
+        68.0
+      ],
+      "F13.skin.expression": [
+        103.9733,
+        51.3859,
+        150.0267,
+        56.6141
+      ],
+      "F13.skin.to.products": [
+        126.4003,
+        42.4339,
+        127.5997,
+        49.0
+      ],
+      "F13.skin.products": [
+        103.1108,
+        33.5341,
+        150.8892,
+        38.4659
+      ],
+      "F13.skin.to.function": [
+        126.4003,
+        23.4339,
+        127.5997,
+        30.0
+      ],
+      "F13.skin.identity": [
+        116.7659,
+        14.3859,
+        137.2341,
+        19.6141
+      ],
+      "F13.skin.function": [
+        110.3313,
+        7.5341,
+        143.6688,
+        12.4659
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8"
+  },
+  "exports": {
+    "passed": true,
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "png_pixels": [
+      4015,
+      4606
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 36,
+    "fonts_embedded": true,
+    "svg_text_count": 18
+  },
+  "source_hashes": {
+    "chapter4_revision/F13_regulatory_possibilities_to_identity.py": "284bff23481be114d73b553ea77badd74a9114534748650caba7e25614103889",
+    "chapter4_revision/chapter_drawing.py": "65a6ade775dbcdf32e94434f5b9466126b21640a5e6c661fc103b5ed9168520b",
+    "book_style.py": "63856421dd5b6e28ebdadcadbde0706101203936fe57f4867ca5cd4d7371f262",
+    "palette.py": "8deb7cf0da3f46802339b036f4c7fa25fe45d4b37b99a2a16276bbfdd8c47cd9",
+    "shared_shapes.py": "9c2ee40934302021b6e5688ff73434912a79bf3adb6c6c4e474a3a2e95423466",
+    "layout_utils.py": "75357bc6ed5b6957f6b59737586bb9e23d9536158bd3d292b6308cd715510c33",
+    "production_utils.py": "ff1b1e974e5d6e1caee781de50f06bf473f4156a874b4ab6f6daa4e6dc04f6e6",
+    "export_utils.py": "f1ffe94044491086015dbb03db61616e06f05787748864eccd5cbef7f52e9a96",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F13_regulatory_possibilities_to_identity.png",
+      "sha256": "a5388378f87574fd5ccc2940e891e357f62aa217b525bd27995a4a11e3bfb51c"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F13_regulatory_possibilities_to_identity.pdf",
+      "sha256": "11016c61bfb20ae8ca8b2dc7020fc47e02d7b263a265bd16fbd00f044670d5f7"
+    },
+    "svg": {
+      "path": "outputs/svg/F13_regulatory_possibilities_to_identity.svg",
+      "sha256": "da4d141693a04a3cb0b49e713cb78eff656e09a20bb1f94c3295df25a81c6c62"
+    }
+  },
+  "minimum_master_text_pt": 13.5,
+  "word_width_mm": 108,
+  "minimum_word_text_pt": 8.576470588235294,
+  "not_verified": [
+    "Physical print/CMYK",
+    "Real novice reader study",
+    "All vector editor round trips"
+  ]
+}

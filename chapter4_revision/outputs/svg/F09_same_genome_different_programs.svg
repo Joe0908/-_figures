@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="481.889764pt" height="430.866142pt" viewBox="0 0 481.889764 430.866142" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs><style type="text/css">@font-face{font-family:'Noto Sans SC';src:url(data:font/woff;base64,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) format('woff');font-weight:400;font-style:normal;}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 430.866142 
+L 481.889764 430.866142 
+L 481.889764 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="F09.neuron.protein.0.shape">
+    <path d="M 82.204724 316.062992 
+C 86.339387 316.062992 90.305261 314.718949 93.228909 312.326874 
+C 96.152557 309.934798 97.795276 306.689992 97.795276 303.307087 
+C 97.795276 299.924181 96.152557 296.679375 93.228909 294.287299 
+C 90.305261 291.895224 86.339387 290.551181 82.204724 290.551181 
+C 78.070062 290.551181 74.104188 291.895224 71.18054 294.287299 
+C 68.256892 296.679375 66.614173 299.924181 66.614173 303.307087 
+C 66.614173 306.689992 68.256892 309.934798 71.18054 312.326874 
+C 74.104188 314.718949 78.070062 316.062992 82.204724 316.062992 
+z
+" style="fill: #e9e6eb; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F09.neuron.protein.1.shape">
+    <path d="M 109.700787 316.062992 
+L 134.07874 316.062992 
+Q 137.480315 316.062992 137.480315 312.661417 
+L 137.480315 293.952756 
+Q 137.480315 290.551181 134.07874 290.551181 
+L 109.700787 290.551181 
+Q 106.299213 290.551181 106.299213 293.952756 
+L 106.299213 312.661417 
+Q 106.299213 316.062992 109.700787 316.062992 
+z
+" style="fill: #e9e6eb; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F09.skin.protein.0.shape">
+    <path d="M 308.125984 316.062992 
+L 332.503937 316.062992 
+Q 335.905512 316.062992 335.905512 312.661417 
+L 335.905512 293.952756 
+Q 335.905512 290.551181 332.503937 290.551181 
+L 308.125984 290.551181 
+Q 304.724409 290.551181 304.724409 293.952756 
+L 304.724409 312.661417 
+Q 304.724409 316.062992 308.125984 316.062992 
+z
+" style="fill: #e9e6eb; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F09.skin.protein.1.shape">
+    <path d="M 347.811024 316.062992 
+L 372.188976 316.062992 
+Q 375.590551 316.062992 375.590551 312.661417 
+L 375.590551 293.952756 
+Q 375.590551 290.551181 372.188976 290.551181 
+L 347.811024 290.551181 
+Q 344.409449 290.551181 344.409449 293.952756 
+L 344.409449 312.661417 
+Q 344.409449 316.062992 347.811024 316.062992 
+z
+" style="fill: #e9e6eb; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F09.skin.protein.2.shape">
+    <path d="M 399.685039 316.062992 
+C 403.819702 316.062992 407.785576 314.718949 410.709224 312.326874 
+C 413.632872 309.934798 415.275591 306.689992 415.275591 303.307087 
+C 415.275591 299.924181 413.632872 296.679375 410.709224 294.287299 
+C 407.785576 291.895224 403.819702 290.551181 399.685039 290.551181 
+C 395.550377 290.551181 391.584503 291.895224 388.660855 294.287299 
+C 385.737207 296.679375 384.094488 299.924181 384.094488 303.307087 
+C 384.094488 306.689992 385.737207 309.934798 388.660855 312.326874 
+C 391.584503 314.718949 395.550377 316.062992 399.685039 316.062992 
+z
+" style="fill: #e9e6eb; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F09.neuron.soma">
+    <path d="M 121.889764 375.590551 
+C 126.400305 375.590551 130.726713 374.246509 133.916147 371.854433 
+C 137.105581 369.462357 138.897638 366.217551 138.897638 362.834646 
+C 138.897638 359.45174 137.105581 356.206934 133.916147 353.814858 
+C 130.726713 351.422783 126.400305 350.07874 121.889764 350.07874 
+C 117.379223 350.07874 113.052815 351.422783 109.863381 353.814858 
+C 106.673947 356.206934 104.88189 359.45174 104.88189 362.834646 
+C 104.88189 366.217551 106.673947 369.462357 109.863381 371.854433 
+C 113.052815 374.246509 117.379223 375.590551 121.889764 375.590551 
+z
+" style="fill: #eef2f4; stroke: #2f6174; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F09.skin.cell.0">
+    <path d="M 309.543307 374.173228 
+L 339.590551 374.173228 
+Q 342.992126 374.173228 342.992126 370.771654 
+L 342.992126 349.228346 
+Q 342.992126 345.826772 339.590551 345.826772 
+L 309.543307 345.826772 
+Q 306.141732 345.826772 306.141732 349.228346 
+L 306.141732 370.771654 
+Q 306.141732 374.173228 309.543307 374.173228 
+z
+" style="fill: #eaeff1; stroke: #2f6174; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F09.skin.cell.1">
+    <path d="M 349.228346 374.173228 
+L 379.275591 374.173228 
+Q 382.677165 374.173228 382.677165 370.771654 
+L 382.677165 349.228346 
+Q 382.677165 345.826772 379.275591 345.826772 
+L 349.228346 345.826772 
+Q 345.826772 345.826772 345.826772 349.228346 
+L 345.826772 370.771654 
+Q 345.826772 374.173228 349.228346 374.173228 
+z
+" style="fill: #eaeff1; stroke: #2f6174; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F09.skin.cell.2">
+    <path d="M 388.913386 374.173228 
+L 418.96063 374.173228 
+Q 422.362205 374.173228 422.362205 370.771654 
+L 422.362205 349.228346 
+Q 422.362205 345.826772 418.96063 345.826772 
+L 388.913386 345.826772 
+Q 385.511811 345.826772 385.511811 349.228346 
+L 385.511811 370.771654 
+Q 385.511811 374.173228 388.913386 374.173228 
+z
+" style="fill: #eaeff1; stroke: #2f6174; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F09.neuron.protein.2.shape">
+    <path d="M 144.566929 303.307087 
+L 161.574803 288 
+L 178.582677 303.307087 
+L 161.574803 318.614173 
+z
+" style="fill: #e9e6eb; stroke: #827592; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="F09.branch.left">
+    <path d="M 201.259843 90.708661 
+Q 161.574803 102.047244 121.889764 113.385827 
+" style="fill: none; stroke: #677278; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.branch.right">
+    <path d="M 280.629921 90.708661 
+Q 320.314961 102.047244 360 113.385827 
+" style="fill: none; stroke: #677278; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.to.rna">
+    <path d="M 121.889764 170.07874 
+Q 121.889764 172.913386 121.889764 175.748031 
+" style="fill: none; stroke: #677278; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.to.protein">
+    <path d="M 121.889764 252.283465 
+Q 121.889764 256.535433 121.889764 259.557564 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 123.589764 256.157564 
+L 121.889764 259.557564 
+L 120.189764 256.157564 
+z
+" style="fill: #2f6174; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.to.cell">
+    <path d="M 121.889764 323.149606 
+Q 121.889764 328.818898 121.889764 333.258352 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 123.589764 329.858352 
+L 121.889764 333.258352 
+L 120.189764 329.858352 
+z
+" style="fill: #2f6174; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.to.rna">
+    <path d="M 360 170.07874 
+Q 360 172.913386 360 175.748031 
+" style="fill: none; stroke: #677278; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.to.protein">
+    <path d="M 360 252.283465 
+Q 360 256.535433 360 259.557564 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 361.7 256.157564 
+L 360 259.557564 
+L 358.3 256.157564 
+z
+" style="fill: #2f6174; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.to.cell">
+    <path d="M 360 323.149606 
+Q 360 328.818898 360 333.258352 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 361.7 329.858352 
+L 360 333.258352 
+L 358.3 329.858352 
+z
+" style="fill: #2f6174; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.upper">
+    <path d="M 56.692913 127.559055 
+L 187.086614 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.lower">
+    <path d="M 56.692913 136.062992 
+L 187.086614 136.062992 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.0">
+    <path d="M 62.362205 136.062992 
+L 62.362205 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.1">
+    <path d="M 70.866142 136.062992 
+L 70.866142 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.2">
+    <path d="M 79.370079 136.062992 
+L 79.370079 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.3">
+    <path d="M 87.874016 136.062992 
+L 87.874016 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.4">
+    <path d="M 96.377953 136.062992 
+L 96.377953 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.5">
+    <path d="M 104.88189 136.062992 
+L 104.88189 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.6">
+    <path d="M 113.385827 136.062992 
+L 113.385827 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.7">
+    <path d="M 121.889764 136.062992 
+L 121.889764 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.8">
+    <path d="M 130.393701 136.062992 
+L 130.393701 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.9">
+    <path d="M 138.897638 136.062992 
+L 138.897638 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.10">
+    <path d="M 147.401575 136.062992 
+L 147.401575 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.11">
+    <path d="M 155.905512 136.062992 
+L 155.905512 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.12">
+    <path d="M 164.409449 136.062992 
+L 164.409449 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.13">
+    <path d="M 172.913386 136.062992 
+L 172.913386 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.dna.pair.14">
+    <path d="M 181.417323 136.062992 
+L 181.417323 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.rna.0">
+    <path d="M 65.19685 207.938587 
+L 66.632114 207.163489 
+L 68.067378 206.626539 
+L 69.502641 206.376915 
+L 70.937905 206.437477 
+L 72.373169 206.80268 
+L 73.808432 207.439075 
+L 75.243696 208.288379 
+L 76.678959 209.272809 
+L 78.114223 210.302203 
+L 79.549487 211.282287 
+L 80.98475 212.123297 
+L 82.420014 212.74821 
+L 83.855278 213.099794 
+L 85.290541 213.145847 
+L 86.725805 212.882154 
+L 88.161068 212.332863 
+L 89.596332 211.548282 
+L 91.031596 210.600267 
+L 92.466859 209.575642 
+L 93.902123 208.568248 
+L 95.337387 207.670346 
+L 96.77265 206.964173 
+L 98.207914 206.514402 
+L 99.643178 206.362226 
+L 101.078441 206.521582 
+L 102.513705 206.977876 
+L 103.948968 207.689317 
+L 105.384232 208.590749 
+L 106.819496 209.599613 
+L 108.254759 210.623512 
+L 109.690023 211.568672 
+L 111.125287 212.348531 
+L 112.56055 212.891665 
+L 113.995814 213.14833 
+L 115.431077 213.095021 
+L 116.866341 212.736619 
+L 118.301605 212.105949 
+L 119.736868 211.26077 
+L 121.172132 210.27849 
+L 122.607396 209.249069 
+L 124.042659 208.266789 
+L 125.477923 207.42161 
+L 126.913186 206.79094 
+L 128.34845 206.432538 
+L 129.783714 206.379229 
+L 131.218977 206.635894 
+L 132.654241 207.179028 
+L 134.089505 207.958887 
+L 135.524768 208.904047 
+L 136.960032 209.927946 
+L 138.395296 210.93681 
+L 139.830559 211.838242 
+L 141.265823 212.549683 
+L 142.701086 213.005977 
+L 144.13635 213.165333 
+L 145.571614 213.013157 
+L 147.006877 212.563386 
+L 148.442141 211.857213 
+L 149.877405 210.959311 
+L 151.312668 209.951917 
+L 152.747932 208.927292 
+L 154.183195 207.979277 
+L 155.618459 207.194696 
+L 157.053723 206.645405 
+L 158.488986 206.381712 
+L 159.92425 206.427765 
+L 161.359514 206.779349 
+L 162.794777 207.404262 
+L 164.230041 208.245273 
+L 165.665304 209.225356 
+L 167.100568 210.254751 
+L 168.535832 211.23918 
+L 169.971095 212.088484 
+L 171.406359 212.724879 
+L 172.841623 213.090082 
+L 174.276886 213.150644 
+L 175.71215 212.90102 
+L 177.147414 212.36407 
+L 178.582677 211.588972 
+" style="fill: none; stroke: #6b8b7a; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.rna.1">
+    <path d="M 65.19685 222.111815 
+L 66.524469 221.387355 
+L 67.852088 220.862914 
+L 69.179707 220.579636 
+L 70.507326 220.559743 
+L 71.834945 220.804795 
+L 73.162564 221.295569 
+L 74.490182 221.993564 
+L 75.817801 222.844021 
+L 77.14542 223.780223 
+L 78.473039 224.728725 
+L 79.800658 225.615117 
+L 81.128277 226.369861 
+L 82.455896 226.933748 
+L 83.783514 227.262542 
+L 85.111133 227.330448 
+L 86.438752 227.13214 
+L 87.766371 226.683173 
+L 89.09399 226.018771 
+L 90.421609 225.191055 
+L 91.749228 224.264959 
+L 93.076846 223.313135 
+L 94.404465 222.410254 
+L 95.732084 221.627147 
+L 97.059703 221.025247 
+L 98.387322 220.651775 
+L 99.714941 220.536029 
+L 101.04256 220.687089 
+L 102.370178 221.093104 
+L 103.697797 221.722223 
+L 105.025416 222.525092 
+L 106.353035 223.438725 
+L 107.680654 224.391448 
+L 109.008273 225.308521 
+L 110.335892 226.117998 
+L 111.66351 226.756378 
+L 112.991129 227.173578 
+L 114.318748 227.33687 
+L 115.646367 227.233443 
+L 116.973986 226.871412 
+L 118.301605 226.279177 
+L 119.629224 225.503199 
+L 120.956842 224.604354 
+L 122.284461 223.653156 
+L 123.61208 222.724226 
+L 124.939699 221.890438 
+L 126.267318 221.217204 
+L 127.594937 220.757337 
+L 128.922556 220.546915 
+L 130.250174 220.602446 
+L 131.577793 220.919572 
+L 132.905412 221.473415 
+L 134.233031 222.220527 
+L 135.56065 223.102296 
+L 136.888269 224.049548 
+L 138.215888 224.987972 
+L 139.543506 225.843948 
+L 140.871125 226.550324 
+L 142.198744 227.051687 
+L 143.526363 227.308703 
+L 144.853982 227.301211 
+L 146.181601 227.029797 
+L 147.50922 226.515755 
+L 148.836838 225.79941 
+L 150.164457 224.936961 
+L 151.492076 223.996065 
+L 152.819695 223.050536 
+L 154.147314 222.174551 
+L 155.474933 221.43683 
+L 156.802552 220.895248 
+L 158.13017 220.592291 
+L 159.457789 220.551727 
+L 160.785408 220.776737 
+L 162.113027 221.24967 
+L 163.440646 221.933424 
+L 164.768265 222.774359 
+L 166.095884 223.706504 
+L 167.423502 224.656731 
+L 168.751121 225.550497 
+L 170.07874 226.317684 
+" style="fill: none; stroke: #6b8b7a; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.rna.2">
+    <path d="M 65.19685 236.285043 
+L 66.416824 235.612544 
+L 67.636799 235.105671 
+L 68.856773 234.798037 
+L 70.076747 234.710041 
+L 71.296721 234.847519 
+L 72.516695 235.201353 
+L 73.736669 235.748081 
+L 74.956643 236.451449 
+L 76.176617 237.264813 
+L 77.396591 238.134239 
+L 78.616565 239.002073 
+L 79.836539 239.810768 
+L 81.056514 240.506698 
+L 82.276488 241.043713 
+L 83.496462 241.386204 
+L 84.716436 241.51146 
+L 85.93641 241.411173 
+L 87.156384 241.091996 
+L 88.376358 240.575092 
+L 89.596332 239.894739 
+L 90.816306 239.096052 
+L 92.03628 238.231994 
+L 93.256254 237.359861 
+L 94.476228 236.537488 
+L 95.696203 235.819406 
+L 96.916177 235.253234 
+L 98.136151 234.876515 
+L 99.356125 234.714231 
+L 100.576099 234.777142 
+L 101.796073 235.061076 
+L 103.016047 235.547207 
+L 104.236021 236.203296 
+L 105.455995 236.985839 
+L 106.675969 237.842942 
+L 107.895943 238.717771 
+L 109.115917 239.552312 
+L 110.335892 240.291227 
+L 111.555866 240.885516 
+L 112.77584 241.295771 
+L 113.995814 241.494787 
+L 115.215788 241.469367 
+L 116.435762 241.221197 
+L 117.655736 240.766733 
+L 118.87571 240.136111 
+L 120.095684 239.37115 
+L 121.315658 238.522576 
+L 122.535632 237.646658 
+L 123.755606 236.801481 
+L 124.975581 236.04309 
+L 126.195555 235.421776 
+L 127.415529 234.978738 
+L 128.635503 234.743356 
+L 129.855477 234.731239 
+L 131.075451 234.943189 
+L 132.295425 235.365152 
+L 133.515399 235.969147 
+L 134.735373 236.715121 
+L 135.955347 237.553609 
+L 137.175321 238.429007 
+L 138.395296 239.283267 
+L 139.61527 240.059741 
+L 140.835244 240.70694 
+L 142.055218 241.181946 
+L 143.275192 241.453262 
+L 144.495166 241.502895 
+L 145.71514 241.327554 
+L 146.935114 240.938867 
+L 148.155088 240.362608 
+L 149.375062 239.63699 
+L 150.595036 238.81013 
+L 151.81501 237.936859 
+L 153.034985 237.075084 
+L 154.254959 236.281953 
+L 155.474933 235.610059 
+L 156.694907 235.103956 
+L 157.914881 234.797205 
+L 159.134855 234.710148 
+L 160.354829 234.848557 
+L 161.574803 235.203254 
+" style="fill: none; stroke: #6b8b7a; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.upper">
+    <path d="M 294.80315 127.559055 
+L 425.19685 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.lower">
+    <path d="M 294.80315 136.062992 
+L 425.19685 136.062992 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.0">
+    <path d="M 300.472441 136.062992 
+L 300.472441 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.1">
+    <path d="M 308.976378 136.062992 
+L 308.976378 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.2">
+    <path d="M 317.480315 136.062992 
+L 317.480315 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.3">
+    <path d="M 325.984252 136.062992 
+L 325.984252 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.4">
+    <path d="M 334.488189 136.062992 
+L 334.488189 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.5">
+    <path d="M 342.992126 136.062992 
+L 342.992126 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.6">
+    <path d="M 351.496063 136.062992 
+L 351.496063 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.7">
+    <path d="M 360 136.062992 
+L 360 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.8">
+    <path d="M 368.503937 136.062992 
+L 368.503937 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.9">
+    <path d="M 377.007874 136.062992 
+L 377.007874 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.10">
+    <path d="M 385.511811 136.062992 
+L 385.511811 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.11">
+    <path d="M 394.015748 136.062992 
+L 394.015748 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.12">
+    <path d="M 402.519685 136.062992 
+L 402.519685 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.13">
+    <path d="M 411.023622 136.062992 
+L 411.023622 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.dna.pair.14">
+    <path d="M 419.527559 136.062992 
+L 419.527559 127.559055 
+" style="fill: none; stroke: #2f6174; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.rna.0">
+    <path d="M 303.307087 207.938587 
+L 304.74235 207.163489 
+L 306.177614 206.626539 
+L 307.612878 206.376915 
+L 309.048141 206.437477 
+L 310.483405 206.80268 
+L 311.918668 207.439075 
+L 313.353932 208.288379 
+L 314.789196 209.272809 
+L 316.224459 210.302203 
+L 317.659723 211.282287 
+L 319.094987 212.123297 
+L 320.53025 212.74821 
+L 321.965514 213.099794 
+L 323.400777 213.145847 
+L 324.836041 212.882154 
+L 326.271305 212.332863 
+L 327.706568 211.548282 
+L 329.141832 210.600267 
+L 330.577096 209.575642 
+L 332.012359 208.568248 
+L 333.447623 207.670346 
+L 334.882886 206.964173 
+L 336.31815 206.514402 
+L 337.753414 206.362226 
+L 339.188677 206.521582 
+L 340.623941 206.977876 
+L 342.059205 207.689317 
+L 343.494468 208.590749 
+L 344.929732 209.599613 
+L 346.364996 210.623512 
+L 347.800259 211.568672 
+L 349.235523 212.348531 
+L 350.670786 212.891665 
+L 352.10605 213.14833 
+L 353.541314 213.095021 
+L 354.976577 212.736619 
+L 356.411841 212.105949 
+L 357.847105 211.26077 
+L 359.282368 210.27849 
+L 360.717632 209.249069 
+L 362.152895 208.266789 
+L 363.588159 207.42161 
+L 365.023423 206.79094 
+L 366.458686 206.432538 
+L 367.89395 206.379229 
+L 369.329214 206.635894 
+L 370.764477 207.179028 
+L 372.199741 207.958887 
+L 373.635004 208.904047 
+L 375.070268 209.927946 
+L 376.505532 210.93681 
+L 377.940795 211.838242 
+L 379.376059 212.549683 
+L 380.811323 213.005977 
+L 382.246586 213.165333 
+L 383.68185 213.013157 
+L 385.117114 212.563386 
+L 386.552377 211.857213 
+L 387.987641 210.959311 
+L 389.422904 209.951917 
+L 390.858168 208.927292 
+L 392.293432 207.979277 
+L 393.728695 207.194696 
+L 395.163959 206.645405 
+L 396.599223 206.381712 
+L 398.034486 206.427765 
+L 399.46975 206.779349 
+L 400.905013 207.404262 
+L 402.340277 208.245273 
+L 403.775541 209.225356 
+L 405.210804 210.254751 
+L 406.646068 211.23918 
+L 408.081332 212.088484 
+L 409.516595 212.724879 
+L 410.951859 213.090082 
+L 412.387122 213.150644 
+L 413.822386 212.90102 
+L 415.25765 212.36407 
+L 416.692913 211.588972 
+" style="fill: none; stroke: #6b8b7a; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.skin.rna.1">
+    <path d="M 303.307087 227.781106 
+L 304.74235 227.006009 
+L 306.177614 226.469059 
+L 307.612878 226.219434 
+L 309.048141 226.279997 
+L 310.483405 226.645199 
+L 311.918668 227.281595 
+L 313.353932 228.130899 
+L 314.789196 229.115328 
+L 316.224459 230.144723 
+L 317.659723 231.124806 
+L 319.094987 231.965817 
+L 320.53025 232.59073 
+L 321.965514 232.942313 
+L 323.400777 232.988367 
+L 324.836041 232.724673 
+L 326.271305 232.175383 
+L 327.706568 231.390802 
+L 329.141832 230.442787 
+L 330.577096 229.418162 
+L 332.012359 228.410767 
+L 333.447623 227.512866 
+L 334.882886 226.806692 
+L 336.31815 226.356921 
+L 337.753414 226.204746 
+L 339.188677 226.364102 
+L 340.623941 226.820396 
+L 342.059205 227.531837 
+L 343.494468 228.433269 
+L 344.929732 229.442132 
+L 346.364996 230.466031 
+L 347.800259 231.411192 
+L 349.235523 232.191051 
+L 350.670786 232.734184 
+L 352.10605 232.99085 
+L 353.541314 232.93754 
+L 354.976577 232.579139 
+L 356.411841 231.948468 
+L 357.847105 231.10329 
+L 359.282368 230.121009 
+L 360.717632 229.091589 
+L 362.152895 228.109308 
+L 363.588159 227.26413 
+L 365.023423 226.63346 
+L 366.458686 226.275058 
+L 367.89395 226.221749 
+L 369.329214 226.478414 
+L 370.764477 227.021548 
+L 372.199741 227.801407 
+L 373.635004 228.746567 
+L 375.070268 229.770466 
+L 376.505532 230.77933 
+L 377.940795 231.680761 
+L 379.376059 232.392203 
+L 380.811323 232.848497 
+L 382.246586 233.007853 
+L 383.68185 232.855677 
+L 385.117114 232.405906 
+L 386.552377 231.699732 
+L 387.987641 230.801831 
+L 389.422904 229.794437 
+L 390.858168 228.769812 
+L 392.293432 227.821797 
+L 393.728695 227.037216 
+L 395.163959 226.487925 
+L 396.599223 226.224231 
+L 398.034486 226.270285 
+L 399.46975 226.621869 
+L 400.905013 227.246782 
+L 402.340277 228.087792 
+L 403.775541 229.067875 
+L 405.210804 230.09727 
+L 406.646068 231.081699 
+L 408.081332 231.931004 
+L 409.516595 232.567399 
+L 410.951859 232.932602 
+L 412.387122 232.993164 
+L 413.822386 232.743539 
+L 415.25765 232.20659 
+L 416.692913 231.431492 
+" style="fill: none; stroke: #6b8b7a; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.process.0">
+    <path d="M 104.88189 357.165354 
+L 76.535433 348.661417 
+L 62.362205 334.488189 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.process.1">
+    <path d="M 104.88189 365.669291 
+L 68.031496 371.338583 
+L 48.188976 357.165354 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.process.2">
+    <path d="M 136.062992 357.165354 
+L 164.409449 345.826772 
+L 178.582677 331.653543 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.neuron.process.3">
+    <path d="M 136.062992 368.503937 
+L 184.251969 374.173228 
+L 204.094488 365.669291 
+" style="fill: none; stroke: #2f6174; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="F09.title">
+    <text style="font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #26353e" x="19.84252" y="33.164894" transform="rotate(-0 19.84252 33.164894)">同一套 DNA，为什么形成不同细胞？</text>
+   </g>
+   <g id="F09.genome">
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="240.944882" y="77.810631" transform="rotate(-0 240.944882 77.810631)">同一套基因组</text>
+   </g>
+   <g id="F09.neuron.same">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="121.889764" y="159.731918" transform="rotate(-0 121.889764 159.731918)">相同 DNA</text>
+   </g>
+   <g id="F09.neuron.rna.label">
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="121.889764" y="191.196458" transform="rotate(-0 121.889764 191.196458)">RNA 组合</text>
+   </g>
+   <g id="F09.neuron.protein.label">
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="121.889764" y="276.235828" transform="rotate(-0 121.889764 276.235828)">蛋白质组合</text>
+   </g>
+   <g id="F09.skin.same">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="360" y="159.731918" transform="rotate(-0 360 159.731918)">相同 DNA</text>
+   </g>
+   <g id="F09.skin.rna.label">
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="360" y="191.196458" transform="rotate(-0 360 191.196458)">RNA 组合</text>
+   </g>
+   <g id="F09.skin.protein.label">
+    <text style="font-size: 14.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="360" y="276.235828" transform="rotate(-0 360 276.235828)">蛋白质组合</text>
+   </g>
+   <g id="F09.neuron.function">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="121.889764" y="406.346091" transform="rotate(-0 121.889764 406.346091)">神经元：传递信号</text>
+   </g>
+   <g id="F09.skin.function">
+    <text style="font-size: 13.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #26353e" x="360" y="406.346091" transform="rotate(-0 360 406.346091)">皮肤细胞：形成屏障</text>
+   </g>
+  </g>
+ </g>
+</svg>
