@@ -1,0 +1,621 @@
+{
+  "figure": {
+    "id": "F12",
+    "title": "看得到吗？谁来读？碰得到吗？",
+    "cognitive_task": "每个 panel 只改变一个条件；三者构成统一读取环境",
+    "size_mm": [
+      170,
+      252
+    ],
+    "palette": "海青与铜",
+    "relations_drawn": [
+      {
+        "id": "b.recognition",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "c.fold.assembly",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "c.fold.opportunity",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "source_document": "运行生命_第四章_最终精修版(3).docx"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 87,
+    "text_count": 37,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F12.a.title": [
+        7.0,
+        238.9308,
+        46.3488,
+        245.0692
+      ],
+      "F12.a.left.state": [
+        35.7659,
+        222.3859,
+        56.2341,
+        227.6141
+      ],
+      "F12.a.right.state": [
+        113.6489,
+        222.3859,
+        144.3511,
+        227.6141
+      ],
+      "F12.a.left.enhancer": [
+        18.0,
+        193.2,
+        41.0,
+        200.8
+      ],
+      "F12.a.left.promoter": [
+        57.0,
+        193.2,
+        66.0,
+        200.8
+      ],
+      "F12.a.left.gene": [
+        68.0,
+        193.2,
+        80.0,
+        200.8
+      ],
+      "F12.a.left.dna.upper": [
+        9.0,
+        200.2,
+        81.0,
+        200.2
+      ],
+      "F12.a.left.dna.lower": [
+        9.0,
+        193.8,
+        81.0,
+        193.8
+      ],
+      "F12.a.left.motif.site": [
+        25.5,
+        193.2,
+        33.5,
+        200.8
+      ],
+      "F12.a.left.motif.label": [
+        27.9443,
+        194.3859,
+        31.0558,
+        199.6141
+      ],
+      "F12.a.left.e.label": [
+        22.3563,
+        183.5341,
+        36.6438,
+        188.4659
+      ],
+      "F12.a.left.p.label": [
+        53.8563,
+        183.5341,
+        68.1438,
+        188.4659
+      ],
+      "F12.a.left.available.tf.shape": [
+        24.0,
+        207.5,
+        35.0,
+        216.5
+      ],
+      "F12.a.left.available.tf.label": [
+        27.9443,
+        209.3859,
+        31.0558,
+        214.6141
+      ],
+      "F12.a.right.enhancer": [
+        102.0,
+        193.2,
+        125.0,
+        200.8
+      ],
+      "F12.a.right.promoter": [
+        141.0,
+        193.2,
+        150.0,
+        200.8
+      ],
+      "F12.a.right.gene": [
+        152.0,
+        193.2,
+        164.0,
+        200.8
+      ],
+      "F12.a.right.dna.upper": [
+        93.0,
+        200.2,
+        165.0,
+        200.2
+      ],
+      "F12.a.right.dna.lower": [
+        93.0,
+        193.8,
+        165.0,
+        193.8
+      ],
+      "F12.a.right.motif.site": [
+        109.5,
+        193.2,
+        117.5,
+        200.8
+      ],
+      "F12.a.right.motif.label": [
+        111.9443,
+        194.3859,
+        115.0558,
+        199.6141
+      ],
+      "F12.a.right.pack.0": [
+        98.2,
+        193.2,
+        107.8,
+        202.8
+      ],
+      "F12.a.right.wrap.0": [
+        97.7005,
+        194.7033,
+        108.2995,
+        201.6962
+      ],
+      "F12.a.right.pack.1": [
+        120.2,
+        193.2,
+        129.8,
+        202.8
+      ],
+      "F12.a.right.wrap.1": [
+        119.7005,
+        194.7033,
+        130.2995,
+        201.6962
+      ],
+      "F12.a.right.e.label": [
+        106.3563,
+        183.5341,
+        120.6438,
+        188.4659
+      ],
+      "F12.a.right.p.label": [
+        137.8563,
+        183.5341,
+        152.1438,
+        188.4659
+      ],
+      "F12.a.right.available.tf.shape": [
+        108.0,
+        207.5,
+        119.0,
+        216.5
+      ],
+      "F12.a.right.available.tf.label": [
+        111.9443,
+        209.3859,
+        115.0558,
+        214.6141
+      ],
+      "F12.a.conclusion": [
+        54.0438,
+        173.5341,
+        115.9563,
+        178.4659
+      ],
+      "F12.b.title": [
+        7.0,
+        155.9308,
+        40.6815,
+        162.0692
+      ],
+      "F12.b.left.state": [
+        24.5688,
+        139.5341,
+        67.4313,
+        144.4659
+      ],
+      "F12.b.right.state": [
+        109.95,
+        139.5341,
+        148.05,
+        144.4659
+      ],
+      "F12.b.left.enhancer": [
+        18.0,
+        110.2,
+        41.0,
+        117.8
+      ],
+      "F12.b.left.promoter": [
+        57.0,
+        110.2,
+        66.0,
+        117.8
+      ],
+      "F12.b.left.gene": [
+        68.0,
+        110.2,
+        80.0,
+        117.8
+      ],
+      "F12.b.left.dna.upper": [
+        9.0,
+        117.2,
+        81.0,
+        117.2
+      ],
+      "F12.b.left.dna.lower": [
+        9.0,
+        110.8,
+        81.0,
+        110.8
+      ],
+      "F12.b.left.motif.site": [
+        25.5,
+        110.2,
+        33.5,
+        117.8
+      ],
+      "F12.b.left.motif.label": [
+        27.9443,
+        111.3859,
+        31.0558,
+        116.6141
+      ],
+      "F12.b.left.e.label": [
+        22.3563,
+        100.5341,
+        36.6438,
+        105.4659
+      ],
+      "F12.b.left.p.label": [
+        53.8563,
+        100.5341,
+        68.1438,
+        105.4659
+      ],
+      "F12.b.right.enhancer": [
+        102.0,
+        110.2,
+        125.0,
+        117.8
+      ],
+      "F12.b.right.promoter": [
+        141.0,
+        110.2,
+        150.0,
+        117.8
+      ],
+      "F12.b.right.gene": [
+        152.0,
+        110.2,
+        164.0,
+        117.8
+      ],
+      "F12.b.right.dna.upper": [
+        93.0,
+        117.2,
+        165.0,
+        117.2
+      ],
+      "F12.b.right.dna.lower": [
+        93.0,
+        110.8,
+        165.0,
+        110.8
+      ],
+      "F12.b.right.motif.site": [
+        109.5,
+        110.2,
+        117.5,
+        117.8
+      ],
+      "F12.b.right.motif.label": [
+        111.9443,
+        111.3859,
+        115.0558,
+        116.6141
+      ],
+      "F12.b.right.e.label": [
+        106.3563,
+        100.5341,
+        120.6438,
+        105.4659
+      ],
+      "F12.b.right.p.label": [
+        137.8563,
+        100.5341,
+        152.1438,
+        105.4659
+      ],
+      "F12.b.left.tf.shape": [
+        24.0,
+        124.5,
+        35.0,
+        133.5
+      ],
+      "F12.b.left.tf.label": [
+        27.9443,
+        126.3859,
+        31.0558,
+        131.6141
+      ],
+      "F12.b.recognition": [
+        28.9003,
+        119.4339,
+        30.0997,
+        123.0
+      ],
+      "F12.b.conclusion": [
+        34.9938,
+        90.5341,
+        135.0063,
+        95.4659
+      ],
+      "F12.c.title": [
+        7.0,
+        72.9308,
+        46.0366,
+        79.0692
+      ],
+      "F12.c.left.state": [
+        24.5688,
+        62.5341,
+        67.4313,
+        67.4659
+      ],
+      "F12.c.right.state": [
+        112.3313,
+        65.5341,
+        145.6688,
+        70.4659
+      ],
+      "F12.c.linear.enhancer": [
+        18.0,
+        34.2,
+        41.0,
+        41.8
+      ],
+      "F12.c.linear.promoter": [
+        57.0,
+        34.2,
+        66.0,
+        41.8
+      ],
+      "F12.c.linear.gene": [
+        68.0,
+        34.2,
+        80.0,
+        41.8
+      ],
+      "F12.c.linear.dna.upper": [
+        9.0,
+        41.2,
+        81.0,
+        41.2
+      ],
+      "F12.c.linear.dna.lower": [
+        9.0,
+        34.8,
+        81.0,
+        34.8
+      ],
+      "F12.c.linear.motif.site": [
+        25.5,
+        34.2,
+        33.5,
+        41.8
+      ],
+      "F12.c.linear.motif.label": [
+        27.9443,
+        35.3859,
+        31.0558,
+        40.6141
+      ],
+      "F12.c.linear.e.label": [
+        22.3563,
+        24.5341,
+        36.6438,
+        29.4659
+      ],
+      "F12.c.linear.p.label": [
+        53.8563,
+        24.5341,
+        68.1438,
+        29.4659
+      ],
+      "F12.c.linear.tf.shape": [
+        24.0,
+        45.5,
+        35.0,
+        54.5
+      ],
+      "F12.c.linear.tf.label": [
+        27.9443,
+        47.3859,
+        31.0558,
+        52.6141
+      ],
+      "F12.c.linear.machine": [
+        51.5,
+        45.5,
+        79.5,
+        54.5
+      ],
+      "F12.c.linear.machine.label": [
+        55.975,
+        47.5341,
+        75.025,
+        52.4659
+      ],
+      "F12.c.fold.dna": [
+        96.0,
+        26.0,
+        162.0,
+        56.5374
+      ],
+      "F12.c.fold.enhancer": [
+        101.0,
+        34.2,
+        124.0,
+        41.8
+      ],
+      "F12.c.fold.motif.site": [
+        108.5,
+        34.2,
+        116.5,
+        41.8
+      ],
+      "F12.c.fold.motif.label": [
+        110.9443,
+        35.3859,
+        114.0558,
+        40.6141
+      ],
+      "F12.c.fold.promoter": [
+        129.0,
+        28.2,
+        138.0,
+        35.8
+      ],
+      "F12.c.fold.gene": [
+        140.0,
+        22.2,
+        152.0,
+        29.8
+      ],
+      "F12.c.fold.tf.shape": [
+        107.0,
+        45.5,
+        118.0,
+        54.5
+      ],
+      "F12.c.fold.tf.label": [
+        110.9443,
+        47.3859,
+        114.0558,
+        52.6141
+      ],
+      "F12.c.fold.machine": [
+        121.0,
+        55.5,
+        149.0,
+        64.5
+      ],
+      "F12.c.fold.machine.label": [
+        125.475,
+        57.5341,
+        144.525,
+        62.4659
+      ],
+      "F12.c.fold.assembly": [
+        133.0506,
+        37.9321,
+        135.0,
+        54.0
+      ],
+      "F12.c.fold.opportunity": [
+        119.5,
+        52.0,
+        124.5,
+        55.0
+      ],
+      "F12.c.fold.e.label": [
+        103.8563,
+        17.5341,
+        118.1438,
+        22.4659
+      ],
+      "F12.c.fold.p.label": [
+        126.3563,
+        15.5341,
+        140.6438,
+        20.4659
+      ],
+      "F12.c.fold.p.guide": [
+        133.5,
+        22.0,
+        133.5,
+        28.0
+      ],
+      "F12.c.conclusion": [
+        42.1375,
+        7.5341,
+        127.8625,
+        12.4659
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8"
+  },
+  "exports": {
+    "passed": true,
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "png_pixels": [
+      4015,
+      5952
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 77,
+    "fonts_embedded": true,
+    "svg_text_count": 37
+  },
+  "source_hashes": {
+    "chapter4_revision/F12_three_reading_conditions.py": "bafc6004ef226a8d00b31cded6df25f844b92996b0ae59eeaf87a946d84a68b3",
+    "chapter4_revision/chapter_drawing.py": "65a6ade775dbcdf32e94434f5b9466126b21640a5e6c661fc103b5ed9168520b",
+    "book_style.py": "63856421dd5b6e28ebdadcadbde0706101203936fe57f4867ca5cd4d7371f262",
+    "palette.py": "8deb7cf0da3f46802339b036f4c7fa25fe45d4b37b99a2a16276bbfdd8c47cd9",
+    "shared_shapes.py": "9c2ee40934302021b6e5688ff73434912a79bf3adb6c6c4e474a3a2e95423466",
+    "layout_utils.py": "75357bc6ed5b6957f6b59737586bb9e23d9536158bd3d292b6308cd715510c33",
+    "production_utils.py": "ff1b1e974e5d6e1caee781de50f06bf473f4156a874b4ab6f6daa4e6dc04f6e6",
+    "export_utils.py": "f1ffe94044491086015dbb03db61616e06f05787748864eccd5cbef7f52e9a96",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F12_three_reading_conditions.png",
+      "sha256": "604a89a729c420e360935e82784004e86b0ccf43aec4b5d53692143110caa1ab"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F12_three_reading_conditions.pdf",
+      "sha256": "754350b8be15ee11926d20db773498f027b624a38a03599e18bc1565ae986cf9"
+    },
+    "svg": {
+      "path": "outputs/svg/F12_three_reading_conditions.svg",
+      "sha256": "d69d48c9a9f674945c9fcc805b218f748a0e8aa0415f3706a29c0a9fbbfa9ead"
+    }
+  },
+  "minimum_master_text_pt": 13.5,
+  "word_width_mm": 108,
+  "minimum_word_text_pt": 8.576470588235294,
+  "not_verified": [
+    "Physical print/CMYK",
+    "Real novice reader study",
+    "All vector editor round trips"
+  ]
+}

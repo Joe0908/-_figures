@@ -1,0 +1,534 @@
+{
+  "figure": {
+    "id": "F11",
+    "title": "相同识别位置，不同组合关系",
+    "cognitive_task": "用相同蛋白质对照间距与顺序，建立调控语法的物理含义",
+    "size_mm": [
+      170,
+      145
+    ],
+    "palette": "海青与铜",
+    "relations_drawn": [
+      {
+        "id": "row.0.contact.0",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "row.0.contact.1",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "row.1.contact.0",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "row.1.contact.1",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "row.2.contact.0",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "row.2.contact.1",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "source_document": "运行生命_第四章_最终精修版(3).docx"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 69,
+    "text_count": 27,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F11.title": [
+        7.0,
+        131.9308,
+        96.9319,
+        138.0692
+      ],
+      "F11.key": [
+        35.978,
+        119.5341,
+        134.022,
+        124.4659
+      ],
+      "F11.row.0.label": [
+        7.0,
+        103.3859,
+        27.4682,
+        108.6141
+      ],
+      "F11.row.0.enhancer": [
+        39.0,
+        93.2,
+        130.0,
+        100.8
+      ],
+      "F11.row.0.dna.upper": [
+        35.0,
+        100.2,
+        135.0,
+        100.2
+      ],
+      "F11.row.0.dna.lower": [
+        35.0,
+        93.8,
+        135.0,
+        93.8
+      ],
+      "F11.row.0.motif.0.site": [
+        44.0,
+        93.2,
+        52.0,
+        100.8
+      ],
+      "F11.row.0.motif.0.label": [
+        46.4443,
+        94.3859,
+        49.5558,
+        99.6141
+      ],
+      "F11.row.0.tf.0.shape": [
+        42.5,
+        107.5,
+        53.5,
+        116.5
+      ],
+      "F11.row.0.tf.0.label": [
+        46.4443,
+        109.3859,
+        49.5558,
+        114.6141
+      ],
+      "F11.row.0.binding.0": [
+        48.0,
+        101.6,
+        48.0,
+        106.0
+      ],
+      "F11.row.0.motif.1.site": [
+        63.0,
+        93.2,
+        71.0,
+        100.8
+      ],
+      "F11.row.0.motif.1.label": [
+        65.3173,
+        94.3859,
+        68.6828,
+        99.6141
+      ],
+      "F11.row.0.tf.1.shape": [
+        61.5,
+        107.5,
+        72.5,
+        116.5
+      ],
+      "F11.row.0.tf.1.label": [
+        65.3173,
+        109.3859,
+        68.6828,
+        114.6141
+      ],
+      "F11.row.0.binding.1": [
+        67.0,
+        101.6,
+        67.0,
+        106.0
+      ],
+      "F11.row.0.motif.2.site": [
+        82.0,
+        93.2,
+        90.0,
+        100.8
+      ],
+      "F11.row.0.motif.2.label": [
+        84.3675,
+        94.3859,
+        87.6325,
+        99.6141
+      ],
+      "F11.row.0.tf.2.shape": [
+        80.0,
+        106.6,
+        92.0,
+        117.4
+      ],
+      "F11.row.0.tf.2.label": [
+        84.3675,
+        109.3859,
+        87.6325,
+        114.6141
+      ],
+      "F11.row.0.binding.2": [
+        86.0,
+        101.6,
+        86.0,
+        106.0
+      ],
+      "F11.row.0.contact.0": [
+        54.7,
+        112.0,
+        60.3,
+        112.0
+      ],
+      "F11.row.0.contact.1": [
+        73.7,
+        112.0,
+        79.3,
+        112.0
+      ],
+      "F11.row.0.physics": [
+        138.95,
+        103.5341,
+        158.0,
+        108.4659
+      ],
+      "F11.row.1.label": [
+        7.0,
+        71.3859,
+        27.4682,
+        76.6141
+      ],
+      "F11.row.1.enhancer": [
+        39.0,
+        61.2,
+        130.0,
+        68.8
+      ],
+      "F11.row.1.dna.upper": [
+        35.0,
+        68.2,
+        135.0,
+        68.2
+      ],
+      "F11.row.1.dna.lower": [
+        35.0,
+        61.8,
+        135.0,
+        61.8
+      ],
+      "F11.row.1.motif.0.site": [
+        44.0,
+        61.2,
+        52.0,
+        68.8
+      ],
+      "F11.row.1.motif.0.label": [
+        46.4443,
+        62.3859,
+        49.5558,
+        67.6141
+      ],
+      "F11.row.1.tf.0.shape": [
+        42.5,
+        75.5,
+        53.5,
+        84.5
+      ],
+      "F11.row.1.tf.0.label": [
+        46.4443,
+        77.3859,
+        49.5558,
+        82.6141
+      ],
+      "F11.row.1.binding.0": [
+        48.0,
+        69.6,
+        48.0,
+        74.0
+      ],
+      "F11.row.1.motif.1.site": [
+        96.0,
+        61.2,
+        104.0,
+        68.8
+      ],
+      "F11.row.1.motif.1.label": [
+        98.3173,
+        62.3859,
+        101.6828,
+        67.6141
+      ],
+      "F11.row.1.tf.1.shape": [
+        94.5,
+        75.5,
+        105.5,
+        84.5
+      ],
+      "F11.row.1.tf.1.label": [
+        98.3173,
+        77.3859,
+        101.6828,
+        82.6141
+      ],
+      "F11.row.1.binding.1": [
+        100.0,
+        69.6,
+        100.0,
+        74.0
+      ],
+      "F11.row.1.motif.2.site": [
+        115.0,
+        61.2,
+        123.0,
+        68.8
+      ],
+      "F11.row.1.motif.2.label": [
+        117.3675,
+        62.3859,
+        120.6325,
+        67.6141
+      ],
+      "F11.row.1.tf.2.shape": [
+        113.0,
+        74.6,
+        125.0,
+        85.4
+      ],
+      "F11.row.1.tf.2.label": [
+        117.3675,
+        77.3859,
+        120.6325,
+        82.6141
+      ],
+      "F11.row.1.binding.2": [
+        119.0,
+        69.6,
+        119.0,
+        74.0
+      ],
+      "F11.row.1.contact.0": [
+        54.7,
+        80.0,
+        93.3,
+        80.0
+      ],
+      "F11.row.1.contact.1": [
+        106.7,
+        80.0,
+        112.3,
+        80.0
+      ],
+      "F11.row.1.physics": [
+        138.95,
+        71.5341,
+        158.0,
+        76.4659
+      ],
+      "F11.row.2.label": [
+        7.0,
+        39.3859,
+        27.4682,
+        44.6141
+      ],
+      "F11.row.2.enhancer": [
+        39.0,
+        29.2,
+        130.0,
+        36.8
+      ],
+      "F11.row.2.dna.upper": [
+        35.0,
+        36.2,
+        135.0,
+        36.2
+      ],
+      "F11.row.2.dna.lower": [
+        35.0,
+        29.8,
+        135.0,
+        29.8
+      ],
+      "F11.row.2.motif.0.site": [
+        44.0,
+        29.2,
+        52.0,
+        36.8
+      ],
+      "F11.row.2.motif.0.label": [
+        46.3675,
+        30.3859,
+        49.6325,
+        35.6141
+      ],
+      "F11.row.2.tf.0.shape": [
+        42.0,
+        42.6,
+        54.0,
+        53.4
+      ],
+      "F11.row.2.tf.0.label": [
+        46.3675,
+        45.3859,
+        49.6325,
+        50.6141
+      ],
+      "F11.row.2.binding.0": [
+        48.0,
+        37.6,
+        48.0,
+        42.0
+      ],
+      "F11.row.2.motif.1.site": [
+        63.0,
+        29.2,
+        71.0,
+        36.8
+      ],
+      "F11.row.2.motif.1.label": [
+        65.3173,
+        30.3859,
+        68.6828,
+        35.6141
+      ],
+      "F11.row.2.tf.1.shape": [
+        61.5,
+        43.5,
+        72.5,
+        52.5
+      ],
+      "F11.row.2.tf.1.label": [
+        65.3173,
+        45.3859,
+        68.6828,
+        50.6141
+      ],
+      "F11.row.2.binding.1": [
+        67.0,
+        37.6,
+        67.0,
+        42.0
+      ],
+      "F11.row.2.motif.2.site": [
+        82.0,
+        29.2,
+        90.0,
+        36.8
+      ],
+      "F11.row.2.motif.2.label": [
+        84.4443,
+        30.3859,
+        87.5558,
+        35.6141
+      ],
+      "F11.row.2.tf.2.shape": [
+        80.5,
+        43.5,
+        91.5,
+        52.5
+      ],
+      "F11.row.2.tf.2.label": [
+        84.4443,
+        45.3859,
+        87.5558,
+        50.6141
+      ],
+      "F11.row.2.binding.2": [
+        86.0,
+        37.6,
+        86.0,
+        42.0
+      ],
+      "F11.row.2.contact.0": [
+        54.7,
+        48.0,
+        60.3,
+        48.0
+      ],
+      "F11.row.2.contact.1": [
+        73.7,
+        48.0,
+        79.3,
+        48.0
+      ],
+      "F11.row.2.physics": [
+        138.95,
+        39.5341,
+        158.0,
+        44.4659
+      ],
+      "F11.scope.note": [
+        6.0,
+        7.5341,
+        115.5375,
+        12.4659
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8"
+  },
+  "exports": {
+    "passed": true,
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "png_pixels": [
+      4015,
+      3425
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 55,
+    "fonts_embedded": true,
+    "svg_text_count": 27
+  },
+  "source_hashes": {
+    "chapter4_revision/F11_regulatory_grammar.py": "b0373ea95d7187fa6fd04fe73768d07656c493f0477a671c2914c580179cc4af",
+    "chapter4_revision/chapter_drawing.py": "65a6ade775dbcdf32e94434f5b9466126b21640a5e6c661fc103b5ed9168520b",
+    "book_style.py": "63856421dd5b6e28ebdadcadbde0706101203936fe57f4867ca5cd4d7371f262",
+    "palette.py": "8deb7cf0da3f46802339b036f4c7fa25fe45d4b37b99a2a16276bbfdd8c47cd9",
+    "shared_shapes.py": "9c2ee40934302021b6e5688ff73434912a79bf3adb6c6c4e474a3a2e95423466",
+    "layout_utils.py": "75357bc6ed5b6957f6b59737586bb9e23d9536158bd3d292b6308cd715510c33",
+    "production_utils.py": "ff1b1e974e5d6e1caee781de50f06bf473f4156a874b4ab6f6daa4e6dc04f6e6",
+    "export_utils.py": "f1ffe94044491086015dbb03db61616e06f05787748864eccd5cbef7f52e9a96",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F11_regulatory_grammar.png",
+      "sha256": "507aa08f11197892b7458c3ed015646c39c343a6fca85db35432a2c59c840b0c"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F11_regulatory_grammar.pdf",
+      "sha256": "23d284edb24b01d0d81ea892afcfbdc574e3dc21ed8955cf026f831ec7e74dc2"
+    },
+    "svg": {
+      "path": "outputs/svg/F11_regulatory_grammar.svg",
+      "sha256": "35b9b12507a0b429e5e12514784f5f04300d4644c6c64bcf02a28dfadc9bc1cc"
+    }
+  },
+  "minimum_master_text_pt": 13.5,
+  "word_width_mm": 108,
+  "minimum_word_text_pt": 8.576470588235294,
+  "not_verified": [
+    "Physical print/CMYK",
+    "Real novice reader study",
+    "All vector editor round trips"
+  ]
+}

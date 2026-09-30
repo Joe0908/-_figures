@@ -1,0 +1,358 @@
+{
+  "figure": {
+    "id": "F10",
+    "title": "调控序列与读取它们的蛋白质",
+    "cognitive_task": "把区域、短序列与蛋白质放进同一最小工作模型",
+    "size_mm": [
+      170,
+      150
+    ],
+    "palette": "海青与铜",
+    "relations_drawn": [
+      {
+        "id": "assembly",
+        "kind": "template",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "possible.cooperation",
+        "kind": "conditional",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "rna.synthesis",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "transcription.direction",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "source_document": "运行生命_第四章_最终精修版(3).docx"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 42,
+    "text_count": 20,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F10.title": [
+        7.0,
+        136.9308,
+        92.0741,
+        143.0692
+      ],
+      "F10.enhancer.region": [
+        18.0,
+        70.2,
+        68.0,
+        77.8
+      ],
+      "F10.promoter.region": [
+        110.0,
+        70.2,
+        128.0,
+        77.8
+      ],
+      "F10.gene.region": [
+        129.0,
+        70.2,
+        159.0,
+        77.8
+      ],
+      "F10.dna.upper": [
+        9.0,
+        77.2,
+        161.0,
+        77.2
+      ],
+      "F10.dna.lower": [
+        9.0,
+        70.8,
+        161.0,
+        70.8
+      ],
+      "F10.motif.0.site": [
+        24.0,
+        70.2,
+        32.0,
+        77.8
+      ],
+      "F10.motif.0.label": [
+        26.4443,
+        71.3859,
+        29.5558,
+        76.6141
+      ],
+      "F10.tf.0.shape": [
+        22.5,
+        79.5,
+        33.5,
+        88.5
+      ],
+      "F10.tf.0.label": [
+        26.4443,
+        81.3859,
+        29.5558,
+        86.6141
+      ],
+      "F10.binding.0": [
+        28.0,
+        78.1,
+        28.0,
+        78.8
+      ],
+      "F10.motif.1.site": [
+        39.0,
+        70.2,
+        47.0,
+        77.8
+      ],
+      "F10.motif.1.label": [
+        41.3173,
+        71.3859,
+        44.6827,
+        76.6141
+      ],
+      "F10.tf.1.shape": [
+        37.5,
+        79.5,
+        48.5,
+        88.5
+      ],
+      "F10.tf.1.label": [
+        41.3173,
+        81.3859,
+        44.6827,
+        86.6141
+      ],
+      "F10.binding.1": [
+        43.0,
+        78.1,
+        43.0,
+        78.8
+      ],
+      "F10.motif.2.site": [
+        54.0,
+        70.2,
+        62.0,
+        77.8
+      ],
+      "F10.motif.2.label": [
+        56.3675,
+        71.3859,
+        59.6325,
+        76.6141
+      ],
+      "F10.tf.2.shape": [
+        52.0,
+        78.6,
+        64.0,
+        89.4
+      ],
+      "F10.tf.2.label": [
+        56.3675,
+        81.3859,
+        59.6325,
+        86.6141
+      ],
+      "F10.binding.2": [
+        58.0,
+        78.1,
+        58.0,
+        78.8
+      ],
+      "F10.tf.label": [
+        19.9733,
+        113.3859,
+        66.0267,
+        118.6141
+      ],
+      "F10.machinery.shape": [
+        110.5,
+        88.0,
+        153.5,
+        102.0
+      ],
+      "F10.machinery.label": [
+        121.7659,
+        92.3859,
+        142.2341,
+        97.6141
+      ],
+      "F10.polymerase.label": [
+        116.723,
+        108.5341,
+        147.277,
+        113.4659
+      ],
+      "F10.assembly": [
+        118.4003,
+        80.4339,
+        119.5997,
+        87.0
+      ],
+      "F10.possible.cooperation": [
+        65.0,
+        95.0,
+        108.6775,
+        104.9731
+      ],
+      "F10.influence.label": [
+        77.475,
+        108.5341,
+        96.525,
+        113.4659
+      ],
+      "F10.rna.product": [
+        118.0,
+        125.7001,
+        153.0,
+        128.2988
+      ],
+      "F10.rna.label": [
+        130.3169,
+        134.5341,
+        139.6831,
+        139.4659
+      ],
+      "F10.rna.synthesis": [
+        152.0,
+        98.0,
+        153.5312,
+        121.5665
+      ],
+      "F10.transcription.direction": [
+        133.0,
+        64.4003,
+        155.5661,
+        65.5997
+      ],
+      "F10.start.marker": [
+        129.0,
+        69.0,
+        129.0,
+        79.0
+      ],
+      "F10.dna.label": [
+        8.1925,
+        61.5341,
+        17.8075,
+        66.4659
+      ],
+      "F10.start.label": [
+        124.475,
+        43.5341,
+        143.525,
+        48.4659
+      ],
+      "F10.start.guide": [
+        129.0,
+        51.0,
+        129.0,
+        68.0
+      ],
+      "F10.enhancer.label": [
+        35.3244,
+        54.3859,
+        50.6756,
+        59.6141
+      ],
+      "F10.promoter.label": [
+        111.3244,
+        54.3859,
+        126.6756,
+        59.6141
+      ],
+      "F10.gene.label": [
+        140.883,
+        54.3859,
+        151.117,
+        59.6141
+      ],
+      "F10.motif.definition": [
+        33.5968,
+        37.5341,
+        136.4032,
+        42.4659
+      ],
+      "F10.material.distinction": [
+        38.6424,
+        24.5341,
+        131.3576,
+        29.4659
+      ],
+      "F10.scope.note": [
+        6.0,
+        7.5341,
+        124.528,
+        12.4659
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8"
+  },
+  "exports": {
+    "passed": true,
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "png_pixels": [
+      4015,
+      3543
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 33,
+    "fonts_embedded": true,
+    "svg_text_count": 20
+  },
+  "source_hashes": {
+    "chapter4_revision/F10_minimal_regulatory_model.py": "7195e1a5394fda248f668228e7f2bf5bd5d28f32c8247597ffac8c36ea574d1e",
+    "chapter4_revision/chapter_drawing.py": "65a6ade775dbcdf32e94434f5b9466126b21640a5e6c661fc103b5ed9168520b",
+    "book_style.py": "63856421dd5b6e28ebdadcadbde0706101203936fe57f4867ca5cd4d7371f262",
+    "palette.py": "8deb7cf0da3f46802339b036f4c7fa25fe45d4b37b99a2a16276bbfdd8c47cd9",
+    "shared_shapes.py": "9c2ee40934302021b6e5688ff73434912a79bf3adb6c6c4e474a3a2e95423466",
+    "layout_utils.py": "75357bc6ed5b6957f6b59737586bb9e23d9536158bd3d292b6308cd715510c33",
+    "production_utils.py": "ff1b1e974e5d6e1caee781de50f06bf473f4156a874b4ab6f6daa4e6dc04f6e6",
+    "export_utils.py": "f1ffe94044491086015dbb03db61616e06f05787748864eccd5cbef7f52e9a96",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F10_minimal_regulatory_model.png",
+      "sha256": "d450e35fea938342507647ae62b2d7d652553258a52ca34d6b5fad24cb3d42b8"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F10_minimal_regulatory_model.pdf",
+      "sha256": "cca76cffec106eaa35d9258b6e31d965ec7c6e14e6349513272f9d9c5519db2f"
+    },
+    "svg": {
+      "path": "outputs/svg/F10_minimal_regulatory_model.svg",
+      "sha256": "341bf9fe8ca496ed3d65cd5fcbb95b6ac7e9d66842fd4cf1265611cbd70c35e4"
+    }
+  },
+  "minimum_master_text_pt": 13.5,
+  "word_width_mm": 108,
+  "minimum_word_text_pt": 8.576470588235294,
+  "not_verified": [
+    "Physical print/CMYK",
+    "Real novice reader study",
+    "All vector editor round trips"
+  ]
+}

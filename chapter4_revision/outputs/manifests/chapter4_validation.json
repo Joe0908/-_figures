@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "scope": "chapter4_revision only",
+  "figures": [
+    {
+      "id": "F09",
+      "layout_passed": true,
+      "output_hashes_match": true,
+      "source_hashes_match": true,
+      "size_mm": [
+        170,
+        152
+      ],
+      "word_minimum_text_pt": 8.576470588235294
+    },
+    {
+      "id": "F10",
+      "layout_passed": true,
+      "output_hashes_match": true,
+      "source_hashes_match": true,
+      "size_mm": [
+        170,
+        150
+      ],
+      "word_minimum_text_pt": 8.576470588235294
+    },
+    {
+      "id": "F11",
+      "layout_passed": true,
+      "output_hashes_match": true,
+      "source_hashes_match": true,
+      "size_mm": [
+        170,
+        145
+      ],
+      "word_minimum_text_pt": 8.576470588235294
+    },
+    {
+      "id": "F12",
+      "layout_passed": true,
+      "output_hashes_match": true,
+      "source_hashes_match": true,
+      "size_mm": [
+        170,
+        252
+      ],
+      "word_minimum_text_pt": 8.576470588235294
+    },
+    {
+      "id": "F13",
+      "layout_passed": true,
+      "output_hashes_match": true,
+      "source_hashes_match": true,
+      "size_mm": [
+        170,
+        195
+      ],
+      "word_minimum_text_pt": 8.576470588235294
+    }
+  ],
+  "boundary": "Geometry, font/vector export and byte binding; not a real-reader comprehension study."
+}

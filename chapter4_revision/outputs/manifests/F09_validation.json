@@ -1,0 +1,560 @@
+{
+  "figure": {
+    "id": "F09",
+    "title": "同一套基因组，不同细胞程序",
+    "cognitive_task": "提出问题；不提前解释调控机制",
+    "size_mm": [
+      170,
+      152
+    ],
+    "palette": "海青与铜",
+    "relations_drawn": [
+      {
+        "id": "branch.left",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "branch.right",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "neuron.to.rna",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "neuron.to.protein",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "neuron.to.cell",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.to.rna",
+        "kind": "order",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.to.protein",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "skin.to.cell",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "source_document": "运行生命_第四章_最终精修版(3).docx"
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 71,
+    "text_count": 10,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F09.title": [
+        7.0,
+        138.9308,
+        104.3825,
+        145.0692
+      ],
+      "F09.genome": [
+        69.6489,
+        123.3859,
+        100.3511,
+        128.6141
+      ],
+      "F09.branch.left": [
+        43.0,
+        112.0,
+        71.0,
+        120.0
+      ],
+      "F09.branch.right": [
+        99.0,
+        112.0,
+        127.0,
+        120.0
+      ],
+      "F09.neuron.dna.upper": [
+        20.0,
+        107.0,
+        66.0,
+        107.0
+      ],
+      "F09.neuron.dna.lower": [
+        20.0,
+        104.0,
+        66.0,
+        104.0
+      ],
+      "F09.neuron.dna.pair.0": [
+        22.0,
+        104.0,
+        22.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.1": [
+        25.0,
+        104.0,
+        25.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.2": [
+        28.0,
+        104.0,
+        28.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.3": [
+        31.0,
+        104.0,
+        31.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.4": [
+        34.0,
+        104.0,
+        34.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.5": [
+        37.0,
+        104.0,
+        37.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.6": [
+        40.0,
+        104.0,
+        40.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.7": [
+        43.0,
+        104.0,
+        43.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.8": [
+        46.0,
+        104.0,
+        46.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.9": [
+        49.0,
+        104.0,
+        49.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.10": [
+        52.0,
+        104.0,
+        52.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.11": [
+        55.0,
+        104.0,
+        55.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.12": [
+        58.0,
+        104.0,
+        58.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.13": [
+        61.0,
+        104.0,
+        61.0,
+        107.0
+      ],
+      "F09.neuron.dna.pair.14": [
+        64.0,
+        104.0,
+        64.0,
+        107.0
+      ],
+      "F09.neuron.same": [
+        32.8956,
+        94.5341,
+        53.1044,
+        99.4659
+      ],
+      "F09.neuron.to.rna": [
+        43.0,
+        90.0,
+        43.0,
+        92.0
+      ],
+      "F09.neuron.rna.label": [
+        32.2791,
+        83.3859,
+        53.7209,
+        88.6141
+      ],
+      "F09.neuron.rna.0": [
+        23.0,
+        76.8,
+        63.0,
+        79.2
+      ],
+      "F09.neuron.rna.1": [
+        23.0,
+        71.8006,
+        60.0,
+        74.1998
+      ],
+      "F09.neuron.rna.2": [
+        23.0,
+        66.8001,
+        57.0,
+        69.1995
+      ],
+      "F09.neuron.to.protein": [
+        42.4003,
+        60.4339,
+        43.5997,
+        63.0
+      ],
+      "F09.neuron.protein.label": [
+        30.2074,
+        53.3859,
+        55.7926,
+        58.6141
+      ],
+      "F09.neuron.protein.0.shape": [
+        23.5,
+        40.5,
+        34.5,
+        49.5
+      ],
+      "F09.neuron.protein.1.shape": [
+        37.5,
+        40.5,
+        48.5,
+        49.5
+      ],
+      "F09.neuron.protein.2.shape": [
+        51.0,
+        39.6,
+        63.0,
+        50.4
+      ],
+      "F09.neuron.to.cell": [
+        42.4003,
+        34.4339,
+        43.5997,
+        38.0
+      ],
+      "F09.skin.dna.upper": [
+        104.0,
+        107.0,
+        150.0,
+        107.0
+      ],
+      "F09.skin.dna.lower": [
+        104.0,
+        104.0,
+        150.0,
+        104.0
+      ],
+      "F09.skin.dna.pair.0": [
+        106.0,
+        104.0,
+        106.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.1": [
+        109.0,
+        104.0,
+        109.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.2": [
+        112.0,
+        104.0,
+        112.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.3": [
+        115.0,
+        104.0,
+        115.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.4": [
+        118.0,
+        104.0,
+        118.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.5": [
+        121.0,
+        104.0,
+        121.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.6": [
+        124.0,
+        104.0,
+        124.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.7": [
+        127.0,
+        104.0,
+        127.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.8": [
+        130.0,
+        104.0,
+        130.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.9": [
+        133.0,
+        104.0,
+        133.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.10": [
+        136.0,
+        104.0,
+        136.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.11": [
+        139.0,
+        104.0,
+        139.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.12": [
+        142.0,
+        104.0,
+        142.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.13": [
+        145.0,
+        104.0,
+        145.0,
+        107.0
+      ],
+      "F09.skin.dna.pair.14": [
+        148.0,
+        104.0,
+        148.0,
+        107.0
+      ],
+      "F09.skin.same": [
+        116.8956,
+        94.5341,
+        137.1044,
+        99.4659
+      ],
+      "F09.skin.to.rna": [
+        127.0,
+        90.0,
+        127.0,
+        92.0
+      ],
+      "F09.skin.rna.label": [
+        116.2791,
+        83.3859,
+        137.7209,
+        88.6141
+      ],
+      "F09.skin.rna.0": [
+        107.0,
+        76.8,
+        147.0,
+        79.2
+      ],
+      "F09.skin.rna.1": [
+        107.0,
+        69.8,
+        147.0,
+        72.2
+      ],
+      "F09.skin.to.protein": [
+        126.4003,
+        60.4339,
+        127.5997,
+        63.0
+      ],
+      "F09.skin.protein.label": [
+        114.2074,
+        53.3859,
+        139.7926,
+        58.6141
+      ],
+      "F09.skin.protein.0.shape": [
+        107.5,
+        40.5,
+        118.5,
+        49.5
+      ],
+      "F09.skin.protein.1.shape": [
+        121.5,
+        40.5,
+        132.5,
+        49.5
+      ],
+      "F09.skin.protein.2.shape": [
+        135.5,
+        40.5,
+        146.5,
+        49.5
+      ],
+      "F09.skin.to.cell": [
+        126.4003,
+        34.4339,
+        127.5997,
+        38.0
+      ],
+      "F09.neuron.soma": [
+        37.0,
+        19.5,
+        49.0,
+        28.5
+      ],
+      "F09.neuron.process.0": [
+        22.0,
+        26.0,
+        37.0,
+        34.0
+      ],
+      "F09.neuron.process.1": [
+        17.0,
+        21.0,
+        37.0,
+        26.0
+      ],
+      "F09.neuron.process.2": [
+        48.0,
+        26.0,
+        63.0,
+        35.0
+      ],
+      "F09.neuron.process.3": [
+        48.0,
+        20.0,
+        72.0,
+        23.0
+      ],
+      "F09.skin.cell.0": [
+        108.0,
+        20.0,
+        121.0,
+        30.0
+      ],
+      "F09.skin.cell.1": [
+        122.0,
+        20.0,
+        135.0,
+        30.0
+      ],
+      "F09.skin.cell.2": [
+        136.0,
+        20.0,
+        149.0,
+        30.0
+      ],
+      "F09.neuron.function": [
+        23.95,
+        7.5341,
+        62.05,
+        12.4659
+      ],
+      "F09.skin.function": [
+        105.5687,
+        7.5341,
+        148.4313,
+        12.4659
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8"
+  },
+  "exports": {
+    "passed": true,
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "png_pixels": [
+      4015,
+      3590
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 66,
+    "fonts_embedded": true,
+    "svg_text_count": 10
+  },
+  "source_hashes": {
+    "chapter4_revision/F09_same_genome_different_programs.py": "43c4b81986b121f0cfcc4c940a8dfd0544fb7a682aeae42ba30731aa7a949ed3",
+    "chapter4_revision/chapter_drawing.py": "65a6ade775dbcdf32e94434f5b9466126b21640a5e6c661fc103b5ed9168520b",
+    "book_style.py": "63856421dd5b6e28ebdadcadbde0706101203936fe57f4867ca5cd4d7371f262",
+    "palette.py": "8deb7cf0da3f46802339b036f4c7fa25fe45d4b37b99a2a16276bbfdd8c47cd9",
+    "shared_shapes.py": "9c2ee40934302021b6e5688ff73434912a79bf3adb6c6c4e474a3a2e95423466",
+    "layout_utils.py": "75357bc6ed5b6957f6b59737586bb9e23d9536158bd3d292b6308cd715510c33",
+    "production_utils.py": "ff1b1e974e5d6e1caee781de50f06bf473f4156a874b4ab6f6daa4e6dc04f6e6",
+    "export_utils.py": "f1ffe94044491086015dbb03db61616e06f05787748864eccd5cbef7f52e9a96",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F09_same_genome_different_programs.png",
+      "sha256": "8d57566bebc768e841375f0d404067782bc703f0255d18090cfbd4c06293a8a0"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F09_same_genome_different_programs.pdf",
+      "sha256": "f85f99e30797ddb79ffd71de9e80066cdab75fdc19d119fe75e434ee8c8bddca"
+    },
+    "svg": {
+      "path": "outputs/svg/F09_same_genome_different_programs.svg",
+      "sha256": "13a2fa69091d5545670a2a238c843bd17bcf6bc890fe31eadc2fd596c8d854fd"
+    }
+  },
+  "minimum_master_text_pt": 13.5,
+  "word_width_mm": 108,
+  "minimum_word_text_pt": 8.576470588235294,
+  "not_verified": [
+    "Physical print/CMYK",
+    "Real novice reader study",
+    "All vector editor round trips"
+  ]
+}
