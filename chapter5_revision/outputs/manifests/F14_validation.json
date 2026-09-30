@@ -1,0 +1,409 @@
+{
+  "figure": {
+    "id": "F14",
+    "title": "相同的 DNA 序列，不同的化学与染色质状态",
+    "cognitive_task": "区分 DNA 甲基化、组蛋白乙酰化与核小体位置调整，不把它们等同于表达开关。",
+    "size_mm": [
+      170,
+      180
+    ],
+    "palette": "海青与铜",
+    "relations_drawn": [
+      {
+        "id": "a.add.methyl",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "b.add.acetyl",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "c.remodel",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "source_document": "运行生命_第五章_表观调控机制重构版(4).docx",
+    "source_paragraphs": [
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 49,
+    "text_count": 27,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F14.a.heading": [
+        6.0,
+        165.9308,
+        67.7485,
+        172.0692
+      ],
+      "F14.a.plain.base.0": [
+        14.4443,
+        148.3859,
+        17.5558,
+        153.6141
+      ],
+      "F14.a.plain.base.1": [
+        21.2681,
+        148.3859,
+        24.3319,
+        153.6141
+      ],
+      "F14.a.plain.base.2": [
+        27.9675,
+        148.3859,
+        31.2325,
+        153.6141
+      ],
+      "F14.a.plain.base.3": [
+        34.6379,
+        148.3859,
+        38.1621,
+        153.6141
+      ],
+      "F14.a.plain.base.4": [
+        41.6443,
+        148.3859,
+        44.7558,
+        153.6141
+      ],
+      "F14.a.plain.base.5": [
+        48.4681,
+        148.3859,
+        51.5319,
+        153.6141
+      ],
+      "F14.a.plain.label": [
+        21.4192,
+        134.5341,
+        44.5808,
+        139.4659
+      ],
+      "F14.a.methyl.base.0": [
+        108.4443,
+        148.3859,
+        111.5558,
+        153.6141
+      ],
+      "F14.a.methyl.base.1": [
+        115.2681,
+        148.3859,
+        118.3319,
+        153.6141
+      ],
+      "F14.a.methyl.base.2": [
+        121.9675,
+        148.3859,
+        125.2325,
+        153.6141
+      ],
+      "F14.a.methyl.base.3": [
+        128.6379,
+        148.3859,
+        132.1621,
+        153.6141
+      ],
+      "F14.a.methyl.base.4": [
+        135.6442,
+        148.3859,
+        138.7557,
+        153.6141
+      ],
+      "F14.a.methyl.base.5": [
+        142.4681,
+        148.3859,
+        145.5319,
+        153.6141
+      ],
+      "F14.a.methyl.mark": [
+        121.9,
+        157.3,
+        125.3,
+        160.7
+      ],
+      "F14.a.methyl.label": [
+        115.4192,
+        134.5341,
+        138.5808,
+        139.4659
+      ],
+      "F14.a.add.methyl": [
+        61.0,
+        150.4003,
+        97.5661,
+        151.5997
+      ],
+      "F14.a.process.label": [
+        70.475,
+        158.5341,
+        89.525,
+        163.4659
+      ],
+      "F14.a.conclusion": [
+        6.0,
+        122.5341,
+        101.25,
+        127.4659
+      ],
+      "F14.b.heading": [
+        6.0,
+        109.9308,
+        60.5888,
+        116.0692
+      ],
+      "F14.b.plain.core": [
+        24.0,
+        88.0,
+        36.0,
+        100.0
+      ],
+      "F14.b.plain.dna.wrap": [
+        23.0001,
+        90.7639,
+        36.9999,
+        97.9964
+      ],
+      "F14.b.plain.left": [
+        12.0,
+        94.0,
+        23.0,
+        94.0
+      ],
+      "F14.b.plain.right": [
+        37.0,
+        94.0,
+        48.0,
+        94.0
+      ],
+      "F14.b.acetyl.core": [
+        115.0,
+        88.0,
+        127.0,
+        100.0
+      ],
+      "F14.b.acetyl.dna.wrap": [
+        114.0001,
+        90.7639,
+        127.9999,
+        97.9964
+      ],
+      "F14.b.acetyl.tail": [
+        123.0,
+        99.0,
+        125.0,
+        104.0
+      ],
+      "F14.b.acetyl.mark": [
+        123.4,
+        103.9,
+        126.6,
+        107.1
+      ],
+      "F14.b.acetyl.left": [
+        103.0,
+        94.0,
+        114.0,
+        94.0
+      ],
+      "F14.b.acetyl.right": [
+        128.0,
+        94.0,
+        139.0,
+        94.0
+      ],
+      "F14.b.add.acetyl": [
+        55.0,
+        93.4003,
+        94.5661,
+        94.5997
+      ],
+      "F14.b.process.label": [
+        63.0938,
+        99.5341,
+        86.9062,
+        104.4659
+      ],
+      "F14.b.plain.label": [
+        22.8563,
+        77.5341,
+        37.1438,
+        82.4659
+      ],
+      "F14.b.acetyl.label": [
+        101.95,
+        77.5341,
+        140.05,
+        82.4659
+      ],
+      "F14.b.conclusion": [
+        6.0,
+        65.5341,
+        106.0125,
+        70.4659
+      ],
+      "F14.c.heading": [
+        6.0,
+        53.9308,
+        60.483,
+        60.0692
+      ],
+      "F14.c.covered.dna": [
+        10.0,
+        38.0,
+        65.0,
+        38.0
+      ],
+      "F14.c.covered.site": [
+        26.0,
+        34.0,
+        38.0,
+        42.0
+      ],
+      "F14.c.covered.nuc.core": [
+        26.0,
+        32.0,
+        38.0,
+        44.0
+      ],
+      "F14.c.covered.nuc.dna.wrap": [
+        25.0001,
+        34.7639,
+        38.9999,
+        41.9964
+      ],
+      "F14.c.covered.label": [
+        18.45,
+        22.5341,
+        56.55,
+        27.4659
+      ],
+      "F14.c.exposed.dna": [
+        102.0,
+        38.0,
+        157.0,
+        38.0
+      ],
+      "F14.c.exposed.site": [
+        118.0,
+        34.0,
+        130.0,
+        42.0
+      ],
+      "F14.c.exposed.nuc.core": [
+        139.0,
+        32.0,
+        151.0,
+        44.0
+      ],
+      "F14.c.exposed.nuc.dna.wrap": [
+        138.0001,
+        34.7639,
+        151.9999,
+        41.9964
+      ],
+      "F14.c.exposed.label": [
+        110.45,
+        22.5341,
+        148.55,
+        27.4659
+      ],
+      "F14.c.remodel": [
+        68.0,
+        37.4003,
+        95.5661,
+        38.5997
+      ],
+      "F14.c.process.label": [
+        72.475,
+        44.5341,
+        91.525,
+        49.4659
+      ],
+      "F14.scope.note": [
+        6.0,
+        7.5341,
+        115.5375,
+        12.4659
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8"
+  },
+  "exports": {
+    "passed": true,
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "png_pixels": [
+      4015,
+      4251
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 28,
+    "fonts_embedded": true,
+    "svg_text_count": 27
+  },
+  "source_hashes": {
+    "chapter5_revision/F14_epigenetic_states.py": "765c4e5990e4bdaab61cf77fefb487da7481d393e879c8e78db3202077004923",
+    "chapter5_revision/chapter_drawing.py": "dc87eb92fb08ee19ae3762a96691798d250d27f482a5af9443e030f4ebd21977",
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F14_epigenetic_states.png",
+      "sha256": "48258e6c5fe708845de47dcbc12887f31f5792532f9698bcf20d59617eb4f80d"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F14_epigenetic_states.pdf",
+      "sha256": "2fd4ab8bed841ebf01b2c2b73c2eff98bd1b7dae468882373b12ba0afe1e6bae"
+    },
+    "svg": {
+      "path": "outputs/svg/F14_epigenetic_states.svg",
+      "sha256": "a7e0ccbe6823b7250ff6343097bebad923e70e7147565359f03737622b8ad2e8"
+    }
+  },
+  "minimum_master_text_pt": 13.5,
+  "word_width_mm": 108,
+  "minimum_word_text_pt": 8.576470588235294,
+  "not_verified": [
+    "Physical print/CMYK",
+    "Real novice reader study",
+    "All vector editor round trips"
+  ]
+}

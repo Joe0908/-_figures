@@ -1,0 +1,863 @@
+{
+  "figure": {
+    "id": "F15",
+    "title": "DNA 复制以后，部分表观状态如何得到维持或重建",
+    "cognitive_task": "看见旧链与旧组蛋白留下部分线索，状态延续还依赖持续的调控活动。",
+    "size_mm": [
+      170,
+      216
+    ],
+    "palette": "海青与铜",
+    "relations_drawn": [
+      {
+        "id": "a.replication.1",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "a.replication.2",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "a.maintenance.1",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "a.maintenance.2",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "b.redistribute.1",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      },
+      {
+        "id": "b.redistribute.2",
+        "kind": "process",
+        "source": null,
+        "target": null,
+        "label": null
+      }
+    ],
+    "source_document": "运行生命_第五章_表观调控机制重构版(4).docx",
+    "source_paragraphs": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  "layout": {
+    "passed": true,
+    "errors": [],
+    "artist_count": 122,
+    "text_count": 32,
+    "minimum_text_gap_mm": 0.8,
+    "text_line_clearance_mm": 0.35,
+    "extents_mm": {
+      "F15.a.heading": [
+        6.0,
+        201.9308,
+        87.0789,
+        208.0692
+      ],
+      "F15.a.parent.heading": [
+        21.8563,
+        188.5341,
+        36.1438,
+        193.4659
+      ],
+      "F15.a.daughter.heading": [
+        79.8563,
+        188.5341,
+        94.1438,
+        193.4659
+      ],
+      "F15.a.maintained.heading": [
+        130.7125,
+        188.5341,
+        159.2875,
+        193.4659
+      ],
+      "F15.a.parent.u.strand.0": [
+        14.0,
+        156.0,
+        17.8,
+        156.0
+      ],
+      "F15.a.parent.u.strand.1": [
+        26.2,
+        156.0,
+        31.8,
+        156.0
+      ],
+      "F15.a.parent.u.strand.2": [
+        40.2,
+        156.0,
+        44.0,
+        156.0
+      ],
+      "F15.a.parent.u.base.0": [
+        18.2,
+        152.2,
+        25.8,
+        159.8
+      ],
+      "F15.a.parent.u.letter.0": [
+        20.3675,
+        153.3859,
+        23.6325,
+        158.6141
+      ],
+      "F15.a.parent.u.base.1": [
+        32.2,
+        152.2,
+        39.8,
+        159.8
+      ],
+      "F15.a.parent.u.letter.1": [
+        34.2379,
+        153.3859,
+        37.7621,
+        158.6141
+      ],
+      "F15.a.parent.l.strand.0": [
+        14.0,
+        144.0,
+        17.8,
+        144.0
+      ],
+      "F15.a.parent.l.strand.1": [
+        26.2,
+        144.0,
+        31.8,
+        144.0
+      ],
+      "F15.a.parent.l.strand.2": [
+        40.2,
+        144.0,
+        44.0,
+        144.0
+      ],
+      "F15.a.parent.l.base.0": [
+        18.2,
+        140.2,
+        25.8,
+        147.8
+      ],
+      "F15.a.parent.l.letter.0": [
+        20.2379,
+        141.3859,
+        23.7621,
+        146.6141
+      ],
+      "F15.a.parent.l.base.1": [
+        32.2,
+        140.2,
+        39.8,
+        147.8
+      ],
+      "F15.a.parent.l.letter.1": [
+        34.3675,
+        141.3859,
+        37.6325,
+        146.6141
+      ],
+      "F15.a.parent.upper.methyl": [
+        20.3,
+        160.3,
+        23.7,
+        163.7
+      ],
+      "F15.a.parent.lower.methyl": [
+        34.3,
+        136.3,
+        37.7,
+        139.7
+      ],
+      "F15.a.daughter.1.u.strand.0": [
+        72.0,
+        176.0,
+        75.8,
+        176.0
+      ],
+      "F15.a.daughter.1.u.strand.1": [
+        84.2,
+        176.0,
+        89.8,
+        176.0
+      ],
+      "F15.a.daughter.1.u.strand.2": [
+        98.2,
+        176.0,
+        102.0,
+        176.0
+      ],
+      "F15.a.daughter.1.u.base.0": [
+        76.2,
+        172.2,
+        83.8,
+        179.8
+      ],
+      "F15.a.daughter.1.u.letter.0": [
+        78.3675,
+        173.3859,
+        81.6325,
+        178.6141
+      ],
+      "F15.a.daughter.1.u.base.1": [
+        90.2,
+        172.2,
+        97.8,
+        179.8
+      ],
+      "F15.a.daughter.1.u.letter.1": [
+        92.2379,
+        173.3859,
+        95.7621,
+        178.6141
+      ],
+      "F15.a.daughter.1.l.strand.0": [
+        72.0,
+        164.0,
+        75.8,
+        164.0
+      ],
+      "F15.a.daughter.1.l.strand.1": [
+        84.2,
+        164.0,
+        89.8,
+        164.0
+      ],
+      "F15.a.daughter.1.l.strand.2": [
+        98.2,
+        164.0,
+        102.0,
+        164.0
+      ],
+      "F15.a.daughter.1.l.base.0": [
+        76.2,
+        160.2,
+        83.8,
+        167.8
+      ],
+      "F15.a.daughter.1.l.letter.0": [
+        78.2379,
+        161.3859,
+        81.7621,
+        166.6141
+      ],
+      "F15.a.daughter.1.l.base.1": [
+        90.2,
+        160.2,
+        97.8,
+        167.8
+      ],
+      "F15.a.daughter.1.l.letter.1": [
+        92.3675,
+        161.3859,
+        95.6325,
+        166.6141
+      ],
+      "F15.a.daughter.1.upper.methyl": [
+        78.3,
+        180.3,
+        81.7,
+        183.7
+      ],
+      "F15.a.daughter.2.u.strand.0": [
+        72.0,
+        139.0,
+        75.8,
+        139.0
+      ],
+      "F15.a.daughter.2.u.strand.1": [
+        84.2,
+        139.0,
+        89.8,
+        139.0
+      ],
+      "F15.a.daughter.2.u.strand.2": [
+        98.2,
+        139.0,
+        102.0,
+        139.0
+      ],
+      "F15.a.daughter.2.u.base.0": [
+        76.2,
+        135.2,
+        83.8,
+        142.8
+      ],
+      "F15.a.daughter.2.u.letter.0": [
+        78.3675,
+        136.3859,
+        81.6325,
+        141.6141
+      ],
+      "F15.a.daughter.2.u.base.1": [
+        90.2,
+        135.2,
+        97.8,
+        142.8
+      ],
+      "F15.a.daughter.2.u.letter.1": [
+        92.2379,
+        136.3859,
+        95.7621,
+        141.6141
+      ],
+      "F15.a.daughter.2.l.strand.0": [
+        72.0,
+        127.0,
+        75.8,
+        127.0
+      ],
+      "F15.a.daughter.2.l.strand.1": [
+        84.2,
+        127.0,
+        89.8,
+        127.0
+      ],
+      "F15.a.daughter.2.l.strand.2": [
+        98.2,
+        127.0,
+        102.0,
+        127.0
+      ],
+      "F15.a.daughter.2.l.base.0": [
+        76.2,
+        123.2,
+        83.8,
+        130.8
+      ],
+      "F15.a.daughter.2.l.letter.0": [
+        78.2379,
+        124.3859,
+        81.7621,
+        129.6141
+      ],
+      "F15.a.daughter.2.l.base.1": [
+        90.2,
+        123.2,
+        97.8,
+        130.8
+      ],
+      "F15.a.daughter.2.l.letter.1": [
+        92.3675,
+        124.3859,
+        95.6325,
+        129.6141
+      ],
+      "F15.a.daughter.2.lower.methyl": [
+        92.3,
+        119.3,
+        95.7,
+        122.7
+      ],
+      "F15.a.maintained.1.u.strand.0": [
+        130.0,
+        176.0,
+        133.8,
+        176.0
+      ],
+      "F15.a.maintained.1.u.strand.1": [
+        142.2,
+        176.0,
+        147.8,
+        176.0
+      ],
+      "F15.a.maintained.1.u.strand.2": [
+        156.2,
+        176.0,
+        160.0,
+        176.0
+      ],
+      "F15.a.maintained.1.u.base.0": [
+        134.2,
+        172.2,
+        141.8,
+        179.8
+      ],
+      "F15.a.maintained.1.u.letter.0": [
+        136.3675,
+        173.3859,
+        139.6325,
+        178.6141
+      ],
+      "F15.a.maintained.1.u.base.1": [
+        148.2,
+        172.2,
+        155.8,
+        179.8
+      ],
+      "F15.a.maintained.1.u.letter.1": [
+        150.2379,
+        173.3859,
+        153.7621,
+        178.6141
+      ],
+      "F15.a.maintained.1.l.strand.0": [
+        130.0,
+        164.0,
+        133.8,
+        164.0
+      ],
+      "F15.a.maintained.1.l.strand.1": [
+        142.2,
+        164.0,
+        147.8,
+        164.0
+      ],
+      "F15.a.maintained.1.l.strand.2": [
+        156.2,
+        164.0,
+        160.0,
+        164.0
+      ],
+      "F15.a.maintained.1.l.base.0": [
+        134.2,
+        160.2,
+        141.8,
+        167.8
+      ],
+      "F15.a.maintained.1.l.letter.0": [
+        136.2379,
+        161.3859,
+        139.7621,
+        166.6141
+      ],
+      "F15.a.maintained.1.l.base.1": [
+        148.2,
+        160.2,
+        155.8,
+        167.8
+      ],
+      "F15.a.maintained.1.l.letter.1": [
+        150.3675,
+        161.3859,
+        153.6325,
+        166.6141
+      ],
+      "F15.a.maintained.1.upper.methyl": [
+        136.3,
+        180.3,
+        139.7,
+        183.7
+      ],
+      "F15.a.maintained.1.lower.methyl": [
+        150.3,
+        156.3,
+        153.7,
+        159.7
+      ],
+      "F15.a.maintained.2.u.strand.0": [
+        130.0,
+        139.0,
+        133.8,
+        139.0
+      ],
+      "F15.a.maintained.2.u.strand.1": [
+        142.2,
+        139.0,
+        147.8,
+        139.0
+      ],
+      "F15.a.maintained.2.u.strand.2": [
+        156.2,
+        139.0,
+        160.0,
+        139.0
+      ],
+      "F15.a.maintained.2.u.base.0": [
+        134.2,
+        135.2,
+        141.8,
+        142.8
+      ],
+      "F15.a.maintained.2.u.letter.0": [
+        136.3675,
+        136.3859,
+        139.6325,
+        141.6141
+      ],
+      "F15.a.maintained.2.u.base.1": [
+        148.2,
+        135.2,
+        155.8,
+        142.8
+      ],
+      "F15.a.maintained.2.u.letter.1": [
+        150.2379,
+        136.3859,
+        153.7621,
+        141.6141
+      ],
+      "F15.a.maintained.2.l.strand.0": [
+        130.0,
+        127.0,
+        133.8,
+        127.0
+      ],
+      "F15.a.maintained.2.l.strand.1": [
+        142.2,
+        127.0,
+        147.8,
+        127.0
+      ],
+      "F15.a.maintained.2.l.strand.2": [
+        156.2,
+        127.0,
+        160.0,
+        127.0
+      ],
+      "F15.a.maintained.2.l.base.0": [
+        134.2,
+        123.2,
+        141.8,
+        130.8
+      ],
+      "F15.a.maintained.2.l.letter.0": [
+        136.2379,
+        124.3859,
+        139.7621,
+        129.6141
+      ],
+      "F15.a.maintained.2.l.base.1": [
+        148.2,
+        123.2,
+        155.8,
+        130.8
+      ],
+      "F15.a.maintained.2.l.letter.1": [
+        150.3675,
+        124.3859,
+        153.6325,
+        129.6141
+      ],
+      "F15.a.maintained.2.upper.methyl": [
+        136.3,
+        143.3,
+        139.7,
+        146.7
+      ],
+      "F15.a.maintained.2.lower.methyl": [
+        150.3,
+        119.3,
+        153.7,
+        122.7
+      ],
+      "F15.a.replication.1": [
+        49.0,
+        156.0,
+        67.6419,
+        168.755
+      ],
+      "F15.a.replication.2": [
+        49.0,
+        134.2021,
+        67.6161,
+        144.0
+      ],
+      "F15.a.maintenance.1": [
+        105.0,
+        169.4003,
+        124.5661,
+        170.5997
+      ],
+      "F15.a.maintenance.2": [
+        105.0,
+        132.4003,
+        124.5661,
+        133.5997
+      ],
+      "F15.a.explanation": [
+        6.0,
+        106.5341,
+        120.3,
+        111.4659
+      ],
+      "F15.a.key.old": [
+        8.0,
+        97.0,
+        19.0,
+        97.0
+      ],
+      "F15.a.key.old.label": [
+        22.0,
+        94.5341,
+        31.525,
+        99.4659
+      ],
+      "F15.a.key.new": [
+        47.0,
+        97.0,
+        58.0,
+        97.0
+      ],
+      "F15.a.key.new.label": [
+        61.0,
+        94.5341,
+        70.525,
+        99.4659
+      ],
+      "F15.a.key.methyl": [
+        89.3,
+        95.3,
+        92.7,
+        98.7
+      ],
+      "F15.a.key.methyl.label": [
+        98.0,
+        94.5341,
+        130.6866,
+        99.4659
+      ],
+      "F15.b.heading": [
+        6.0,
+        79.9308,
+        90.5661,
+        86.0692
+      ],
+      "F15.b.parent.dna": [
+        12.0,
+        61.0,
+        61.0,
+        61.0
+      ],
+      "F15.b.parent.h1.core": [
+        19.0,
+        55.0,
+        31.0,
+        67.0
+      ],
+      "F15.b.parent.h1.dna.wrap": [
+        18.0001,
+        57.7639,
+        31.9999,
+        64.9964
+      ],
+      "F15.b.parent.h1.tail": [
+        27.0,
+        66.0,
+        29.0,
+        71.0
+      ],
+      "F15.b.parent.h1.mark": [
+        27.4,
+        70.9,
+        30.6,
+        74.1
+      ],
+      "F15.b.parent.h2.core": [
+        42.0,
+        55.0,
+        54.0,
+        67.0
+      ],
+      "F15.b.parent.h2.dna.wrap": [
+        41.0001,
+        57.7639,
+        54.9999,
+        64.9964
+      ],
+      "F15.b.parent.h2.tail": [
+        50.0,
+        66.0,
+        52.0,
+        71.0
+      ],
+      "F15.b.parent.h2.mark": [
+        50.4,
+        70.9,
+        53.6,
+        74.1
+      ],
+      "F15.b.d1.dna": [
+        87.0,
+        67.0,
+        157.0,
+        67.0
+      ],
+      "F15.b.d1.old.core": [
+        95.0,
+        61.0,
+        107.0,
+        73.0
+      ],
+      "F15.b.d1.old.dna.wrap": [
+        94.0001,
+        63.7639,
+        107.9999,
+        70.9964
+      ],
+      "F15.b.d1.old.tail": [
+        103.0,
+        72.0,
+        105.0,
+        77.0
+      ],
+      "F15.b.d1.old.mark": [
+        103.4,
+        76.9,
+        106.6,
+        80.1
+      ],
+      "F15.b.d1.new.core": [
+        136.0,
+        61.0,
+        148.0,
+        73.0
+      ],
+      "F15.b.d1.new.dna.wrap": [
+        135.0001,
+        63.7639,
+        148.9999,
+        70.9964
+      ],
+      "F15.b.d2.dna": [
+        87.0,
+        42.0,
+        157.0,
+        42.0
+      ],
+      "F15.b.d2.old.core": [
+        136.0,
+        36.0,
+        148.0,
+        48.0
+      ],
+      "F15.b.d2.old.dna.wrap": [
+        135.0001,
+        38.7639,
+        148.9999,
+        45.9964
+      ],
+      "F15.b.d2.old.tail": [
+        144.0,
+        47.0,
+        146.0,
+        52.0
+      ],
+      "F15.b.d2.old.mark": [
+        144.4,
+        51.9,
+        147.6,
+        55.1
+      ],
+      "F15.b.d2.new.core": [
+        95.0,
+        36.0,
+        107.0,
+        48.0
+      ],
+      "F15.b.d2.new.dna.wrap": [
+        94.0001,
+        38.7639,
+        107.9999,
+        45.9964
+      ],
+      "F15.b.redistribute.1": [
+        64.0,
+        64.0,
+        82.5714,
+        67.3376
+      ],
+      "F15.b.redistribute.2": [
+        64.0,
+        42.245,
+        82.6419,
+        55.0
+      ],
+      "F15.b.parent.label": [
+        28.8563,
+        39.5341,
+        43.1438,
+        44.4659
+      ],
+      "F15.b.old.label": [
+        6.0,
+        22.5341,
+        77.4375,
+        27.4659
+      ],
+      "F15.scope.note": [
+        6.0,
+        7.5341,
+        134.5875,
+        12.4659
+      ]
+    },
+    "limits": "Stroke/path and rendered text checks; intentional containment is allowed. Visual review is still required."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8"
+  },
+  "exports": {
+    "passed": true,
+    "png_dpi": [
+      599.9988,
+      599.9988
+    ],
+    "png_pixels": [
+      4015,
+      5102
+    ],
+    "pdf_raster_images": 0,
+    "pdf_vector_paths": 117,
+    "fonts_embedded": true,
+    "svg_text_count": 32
+  },
+  "source_hashes": {
+    "chapter5_revision/F15_state_maintenance.py": "4429f29797c9f1e349341fb49ed21222653a0f49718937c767001cc4010c5aa1",
+    "chapter5_revision/chapter_drawing.py": "dc87eb92fb08ee19ae3762a96691798d250d27f482a5af9443e030f4ebd21977",
+    "book_style.py": "48486ace2e203e4815fe02969937a20564766640a4a1474c4dd97c3f4caefd11",
+    "palette.py": "70c1e8f0c938d83dac8eafbb3c2d030e557dd6f7872f86fdead4f4fe7aeb8293",
+    "shared_shapes.py": "8d5f01c0d9e04897fb1e3d3069eb1df77a32b619f46038f4ae870842bd12ba25",
+    "layout_utils.py": "d35a18f22727438715e51d7d53c28309cec6a1b5970e2dfb5f2aea5895b403e2",
+    "production_utils.py": "ab07ab14b63b6e583a520b1508600ad9d541a1fa69bfd04372eb4acb0312dbb2",
+    "export_utils.py": "10b526311372dff92b9f496c55c3bbfabcee40bcdccfd3e4b97032ed86ff234f",
+    "fonts/NotoSansSC-Regular.ttf": "c9c55065eafd571f28dbfe688e00067fbb441a3acabdceeb543b8a0077364a10"
+  },
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F15_state_maintenance.png",
+      "sha256": "6fa6a3e3a4c1b23a079b81627f677165a269ead561559a1a3f5be174620319a8"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F15_state_maintenance.pdf",
+      "sha256": "de8bdf2cbb7456a60e1aeb4581bf7b10ce739dd808286281c2cbf47f42f12ea2"
+    },
+    "svg": {
+      "path": "outputs/svg/F15_state_maintenance.svg",
+      "sha256": "7ad6919a3585fc24bb4fed1c43e158352e5cdac867b1ffb63bad69bb09772da0"
+    }
+  },
+  "minimum_master_text_pt": 13.5,
+  "word_width_mm": 108,
+  "minimum_word_text_pt": 8.576470588235294,
+  "not_verified": [
+    "Physical print/CMYK",
+    "Real novice reader study",
+    "All vector editor round trips"
+  ]
+}

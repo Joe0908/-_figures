@@ -20,3 +20,9 @@
 
 [第四章最新版 F09–F13：独立源码、统一 F12 三联图与三格式输出](chapter4_revision/FIGURE_INDEX.md)。原 F01–F30 套图保留，以免其他章节在全书图号同步前失效。
 
+
+## 第五章新版配图
+
+[第五章最新版 F14–F15：图片、Python 源码、PDF/SVG 与插图位置](chapter5_revision/FIGURE_INDEX.md)。对应《DNA 不变，细胞怎样记住自己是谁？》的新稿，F14 为三联机制图，F15 为复制后甲基化维持及组蛋白重新分配示意图。沿用原书配色，专为 108 mm 正文宽度调整图中文字；旧版 F14/F15 属于历史套图。
+
+运行 `python chapter5_revision/build_chapter5.py` 重建这两张新版图。
