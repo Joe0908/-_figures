@@ -1,5 +1,7 @@
 # 《运行生命》F01–F30 全书配图
 
+**第八章当前 F22：** [PRS 百分位金字塔（图片、源码及使用说明）](chapter8_revision/FIGURE_INDEX.md)。新版第八章以此图替换旧“相对风险与绝对风险”F22；下方原始 30 图套装保留为历史版本。
+
 本交付按 prompt 4 生成全套 30 张图，并延续已确认的 F01 构图与「海青与铜」配色。原书稿和旧阶段文件保留不动。
 
 - [图与代码浏览目录](FIGURE_INDEX.html)：30 张最终图、原题、认知任务、布局理由、可复用组件和完整源码。
@@ -26,3 +28,9 @@
 [第五章最新版 F14–F15：图片、Python 源码、PDF/SVG 与插图位置](chapter5_revision/FIGURE_INDEX.md)。对应《DNA 不变，细胞怎样记住自己是谁？》的新稿，F14 为三联机制图，F15 为复制后甲基化维持及组蛋白重新分配示意图。沿用原书配色，专为 108 mm 正文宽度调整图中文字；旧版 F14/F15 属于历史套图。
 
 运行 `python chapter5_revision/build_chapter5.py` 重建这两张新版图。
+
+## 第八章新版配图
+
+[第八章最新版 F22：PRS 百分位表示相对位置](chapter8_revision/FIGURE_INDEX.md)。采用前10%、中间80%、后10%的示例分组；第95百分位表示相对排名，不表示95%的患病概率。金字塔宽度不编码人数或患病概率。F23 沿用原图。
+
+运行 `python chapter8_revision/F22_prs_percentile_pyramid.py` 重建新版 F22。原 `build_all.py` 仍用于历史 30 图套装。

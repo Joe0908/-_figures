@@ -1,0 +1,34 @@
+{
+  "figure": "F22",
+  "size_mm": [
+    108,
+    116
+  ],
+  "palette": "海青与铜",
+  "illustrative_percentile_groups": [
+    10,
+    80,
+    10
+  ],
+  "geometry_represents_population_size": false,
+  "clinical_threshold": false,
+  "example_percentile": 95,
+  "minimum_font_pt": 8.5,
+  "text_bounds_and_overlap": "passed",
+  "glyph_check": "passed",
+  "source_sha256": "fc81e41f064ad8017bf31bc2b287efb6211a9b0c2ef6827c12e2ffef9b9b764a",
+  "outputs": {
+    "png": {
+      "path": "outputs/png/F22_prs_percentile_pyramid.png",
+      "sha256": "db3c0e578ba22351204b605c1d382805c5a004cc0b7a5d747f3a3875a22bbec6"
+    },
+    "pdf": {
+      "path": "outputs/pdf/F22_prs_percentile_pyramid.pdf",
+      "sha256": "2daf267d7766854f46fe97ba798c61f23aef14efaad0a69a26908fec7ddb59af"
+    },
+    "svg": {
+      "path": "outputs/svg/F22_prs_percentile_pyramid.svg",
+      "sha256": "280b01e05ff6bd0d4bad3c2e287adae1852d2c34c506048724f5e2ad9e45ecea"
+    }
+  }
+}

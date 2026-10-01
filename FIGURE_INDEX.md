@@ -1,5 +1,7 @@
 # 《运行生命》全书图索引
 
+**新版第八章请使用 [F22｜PRS 百分位表示相对位置](chapter8_revision/FIGURE_INDEX.md)。** 下方旧 F22 为历史套图内容，已在新版第八章中被替换；F23 不变。
+
 版本 1.0。按原稿图号排序；图题逐字保留。成图、完整代码、认知任务、布局理由与复用组件均可在下方找到。
 
 [浏览全部成图](FIGURE_INDEX.html) · [30 页矢量合订本](Running_Life_F01-F30.pdf) · [配色规范](PALETTE_SPECIFICATION.md) · [维护说明](MAINTENANCE.md)
