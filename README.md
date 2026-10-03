@@ -1,6 +1,6 @@
 # 《运行生命》F01–F30 全书配图
 
-**第十章新增 SMA 剪接示意图：** [F25a 借助 SMN2 改变 RNA 剪接（图片、源码与插图位置）](chapter10_additions/FIGURE_INDEX.md)。并排展示 nusinersen 使用前后的常见剪接结果；F25a 为补充图号，未重编号原有图。
+**第十章当前 SMA 剪接示意图：** [F25a 改变 SMN2 RNA 的剪接结果（作者选定原图与插图位置）](chapter10_additions/FIGURE_INDEX.md)。2026年10月3日更新为作者提供的简化分支图；当前 PNG 按原图保留，旧版矢量图与生成源码可从该页的历史版本链接查看。F25a 为补充图号。
 
 **第八章当前 F22：** [PRS 百分位金字塔（图片、源码及使用说明）](chapter8_revision/FIGURE_INDEX.md)。新版第八章以此图替换旧“相对风险与绝对风险”F22；下方原始 30 图套装保留为历史版本。
 
